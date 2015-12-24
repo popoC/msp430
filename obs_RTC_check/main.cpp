@@ -9,12 +9,10 @@
 #include  <msp430x54xA.h>
 #include "stdio.h"
 
-
+#define COM_BUF_Size 128
 
 int Control_Mode = 1; //--- command is ##--*    (-- 為模式編號, 0~65535)
 int Diff_1PPS = 0;
-
-
 
 int CloCk_10KHz =0;
 void DelayMs(int ms);
@@ -22,15 +20,14 @@ void findStrPoint(char *a,char *ans,char feature,int n);
 char Getp[50];
 
 void Open_Syn_Interrupt();
+void UART_Init(BYTE com);
 
 //----------for rs232-----------------------------------------------------------
-char COM_BUFFER[128];
 char string[50];
 
-char COM1_Command[COM_BUF_Size];    // -- 115200 msp430
-char COM2_Command[COM_BUF_Size];    // -- 4800   GPS
-char COM3_Command[COM_BUF_Size];    // -- 2400 seascan
-char COM4_Command[COM_BUF_Size];    // -- 115200 PC
+char COM1_BUFFER[COM_BUF_Size];    // -- 115200 msp430
+char COM2_BUFFER[COM_BUF_Size];    // -- 9600   GPS
+char COM3_BUFFER[COM_BUF_Size];    // -- 9600   PC
 
 
 char setTime[12];
@@ -71,21 +68,11 @@ void main( void )
  _DINT();     // 關閉中斷
  
    Crystal_Init();                          // 震盪器初始化
-   UART_Init(COM1+COM2+COM3+COM4);                         // Rs232初始化    
+   UART_Init(COM1+COM2+COM3);                         // Rs232初始化    
  
 
  P1DIR = 0x01 + 0x20;
 
- 
- Delay400Ms(); //等待，等LCM進入工作狀態
-   LCMInit();    //LCM初始化 
-   Delay5Ms();   //延遲(可不要)
-
- sprintf(string,"TORI OBS BOX ");     Print_Memo(0,0,string);
- sprintf(string," obs Lab test !");   Print_Memo(0,1,string);
-   memset( string, 0, sizeof(string) ); 
-   
-    sprintf(string,"               ");   Print_Memo(0,1,string);   
  Open_Syn_Interrupt();
  
    while(1){
@@ -108,7 +95,7 @@ void main( void )
        
      if(cOm_fLag == oBs_tIme){
       
-          nEw_ms =  ((float)COM1_Command[7] / 125)*1000 + ((float)COM1_Command[8]/10);
+          nEw_ms =  ((float)COM1_BUFFER[7] / 125)*1000 + ((float)COM1_BUFFER[8]/10);
 
 
           if((nEw_ms > 100) &&(nEw_ms < 960)){
@@ -118,14 +105,12 @@ void main( void )
          
               obs_time_str_come = true;
   
-              Obs_hh = COM1_Command[4];
-              Obs_mm = COM1_Command[5];
-              Obs_ss = COM1_Command[6];
+              Obs_hh = COM1_BUFFER[4];
+              Obs_mm = COM1_BUFFER[5];
+              Obs_ss = COM1_BUFFER[6];
        
              oBs_mms = Obs_hh*1440 + Obs_mm*60 + Obs_ss; 
          
-             //    nEw_ms =  ((float)COM1_Command[7] / 125)*1000 + ((float)COM1_Command[8]/10);
-          
              DelayMs(20);
              //P1OUT &= ~0x20;
             }
@@ -351,7 +336,7 @@ void UART_Init(BYTE com){
       UCA0BR0 = 0xAD;                           //   (see User's Guide)  20M/115200 = 173
       UCA0BR1 = 0x00;                           //
 
-      UCA0MCTL = UCBRS_5+UCBRF_0;              // user guide p909
+      UCA0MCTL = UCBRS_5+UCBRF_0;              // user guide p954 Rev. O
 
       UCA0CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**
       UCA0IE |= UCRXIE;                         // Enable USCI_A0 RX interrupt
@@ -362,9 +347,9 @@ void UART_Init(BYTE com){
       UCA1CTL1 |= UCSWRST;                      // **Put state machine in reset**
 
       UCA1CTL1 |= UCSSEL_1;                     // CLK = ACLK
-      UCA1BR0 = 0x06; 
-      UCA1BR1 = 0x00;                           // 32767 / 4800 = 6
-      UCA1MCTL = UCBRS_7+UCBRF_0;               // user guide p909
+      UCA1BR0 = 0x03; 
+      UCA1BR1 = 0x00;                           // 32767 / 9600 = 6
+      UCA1MCTL = UCBRS_3+UCBRF_0;               // user guide p909
 
       UCA1CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**
       UCA1IE |= UCRXIE;                         // Enable USCI_A0 RX interrupt

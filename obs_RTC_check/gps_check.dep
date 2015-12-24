@@ -41,10 +41,6 @@
       <name>$PROJ_DIR$\main.cpp</name>
       <outputs>
         <tool>
-          <name>ICC430</name>
-          <file> 4</file>
-        </tool>
-        <tool>
           <name>BICOMP</name>
           <file> 0</file>
         </tool>
@@ -52,7 +48,7 @@
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 15 6 9</file>
+          <file> 15 6 9 10 1 8 5 13 2 20 17 11 14</file>
         </tool>
         <tool>
           <name>BICOMP</name>
