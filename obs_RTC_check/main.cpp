@@ -20,7 +20,7 @@ void findStrPoint(char *a,char *ans,char feature,int n);
 char Getp[50];
 
 void Open_Syn_Interrupt();
-void UART_Init(BYTE com);
+void UART_Init(int com);
 
 //----------for rs232-----------------------------------------------------------
 char string[50];
