@@ -5076,335 +5076,336 @@
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:996:30: macro expansion=FCTL4_|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:995:10 <US>c:macro@FCTL4_<UE> <DS>FCTL4_<DE> Extent=<ES>996:30 - 996:36<EE>	1
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:998:9: macro definition=FRPW <US>c:macro@FRPW<UE> <DS>FRPW<DE> Extent=<ES>998:9 - 998:38<EE>	1
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:999:9: macro definition=FWPW <US>c:macro@FWPW<UE> <DS>FWPW<DE> Extent=<ES>999:9 - 999:38<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:10:1: inclusion directive=stdio.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h<IE>  Extent=<ES>10:1 - 10:19<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:14:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>14:20 - 14:21<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:14:5: VarDecl=Control_Mode|D:\google\2015 OBS\obs_RTC_check\main.cpp:14:5 (Definition) <US>c:@Control_Mode<UE> <DS>Control_Mode<DE> Extent=<ES>14:1 - 14:21<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:15:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>15:17 - 15:18<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:15:5: VarDecl=Diff_1PPS|D:\google\2015 OBS\obs_RTC_check\main.cpp:15:5 (Definition) <US>c:@Diff_1PPS<UE> <DS>Diff_1PPS<DE> Extent=<ES>15:1 - 15:18<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:177:26: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>177:26 - 189:7<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:177:6: IfStmt= <US><UE> <DS><DE> Extent=<ES>177:6 - 189:7<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:177:9: DeclRefExpr=wait_seascan_pps|D:\google\2015 OBS\obs_RTC_check\main.cpp:40:6 (Reference) <US>c:@wait_seascan_pps<UE> <DS>wait_seascan_pps<DE> Extent=<ES>177:9 - 177:25<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:177:9: UnexposedExpr=wait_seascan_pps|D:\google\2015 OBS\obs_RTC_check\main.cpp:40:6 <US>c:@wait_seascan_pps<UE> <DS>wait_seascan_pps<DE> Extent=<ES>177:9 - 177:25<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:178:27: CXXBoolLiteralExpr= <US><UE> <DS><DE> Extent=<ES>178:27 - 178:32<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:178:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>178:8 - 178:32<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:178:8: DeclRefExpr=wait_seascan_pps|D:\google\2015 OBS\obs_RTC_check\main.cpp:40:6 (Reference) <US>c:@wait_seascan_pps<UE> <DS>wait_seascan_pps<DE> Extent=<ES>178:8 - 178:24<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:198:26: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>198:26 - 203:2<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:198:6: FunctionDecl=Open_Syn_Interrupt|D:\google\2015 OBS\obs_RTC_check\main.cpp:198:6 (Definition) <US>c:@F@Open_Syn_Interrupt#<UE> <DS>void Open_Syn_Interrupt(void)<DE> Extent=<ES>198:1 - 203:2<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:199:12: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>199:12 - 199:16<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:199:17: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>199:17 - 199:21<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:199:3: macro expansion=P1IE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1214:9 <US>c:macro@P1IE<UE> <DS>P1IE<DE> Extent=<ES>199:3 - 199:7<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:19:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>19:18 - 19:19<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:19:5: VarDecl=CloCk_10KHz|D:\google\2015 OBS\obs_RTC_check\main.cpp:19:5 (Definition) <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>19:1 - 19:19<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:200:13: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>200:13 - 200:17<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:200:3: macro expansion=P1IES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1213:9 <US>c:macro@P1IES<UE> <DS>P1IES<DE> Extent=<ES>200:3 - 200:8<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:201:13: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>201:13 - 201:17<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:201:3: macro expansion=P1IES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1213:9 <US>c:macro@P1IES<UE> <DS>P1IES<DE> Extent=<ES>201:3 - 201:8<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:202:14: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>202:14 - 202:18<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:202:19: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>202:19 - 202:23<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:202:3: macro expansion=P1IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1215:9 <US>c:macro@P1IFG<UE> <DS>P1IFG<DE> Extent=<ES>202:3 - 202:8<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:206:18: FunctionDecl=P1ISR|D:\google\2015 OBS\obs_RTC_check\main.cpp:206:18 (Definition) <US>c:@F@P1ISR#<UE> <DS>void P1ISR(void)<DE> Extent=<ES>206:13 - 256:2<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:206:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>206:1 - 206:12<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:207:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>207:1 - 256:2<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:208:15: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>208:15 - 208:19<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:208:23: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>208:23 - 208:27<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:208:7: macro expansion=P1IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1215:9 <US>c:macro@P1IFG<UE> <DS>P1IFG<DE> Extent=<ES>208:7 - 208:12<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:20:18: ParmDecl=ms|D:\google\2015 OBS\obs_RTC_check\main.cpp:20:18 (Definition) <US>c:main.cpp@356@F@DelayMs#I#@ms<UE> <DS>int<DE> Extent=<ES>20:14 - 20:20<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:20:6: FunctionDecl=DelayMs|D:\google\2015 OBS\obs_RTC_check\main.cpp:286:6 (Declaration) <US>c:@F@DelayMs#I#<UE> <DS>void DelayMs(int)<DE> Extent=<ES>20:1 - 20:21<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:210:15: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>210:15 - 210:19<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:210:5: macro expansion=P1IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1215:9 <US>c:macro@P1IFG<UE> <DS>P1IFG<DE> Extent=<ES>210:5 - 210:10<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:21:25: ParmDecl=a|D:\google\2015 OBS\obs_RTC_check\main.cpp:21:25 (Definition) <US>c:main.cpp@384@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>21:19 - 21:26<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:21:33: ParmDecl=ans|D:\google\2015 OBS\obs_RTC_check\main.cpp:21:33 (Definition) <US>c:main.cpp@392@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>21:27 - 21:36<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:21:42: ParmDecl=feature|D:\google\2015 OBS\obs_RTC_check\main.cpp:21:42 (Definition) <US>c:main.cpp@402@F@findStrPoint#*C#S0_#C#I#@feature<UE> <DS>char<DE> Extent=<ES>21:37 - 21:49<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:21:54: ParmDecl=n|D:\google\2015 OBS\obs_RTC_check\main.cpp:21:54 (Definition) <US>c:main.cpp@415@F@findStrPoint#*C#S0_#C#I#@n<UE> <DS>int<DE> Extent=<ES>21:50 - 21:55<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:21:6: FunctionDecl=findStrPoint|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:6 (Declaration) <US>c:@F@findStrPoint#*C#S0_#C#I#<UE> <DS>void findStrPoint(char *, char *, char, int)<DE> Extent=<ES>21:1 - 21:56<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:223:15: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>223:15 - 223:19<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:223:23: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>223:23 - 223:27<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:223:7: macro expansion=P1IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1215:9 <US>c:macro@P1IFG<UE> <DS>P1IFG<DE> Extent=<ES>223:7 - 223:12<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:22:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>22:11 - 22:13<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:22:6: VarDecl=Getp|D:\google\2015 OBS\obs_RTC_check\main.cpp:22:6 (Definition) <US>c:@Getp<UE> <DS>Getp<DE> Extent=<ES>22:1 - 22:14<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:24:6: FunctionDecl=Open_Syn_Interrupt|D:\google\2015 OBS\obs_RTC_check\main.cpp:198:6 (Declaration) <US>c:@F@Open_Syn_Interrupt#<UE> <DS>void Open_Syn_Interrupt(void)<DE> Extent=<ES>24:1 - 24:26<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:251:15: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>251:15 - 251:19<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:251:5: macro expansion=P1IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1215:9 <US>c:macro@P1IFG<UE> <DS>P1IFG<DE> Extent=<ES>251:5 - 251:10<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:258:23: ParmDecl=i|D:\google\2015 OBS\obs_RTC_check\main.cpp:258:23 (Definition) <US>c:main.cpp@6430@F@int2str#L#*C#@i<UE> <DS>long<DE> Extent=<ES>258:14 - 258:24<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:258:31: ParmDecl=s|D:\google\2015 OBS\obs_RTC_check\main.cpp:258:31 (Definition) <US>c:main.cpp@6441@F@int2str#L#*C#@s<UE> <DS>char *<DE> Extent=<ES>258:25 - 258:32<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:258:34: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>258:34 - 260:2<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:258:6: FunctionDecl=int2str|D:\google\2015 OBS\obs_RTC_check\main.cpp:258:6 (Definition) <US>c:@F@int2str#L#*C#<UE> <DS>void int2str(long, char *)<DE> Extent=<ES>258:1 - 260:2<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:259:14: DeclRefExpr=s|D:\google\2015 OBS\obs_RTC_check\main.cpp:258:31 (Reference) <US>c:main.cpp@6441@F@int2str#L#*C#@s<UE> <DS>char *<DE> Extent=<ES>259:14 - 259:15<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:259:14: UnexposedExpr=s|D:\google\2015 OBS\obs_RTC_check\main.cpp:258:31 <US>c:main.cpp@6441@F@int2str#L#*C#@s<UE> <DS>char *<DE> Extent=<ES>259:14 - 259:15<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:259:16: StringLiteral= <US><UE> <DS><DE> Extent=<ES>259:16 - 259:23<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:259:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>259:16 - 259:23<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:259:24: DeclRefExpr=i|D:\google\2015 OBS\obs_RTC_check\main.cpp:258:23 (Reference) <US>c:main.cpp@6430@F@int2str#L#*C#@i<UE> <DS>long<DE> Extent=<ES>259:24 - 259:25<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:259:24: UnexposedExpr=i|D:\google\2015 OBS\obs_RTC_check\main.cpp:258:23 <US>c:main.cpp@6430@F@int2str#L#*C#@i<UE> <DS>long<DE> Extent=<ES>259:24 - 259:25<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:259:6: CallExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>259:6 - 259:26<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:259:6: DeclRefExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 (Reference) <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>259:6 - 259:13<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:259:6: UnexposedExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>259:6 - 259:13<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:262:20: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>262:20 - 284:2<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:262:6: FunctionDecl=Crystal_Init|D:\google\2015 OBS\obs_RTC_check\main.cpp:262:6 (Definition) <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>262:1 - 284:2<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:264:5: macro expansion=P5SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1318:9 <US>c:macro@P5SEL<UE> <DS>P5SEL<DE> Extent=<ES>264:5 - 264:10<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:265:5: macro expansion=P7SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1357:9 <US>c:macro@P7SEL<UE> <DS>P7SEL<DE> Extent=<ES>265:5 - 265:10<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:266:18: macro expansion=XT1OFF|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3122:9 <US>c:macro@XT1OFF<UE> <DS>XT1OFF<DE> Extent=<ES>266:18 - 266:24<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:266:27: macro expansion=XT2OFF|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3130:9 <US>c:macro@XT2OFF<UE> <DS>XT2OFF<DE> Extent=<ES>266:27 - 266:33<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:267:16: macro expansion=XCAP_3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3166:9 <US>c:macro@XCAP_3<UE> <DS>XCAP_3<DE> Extent=<ES>267:16 - 267:22<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:271:20: macro expansion=XT2OFFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3180:9 <US>c:macro@XT2OFFG<UE> <DS>XT2OFFG<DE> Extent=<ES>271:20 - 271:27<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:271:30: macro expansion=XT1LFOFFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3178:9 <US>c:macro@XT1LFOFFG<UE> <DS>XT1LFOFFG<DE> Extent=<ES>271:30 - 271:39<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:271:42: macro expansion=XT1HFOFFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3179:9 <US>c:macro@XT1HFOFFG<UE> <DS>XT1HFOFFG<DE> Extent=<ES>271:42 - 271:51<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:271:54: macro expansion=DCOFFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3177:9 <US>c:macro@DCOFFG<UE> <DS>DCOFFG<DE> Extent=<ES>271:54 - 271:60<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:273:19: macro expansion=OFIFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2098:9 <US>c:macro@OFIFG<UE> <DS>OFIFG<DE> Extent=<ES>273:19 - 273:24<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:274:21: macro expansion=OFIFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2098:9 <US>c:macro@OFIFG<UE> <DS>OFIFG<DE> Extent=<ES>274:21 - 274:26<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:276:17: macro expansion=XT2DRIVE0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3136:9 <US>c:macro@XT2DRIVE0<UE> <DS>XT2DRIVE0<DE> Extent=<ES>276:17 - 276:26<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:277:16: macro expansion=SELA_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3004:9 <US>c:macro@SELA_0<UE> <DS>SELA_0<DE> Extent=<ES>277:16 - 277:22<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:277:25: macro expansion=SELS_5|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2994:9 <US>c:macro@SELS_5<UE> <DS>SELS_5<DE> Extent=<ES>277:25 - 277:31<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:277:34: macro expansion=SELM_5|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2979:9 <US>c:macro@SELM_5<UE> <DS>SELM_5<DE> Extent=<ES>277:34 - 277:40<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:279:16: macro expansion=CCIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2430:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>279:16 - 279:20<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:27:6: VarDecl=COM_BUFFER|D:\google\2015 OBS\obs_RTC_check\main.cpp:27:6 (Definition) <US>c:@COM_BUFFER<UE> <DS>COM_BUFFER<DE> Extent=<ES>0:0 - 0:0<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:281:14: macro expansion=TASSEL_2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2403:9 <US>c:macro@TASSEL_2<UE> <DS>TASSEL_2<DE> Extent=<ES>281:14 - 281:22<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:281:25: macro expansion=MC_1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2394:9 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>281:25 - 281:29<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:281:32: macro expansion=TACLR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2389:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>281:32 - 281:37<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:286:18: ParmDecl=ms|D:\google\2015 OBS\obs_RTC_check\main.cpp:286:18 (Definition) <US>c:main.cpp@7701@F@DelayMs#I#@ms<UE> <DS>int<DE> Extent=<ES>286:14 - 286:20<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:286:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>286:21 - 292:2<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:286:6: FunctionDecl=DelayMs|D:\google\2015 OBS\obs_RTC_check\main.cpp:286:6 (Definition) <US>c:@F@DelayMs#I#<UE> <DS>void DelayMs(int)<DE> Extent=<ES>286:1 - 292:2<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:289:11: VarDecl=i|D:\google\2015 OBS\obs_RTC_check\main.cpp:289:11 (Definition) <US>c:main.cpp@7739@F@DelayMs#I#@i<UE> <DS>i<DE> Extent=<ES>289:7 - 289:14<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:289:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>289:13 - 289:14<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:289:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>289:15 - 289:19<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:289:15: DeclRefExpr=i|D:\google\2015 OBS\obs_RTC_check\main.cpp:289:11 (Reference) <US>c:main.cpp@7739@F@DelayMs#I#@i<UE> <DS>i<DE> Extent=<ES>289:15 - 289:16<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:289:15: UnexposedExpr=i|D:\google\2015 OBS\obs_RTC_check\main.cpp:289:11 <US>c:main.cpp@7739@F@DelayMs#I#@i<UE> <DS>i<DE> Extent=<ES>289:15 - 289:16<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:289:17: DeclRefExpr=ms|D:\google\2015 OBS\obs_RTC_check\main.cpp:286:18 (Reference) <US>c:main.cpp@7701@F@DelayMs#I#@ms<UE> <DS>int<DE> Extent=<ES>289:17 - 289:19<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:289:17: UnexposedExpr=ms|D:\google\2015 OBS\obs_RTC_check\main.cpp:286:18 <US>c:main.cpp@7701@F@DelayMs#I#@ms<UE> <DS>int<DE> Extent=<ES>289:17 - 289:19<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:289:20: DeclRefExpr=i|D:\google\2015 OBS\obs_RTC_check\main.cpp:289:11 (Reference) <US>c:main.cpp@7739@F@DelayMs#I#@i<UE> <DS>i<DE> Extent=<ES>289:20 - 289:21<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:289:20: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>289:20 - 289:23<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:289:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>289:3 - 290:24<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:289:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>289:7 - 289:15<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:290:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>290:18 - 290:23<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:290:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>290:18 - 290:23<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:290:3: CallExpr=__delay_cycles|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>290:3 - 290:24<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:290:3: DeclRefExpr=__delay_cycles|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>290:3 - 290:17<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:290:3: UnexposedExpr=__delay_cycles|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>290:3 - 290:17<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:296:5: VarDecl=is|D:\google\2015 OBS\obs_RTC_check\main.cpp:296:5 (Definition) <US>c:@is<UE> <DS>is<DE> Extent=<ES>296:1 - 296:9<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:296:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>296:8 - 296:9<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:298:18: FunctionDecl=TIMER0_A0_ISR|D:\google\2015 OBS\obs_RTC_check\main.cpp:298:18 (Definition) <US>c:@F@TIMER0_A0_ISR#<UE> <DS>void TIMER0_A0_ISR(void)<DE> Extent=<ES>298:13 - 312:2<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:298:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>298:1 - 298:12<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:299:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>299:1 - 312:2<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:29:6: VarDecl=COM1_Command|D:\google\2015 OBS\obs_RTC_check\main.cpp:29:6 (Definition) <US>c:@COM1_Command<UE> <DS>COM1_Command<DE> Extent=<ES>29:1 - 29:18<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:300:3: DeclRefExpr=CloCk_10KHz|D:\google\2015 OBS\obs_RTC_check\main.cpp:19:5 (Reference) <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>300:3 - 300:14<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:300:3: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>300:3 - 300:16<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:301:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>301:18 - 301:23<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:301:24: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>301:24 - 311:4<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:301:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>301:3 - 311:4<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:301:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>301:6 - 301:23<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:301:6: DeclRefExpr=CloCk_10KHz|D:\google\2015 OBS\obs_RTC_check\main.cpp:19:5 (Reference) <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>301:6 - 301:17<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:301:6: UnexposedExpr=CloCk_10KHz|D:\google\2015 OBS\obs_RTC_check\main.cpp:19:5 <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>301:6 - 301:17<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:302:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>302:17 - 302:18<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:302:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>302:5 - 302:18<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:302:5: DeclRefExpr=CloCk_10KHz|D:\google\2015 OBS\obs_RTC_check\main.cpp:19:5 (Reference) <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>302:5 - 302:16<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:305:6: macro expansion=P1OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1208:9 <US>c:macro@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>305:6 - 305:11<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:30:6: VarDecl=COM2_Command|D:\google\2015 OBS\obs_RTC_check\main.cpp:30:6 (Definition) <US>c:@COM2_Command<UE> <DS>COM2_Command<DE> Extent=<ES>30:1 - 30:18<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:314:6: FunctionDecl=Delay1s|D:\google\2015 OBS\obs_RTC_check\main.cpp:314:6 (Definition) <US>c:@F@Delay1s#<UE> <DS>void Delay1s(void)<DE> Extent=<ES>314:1 - 317:2<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:315:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>315:1 - 317:2<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:319:25: ParmDecl=a|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:25 (Definition) <US>c:main.cpp@8458@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>319:19 - 319:26<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:319:33: ParmDecl=ans|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:33 (Definition) <US>c:main.cpp@8466@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>319:27 - 319:36<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:319:42: ParmDecl=feature|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:42 (Definition) <US>c:main.cpp@8476@F@findStrPoint#*C#S0_#C#I#@feature<UE> <DS>char<DE> Extent=<ES>319:37 - 319:49<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:319:54: ParmDecl=n|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:54 (Definition) <US>c:main.cpp@8489@F@findStrPoint#*C#S0_#C#I#@n<UE> <DS>int<DE> Extent=<ES>319:50 - 319:55<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:319:56: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>319:56 - 339:2<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:319:6: FunctionDecl=findStrPoint|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:6 (Definition) <US>c:@F@findStrPoint#*C#S0_#C#I#<UE> <DS>void findStrPoint(char *, char *, char, int)<DE> Extent=<ES>319:1 - 339:2<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:31:6: VarDecl=COM3_Command|D:\google\2015 OBS\obs_RTC_check\main.cpp:31:6 (Definition) <US>c:@COM3_Command<UE> <DS>COM3_Command<DE> Extent=<ES>31:1 - 31:18<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:320:11: VarDecl=strcount|D:\google\2015 OBS\obs_RTC_check\main.cpp:320:11 (Definition) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>320:7 - 320:23<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:320:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>320:22 - 320:23<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:320:25: VarDecl=Ncount|D:\google\2015 OBS\obs_RTC_check\main.cpp:320:25 (Declaration) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>320:25 - 320:35<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:320:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>320:34 - 320:35<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:320:37: VarDecl=pop|D:\google\2015 OBS\obs_RTC_check\main.cpp:320:37 (Declaration) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@pop<UE> <DS>pop<DE> Extent=<ES>320:37 - 320:44<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:320:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>320:43 - 320:44<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:320:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>320:7 - 320:45<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:321:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>321:13 - 321:24<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:321:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>321:13 - 321:30<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:321:13: DeclRefExpr=a|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:25 (Reference) <US>c:main.cpp@8458@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>321:13 - 321:14<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:321:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>321:13 - 321:24<EE>	2
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:321:13: UnexposedExpr=a|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:25 <US>c:main.cpp@8458@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>321:13 - 321:14<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:321:15: DeclRefExpr=strcount|D:\google\2015 OBS\obs_RTC_check\main.cpp:320:11 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>321:15 - 321:23<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:321:15: UnexposedExpr=strcount|D:\google\2015 OBS\obs_RTC_check\main.cpp:320:11 <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>321:15 - 321:23<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:321:26: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>321:26 - 321:30<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:321:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>321:26 - 321:30<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:321:7: WhileStmt= <US><UE> <DS><DE> Extent=<ES>321:7 - 337:8<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:322:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>322:7 - 337:8<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:323:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>323:10 - 335:11<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:323:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>323:13 - 323:24<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:323:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>323:13 - 323:34<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:323:13: DeclRefExpr=a|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:25 (Reference) <US>c:main.cpp@8458@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>323:13 - 323:14<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:323:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>323:13 - 323:24<EE>	2
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:323:13: UnexposedExpr=a|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:25 <US>c:main.cpp@8458@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>323:13 - 323:14<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:323:15: DeclRefExpr=strcount|D:\google\2015 OBS\obs_RTC_check\main.cpp:320:11 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>323:15 - 323:23<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:323:15: UnexposedExpr=strcount|D:\google\2015 OBS\obs_RTC_check\main.cpp:320:11 <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>323:15 - 323:23<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:323:27: DeclRefExpr=feature|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:42 (Reference) <US>c:main.cpp@8476@F@findStrPoint#*C#S0_#C#I#@feature<UE> <DS>char<DE> Extent=<ES>323:27 - 323:34<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:323:27: UnexposedExpr=feature|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:42 <US>c:main.cpp@8476@F@findStrPoint#*C#S0_#C#I#@feature<UE> <DS>char<DE> Extent=<ES>323:27 - 323:34<EE>	2
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:323:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>323:35 - 331:11<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:324:13: DeclRefExpr=pop|D:\google\2015 OBS\obs_RTC_check\main.cpp:320:37 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@pop<UE> <DS>pop<DE> Extent=<ES>324:13 - 324:16<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:324:13: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>324:13 - 324:18<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:325:13: IfStmt= <US><UE> <DS><DE> Extent=<ES>325:13 - 329:14<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:325:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>325:16 - 325:22<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:325:16: DeclRefExpr=pop|D:\google\2015 OBS\obs_RTC_check\main.cpp:320:37 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@pop<UE> <DS>pop<DE> Extent=<ES>325:16 - 325:19<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:325:16: UnexposedExpr=pop|D:\google\2015 OBS\obs_RTC_check\main.cpp:320:37 <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@pop<UE> <DS>pop<DE> Extent=<ES>325:16 - 325:19<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:325:21: DeclRefExpr=n|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:54 (Reference) <US>c:main.cpp@8489@F@findStrPoint#*C#S0_#C#I#@n<UE> <DS>int<DE> Extent=<ES>325:21 - 325:22<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:325:21: UnexposedExpr=n|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:54 <US>c:main.cpp@8489@F@findStrPoint#*C#S0_#C#I#@n<UE> <DS>int<DE> Extent=<ES>325:21 - 325:22<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:326:13: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>326:13 - 329:14<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:327:14: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>327:14 - 327:25<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:327:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>327:14 - 327:30<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:327:14: DeclRefExpr=ans|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:33 (Reference) <US>c:main.cpp@8466@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>327:14 - 327:17<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:327:14: UnexposedExpr=ans|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:33 <US>c:main.cpp@8466@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>327:14 - 327:17<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:327:18: DeclRefExpr=Ncount|D:\google\2015 OBS\obs_RTC_check\main.cpp:320:25 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>327:18 - 327:24<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:327:18: UnexposedExpr=Ncount|D:\google\2015 OBS\obs_RTC_check\main.cpp:320:25 <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>327:18 - 327:24<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:327:26: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>327:26 - 327:30<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:328:14: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>328:14 - 328:20<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:32:6: VarDecl=COM4_Command|D:\google\2015 OBS\obs_RTC_check\main.cpp:32:6 (Definition) <US>c:@COM4_Command<UE> <DS>COM4_Command<DE> Extent=<ES>32:1 - 32:18<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:330:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>330:13 - 330:23<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:330:13: DeclRefExpr=Ncount|D:\google\2015 OBS\obs_RTC_check\main.cpp:320:25 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>330:13 - 330:19<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:330:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>330:22 - 330:23<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:332:14: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>332:14 - 335:11<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:333:11: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>333:11 - 333:22<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:333:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>333:11 - 333:36<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:333:11: DeclRefExpr=ans|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:33 (Reference) <US>c:main.cpp@8466@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>333:11 - 333:14<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:333:11: UnexposedExpr=ans|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:33 <US>c:main.cpp@8466@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>333:11 - 333:14<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:333:15: DeclRefExpr=Ncount|D:\google\2015 OBS\obs_RTC_check\main.cpp:320:25 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>333:15 - 333:21<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:333:15: UnexposedExpr=Ncount|D:\google\2015 OBS\obs_RTC_check\main.cpp:320:25 <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>333:15 - 333:21<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:333:25: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>333:25 - 333:36<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:333:25: DeclRefExpr=a|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:25 (Reference) <US>c:main.cpp@8458@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>333:25 - 333:26<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:333:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>333:25 - 333:36<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:333:25: UnexposedExpr=a|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:25 <US>c:main.cpp@8458@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>333:25 - 333:26<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:333:27: DeclRefExpr=strcount|D:\google\2015 OBS\obs_RTC_check\main.cpp:320:11 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>333:27 - 333:35<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:333:27: UnexposedExpr=strcount|D:\google\2015 OBS\obs_RTC_check\main.cpp:320:11 <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>333:27 - 333:35<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:334:11: DeclRefExpr=Ncount|D:\google\2015 OBS\obs_RTC_check\main.cpp:320:25 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>334:11 - 334:17<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:334:11: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>334:11 - 334:19<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:336:11: DeclRefExpr=strcount|D:\google\2015 OBS\obs_RTC_check\main.cpp:320:11 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>336:11 - 336:19<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:336:11: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>336:11 - 336:21<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:338:13: DeclRefExpr=Ncount|D:\google\2015 OBS\obs_RTC_check\main.cpp:320:25 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>338:13 - 338:19<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:338:13: UnexposedExpr=Ncount|D:\google\2015 OBS\obs_RTC_check\main.cpp:320:25 <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>338:13 - 338:19<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:338:21: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>338:21 - 338:25<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:338:9: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>338:9 - 338:20<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:338:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>338:9 - 338:25<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:338:9: DeclRefExpr=ans|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:33 (Reference) <US>c:main.cpp@8466@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>338:9 - 338:12<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:338:9: UnexposedExpr=ans|D:\google\2015 OBS\obs_RTC_check\main.cpp:319:33 <US>c:main.cpp@8466@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>338:9 - 338:12<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:343:6: VarDecl=UART_Init|D:\google\2015 OBS\obs_RTC_check\main.cpp:343:6 (Definition) <US>c:@UART_Init<UE> <DS>UART_Init<DE> Extent=<ES>343:1 - 343:15<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:347:7: macro expansion=P3SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1279:9 <US>c:macro@P3SEL<UE> <DS>P3SEL<DE> Extent=<ES>347:7 - 347:12<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:348:19: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>348:19 - 348:26<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:348:7: macro expansion=UCA0CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3284:9 <US>c:macro@UCA0CTL1<UE> <DS>UCA0CTL1<DE> Extent=<ES>348:7 - 348:15<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:350:19: macro expansion=UCSSEL_2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3394:9 <US>c:macro@UCSSEL_2<UE> <DS>UCSSEL_2<DE> Extent=<ES>350:19 - 350:27<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:350:7: macro expansion=UCA0CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3284:9 <US>c:macro@UCA0CTL1<UE> <DS>UCA0CTL1<DE> Extent=<ES>350:7 - 350:15<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:351:7: macro expansion=UCA0BR0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3288:9 <US>c:macro@UCA0BR0<UE> <DS>UCA0BR0<DE> Extent=<ES>351:7 - 351:14<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:352:7: macro expansion=UCA0BR1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3289:9 <US>c:macro@UCA0BR1<UE> <DS>UCA0BR1<DE> Extent=<ES>352:7 - 352:14<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:354:18: macro expansion=UCBRS_5|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3432:9 <US>c:macro@UCBRS_5<UE> <DS>UCBRS_5<DE> Extent=<ES>354:18 - 354:25<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:354:26: macro expansion=UCBRF_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3410:9 <US>c:macro@UCBRF_0<UE> <DS>UCBRF_0<DE> Extent=<ES>354:26 - 354:33<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:356:20: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>356:20 - 356:27<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:356:7: macro expansion=UCA0CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3284:9 <US>c:macro@UCA0CTL1<UE> <DS>UCA0CTL1<DE> Extent=<ES>356:7 - 356:15<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:357:17: macro expansion=UCRXIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3546:9 <US>c:macro@UCRXIE<UE> <DS>UCRXIE<DE> Extent=<ES>357:17 - 357:23<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:357:7: macro expansion=UCA0IE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3306:9 <US>c:macro@UCA0IE<UE> <DS>UCA0IE<DE> Extent=<ES>357:7 - 357:13<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:35:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>35:13 - 35:15<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:35:6: VarDecl=string|D:\google\2015 OBS\obs_RTC_check\main.cpp:35:6 (Definition) <US>c:@string<UE> <DS>string<DE> Extent=<ES>35:1 - 35:16<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:361:7: macro expansion=P5SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1318:9 <US>c:macro@P5SEL<UE> <DS>P5SEL<DE> Extent=<ES>361:7 - 361:12<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:362:19: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>362:19 - 362:26<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:362:7: macro expansion=UCA1CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3579:9 <US>c:macro@UCA1CTL1<UE> <DS>UCA1CTL1<DE> Extent=<ES>362:7 - 362:15<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:364:19: macro expansion=UCSSEL_1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3393:9 <US>c:macro@UCSSEL_1<UE> <DS>UCSSEL_1<DE> Extent=<ES>364:19 - 364:27<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:364:7: macro expansion=UCA1CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3579:9 <US>c:macro@UCA1CTL1<UE> <DS>UCA1CTL1<DE> Extent=<ES>364:7 - 364:15<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:365:7: macro expansion=UCA1BR0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3583:9 <US>c:macro@UCA1BR0<UE> <DS>UCA1BR0<DE> Extent=<ES>365:7 - 365:14<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:366:7: macro expansion=UCA1BR1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3584:9 <US>c:macro@UCA1BR1<UE> <DS>UCA1BR1<DE> Extent=<ES>366:7 - 366:14<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:367:18: macro expansion=UCBRS_7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3434:9 <US>c:macro@UCBRS_7<UE> <DS>UCBRS_7<DE> Extent=<ES>367:18 - 367:25<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:367:26: macro expansion=UCBRF_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3410:9 <US>c:macro@UCBRF_0<UE> <DS>UCBRF_0<DE> Extent=<ES>367:26 - 367:33<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:369:20: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>369:20 - 369:27<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:369:7: macro expansion=UCA1CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3579:9 <US>c:macro@UCA1CTL1<UE> <DS>UCA1CTL1<DE> Extent=<ES>369:7 - 369:15<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:36:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>36:14 - 36:16<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:36:6: VarDecl=setTime|D:\google\2015 OBS\obs_RTC_check\main.cpp:36:6 (Definition) <US>c:@setTime<UE> <DS>setTime<DE> Extent=<ES>36:1 - 36:17<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:370:17: macro expansion=UCRXIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3546:9 <US>c:macro@UCRXIE<UE> <DS>UCRXIE<DE> Extent=<ES>370:17 - 370:23<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:370:7: macro expansion=UCA1IE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3601:9 <US>c:macro@UCA1IE<UE> <DS>UCA1IE<DE> Extent=<ES>370:7 - 370:13<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:375:7: macro expansion=P9SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1396:9 <US>c:macro@P9SEL<UE> <DS>P9SEL<DE> Extent=<ES>375:7 - 375:12<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:376:19: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>376:19 - 376:26<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:376:7: macro expansion=UCA2CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3647:9 <US>c:macro@UCA2CTL1<UE> <DS>UCA2CTL1<DE> Extent=<ES>376:7 - 376:15<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:378:19: macro expansion=UCSSEL_1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3393:9 <US>c:macro@UCSSEL_1<UE> <DS>UCSSEL_1<DE> Extent=<ES>378:19 - 378:27<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:378:7: macro expansion=UCA2CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3647:9 <US>c:macro@UCA2CTL1<UE> <DS>UCA2CTL1<DE> Extent=<ES>378:7 - 378:15<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:379:7: macro expansion=UCA2BR0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3651:9 <US>c:macro@UCA2BR0<UE> <DS>UCA2BR0<DE> Extent=<ES>379:7 - 379:14<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:37:6: FunctionDecl=Delay1s|D:\google\2015 OBS\obs_RTC_check\main.cpp:314:6 (Declaration) <US>c:@F@Delay1s#<UE> <DS>void Delay1s(void)<DE> Extent=<ES>37:1 - 37:19<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:380:7: macro expansion=UCA2BR1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3652:9 <US>c:macro@UCA2BR1<UE> <DS>UCA2BR1<DE> Extent=<ES>380:7 - 380:14<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:381:18: macro expansion=UCBRS_6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3433:9 <US>c:macro@UCBRS_6<UE> <DS>UCBRS_6<DE> Extent=<ES>381:18 - 381:25<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:381:26: macro expansion=UCBRF_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3410:9 <US>c:macro@UCBRF_0<UE> <DS>UCBRF_0<DE> Extent=<ES>381:26 - 381:33<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:383:7: macro expansion=UCA2CTL0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3648:9 <US>c:macro@UCA2CTL0<UE> <DS>UCA2CTL0<DE> Extent=<ES>383:7 - 383:15<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:384:20: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>384:20 - 384:27<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:384:7: macro expansion=UCA2CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3647:9 <US>c:macro@UCA2CTL1<UE> <DS>UCA2CTL1<DE> Extent=<ES>384:7 - 384:15<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:385:17: macro expansion=UCRXIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3546:9 <US>c:macro@UCRXIE<UE> <DS>UCRXIE<DE> Extent=<ES>385:17 - 385:23<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:385:7: macro expansion=UCA2IE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3669:9 <US>c:macro@UCA2IE<UE> <DS>UCA2IE<DE> Extent=<ES>385:7 - 385:13<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:395:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>395:1 - 395:12<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:405:18: macro expansion=UCA3IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3738:9 <US>c:macro@UCA3IFG<UE> <DS>UCA3IFG<DE> Extent=<ES>405:18 - 405:25<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:405:26: macro expansion=UCTXIFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3557:9 <US>c:macro@UCTXIFG<UE> <DS>UCTXIFG<DE> Extent=<ES>405:26 - 405:33<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:40:25: CXXBoolLiteralExpr= <US><UE> <DS><DE> Extent=<ES>40:25 - 40:30<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:40:6: VarDecl=wait_seascan_pps|D:\google\2015 OBS\obs_RTC_check\main.cpp:40:6 (Definition) <US>c:@wait_seascan_pps<UE> <DS>wait_seascan_pps<DE> Extent=<ES>40:1 - 40:30<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:41:26: CXXBoolLiteralExpr= <US><UE> <DS><DE> Extent=<ES>41:26 - 41:31<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:41:6: VarDecl=obs_time_str_come|D:\google\2015 OBS\obs_RTC_check\main.cpp:41:6 (Definition) <US>c:@obs_time_str_come<UE> <DS>obs_time_str_come<DE> Extent=<ES>41:1 - 41:31<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:420:39: macro expansion=LPM0_bits|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:174:9 <US>c:macro@LPM0_bits<UE> <DS>LPM0_bits<DE> Extent=<ES>420:39 - 420:48<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:42:10: VarDecl=gPs_mms|D:\google\2015 OBS\obs_RTC_check\main.cpp:42:10 (Definition) <US>c:@gPs_mms<UE> <DS>gPs_mms<DE> Extent=<ES>42:1 - 42:22<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:42:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:21 - 42:22<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:42:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>42:21 - 42:22<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:438:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>438:1 - 438:12<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:43:10: VarDecl=oBs_mms|D:\google\2015 OBS\obs_RTC_check\main.cpp:43:10 (Definition) <US>c:@oBs_mms<UE> <DS>oBs_mms<DE> Extent=<ES>43:1 - 43:22<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:43:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>43:21 - 43:22<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:43:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>43:21 - 43:22<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:455:39: macro expansion=LPM0_bits|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:174:9 <US>c:macro@LPM0_bits<UE> <DS>LPM0_bits<DE> Extent=<ES>455:39 - 455:48<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:46:5: VarDecl=Gps_yy|D:\google\2015 OBS\obs_RTC_check\main.cpp:46:5 (Definition) <US>c:@Gps_yy<UE> <DS>Gps_yy<DE> Extent=<ES>46:1 - 46:11<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:47:5: VarDecl=Gps_MM|D:\google\2015 OBS\obs_RTC_check\main.cpp:47:5 (Definition) <US>c:@Gps_MM<UE> <DS>Gps_MM<DE> Extent=<ES>47:1 - 47:11<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:48:5: VarDecl=Gps_dd|D:\google\2015 OBS\obs_RTC_check\main.cpp:48:5 (Definition) <US>c:@Gps_dd<UE> <DS>Gps_dd<DE> Extent=<ES>48:1 - 48:11<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:51:5: VarDecl=Gps_hh|D:\google\2015 OBS\obs_RTC_check\main.cpp:51:5 (Definition) <US>c:@Gps_hh<UE> <DS>Gps_hh<DE> Extent=<ES>51:1 - 51:11<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:52:5: VarDecl=Gps_mm|D:\google\2015 OBS\obs_RTC_check\main.cpp:52:5 (Definition) <US>c:@Gps_mm<UE> <DS>Gps_mm<DE> Extent=<ES>52:1 - 52:11<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:53:5: VarDecl=Gps_ss|D:\google\2015 OBS\obs_RTC_check\main.cpp:53:5 (Definition) <US>c:@Gps_ss<UE> <DS>Gps_ss<DE> Extent=<ES>53:1 - 53:11<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:56:5: VarDecl=Obs_hh|D:\google\2015 OBS\obs_RTC_check\main.cpp:56:5 (Definition) <US>c:@Obs_hh<UE> <DS>Obs_hh<DE> Extent=<ES>56:1 - 56:11<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:57:5: VarDecl=Obs_mm|D:\google\2015 OBS\obs_RTC_check\main.cpp:57:5 (Definition) <US>c:@Obs_mm<UE> <DS>Obs_mm<DE> Extent=<ES>57:1 - 57:11<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:58:5: VarDecl=Obs_ss|D:\google\2015 OBS\obs_RTC_check\main.cpp:58:5 (Definition) <US>c:@Obs_ss<UE> <DS>Obs_ss<DE> Extent=<ES>58:1 - 58:11<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:60:7: VarDecl=nEw_ms|D:\google\2015 OBS\obs_RTC_check\main.cpp:60:7 (Definition) <US>c:@nEw_ms<UE> <DS>nEw_ms<DE> Extent=<ES>60:1 - 60:13<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:63:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>63:16 - 63:17<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:63:5: VarDecl=GPS_MODE|D:\google\2015 OBS\obs_RTC_check\main.cpp:63:5 (Definition) <US>c:@GPS_MODE<UE> <DS>GPS_MODE<DE> Extent=<ES>63:1 - 63:17<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:65:6: FunctionDecl=Crystal_Init|D:\google\2015 OBS\obs_RTC_check\main.cpp:262:6 (Declaration) <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>65:1 - 65:20<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:67:6: FunctionDecl=main|D:\google\2015 OBS\obs_RTC_check\main.cpp:67:6 (Definition) <US>c:@F@main<UE> <DS>void main(void)<DE> Extent=<ES>67:1 - 195:2<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:68:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>68:1 - 195:2<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:70:12: macro expansion=WDTPW|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3806:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>70:12 - 70:17<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:70:20: macro expansion=WDTHOLD|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3792:9 <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>70:20 - 70:27<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:71:2: CallExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>71:2 - 71:9<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:71:2: DeclRefExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:39:20 (Reference) <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>71:2 - 71:9<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:71:2: UnexposedExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>71:2 - 71:9<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:71:2: macro expansion=_DINT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:83:9 <US>c:macro@_DINT<UE> <DS>_DINT<DE> Extent=<ES>71:2 - 71:9<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:73:4: CallExpr=Crystal_Init|D:\google\2015 OBS\obs_RTC_check\main.cpp:262:6 <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>73:4 - 73:18<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:73:4: DeclRefExpr=Crystal_Init|D:\google\2015 OBS\obs_RTC_check\main.cpp:262:6 (Reference) <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>73:4 - 73:16<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:73:4: UnexposedExpr=Crystal_Init|D:\google\2015 OBS\obs_RTC_check\main.cpp:262:6 <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>73:4 - 73:16<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:77:2: macro expansion=P1DIR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1209:9 <US>c:macro@P1DIR<UE> <DS>P1DIR<DE> Extent=<ES>77:2 - 77:7<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:84:10: DeclRefExpr=string|D:\google\2015 OBS\obs_RTC_check\main.cpp:35:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>84:10 - 84:16<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:84:10: UnexposedExpr=string|D:\google\2015 OBS\obs_RTC_check\main.cpp:35:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>84:10 - 84:16<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:84:17: StringLiteral= <US><UE> <DS><DE> Extent=<ES>84:17 - 84:32<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:84:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>84:17 - 84:32<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:84:2: CallExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>84:2 - 84:33<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:84:2: DeclRefExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 (Reference) <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>84:2 - 84:9<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:84:2: UnexposedExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>84:2 - 84:9<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:85:10: DeclRefExpr=string|D:\google\2015 OBS\obs_RTC_check\main.cpp:35:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>85:10 - 85:16<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:85:10: UnexposedExpr=string|D:\google\2015 OBS\obs_RTC_check\main.cpp:35:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>85:10 - 85:16<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:85:17: StringLiteral= <US><UE> <DS><DE> Extent=<ES>85:17 - 85:34<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:85:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>85:17 - 85:34<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:85:2: CallExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>85:2 - 85:35<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:85:2: DeclRefExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 (Reference) <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>85:2 - 85:9<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:85:2: UnexposedExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>85:2 - 85:9<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:88:13: DeclRefExpr=string|D:\google\2015 OBS\obs_RTC_check\main.cpp:35:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>88:13 - 88:19<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:88:13: UnexposedExpr=string|D:\google\2015 OBS\obs_RTC_check\main.cpp:35:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>88:13 - 88:19<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:88:20: StringLiteral= <US><UE> <DS><DE> Extent=<ES>88:20 - 88:37<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:88:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>88:20 - 88:37<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:88:5: CallExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>88:5 - 88:38<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:88:5: DeclRefExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 (Reference) <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>88:5 - 88:12<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:88:5: UnexposedExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>88:5 - 88:12<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:89:2: CallExpr=Open_Syn_Interrupt|D:\google\2015 OBS\obs_RTC_check\main.cpp:198:6 <US>c:@F@Open_Syn_Interrupt#<UE> <DS>void Open_Syn_Interrupt(void)<DE> Extent=<ES>89:2 - 89:22<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:89:2: DeclRefExpr=Open_Syn_Interrupt|D:\google\2015 OBS\obs_RTC_check\main.cpp:198:6 (Reference) <US>c:@F@Open_Syn_Interrupt#<UE> <DS>void Open_Syn_Interrupt(void)<DE> Extent=<ES>89:2 - 89:20<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:89:2: UnexposedExpr=Open_Syn_Interrupt|D:\google\2015 OBS\obs_RTC_check\main.cpp:198:6 <US>c:@F@Open_Syn_Interrupt#<UE> <DS>void Open_Syn_Interrupt(void)<DE> Extent=<ES>89:2 - 89:20<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:91:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>91:10 - 91:11<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:91:10: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>91:10 - 91:11<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:91:12: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>91:12 - 193:5<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:91:4: WhileStmt= <US><UE> <DS><DE> Extent=<ES>91:4 - 193:5<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:93:24: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>93:24 - 93:37<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:93:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>93:24 - 93:27<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:93:24: ParenExpr= <US><UE> <DS><DE> Extent=<ES>93:24 - 93:27<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:93:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>93:24 - 93:37<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:93:24: macro expansion=GIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:157:9 <US>c:macro@GIE<UE> <DS>GIE<DE> Extent=<ES>93:24 - 93:27<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:93:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>93:28 - 93:37<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:93:28: ParenExpr= <US><UE> <DS><DE> Extent=<ES>93:28 - 93:37<EE>	2
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:93:28: macro expansion=LPM0_bits|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:174:9 <US>c:macro@LPM0_bits<UE> <DS>LPM0_bits<DE> Extent=<ES>93:28 - 93:37<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:93:6: CallExpr=__bis_SR_register|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>93:6 - 93:38<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:93:6: DeclRefExpr=__bis_SR_register|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 (Reference) <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>93:6 - 93:23<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:93:6: UnexposedExpr=__bis_SR_register|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>93:6 - 93:23<EE>	1
-<L>D:\google\2015 OBS\obs_RTC_check\main.cpp:9:1: inclusion directive=msp430x54xA.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h<IE>  [multi-include guarded] Extent=<ES>9:1 - 9:12<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:10:1: inclusion directive=stdio.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h<IE>  Extent=<ES>10:1 - 10:19<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:14:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>14:20 - 14:21<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:14:5: VarDecl=Control_Mode|D:\github\msp430\obs_RTC_check\main.cpp:14:5 (Definition) <US>c:@Control_Mode<UE> <DS>Control_Mode<DE> Extent=<ES>14:1 - 14:21<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:15:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>15:17 - 15:18<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:15:5: VarDecl=Diff_1PPS|D:\github\msp430\obs_RTC_check\main.cpp:15:5 (Definition) <US>c:@Diff_1PPS<UE> <DS>Diff_1PPS<DE> Extent=<ES>15:1 - 15:18<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:177:26: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>177:26 - 189:7<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:177:6: IfStmt= <US><UE> <DS><DE> Extent=<ES>177:6 - 189:7<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:177:9: DeclRefExpr=wait_seascan_pps|D:\github\msp430\obs_RTC_check\main.cpp:40:6 (Reference) <US>c:@wait_seascan_pps<UE> <DS>wait_seascan_pps<DE> Extent=<ES>177:9 - 177:25<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:177:9: UnexposedExpr=wait_seascan_pps|D:\github\msp430\obs_RTC_check\main.cpp:40:6 <US>c:@wait_seascan_pps<UE> <DS>wait_seascan_pps<DE> Extent=<ES>177:9 - 177:25<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:178:27: CXXBoolLiteralExpr= <US><UE> <DS><DE> Extent=<ES>178:27 - 178:32<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:178:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>178:8 - 178:32<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:178:8: DeclRefExpr=wait_seascan_pps|D:\github\msp430\obs_RTC_check\main.cpp:40:6 (Reference) <US>c:@wait_seascan_pps<UE> <DS>wait_seascan_pps<DE> Extent=<ES>178:8 - 178:24<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:198:26: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>198:26 - 203:2<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:198:6: FunctionDecl=Open_Syn_Interrupt|D:\github\msp430\obs_RTC_check\main.cpp:198:6 (Definition) <US>c:@F@Open_Syn_Interrupt#<UE> <DS>void Open_Syn_Interrupt(void)<DE> Extent=<ES>198:1 - 203:2<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:199:12: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>199:12 - 199:16<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:199:17: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>199:17 - 199:21<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:199:3: macro expansion=P1IE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1214:9 <US>c:macro@P1IE<UE> <DS>P1IE<DE> Extent=<ES>199:3 - 199:7<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:19:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>19:18 - 19:19<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:19:5: VarDecl=CloCk_10KHz|D:\github\msp430\obs_RTC_check\main.cpp:19:5 (Definition) <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>19:1 - 19:19<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:200:13: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>200:13 - 200:17<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:200:3: macro expansion=P1IES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1213:9 <US>c:macro@P1IES<UE> <DS>P1IES<DE> Extent=<ES>200:3 - 200:8<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:201:13: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>201:13 - 201:17<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:201:3: macro expansion=P1IES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1213:9 <US>c:macro@P1IES<UE> <DS>P1IES<DE> Extent=<ES>201:3 - 201:8<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:202:14: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>202:14 - 202:18<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:202:19: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>202:19 - 202:23<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:202:3: macro expansion=P1IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1215:9 <US>c:macro@P1IFG<UE> <DS>P1IFG<DE> Extent=<ES>202:3 - 202:8<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:206:18: FunctionDecl=P1ISR|D:\github\msp430\obs_RTC_check\main.cpp:206:18 (Definition) <US>c:@F@P1ISR#<UE> <DS>void P1ISR(void)<DE> Extent=<ES>206:13 - 256:2<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:206:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>206:1 - 206:12<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:207:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>207:1 - 256:2<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:208:15: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>208:15 - 208:19<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:208:23: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>208:23 - 208:27<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:208:7: macro expansion=P1IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1215:9 <US>c:macro@P1IFG<UE> <DS>P1IFG<DE> Extent=<ES>208:7 - 208:12<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:20:18: ParmDecl=ms|D:\github\msp430\obs_RTC_check\main.cpp:20:18 (Definition) <US>c:main.cpp@356@F@DelayMs#I#@ms<UE> <DS>int<DE> Extent=<ES>20:14 - 20:20<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:20:6: FunctionDecl=DelayMs|D:\github\msp430\obs_RTC_check\main.cpp:286:6 (Declaration) <US>c:@F@DelayMs#I#<UE> <DS>void DelayMs(int)<DE> Extent=<ES>20:1 - 20:21<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:210:15: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>210:15 - 210:19<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:210:5: macro expansion=P1IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1215:9 <US>c:macro@P1IFG<UE> <DS>P1IFG<DE> Extent=<ES>210:5 - 210:10<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:21:25: ParmDecl=a|D:\github\msp430\obs_RTC_check\main.cpp:21:25 (Definition) <US>c:main.cpp@384@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>21:19 - 21:26<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:21:33: ParmDecl=ans|D:\github\msp430\obs_RTC_check\main.cpp:21:33 (Definition) <US>c:main.cpp@392@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>21:27 - 21:36<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:21:42: ParmDecl=feature|D:\github\msp430\obs_RTC_check\main.cpp:21:42 (Definition) <US>c:main.cpp@402@F@findStrPoint#*C#S0_#C#I#@feature<UE> <DS>char<DE> Extent=<ES>21:37 - 21:49<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:21:54: ParmDecl=n|D:\github\msp430\obs_RTC_check\main.cpp:21:54 (Definition) <US>c:main.cpp@415@F@findStrPoint#*C#S0_#C#I#@n<UE> <DS>int<DE> Extent=<ES>21:50 - 21:55<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:21:6: FunctionDecl=findStrPoint|D:\github\msp430\obs_RTC_check\main.cpp:319:6 (Declaration) <US>c:@F@findStrPoint#*C#S0_#C#I#<UE> <DS>void findStrPoint(char *, char *, char, int)<DE> Extent=<ES>21:1 - 21:56<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:223:15: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>223:15 - 223:19<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:223:23: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>223:23 - 223:27<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:223:7: macro expansion=P1IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1215:9 <US>c:macro@P1IFG<UE> <DS>P1IFG<DE> Extent=<ES>223:7 - 223:12<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:22:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>22:11 - 22:13<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:22:6: VarDecl=Getp|D:\github\msp430\obs_RTC_check\main.cpp:22:6 (Definition) <US>c:@Getp<UE> <DS>Getp<DE> Extent=<ES>22:1 - 22:14<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:24:6: FunctionDecl=Open_Syn_Interrupt|D:\github\msp430\obs_RTC_check\main.cpp:198:6 (Declaration) <US>c:@F@Open_Syn_Interrupt#<UE> <DS>void Open_Syn_Interrupt(void)<DE> Extent=<ES>24:1 - 24:26<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:251:15: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>251:15 - 251:19<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:251:5: macro expansion=P1IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1215:9 <US>c:macro@P1IFG<UE> <DS>P1IFG<DE> Extent=<ES>251:5 - 251:10<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:258:23: ParmDecl=i|D:\github\msp430\obs_RTC_check\main.cpp:258:23 (Definition) <US>c:main.cpp@6430@F@int2str#L#*C#@i<UE> <DS>long<DE> Extent=<ES>258:14 - 258:24<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:258:31: ParmDecl=s|D:\github\msp430\obs_RTC_check\main.cpp:258:31 (Definition) <US>c:main.cpp@6441@F@int2str#L#*C#@s<UE> <DS>char *<DE> Extent=<ES>258:25 - 258:32<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:258:34: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>258:34 - 260:2<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:258:6: FunctionDecl=int2str|D:\github\msp430\obs_RTC_check\main.cpp:258:6 (Definition) <US>c:@F@int2str#L#*C#<UE> <DS>void int2str(long, char *)<DE> Extent=<ES>258:1 - 260:2<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:259:14: DeclRefExpr=s|D:\github\msp430\obs_RTC_check\main.cpp:258:31 (Reference) <US>c:main.cpp@6441@F@int2str#L#*C#@s<UE> <DS>char *<DE> Extent=<ES>259:14 - 259:15<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:259:14: UnexposedExpr=s|D:\github\msp430\obs_RTC_check\main.cpp:258:31 <US>c:main.cpp@6441@F@int2str#L#*C#@s<UE> <DS>char *<DE> Extent=<ES>259:14 - 259:15<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:259:16: StringLiteral= <US><UE> <DS><DE> Extent=<ES>259:16 - 259:23<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:259:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>259:16 - 259:23<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:259:24: DeclRefExpr=i|D:\github\msp430\obs_RTC_check\main.cpp:258:23 (Reference) <US>c:main.cpp@6430@F@int2str#L#*C#@i<UE> <DS>long<DE> Extent=<ES>259:24 - 259:25<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:259:24: UnexposedExpr=i|D:\github\msp430\obs_RTC_check\main.cpp:258:23 <US>c:main.cpp@6430@F@int2str#L#*C#@i<UE> <DS>long<DE> Extent=<ES>259:24 - 259:25<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:259:6: CallExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>259:6 - 259:26<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:259:6: DeclRefExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 (Reference) <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>259:6 - 259:13<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:259:6: UnexposedExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>259:6 - 259:13<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:262:20: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>262:20 - 284:2<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:262:6: FunctionDecl=Crystal_Init|D:\github\msp430\obs_RTC_check\main.cpp:262:6 (Definition) <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>262:1 - 284:2<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:264:5: macro expansion=P5SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1318:9 <US>c:macro@P5SEL<UE> <DS>P5SEL<DE> Extent=<ES>264:5 - 264:10<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:265:5: macro expansion=P7SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1357:9 <US>c:macro@P7SEL<UE> <DS>P7SEL<DE> Extent=<ES>265:5 - 265:10<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:266:18: macro expansion=XT1OFF|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3122:9 <US>c:macro@XT1OFF<UE> <DS>XT1OFF<DE> Extent=<ES>266:18 - 266:24<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:266:27: macro expansion=XT2OFF|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3130:9 <US>c:macro@XT2OFF<UE> <DS>XT2OFF<DE> Extent=<ES>266:27 - 266:33<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:267:16: macro expansion=XCAP_3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3166:9 <US>c:macro@XCAP_3<UE> <DS>XCAP_3<DE> Extent=<ES>267:16 - 267:22<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:271:20: macro expansion=XT2OFFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3180:9 <US>c:macro@XT2OFFG<UE> <DS>XT2OFFG<DE> Extent=<ES>271:20 - 271:27<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:271:30: macro expansion=XT1LFOFFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3178:9 <US>c:macro@XT1LFOFFG<UE> <DS>XT1LFOFFG<DE> Extent=<ES>271:30 - 271:39<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:271:42: macro expansion=XT1HFOFFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3179:9 <US>c:macro@XT1HFOFFG<UE> <DS>XT1HFOFFG<DE> Extent=<ES>271:42 - 271:51<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:271:54: macro expansion=DCOFFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3177:9 <US>c:macro@DCOFFG<UE> <DS>DCOFFG<DE> Extent=<ES>271:54 - 271:60<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:273:19: macro expansion=OFIFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2098:9 <US>c:macro@OFIFG<UE> <DS>OFIFG<DE> Extent=<ES>273:19 - 273:24<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:274:21: macro expansion=OFIFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2098:9 <US>c:macro@OFIFG<UE> <DS>OFIFG<DE> Extent=<ES>274:21 - 274:26<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:276:17: macro expansion=XT2DRIVE0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3136:9 <US>c:macro@XT2DRIVE0<UE> <DS>XT2DRIVE0<DE> Extent=<ES>276:17 - 276:26<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:277:16: macro expansion=SELA_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3004:9 <US>c:macro@SELA_0<UE> <DS>SELA_0<DE> Extent=<ES>277:16 - 277:22<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:277:25: macro expansion=SELS_5|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2994:9 <US>c:macro@SELS_5<UE> <DS>SELS_5<DE> Extent=<ES>277:25 - 277:31<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:277:34: macro expansion=SELM_5|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2979:9 <US>c:macro@SELM_5<UE> <DS>SELM_5<DE> Extent=<ES>277:34 - 277:40<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:279:16: macro expansion=CCIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2430:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>279:16 - 279:20<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:27:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>27:17 - 27:20<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:27:6: VarDecl=COM_BUFFER|D:\github\msp430\obs_RTC_check\main.cpp:27:6 (Definition) <US>c:@COM_BUFFER<UE> <DS>COM_BUFFER<DE> Extent=<ES>27:1 - 27:21<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:281:14: macro expansion=TASSEL_2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2403:9 <US>c:macro@TASSEL_2<UE> <DS>TASSEL_2<DE> Extent=<ES>281:14 - 281:22<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:281:25: macro expansion=MC_1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2394:9 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>281:25 - 281:29<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:281:32: macro expansion=TACLR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2389:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>281:32 - 281:37<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:286:18: ParmDecl=ms|D:\github\msp430\obs_RTC_check\main.cpp:286:18 (Definition) <US>c:main.cpp@7701@F@DelayMs#I#@ms<UE> <DS>int<DE> Extent=<ES>286:14 - 286:20<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:286:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>286:21 - 292:2<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:286:6: FunctionDecl=DelayMs|D:\github\msp430\obs_RTC_check\main.cpp:286:6 (Definition) <US>c:@F@DelayMs#I#<UE> <DS>void DelayMs(int)<DE> Extent=<ES>286:1 - 292:2<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:289:11: VarDecl=i|D:\github\msp430\obs_RTC_check\main.cpp:289:11 (Definition) <US>c:main.cpp@7739@F@DelayMs#I#@i<UE> <DS>i<DE> Extent=<ES>289:7 - 289:14<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:289:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>289:13 - 289:14<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:289:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>289:15 - 289:19<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:289:15: DeclRefExpr=i|D:\github\msp430\obs_RTC_check\main.cpp:289:11 (Reference) <US>c:main.cpp@7739@F@DelayMs#I#@i<UE> <DS>i<DE> Extent=<ES>289:15 - 289:16<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:289:15: UnexposedExpr=i|D:\github\msp430\obs_RTC_check\main.cpp:289:11 <US>c:main.cpp@7739@F@DelayMs#I#@i<UE> <DS>i<DE> Extent=<ES>289:15 - 289:16<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:289:17: DeclRefExpr=ms|D:\github\msp430\obs_RTC_check\main.cpp:286:18 (Reference) <US>c:main.cpp@7701@F@DelayMs#I#@ms<UE> <DS>int<DE> Extent=<ES>289:17 - 289:19<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:289:17: UnexposedExpr=ms|D:\github\msp430\obs_RTC_check\main.cpp:286:18 <US>c:main.cpp@7701@F@DelayMs#I#@ms<UE> <DS>int<DE> Extent=<ES>289:17 - 289:19<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:289:20: DeclRefExpr=i|D:\github\msp430\obs_RTC_check\main.cpp:289:11 (Reference) <US>c:main.cpp@7739@F@DelayMs#I#@i<UE> <DS>i<DE> Extent=<ES>289:20 - 289:21<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:289:20: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>289:20 - 289:23<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:289:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>289:3 - 290:24<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:289:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>289:7 - 289:15<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:28:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>28:13 - 28:15<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:28:6: VarDecl=string|D:\github\msp430\obs_RTC_check\main.cpp:28:6 (Definition) <US>c:@string<UE> <DS>string<DE> Extent=<ES>28:1 - 28:16<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:290:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>290:18 - 290:23<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:290:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>290:18 - 290:23<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:290:3: CallExpr=__delay_cycles|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>290:3 - 290:24<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:290:3: DeclRefExpr=__delay_cycles|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>290:3 - 290:17<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:290:3: UnexposedExpr=__delay_cycles|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>290:3 - 290:17<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:296:5: VarDecl=is|D:\github\msp430\obs_RTC_check\main.cpp:296:5 (Definition) <US>c:@is<UE> <DS>is<DE> Extent=<ES>296:1 - 296:9<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:296:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>296:8 - 296:9<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:298:18: FunctionDecl=TIMER0_A0_ISR|D:\github\msp430\obs_RTC_check\main.cpp:298:18 (Definition) <US>c:@F@TIMER0_A0_ISR#<UE> <DS>void TIMER0_A0_ISR(void)<DE> Extent=<ES>298:13 - 312:2<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:298:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>298:1 - 298:12<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:299:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>299:1 - 312:2<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:300:3: DeclRefExpr=CloCk_10KHz|D:\github\msp430\obs_RTC_check\main.cpp:19:5 (Reference) <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>300:3 - 300:14<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:300:3: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>300:3 - 300:16<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:301:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>301:18 - 301:23<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:301:24: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>301:24 - 311:4<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:301:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>301:3 - 311:4<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:301:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>301:6 - 301:23<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:301:6: DeclRefExpr=CloCk_10KHz|D:\github\msp430\obs_RTC_check\main.cpp:19:5 (Reference) <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>301:6 - 301:17<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:301:6: UnexposedExpr=CloCk_10KHz|D:\github\msp430\obs_RTC_check\main.cpp:19:5 <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>301:6 - 301:17<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:302:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>302:17 - 302:18<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:302:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>302:5 - 302:18<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:302:5: DeclRefExpr=CloCk_10KHz|D:\github\msp430\obs_RTC_check\main.cpp:19:5 (Reference) <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>302:5 - 302:16<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:305:6: macro expansion=P1OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1208:9 <US>c:macro@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>305:6 - 305:11<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:30:6: VarDecl=COM1_Command|D:\github\msp430\obs_RTC_check\main.cpp:30:6 (Definition) <US>c:@COM1_Command<UE> <DS>COM1_Command<DE> Extent=<ES>30:1 - 30:18<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:314:6: FunctionDecl=Delay1s|D:\github\msp430\obs_RTC_check\main.cpp:314:6 (Definition) <US>c:@F@Delay1s#<UE> <DS>void Delay1s(void)<DE> Extent=<ES>314:1 - 317:2<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:315:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>315:1 - 317:2<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:319:25: ParmDecl=a|D:\github\msp430\obs_RTC_check\main.cpp:319:25 (Definition) <US>c:main.cpp@8458@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>319:19 - 319:26<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:319:33: ParmDecl=ans|D:\github\msp430\obs_RTC_check\main.cpp:319:33 (Definition) <US>c:main.cpp@8466@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>319:27 - 319:36<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:319:42: ParmDecl=feature|D:\github\msp430\obs_RTC_check\main.cpp:319:42 (Definition) <US>c:main.cpp@8476@F@findStrPoint#*C#S0_#C#I#@feature<UE> <DS>char<DE> Extent=<ES>319:37 - 319:49<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:319:54: ParmDecl=n|D:\github\msp430\obs_RTC_check\main.cpp:319:54 (Definition) <US>c:main.cpp@8489@F@findStrPoint#*C#S0_#C#I#@n<UE> <DS>int<DE> Extent=<ES>319:50 - 319:55<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:319:56: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>319:56 - 339:2<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:319:6: FunctionDecl=findStrPoint|D:\github\msp430\obs_RTC_check\main.cpp:319:6 (Definition) <US>c:@F@findStrPoint#*C#S0_#C#I#<UE> <DS>void findStrPoint(char *, char *, char, int)<DE> Extent=<ES>319:1 - 339:2<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:31:6: VarDecl=COM2_Command|D:\github\msp430\obs_RTC_check\main.cpp:31:6 (Definition) <US>c:@COM2_Command<UE> <DS>COM2_Command<DE> Extent=<ES>31:1 - 31:18<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:320:11: VarDecl=strcount|D:\github\msp430\obs_RTC_check\main.cpp:320:11 (Definition) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>320:7 - 320:23<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:320:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>320:22 - 320:23<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:320:25: VarDecl=Ncount|D:\github\msp430\obs_RTC_check\main.cpp:320:25 (Declaration) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>320:25 - 320:35<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:320:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>320:34 - 320:35<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:320:37: VarDecl=pop|D:\github\msp430\obs_RTC_check\main.cpp:320:37 (Declaration) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@pop<UE> <DS>pop<DE> Extent=<ES>320:37 - 320:44<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:320:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>320:43 - 320:44<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:320:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>320:7 - 320:45<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:321:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>321:13 - 321:24<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:321:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>321:13 - 321:30<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:321:13: DeclRefExpr=a|D:\github\msp430\obs_RTC_check\main.cpp:319:25 (Reference) <US>c:main.cpp@8458@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>321:13 - 321:14<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:321:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>321:13 - 321:24<EE>	2
+<L>D:\github\msp430\obs_RTC_check\main.cpp:321:13: UnexposedExpr=a|D:\github\msp430\obs_RTC_check\main.cpp:319:25 <US>c:main.cpp@8458@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>321:13 - 321:14<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:321:15: DeclRefExpr=strcount|D:\github\msp430\obs_RTC_check\main.cpp:320:11 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>321:15 - 321:23<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:321:15: UnexposedExpr=strcount|D:\github\msp430\obs_RTC_check\main.cpp:320:11 <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>321:15 - 321:23<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:321:26: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>321:26 - 321:30<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:321:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>321:26 - 321:30<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:321:7: WhileStmt= <US><UE> <DS><DE> Extent=<ES>321:7 - 337:8<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:322:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>322:7 - 337:8<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:323:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>323:10 - 335:11<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:323:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>323:13 - 323:24<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:323:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>323:13 - 323:34<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:323:13: DeclRefExpr=a|D:\github\msp430\obs_RTC_check\main.cpp:319:25 (Reference) <US>c:main.cpp@8458@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>323:13 - 323:14<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:323:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>323:13 - 323:24<EE>	2
+<L>D:\github\msp430\obs_RTC_check\main.cpp:323:13: UnexposedExpr=a|D:\github\msp430\obs_RTC_check\main.cpp:319:25 <US>c:main.cpp@8458@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>323:13 - 323:14<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:323:15: DeclRefExpr=strcount|D:\github\msp430\obs_RTC_check\main.cpp:320:11 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>323:15 - 323:23<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:323:15: UnexposedExpr=strcount|D:\github\msp430\obs_RTC_check\main.cpp:320:11 <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>323:15 - 323:23<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:323:27: DeclRefExpr=feature|D:\github\msp430\obs_RTC_check\main.cpp:319:42 (Reference) <US>c:main.cpp@8476@F@findStrPoint#*C#S0_#C#I#@feature<UE> <DS>char<DE> Extent=<ES>323:27 - 323:34<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:323:27: UnexposedExpr=feature|D:\github\msp430\obs_RTC_check\main.cpp:319:42 <US>c:main.cpp@8476@F@findStrPoint#*C#S0_#C#I#@feature<UE> <DS>char<DE> Extent=<ES>323:27 - 323:34<EE>	2
+<L>D:\github\msp430\obs_RTC_check\main.cpp:323:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>323:35 - 331:11<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:324:13: DeclRefExpr=pop|D:\github\msp430\obs_RTC_check\main.cpp:320:37 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@pop<UE> <DS>pop<DE> Extent=<ES>324:13 - 324:16<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:324:13: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>324:13 - 324:18<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:325:13: IfStmt= <US><UE> <DS><DE> Extent=<ES>325:13 - 329:14<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:325:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>325:16 - 325:22<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:325:16: DeclRefExpr=pop|D:\github\msp430\obs_RTC_check\main.cpp:320:37 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@pop<UE> <DS>pop<DE> Extent=<ES>325:16 - 325:19<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:325:16: UnexposedExpr=pop|D:\github\msp430\obs_RTC_check\main.cpp:320:37 <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@pop<UE> <DS>pop<DE> Extent=<ES>325:16 - 325:19<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:325:21: DeclRefExpr=n|D:\github\msp430\obs_RTC_check\main.cpp:319:54 (Reference) <US>c:main.cpp@8489@F@findStrPoint#*C#S0_#C#I#@n<UE> <DS>int<DE> Extent=<ES>325:21 - 325:22<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:325:21: UnexposedExpr=n|D:\github\msp430\obs_RTC_check\main.cpp:319:54 <US>c:main.cpp@8489@F@findStrPoint#*C#S0_#C#I#@n<UE> <DS>int<DE> Extent=<ES>325:21 - 325:22<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:326:13: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>326:13 - 329:14<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:327:14: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>327:14 - 327:25<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:327:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>327:14 - 327:30<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:327:14: DeclRefExpr=ans|D:\github\msp430\obs_RTC_check\main.cpp:319:33 (Reference) <US>c:main.cpp@8466@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>327:14 - 327:17<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:327:14: UnexposedExpr=ans|D:\github\msp430\obs_RTC_check\main.cpp:319:33 <US>c:main.cpp@8466@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>327:14 - 327:17<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:327:18: DeclRefExpr=Ncount|D:\github\msp430\obs_RTC_check\main.cpp:320:25 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>327:18 - 327:24<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:327:18: UnexposedExpr=Ncount|D:\github\msp430\obs_RTC_check\main.cpp:320:25 <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>327:18 - 327:24<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:327:26: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>327:26 - 327:30<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:328:14: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>328:14 - 328:20<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:32:6: VarDecl=COM3_Command|D:\github\msp430\obs_RTC_check\main.cpp:32:6 (Definition) <US>c:@COM3_Command<UE> <DS>COM3_Command<DE> Extent=<ES>32:1 - 32:18<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:330:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>330:13 - 330:23<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:330:13: DeclRefExpr=Ncount|D:\github\msp430\obs_RTC_check\main.cpp:320:25 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>330:13 - 330:19<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:330:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>330:22 - 330:23<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:332:14: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>332:14 - 335:11<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:333:11: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>333:11 - 333:22<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:333:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>333:11 - 333:36<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:333:11: DeclRefExpr=ans|D:\github\msp430\obs_RTC_check\main.cpp:319:33 (Reference) <US>c:main.cpp@8466@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>333:11 - 333:14<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:333:11: UnexposedExpr=ans|D:\github\msp430\obs_RTC_check\main.cpp:319:33 <US>c:main.cpp@8466@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>333:11 - 333:14<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:333:15: DeclRefExpr=Ncount|D:\github\msp430\obs_RTC_check\main.cpp:320:25 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>333:15 - 333:21<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:333:15: UnexposedExpr=Ncount|D:\github\msp430\obs_RTC_check\main.cpp:320:25 <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>333:15 - 333:21<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:333:25: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>333:25 - 333:36<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:333:25: DeclRefExpr=a|D:\github\msp430\obs_RTC_check\main.cpp:319:25 (Reference) <US>c:main.cpp@8458@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>333:25 - 333:26<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:333:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>333:25 - 333:36<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:333:25: UnexposedExpr=a|D:\github\msp430\obs_RTC_check\main.cpp:319:25 <US>c:main.cpp@8458@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>333:25 - 333:26<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:333:27: DeclRefExpr=strcount|D:\github\msp430\obs_RTC_check\main.cpp:320:11 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>333:27 - 333:35<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:333:27: UnexposedExpr=strcount|D:\github\msp430\obs_RTC_check\main.cpp:320:11 <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>333:27 - 333:35<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:334:11: DeclRefExpr=Ncount|D:\github\msp430\obs_RTC_check\main.cpp:320:25 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>334:11 - 334:17<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:334:11: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>334:11 - 334:19<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:336:11: DeclRefExpr=strcount|D:\github\msp430\obs_RTC_check\main.cpp:320:11 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>336:11 - 336:19<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:336:11: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>336:11 - 336:21<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:338:13: DeclRefExpr=Ncount|D:\github\msp430\obs_RTC_check\main.cpp:320:25 (Reference) <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>338:13 - 338:19<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:338:13: UnexposedExpr=Ncount|D:\github\msp430\obs_RTC_check\main.cpp:320:25 <US>c:main.cpp@8504@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>338:13 - 338:19<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:338:21: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>338:21 - 338:25<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:338:9: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>338:9 - 338:20<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:338:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>338:9 - 338:25<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:338:9: DeclRefExpr=ans|D:\github\msp430\obs_RTC_check\main.cpp:319:33 (Reference) <US>c:main.cpp@8466@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>338:9 - 338:12<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:338:9: UnexposedExpr=ans|D:\github\msp430\obs_RTC_check\main.cpp:319:33 <US>c:main.cpp@8466@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>338:9 - 338:12<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:33:6: VarDecl=COM4_Command|D:\github\msp430\obs_RTC_check\main.cpp:33:6 (Definition) <US>c:@COM4_Command<UE> <DS>COM4_Command<DE> Extent=<ES>33:1 - 33:18<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:343:6: VarDecl=UART_Init|D:\github\msp430\obs_RTC_check\main.cpp:343:6 (Definition) <US>c:@UART_Init<UE> <DS>UART_Init<DE> Extent=<ES>343:1 - 343:15<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:347:7: macro expansion=P3SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1279:9 <US>c:macro@P3SEL<UE> <DS>P3SEL<DE> Extent=<ES>347:7 - 347:12<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:348:19: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>348:19 - 348:26<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:348:7: macro expansion=UCA0CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3284:9 <US>c:macro@UCA0CTL1<UE> <DS>UCA0CTL1<DE> Extent=<ES>348:7 - 348:15<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:350:19: macro expansion=UCSSEL_2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3394:9 <US>c:macro@UCSSEL_2<UE> <DS>UCSSEL_2<DE> Extent=<ES>350:19 - 350:27<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:350:7: macro expansion=UCA0CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3284:9 <US>c:macro@UCA0CTL1<UE> <DS>UCA0CTL1<DE> Extent=<ES>350:7 - 350:15<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:351:7: macro expansion=UCA0BR0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3288:9 <US>c:macro@UCA0BR0<UE> <DS>UCA0BR0<DE> Extent=<ES>351:7 - 351:14<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:352:7: macro expansion=UCA0BR1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3289:9 <US>c:macro@UCA0BR1<UE> <DS>UCA0BR1<DE> Extent=<ES>352:7 - 352:14<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:354:18: macro expansion=UCBRS_5|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3432:9 <US>c:macro@UCBRS_5<UE> <DS>UCBRS_5<DE> Extent=<ES>354:18 - 354:25<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:354:26: macro expansion=UCBRF_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3410:9 <US>c:macro@UCBRF_0<UE> <DS>UCBRF_0<DE> Extent=<ES>354:26 - 354:33<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:356:20: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>356:20 - 356:27<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:356:7: macro expansion=UCA0CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3284:9 <US>c:macro@UCA0CTL1<UE> <DS>UCA0CTL1<DE> Extent=<ES>356:7 - 356:15<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:357:17: macro expansion=UCRXIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3546:9 <US>c:macro@UCRXIE<UE> <DS>UCRXIE<DE> Extent=<ES>357:17 - 357:23<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:357:7: macro expansion=UCA0IE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3306:9 <US>c:macro@UCA0IE<UE> <DS>UCA0IE<DE> Extent=<ES>357:7 - 357:13<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:361:7: macro expansion=P5SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1318:9 <US>c:macro@P5SEL<UE> <DS>P5SEL<DE> Extent=<ES>361:7 - 361:12<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:362:19: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>362:19 - 362:26<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:362:7: macro expansion=UCA1CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3579:9 <US>c:macro@UCA1CTL1<UE> <DS>UCA1CTL1<DE> Extent=<ES>362:7 - 362:15<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:364:19: macro expansion=UCSSEL_1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3393:9 <US>c:macro@UCSSEL_1<UE> <DS>UCSSEL_1<DE> Extent=<ES>364:19 - 364:27<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:364:7: macro expansion=UCA1CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3579:9 <US>c:macro@UCA1CTL1<UE> <DS>UCA1CTL1<DE> Extent=<ES>364:7 - 364:15<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:365:7: macro expansion=UCA1BR0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3583:9 <US>c:macro@UCA1BR0<UE> <DS>UCA1BR0<DE> Extent=<ES>365:7 - 365:14<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:366:7: macro expansion=UCA1BR1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3584:9 <US>c:macro@UCA1BR1<UE> <DS>UCA1BR1<DE> Extent=<ES>366:7 - 366:14<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:367:18: macro expansion=UCBRS_7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3434:9 <US>c:macro@UCBRS_7<UE> <DS>UCBRS_7<DE> Extent=<ES>367:18 - 367:25<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:367:26: macro expansion=UCBRF_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3410:9 <US>c:macro@UCBRF_0<UE> <DS>UCBRF_0<DE> Extent=<ES>367:26 - 367:33<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:369:20: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>369:20 - 369:27<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:369:7: macro expansion=UCA1CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3579:9 <US>c:macro@UCA1CTL1<UE> <DS>UCA1CTL1<DE> Extent=<ES>369:7 - 369:15<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:36:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>36:14 - 36:16<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:36:6: VarDecl=setTime|D:\github\msp430\obs_RTC_check\main.cpp:36:6 (Definition) <US>c:@setTime<UE> <DS>setTime<DE> Extent=<ES>36:1 - 36:17<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:370:17: macro expansion=UCRXIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3546:9 <US>c:macro@UCRXIE<UE> <DS>UCRXIE<DE> Extent=<ES>370:17 - 370:23<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:370:7: macro expansion=UCA1IE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3601:9 <US>c:macro@UCA1IE<UE> <DS>UCA1IE<DE> Extent=<ES>370:7 - 370:13<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:375:7: macro expansion=P9SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1396:9 <US>c:macro@P9SEL<UE> <DS>P9SEL<DE> Extent=<ES>375:7 - 375:12<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:376:19: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>376:19 - 376:26<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:376:7: macro expansion=UCA2CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3647:9 <US>c:macro@UCA2CTL1<UE> <DS>UCA2CTL1<DE> Extent=<ES>376:7 - 376:15<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:378:19: macro expansion=UCSSEL_1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3393:9 <US>c:macro@UCSSEL_1<UE> <DS>UCSSEL_1<DE> Extent=<ES>378:19 - 378:27<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:378:7: macro expansion=UCA2CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3647:9 <US>c:macro@UCA2CTL1<UE> <DS>UCA2CTL1<DE> Extent=<ES>378:7 - 378:15<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:379:7: macro expansion=UCA2BR0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3651:9 <US>c:macro@UCA2BR0<UE> <DS>UCA2BR0<DE> Extent=<ES>379:7 - 379:14<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:37:6: FunctionDecl=Delay1s|D:\github\msp430\obs_RTC_check\main.cpp:314:6 (Declaration) <US>c:@F@Delay1s#<UE> <DS>void Delay1s(void)<DE> Extent=<ES>37:1 - 37:19<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:380:7: macro expansion=UCA2BR1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3652:9 <US>c:macro@UCA2BR1<UE> <DS>UCA2BR1<DE> Extent=<ES>380:7 - 380:14<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:381:18: macro expansion=UCBRS_6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3433:9 <US>c:macro@UCBRS_6<UE> <DS>UCBRS_6<DE> Extent=<ES>381:18 - 381:25<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:381:26: macro expansion=UCBRF_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3410:9 <US>c:macro@UCBRF_0<UE> <DS>UCBRF_0<DE> Extent=<ES>381:26 - 381:33<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:383:7: macro expansion=UCA2CTL0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3648:9 <US>c:macro@UCA2CTL0<UE> <DS>UCA2CTL0<DE> Extent=<ES>383:7 - 383:15<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:384:20: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>384:20 - 384:27<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:384:7: macro expansion=UCA2CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3647:9 <US>c:macro@UCA2CTL1<UE> <DS>UCA2CTL1<DE> Extent=<ES>384:7 - 384:15<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:385:17: macro expansion=UCRXIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3546:9 <US>c:macro@UCRXIE<UE> <DS>UCRXIE<DE> Extent=<ES>385:17 - 385:23<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:385:7: macro expansion=UCA2IE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3669:9 <US>c:macro@UCA2IE<UE> <DS>UCA2IE<DE> Extent=<ES>385:7 - 385:13<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:395:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>395:1 - 395:12<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:405:18: macro expansion=UCA3IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3738:9 <US>c:macro@UCA3IFG<UE> <DS>UCA3IFG<DE> Extent=<ES>405:18 - 405:25<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:405:26: macro expansion=UCTXIFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3557:9 <US>c:macro@UCTXIFG<UE> <DS>UCTXIFG<DE> Extent=<ES>405:26 - 405:33<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:40:25: CXXBoolLiteralExpr= <US><UE> <DS><DE> Extent=<ES>40:25 - 40:30<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:40:6: VarDecl=wait_seascan_pps|D:\github\msp430\obs_RTC_check\main.cpp:40:6 (Definition) <US>c:@wait_seascan_pps<UE> <DS>wait_seascan_pps<DE> Extent=<ES>40:1 - 40:30<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:41:26: CXXBoolLiteralExpr= <US><UE> <DS><DE> Extent=<ES>41:26 - 41:31<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:41:6: VarDecl=obs_time_str_come|D:\github\msp430\obs_RTC_check\main.cpp:41:6 (Definition) <US>c:@obs_time_str_come<UE> <DS>obs_time_str_come<DE> Extent=<ES>41:1 - 41:31<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:420:39: macro expansion=LPM0_bits|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:174:9 <US>c:macro@LPM0_bits<UE> <DS>LPM0_bits<DE> Extent=<ES>420:39 - 420:48<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:42:10: VarDecl=gPs_mms|D:\github\msp430\obs_RTC_check\main.cpp:42:10 (Definition) <US>c:@gPs_mms<UE> <DS>gPs_mms<DE> Extent=<ES>42:1 - 42:22<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:42:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:21 - 42:22<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:42:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>42:21 - 42:22<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:438:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>438:1 - 438:12<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:43:10: VarDecl=oBs_mms|D:\github\msp430\obs_RTC_check\main.cpp:43:10 (Definition) <US>c:@oBs_mms<UE> <DS>oBs_mms<DE> Extent=<ES>43:1 - 43:22<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:43:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>43:21 - 43:22<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:43:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>43:21 - 43:22<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:455:39: macro expansion=LPM0_bits|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:174:9 <US>c:macro@LPM0_bits<UE> <DS>LPM0_bits<DE> Extent=<ES>455:39 - 455:48<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:46:5: VarDecl=Gps_yy|D:\github\msp430\obs_RTC_check\main.cpp:46:5 (Definition) <US>c:@Gps_yy<UE> <DS>Gps_yy<DE> Extent=<ES>46:1 - 46:11<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:47:5: VarDecl=Gps_MM|D:\github\msp430\obs_RTC_check\main.cpp:47:5 (Definition) <US>c:@Gps_MM<UE> <DS>Gps_MM<DE> Extent=<ES>47:1 - 47:11<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:48:5: VarDecl=Gps_dd|D:\github\msp430\obs_RTC_check\main.cpp:48:5 (Definition) <US>c:@Gps_dd<UE> <DS>Gps_dd<DE> Extent=<ES>48:1 - 48:11<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:51:5: VarDecl=Gps_hh|D:\github\msp430\obs_RTC_check\main.cpp:51:5 (Definition) <US>c:@Gps_hh<UE> <DS>Gps_hh<DE> Extent=<ES>51:1 - 51:11<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:52:5: VarDecl=Gps_mm|D:\github\msp430\obs_RTC_check\main.cpp:52:5 (Definition) <US>c:@Gps_mm<UE> <DS>Gps_mm<DE> Extent=<ES>52:1 - 52:11<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:53:5: VarDecl=Gps_ss|D:\github\msp430\obs_RTC_check\main.cpp:53:5 (Definition) <US>c:@Gps_ss<UE> <DS>Gps_ss<DE> Extent=<ES>53:1 - 53:11<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:56:5: VarDecl=Obs_hh|D:\github\msp430\obs_RTC_check\main.cpp:56:5 (Definition) <US>c:@Obs_hh<UE> <DS>Obs_hh<DE> Extent=<ES>56:1 - 56:11<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:57:5: VarDecl=Obs_mm|D:\github\msp430\obs_RTC_check\main.cpp:57:5 (Definition) <US>c:@Obs_mm<UE> <DS>Obs_mm<DE> Extent=<ES>57:1 - 57:11<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:58:5: VarDecl=Obs_ss|D:\github\msp430\obs_RTC_check\main.cpp:58:5 (Definition) <US>c:@Obs_ss<UE> <DS>Obs_ss<DE> Extent=<ES>58:1 - 58:11<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:60:7: VarDecl=nEw_ms|D:\github\msp430\obs_RTC_check\main.cpp:60:7 (Definition) <US>c:@nEw_ms<UE> <DS>nEw_ms<DE> Extent=<ES>60:1 - 60:13<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:63:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>63:16 - 63:17<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:63:5: VarDecl=GPS_MODE|D:\github\msp430\obs_RTC_check\main.cpp:63:5 (Definition) <US>c:@GPS_MODE<UE> <DS>GPS_MODE<DE> Extent=<ES>63:1 - 63:17<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:65:6: FunctionDecl=Crystal_Init|D:\github\msp430\obs_RTC_check\main.cpp:262:6 (Declaration) <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>65:1 - 65:20<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:67:6: FunctionDecl=main|D:\github\msp430\obs_RTC_check\main.cpp:67:6 (Definition) <US>c:@F@main<UE> <DS>void main(void)<DE> Extent=<ES>67:1 - 195:2<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:68:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>68:1 - 195:2<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:70:12: macro expansion=WDTPW|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3806:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>70:12 - 70:17<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:70:20: macro expansion=WDTHOLD|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3792:9 <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>70:20 - 70:27<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:71:2: CallExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>71:2 - 71:9<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:71:2: DeclRefExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:39:20 (Reference) <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>71:2 - 71:9<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:71:2: UnexposedExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>71:2 - 71:9<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:71:2: macro expansion=_DINT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:83:9 <US>c:macro@_DINT<UE> <DS>_DINT<DE> Extent=<ES>71:2 - 71:9<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:73:4: CallExpr=Crystal_Init|D:\github\msp430\obs_RTC_check\main.cpp:262:6 <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>73:4 - 73:18<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:73:4: DeclRefExpr=Crystal_Init|D:\github\msp430\obs_RTC_check\main.cpp:262:6 (Reference) <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>73:4 - 73:16<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:73:4: UnexposedExpr=Crystal_Init|D:\github\msp430\obs_RTC_check\main.cpp:262:6 <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>73:4 - 73:16<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:77:2: macro expansion=P1DIR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1209:9 <US>c:macro@P1DIR<UE> <DS>P1DIR<DE> Extent=<ES>77:2 - 77:7<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:84:10: DeclRefExpr=string|D:\github\msp430\obs_RTC_check\main.cpp:28:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>84:10 - 84:16<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:84:10: UnexposedExpr=string|D:\github\msp430\obs_RTC_check\main.cpp:28:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>84:10 - 84:16<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:84:17: StringLiteral= <US><UE> <DS><DE> Extent=<ES>84:17 - 84:32<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:84:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>84:17 - 84:32<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:84:2: CallExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>84:2 - 84:33<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:84:2: DeclRefExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 (Reference) <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>84:2 - 84:9<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:84:2: UnexposedExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>84:2 - 84:9<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:85:10: DeclRefExpr=string|D:\github\msp430\obs_RTC_check\main.cpp:28:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>85:10 - 85:16<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:85:10: UnexposedExpr=string|D:\github\msp430\obs_RTC_check\main.cpp:28:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>85:10 - 85:16<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:85:17: StringLiteral= <US><UE> <DS><DE> Extent=<ES>85:17 - 85:34<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:85:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>85:17 - 85:34<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:85:2: CallExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>85:2 - 85:35<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:85:2: DeclRefExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 (Reference) <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>85:2 - 85:9<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:85:2: UnexposedExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>85:2 - 85:9<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:88:13: DeclRefExpr=string|D:\github\msp430\obs_RTC_check\main.cpp:28:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>88:13 - 88:19<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:88:13: UnexposedExpr=string|D:\github\msp430\obs_RTC_check\main.cpp:28:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>88:13 - 88:19<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:88:20: StringLiteral= <US><UE> <DS><DE> Extent=<ES>88:20 - 88:37<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:88:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>88:20 - 88:37<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:88:5: CallExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>88:5 - 88:38<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:88:5: DeclRefExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 (Reference) <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>88:5 - 88:12<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:88:5: UnexposedExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>88:5 - 88:12<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:89:2: CallExpr=Open_Syn_Interrupt|D:\github\msp430\obs_RTC_check\main.cpp:198:6 <US>c:@F@Open_Syn_Interrupt#<UE> <DS>void Open_Syn_Interrupt(void)<DE> Extent=<ES>89:2 - 89:22<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:89:2: DeclRefExpr=Open_Syn_Interrupt|D:\github\msp430\obs_RTC_check\main.cpp:198:6 (Reference) <US>c:@F@Open_Syn_Interrupt#<UE> <DS>void Open_Syn_Interrupt(void)<DE> Extent=<ES>89:2 - 89:20<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:89:2: UnexposedExpr=Open_Syn_Interrupt|D:\github\msp430\obs_RTC_check\main.cpp:198:6 <US>c:@F@Open_Syn_Interrupt#<UE> <DS>void Open_Syn_Interrupt(void)<DE> Extent=<ES>89:2 - 89:20<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:91:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>91:10 - 91:11<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:91:10: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>91:10 - 91:11<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:91:12: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>91:12 - 193:5<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:91:4: WhileStmt= <US><UE> <DS><DE> Extent=<ES>91:4 - 193:5<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:93:24: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>93:24 - 93:37<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:93:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>93:24 - 93:27<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:93:24: ParenExpr= <US><UE> <DS><DE> Extent=<ES>93:24 - 93:27<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:93:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>93:24 - 93:37<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:93:24: macro expansion=GIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:157:9 <US>c:macro@GIE<UE> <DS>GIE<DE> Extent=<ES>93:24 - 93:27<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:93:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>93:28 - 93:37<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:93:28: ParenExpr= <US><UE> <DS><DE> Extent=<ES>93:28 - 93:37<EE>	2
+<L>D:\github\msp430\obs_RTC_check\main.cpp:93:28: macro expansion=LPM0_bits|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:174:9 <US>c:macro@LPM0_bits<UE> <DS>LPM0_bits<DE> Extent=<ES>93:28 - 93:37<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:93:6: CallExpr=__bis_SR_register|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>93:6 - 93:38<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:93:6: DeclRefExpr=__bis_SR_register|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 (Reference) <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>93:6 - 93:23<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:93:6: UnexposedExpr=__bis_SR_register|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>93:6 - 93:23<EE>	1
+<L>D:\github\msp430\obs_RTC_check\main.cpp:9:1: inclusion directive=msp430x54xA.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h<IE>  [multi-include guarded] Extent=<ES>9:1 - 9:12<EE>	1

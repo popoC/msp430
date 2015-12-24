@@ -24,7 +24,8 @@ char Getp[50];
 void Open_Syn_Interrupt();
 
 //----------for rs232-----------------------------------------------------------
-chat COM_BUFFER[512];
+char COM_BUFFER[128];
+char string[50];
 
 char COM1_Command[COM_BUF_Size];    // -- 115200 msp430
 char COM2_Command[COM_BUF_Size];    // -- 4800   GPS
@@ -32,7 +33,6 @@ char COM3_Command[COM_BUF_Size];    // -- 2400 seascan
 char COM4_Command[COM_BUF_Size];    // -- 115200 PC
 
 
-char string[50];
 char setTime[12];
 void Delay1s(void);
 
