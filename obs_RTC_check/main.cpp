@@ -8,8 +8,13 @@
 //---------------------------
 #include  <msp430x54xA.h>
 #include "stdio.h"
+#include "string.h"
+#include "time.h"
 
 #define COM_BUF_Size 128
+#define COM1 0x01
+#define COM2 0x02
+#define COM3 0x04
 
 int Control_Mode = 1; //--- command is ##--*    (-- 為模式編號, 0~65535)
 int Diff_1PPS = 0;
@@ -22,40 +27,25 @@ char Getp[50];
 void Open_Syn_Interrupt();
 void UART_Init(int com);
 
+time_t GPS_time;
+
 //----------for rs232-----------------------------------------------------------
 char string[50];
 
 char COM1_BUFFER[COM_BUF_Size];    // -- 115200 msp430
+char COM1_REC_BUFFER[COM_BUF_Size];    // -- receive buffer
+
 char COM2_BUFFER[COM_BUF_Size];    // -- 9600   GPS
+char COM2_REC_BUFFER[COM_BUF_Size];    // -- receive buffer
+
 char COM3_BUFFER[COM_BUF_Size];    // -- 9600   PC
+char COM3_REC_BUFFER[COM_BUF_Size];    // -- receive buffer
 
+int UART_COM1_RX_count,UART_COM2_RX_count,UART_COM3_RX_count;
+//------------------------------------------------------------------------------
 
-char setTime[12];
-void Delay1s(void);
-
-
-bool wait_seascan_pps = false;
-bool obs_time_str_come = false;
-long int gPs_mms  = 0;
-long int oBs_mms  = 0;
-
-
-int Gps_yy;
-int Gps_MM;
-int Gps_dd;
-
-
-int Gps_hh;
-int Gps_mm;
-int Gps_ss;
-
-
-int Obs_hh;
-int Obs_mm;
-int Obs_ss;
 
 float nEw_ms;
-
 
 int GPS_MODE = 0;
 //-----------------------------------------------------------------------------
@@ -79,19 +69,7 @@ void main( void )
   
      __bis_SR_register(GIE+LPM0_bits);
 
-    
-     
-     if(cOm_fLag == pCt_tIme){
-     
-       sprintf(string,"mode = %05d  ",Control_Mode);
-      
-       Print_Memo(0,0,string);
-     
-      
-       
-       
-     }
-     
+     /*
        
      if(cOm_fLag == oBs_tIme){
       
@@ -159,20 +137,7 @@ void main( void )
        }
      }
      
-     if(wait_seascan_pps){
-       wait_seascan_pps = false;
- 
-      //if(nEw_ms < 950)
-        sprintf(string,"%08ld/%05.1f.",Diff_1PPS_2,nEw_ms);
- 
-      if(Control_Mode==1)Print_Memo(0,0,string);
-      
-        sprintf(string,"%08ld",Diff_1PPS_2);
-    //  if(Control_Mode==2)UART_SendStr(
-      
-     
-     }
-     
+  */
      
      
    }
@@ -193,7 +158,7 @@ __interrupt void P1ISR (void)
   if((P1IFG & BIT6) ==BIT6){
      Diff_1PPS = CloCk_10KHz;
     P1IFG &= ~BIT6;         
-  
+  /*
      if(obs_time_str_come){
         oBs_mms+=1;
        
@@ -232,7 +197,7 @@ __interrupt void P1ISR (void)
        
      }
     
-    
+    */
     P1IFG &= ~BIT7;                      
   }  
   
@@ -296,11 +261,7 @@ __interrupt void TIMER0_A0_ISR(void)
   }
 }
 //----------------------------------------------------------------------------
-void Delay1s(void)
-{
-   for(int i=0;i<200;i++)Delay5Ms();
-}
-//----------------------------------------------------------------------------
+
 void findStrPoint(char *a,char *ans,char feature,int n){
       int strcount = 0, Ncount = 0, pop = 0;
       while(a[strcount]!='\0')
@@ -325,7 +286,7 @@ void findStrPoint(char *a,char *ans,char feature,int n){
 
 //--------------------------------------
 
-void UART_Init(BYTE com){
+void UART_Init(int com){
    //須要先啟動 XT2 20MHZ
   if( (com&COM1) == COM1 ){
           
@@ -380,8 +341,7 @@ void UART_Init(BYTE com){
 __interrupt void USCI_A0_ISR(void)
 {
   switch(__even_in_range(UCA0IV,4))
-  {
-  case 0:break;                             // Vector 0 - no interrupt
+  {/*
   case 2:                                   // Vector 2 - RXIFG
     
      //if(COM1_to_COM4)
@@ -391,8 +351,8 @@ __interrupt void USCI_A0_ISR(void)
         UCA3TXBUF = UCA0RXBUF;
     }else{
     
-    
-        UART_COM1_RX_BUF[UART_COM1_RX_count] = UCA0RXBUF;
+ 
+        COM1_REC_BUFFER[UART_COM1_RX_count] = UCA0RXBUF;
         UART_COM1_RX_count++;
         
          //  if(UART_COM1_RX_BUF[UART_COM1_RX_count-1] == '=')
@@ -414,7 +374,7 @@ __interrupt void USCI_A0_ISR(void)
       if(UART_COM1_RX_count>=COM_BUF_Size)UART_COM1_RX_count=0;
     }
     break;
-  case 4:break;                             // Vector 4 - TXIFG
+  */
   default: break;  
   }
 }
@@ -425,32 +385,22 @@ __interrupt void USCI_A1_ISR(void)
   
   switch(__even_in_range(UCA1IV,4))
   {
-  case 0:break;                             // Vector 0 - no interrupt
-  case 2:                                   // Vector 2 - RXIFG
-//    while (!(UCA1IFG&UCTXIFG));           // USCI_A1 TX buffer ready?
-//    UCA1TXBUF = UCA1RXBUF;                // TX -> RXed character
-    UART_COM2_RX_BUF[UART_COM2_RX_count] = UCA1RXBUF;
-    UART_COM2_RX_count++;
+     case 2:                                   // Vector 2 - RXIFG
+        COM2_REC_BUFFER[UART_COM2_RX_count] = UCA1RXBUF;
+        UART_COM2_RX_count++;
     
-       if(UART_COM2_RX_BUF[UART_COM2_RX_count-1] == '\n')
+       if(COM2_REC_BUFFER[UART_COM2_RX_count-1] == '\n')
        {
-            memcpy(COM2_Command,UART_COM2_RX_BUF,UART_COM2_RX_count+1);
+            memcpy(COM2_BUFFER,COM2_REC_BUFFER,UART_COM2_RX_count+1);
             UART_COM2_RX_count = 0;
-            cOm_fLag = gPs_tIme;
             __bic_SR_register_on_exit(LPM0_bits); // Exit LPM0
        
        }
  
     
-    
-    
-    
-    
     if(UART_COM2_RX_count>=COM_BUF_Size)UART_COM2_RX_count=0;   
-    
       
     break;
-  case 4:break;                             // Vector 4 - TXIFG
   default: break;  
   }
  //   __bic_SR_register_on_exit(LPM3_bits); // Exit LPM0
