@@ -10,11 +10,14 @@
 #include "stdio.h"
 #include "string.h"
 #include "time.h"
+#include "hp_time.h"
 
 #define COM_BUF_Size 128
 #define COM1 0x01
 #define COM2 0x02
 #define COM3 0x04
+
+
 
 int Control_Mode = 1; //--- command is ##--*    (-- 為模式編號, 0~65535)
 int Diff_1PPS = 0;
@@ -57,7 +60,16 @@ void main( void )
   WDTCTL = WDTPW + WDTHOLD;
  _DINT();     // 關閉中斷
  
-   Crystal_Init();                          // 震盪器初始化
+//char time1[] = 
+static hptime_t s1,s2,s3,s4,s5;
+
+s1 = ms_timestr2hptime("1980/12/22 10:12:22.016803");
+s2 = ms_timestr2hptime("1980/12/12 10:12:22.016800");
+s3 = ms_timestr2hptime("2015/12/22 10:12:22.016898");
+s4 = s3-s1;
+s5 = s1-s2;
+
+ Crystal_Init();                          // 震盪器初始化
    UART_Init(COM1+COM2+COM3);                         // Rs232初始化    
  
 
@@ -210,7 +222,7 @@ void int2str(long int i,char *s) {
 }
 //-------------------------------------------------------------------------
 void Crystal_Init(){
-    //--啟動 20MHZ 與32767HZ
+    //--啟動 12MHZ 與32767HZ
     P5SEL |= 0x0C;                             // Port select XT2
     P7SEL |= 0x03;                             // Port select XT1
     UCSCTL6 &= ~(XT1OFF + XT2OFF);            // Set XT1 & XT2 On
@@ -287,17 +299,17 @@ void findStrPoint(char *a,char *ans,char feature,int n){
 //--------------------------------------
 
 void UART_Init(int com){
-   //須要先啟動 XT2 20MHZ
+   //須要先啟動 XT2 12MHZ
   if( (com&COM1) == COM1 ){
           
       P3SEL = 0x30;                             // P3.4,5 = USCI_A0 TXD/RXD
       UCA0CTL1 |= UCSWRST;                      // **Put state machine in reset**
 
-      UCA0CTL1 |= UCSSEL_2;                     // CLK = SCLK = 20MHZ
-      UCA0BR0 = 0xAD;                           //   (see User's Guide)  20M/115200 = 173
+      UCA0CTL1 |= UCSSEL_2;                     // CLK = SCLK = 12MHZ
+      UCA0BR0 = 0x68;                           //   (see User's Guide)  12M/115200 = 104
       UCA0BR1 = 0x00;                           //
 
-      UCA0MCTL = UCBRS_5+UCBRF_0;              // user guide p954 Rev. O
+      UCA0MCTL = UCBRS_1+UCBRF_0;              // user guide p954 Rev. O
 
       UCA0CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**
       UCA0IE |= UCRXIE;                         // Enable USCI_A0 RX interrupt
@@ -321,10 +333,10 @@ void UART_Init(int com){
       P9SEL |= 0x30;                             // P9.4,5 = USCI_A0 TXD/RXD
       UCA2CTL1 |= UCSWRST;                      // **Put state machine in reset**
 
-      UCA2CTL1 |= UCSSEL_1;                     // CLK = ACLK
-      UCA2BR0 = 0x0D;                           // (see User's Guide) for seascan
+      UCA2CTL1 |= UCSSEL_2;                     // CLK = SCLK
+      UCA2BR0 = 0x68;                           // (see User's Guide) 115200
       UCA2BR1 = 0x00;                           //
-      UCA2MCTL = UCBRS_6+UCBRF_0;               // Modulation UCBRSx=3, UCBRFx=0
+      UCA2MCTL = UCBRS_1+UCBRF_0;               // Modulation UCBRSx=3, UCBRFx=0
 
       UCA2CTL0 = 0;
       UCA2CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**

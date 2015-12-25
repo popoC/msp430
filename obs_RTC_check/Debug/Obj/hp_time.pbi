@@ -327,7 +327,9 @@
 <L><invalid loc>:331:9: macro definition=__TOPP_DATA_MEMORY_LIST3__ <US>c:macro@__TOPP_DATA_MEMORY_LIST3__<UE> <DS>__TOPP_DATA_MEMORY_LIST3__<DE> Extent=<ES>331:9 - 331:97<EE>
 <L><invalid loc>:332:9: macro definition=__DATA_MEM0_SIZE_TYPE__ <US>c:macro@__DATA_MEM0_SIZE_TYPE__<UE> <DS>__DATA_MEM0_SIZE_TYPE__<DE> Extent=<ES>332:9 - 332:45<EE>
 <L><invalid loc>:333:9: macro definition=__DATA_MEM0_INDEX_TYPE__ <US>c:macro@__DATA_MEM0_INDEX_TYPE__<UE> <DS>__DATA_MEM0_INDEX_TYPE__<DE> Extent=<ES>333:9 - 333:44<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:9:1: inclusion directive=msp430x54xA.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h<IE>  [multi-include guarded] Extent=<ES>9:1 - 9:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:1:1: inclusion directive=hp_time.h <US><UE> <DS><DE> <IS>D:\github\msp430\obs_RTC_check\hp_time.h<IE>  [multi-include guarded] Extent=<ES>1:1 - 1:21<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:2:9: macro definition=HP_TIME_H <US>c:macro@HP_TIME_H<UE> <DS>HP_TIME_H<DE> Extent=<ES>2:9 - 2:18<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:3:1: inclusion directive=msp430x54xA.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h<IE>  [multi-include guarded] Extent=<ES>3:1 - 3:25<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:26:9: macro definition=__msp430x54xA <US>c:macro@__msp430x54xA<UE> <DS>__msp430x54xA<DE> Extent=<ES>26:9 - 26:22<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:28:9: macro definition=__MSP430_HEADER_VERSION__ <US>c:macro@__MSP430_HEADER_VERSION__<UE> <DS>__MSP430_HEADER_VERSION__<DE> Extent=<ES>28:9 - 28:39<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:36:8: macro expansion=__TID__|<invalid loc>:210:9 <US>c:macro@__TID__<UE> <DS>__TID__<DE> Extent=<ES>36:8 - 36:15<EE>
@@ -3432,7 +3434,9 @@
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3905:9: macro definition=UNMI_VECTOR <US>c:macro@UNMI_VECTOR<UE> <DS>UNMI_VECTOR<DE> Extent=<ES>3905:9 - 3905:38<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3906:9: macro definition=SYSNMI_VECTOR <US>c:macro@SYSNMI_VECTOR<UE> <DS>SYSNMI_VECTOR<DE> Extent=<ES>3906:9 - 3906:38<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3907:9: macro definition=RESET_VECTOR <US>c:macro@RESET_VECTOR<UE> <DS>RESET_VECTOR<DE> Extent=<ES>3907:9 - 3907:38<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:10:1: inclusion directive=stdio.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h<IE>  Extent=<ES>10:1 - 10:19<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:17:9: macro definition=HPTERROR <US>c:macro@HPTERROR<UE> <DS>HPTERROR<DE> Extent=<ES>17:9 - 17:37<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:20:9: macro definition=HPTMODULUS <US>c:macro@HPTMODULUS<UE> <DS>HPTMODULUS<DE> Extent=<ES>20:9 - 20:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:2:1: inclusion directive=stdio.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h<IE>  Extent=<ES>2:1 - 2:19<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:4:9: macro definition=_STDIO <US>c:macro@_STDIO<UE> <DS>_STDIO<DE> Extent=<ES>4:9 - 4:15<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:10:1: inclusion directive=ycheck.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h<IE>  Extent=<ES>10:1 - 10:11<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:21:11: macro definition=__INTRINSIC <US>c:macro@__INTRINSIC<UE> <DS>__INTRINSIC<DE> Extent=<ES>21:11 - 21:34<EE>
@@ -3834,7 +3838,7 @@
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:206:1: macro expansion=_END_C_LIB_DECL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:286:11 <US>c:macro@_END_C_LIB_DECL<UE> <DS>_END_C_LIB_DECL<DE> Extent=<ES>206:1 - 206:16<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:211:7: macro expansion=_DLIB_FILE_DESCRIPTOR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\DLib_Defaults.h:103:9 <US>c:macro@_DLIB_FILE_DESCRIPTOR<UE> <DS>_DLIB_FILE_DESCRIPTOR<DE> Extent=<ES>211:7 - 211:28<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:228:1: macro expansion=_C_STD_END|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:276:13 <US>c:macro@_C_STD_END<UE> <DS>_C_STD_END<DE> Extent=<ES>228:1 - 228:11<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:11:1: inclusion directive=string.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h<IE>  Extent=<ES>11:1 - 11:20<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:3:1: inclusion directive=string.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h<IE>  Extent=<ES>3:1 - 3:20<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:4:9: macro definition=_STRING <US>c:macro@_STRING<UE> <DS>_STRING<DE> Extent=<ES>4:9 - 4:16<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:10:1: inclusion directive=ycheck.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h<IE>  Extent=<ES>10:1 - 10:11<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:21:11: macro definition=__INTRINSIC <US>c:macro@__INTRINSIC<UE> <DS>__INTRINSIC<DE> Extent=<ES>21:11 - 21:34<EE>
@@ -3942,175 +3946,21 @@
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:105:3: macro expansion=_EXTERN_CPP|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:289:11 <US>c:macro@_EXTERN_CPP<UE> <DS>_EXTERN_CPP<DE> Extent=<ES>105:3 - 105:14<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:166:3: macro expansion=_END_EXTERN_CPP|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:290:11 <US>c:macro@_END_EXTERN_CPP<UE> <DS>_END_EXTERN_CPP<DE> Extent=<ES>166:3 - 166:18<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:454:1: macro expansion=_C_STD_END|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:276:13 <US>c:macro@_C_STD_END<UE> <DS>_C_STD_END<DE> Extent=<ES>454:1 - 454:11<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:12:1: inclusion directive=time.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h<IE>  Extent=<ES>12:1 - 12:18<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:4:9: macro definition=_TIME <US>c:macro@_TIME<UE> <DS>_TIME<DE> Extent=<ES>4:9 - 4:14<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:10:1: inclusion directive=ycheck.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h<IE>  Extent=<ES>10:1 - 10:11<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:21:11: macro definition=__INTRINSIC <US>c:macro@__INTRINSIC<UE> <DS>__INTRINSIC<DE> Extent=<ES>21:11 - 21:34<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:65:11: macro definition=__AEABI_PORTABILITY_INTERNAL_LEVEL <US>c:macro@__AEABI_PORTABILITY_INTERNAL_LEVEL<UE> <DS>__AEABI_PORTABILITY_INTERNAL_LEVEL<DE> Extent=<ES>65:11 - 65:47<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:11:1: inclusion directive=yvals.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h<IE>  [multi-include guarded] Extent=<ES>11:1 - 11:11<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:12:1: inclusion directive=ysizet.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ysizet.h<IE>  Extent=<ES>12:1 - 12:11<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:14:1: macro expansion=_C_STD_BEGIN|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:275:13 <US>c:macro@_C_STD_BEGIN<UE> <DS>_C_STD_BEGIN<DE> Extent=<ES>14:1 - 14:13<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:16:5: macro expansion=__AEABI_PORTABILITY_INTERNAL_LEVEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:65:11 <US>c:macro@__AEABI_PORTABILITY_INTERNAL_LEVEL<UE> <DS>__AEABI_PORTABILITY_INTERNAL_LEVEL<DE> Extent=<ES>16:5 - 16:39<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:30:11: macro definition=CLOCKS_PER_SEC <US>c:macro@CLOCKS_PER_SEC<UE> <DS>CLOCKS_PER_SEC<DE> Extent=<ES>30:11 - 30:28<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:34:6: macro expansion=_DLIB_SUPPORT_FOR_AEABI|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\DLib_Defaults.h:839:13 <US>c:macro@_DLIB_SUPPORT_FOR_AEABI<UE> <DS>_DLIB_SUPPORT_FOR_AEABI<DE> Extent=<ES>34:6 - 34:29<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:47:5: macro expansion=_DLIB_TIME_ALLOW_64|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\DLib_Defaults.h:973:13 <US>c:macro@_DLIB_TIME_ALLOW_64<UE> <DS>_DLIB_TIME_ALLOW_64<DE> Extent=<ES>47:5 - 47:24<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:62:11: macro definition=_DLIB_TIME_USES_64 <US>c:macro@_DLIB_TIME_USES_64<UE> <DS>_DLIB_TIME_USES_64<DE> Extent=<ES>62:11 - 62:56<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:65:5: macro expansion=_DLIB_TIME_USES_64|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:62:11 <US>c:macro@_DLIB_TIME_USES_64<UE> <DS>_DLIB_TIME_USES_64<DE> Extent=<ES>65:5 - 65:23<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:82:6: macro expansion=_DLIB_SUPPORT_FOR_AEABI|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\DLib_Defaults.h:839:13 <US>c:macro@_DLIB_SUPPORT_FOR_AEABI<UE> <DS>_DLIB_SUPPORT_FOR_AEABI<DE> Extent=<ES>82:6 - 82:29<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:93:1: macro expansion=_EXTERN_C|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:287:11 <US>c:macro@_EXTERN_C<UE> <DS>_EXTERN_C<DE> Extent=<ES>93:1 - 93:10<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:94:1: macro expansion=__ATTRIBUTES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:103:9 <US>c:macro@__ATTRIBUTES<UE> <DS>__ATTRIBUTES<DE> Extent=<ES>94:1 - 94:13<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:95:1: macro expansion=__ATTRIBUTES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:103:9 <US>c:macro@__ATTRIBUTES<UE> <DS>__ATTRIBUTES<DE> Extent=<ES>95:1 - 95:13<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:96:5: macro expansion=_DLIB_TIME_ALLOW_64|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\DLib_Defaults.h:973:13 <US>c:macro@_DLIB_TIME_ALLOW_64<UE> <DS>_DLIB_TIME_ALLOW_64<DE> Extent=<ES>96:5 - 96:24<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:97:3: macro expansion=__ATTRIBUTES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:103:9 <US>c:macro@__ATTRIBUTES<UE> <DS>__ATTRIBUTES<DE> Extent=<ES>97:3 - 97:15<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:99:1: macro expansion=_END_EXTERN_C|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:288:11 <US>c:macro@_END_EXTERN_C<UE> <DS>_END_EXTERN_C<DE> Extent=<ES>99:1 - 99:14<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:101:1: macro expansion=_C_LIB_DECL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:285:11 <US>c:macro@_C_LIB_DECL<UE> <DS>_C_LIB_DECL<DE> Extent=<ES>101:1 - 101:12<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:102:1: macro expansion=__ATTRIBUTES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:103:9 <US>c:macro@__ATTRIBUTES<UE> <DS>__ATTRIBUTES<DE> Extent=<ES>102:1 - 102:13<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:103:1: macro expansion=__ATTRIBUTES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:103:9 <US>c:macro@__ATTRIBUTES<UE> <DS>__ATTRIBUTES<DE> Extent=<ES>103:1 - 103:13<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:104:1: macro expansion=__ATTRIBUTES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:103:9 <US>c:macro@__ATTRIBUTES<UE> <DS>__ATTRIBUTES<DE> Extent=<ES>104:1 - 104:13<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:105:1: macro expansion=__EFF_NE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:82:9 <US>c:macro@__EFF_NE<UE> <DS>__EFF_NE<DE> Extent=<ES>105:1 - 105:9<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:105:10: macro expansion=__ATTRIBUTES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:103:9 <US>c:macro@__ATTRIBUTES<UE> <DS>__ATTRIBUTES<DE> Extent=<ES>105:10 - 105:22<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:106:1: macro expansion=__ATTRIBUTES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:103:9 <US>c:macro@__ATTRIBUTES<UE> <DS>__ATTRIBUTES<DE> Extent=<ES>106:1 - 106:13<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:107:1: macro expansion=__ATTRIBUTES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:103:9 <US>c:macro@__ATTRIBUTES<UE> <DS>__ATTRIBUTES<DE> Extent=<ES>107:1 - 107:13<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:108:1: macro expansion=__ATTRIBUTES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:103:9 <US>c:macro@__ATTRIBUTES<UE> <DS>__ATTRIBUTES<DE> Extent=<ES>108:1 - 108:13<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:110:1: macro expansion=__ATTRIBUTES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:103:9 <US>c:macro@__ATTRIBUTES<UE> <DS>__ATTRIBUTES<DE> Extent=<ES>110:1 - 110:13<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:111:1: macro expansion=__EFF_NE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:82:9 <US>c:macro@__EFF_NE<UE> <DS>__EFF_NE<DE> Extent=<ES>111:1 - 111:9<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:111:10: macro expansion=__ATTRIBUTES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:103:9 <US>c:macro@__ATTRIBUTES<UE> <DS>__ATTRIBUTES<DE> Extent=<ES>111:10 - 111:22<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:112:1: macro expansion=__ATTRIBUTES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:103:9 <US>c:macro@__ATTRIBUTES<UE> <DS>__ATTRIBUTES<DE> Extent=<ES>112:1 - 112:13<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:113:1: macro expansion=__ATTRIBUTES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:103:9 <US>c:macro@__ATTRIBUTES<UE> <DS>__ATTRIBUTES<DE> Extent=<ES>113:1 - 113:13<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:114:1: macro expansion=__ATTRIBUTES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:103:9 <US>c:macro@__ATTRIBUTES<UE> <DS>__ATTRIBUTES<DE> Extent=<ES>114:1 - 114:13<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:115:5: macro expansion=_DLIB_TIME_ALLOW_64|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\DLib_Defaults.h:973:13 <US>c:macro@_DLIB_TIME_ALLOW_64<UE> <DS>_DLIB_TIME_ALLOW_64<DE> Extent=<ES>115:5 - 115:24<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:116:3: macro expansion=__ATTRIBUTES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:103:9 <US>c:macro@__ATTRIBUTES<UE> <DS>__ATTRIBUTES<DE> Extent=<ES>116:3 - 116:15<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:117:3: macro expansion=__EFF_NE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:82:9 <US>c:macro@__EFF_NE<UE> <DS>__EFF_NE<DE> Extent=<ES>117:3 - 117:11<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:117:12: macro expansion=__ATTRIBUTES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:103:9 <US>c:macro@__ATTRIBUTES<UE> <DS>__ATTRIBUTES<DE> Extent=<ES>117:12 - 117:24<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:118:3: macro expansion=__ATTRIBUTES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:103:9 <US>c:macro@__ATTRIBUTES<UE> <DS>__ATTRIBUTES<DE> Extent=<ES>118:3 - 118:15<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:119:3: macro expansion=__ATTRIBUTES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:103:9 <US>c:macro@__ATTRIBUTES<UE> <DS>__ATTRIBUTES<DE> Extent=<ES>119:3 - 119:15<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:120:3: macro expansion=__ATTRIBUTES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:103:9 <US>c:macro@__ATTRIBUTES<UE> <DS>__ATTRIBUTES<DE> Extent=<ES>120:3 - 120:15<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:122:1: macro expansion=__ATTRIBUTES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:103:9 <US>c:macro@__ATTRIBUTES<UE> <DS>__ATTRIBUTES<DE> Extent=<ES>122:1 - 122:13<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:122:36: macro expansion=_Restrict|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:443:9 <US>c:macro@_Restrict<UE> <DS>_Restrict<DE> Extent=<ES>122:36 - 122:45<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:122:67: macro expansion=_Restrict|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:443:9 <US>c:macro@_Restrict<UE> <DS>_Restrict<DE> Extent=<ES>122:67 - 122:76<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:123:47: macro expansion=_Restrict|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:443:9 <US>c:macro@_Restrict<UE> <DS>_Restrict<DE> Extent=<ES>123:47 - 123:56<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:124:1: macro expansion=_END_C_LIB_DECL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:286:11 <US>c:macro@_END_C_LIB_DECL<UE> <DS>_END_C_LIB_DECL<DE> Extent=<ES>124:1 - 124:16<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:126:51: macro expansion=__AEABI_PORTABILITY_INTERNAL_LEVEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:65:11 <US>c:macro@__AEABI_PORTABILITY_INTERNAL_LEVEL<UE> <DS>__AEABI_PORTABILITY_INTERNAL_LEVEL<DE> Extent=<ES>126:51 - 126:85<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:132:9: macro expansion=_DLIB_TIME_USES_64|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:62:11 <US>c:macro@_DLIB_TIME_USES_64<UE> <DS>_DLIB_TIME_USES_64<DE> Extent=<ES>132:9 - 132:27<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:142:9: macro expansion=_DLIB_TIME_USES_64|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:62:11 <US>c:macro@_DLIB_TIME_USES_64<UE> <DS>_DLIB_TIME_USES_64<DE> Extent=<ES>142:9 - 142:27<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:152:9: macro expansion=_DLIB_TIME_USES_64|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:62:11 <US>c:macro@_DLIB_TIME_USES_64<UE> <DS>_DLIB_TIME_USES_64<DE> Extent=<ES>152:9 - 152:27<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:162:9: macro expansion=_DLIB_TIME_USES_64|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:62:11 <US>c:macro@_DLIB_TIME_USES_64<UE> <DS>_DLIB_TIME_USES_64<DE> Extent=<ES>162:9 - 162:27<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:172:9: macro expansion=_DLIB_TIME_USES_64|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:62:11 <US>c:macro@_DLIB_TIME_USES_64<UE> <DS>_DLIB_TIME_USES_64<DE> Extent=<ES>172:9 - 172:27<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:182:9: macro expansion=_DLIB_TIME_USES_64|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:62:11 <US>c:macro@_DLIB_TIME_USES_64<UE> <DS>_DLIB_TIME_USES_64<DE> Extent=<ES>182:9 - 182:27<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:192:1: macro expansion=_C_STD_END|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:276:13 <US>c:macro@_C_STD_END<UE> <DS>_C_STD_END<DE> Extent=<ES>192:1 - 192:11<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:13:1: inclusion directive=hp_time.h <US><UE> <DS><DE> <IS>D:\github\msp430\obs_RTC_check\hp_time.h<IE>  [multi-include guarded] Extent=<ES>13:1 - 13:21<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:2:9: macro definition=HP_TIME_H <US>c:macro@HP_TIME_H<UE> <DS>HP_TIME_H<DE> Extent=<ES>2:9 - 2:18<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:3:1: inclusion directive=msp430x54xA.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h<IE>  [multi-include guarded] Extent=<ES>3:1 - 3:25<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:17:9: macro definition=HPTERROR <US>c:macro@HPTERROR<UE> <DS>HPTERROR<DE> Extent=<ES>17:9 - 17:37<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:20:9: macro definition=HPTMODULUS <US>c:macro@HPTMODULUS<UE> <DS>HPTMODULUS<DE> Extent=<ES>20:9 - 20:27<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:15:9: macro definition=COM_BUF_Size <US>c:macro@COM_BUF_Size<UE> <DS>COM_BUF_Size<DE> Extent=<ES>15:9 - 15:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:16:9: macro definition=COM1 <US>c:macro@COM1<UE> <DS>COM1<DE> Extent=<ES>16:9 - 16:18<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:17:9: macro definition=COM2 <US>c:macro@COM2<UE> <DS>COM2<DE> Extent=<ES>17:9 - 17:18<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:18:9: macro definition=COM3 <US>c:macro@COM3<UE> <DS>COM3<DE> Extent=<ES>18:9 - 18:18<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:38:18: macro expansion=COM_BUF_Size|D:\github\msp430\obs_RTC_check\main.cpp:15:9 <US>c:macro@COM_BUF_Size<UE> <DS>COM_BUF_Size<DE> Extent=<ES>38:18 - 38:30<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:39:22: macro expansion=COM_BUF_Size|D:\github\msp430\obs_RTC_check\main.cpp:15:9 <US>c:macro@COM_BUF_Size<UE> <DS>COM_BUF_Size<DE> Extent=<ES>39:22 - 39:34<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:41:18: macro expansion=COM_BUF_Size|D:\github\msp430\obs_RTC_check\main.cpp:15:9 <US>c:macro@COM_BUF_Size<UE> <DS>COM_BUF_Size<DE> Extent=<ES>41:18 - 41:30<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:42:22: macro expansion=COM_BUF_Size|D:\github\msp430\obs_RTC_check\main.cpp:15:9 <US>c:macro@COM_BUF_Size<UE> <DS>COM_BUF_Size<DE> Extent=<ES>42:22 - 42:34<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:44:18: macro expansion=COM_BUF_Size|D:\github\msp430\obs_RTC_check\main.cpp:15:9 <US>c:macro@COM_BUF_Size<UE> <DS>COM_BUF_Size<DE> Extent=<ES>44:18 - 44:30<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:45:22: macro expansion=COM_BUF_Size|D:\github\msp430\obs_RTC_check\main.cpp:15:9 <US>c:macro@COM_BUF_Size<UE> <DS>COM_BUF_Size<DE> Extent=<ES>45:22 - 45:34<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:60:12: macro expansion=WDTPW|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3806:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>60:12 - 60:17<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:60:20: macro expansion=WDTHOLD|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3792:9 <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>60:20 - 60:27<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:61:2: macro expansion=_DINT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:83:9 <US>c:macro@_DINT<UE> <DS>_DINT<DE> Extent=<ES>61:2 - 61:9<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:73:14: macro expansion=COM1|D:\github\msp430\obs_RTC_check\main.cpp:16:9 <US>c:macro@COM1<UE> <DS>COM1<DE> Extent=<ES>73:14 - 73:18<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:73:19: macro expansion=COM2|D:\github\msp430\obs_RTC_check\main.cpp:17:9 <US>c:macro@COM2<UE> <DS>COM2<DE> Extent=<ES>73:19 - 73:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:73:24: macro expansion=COM3|D:\github\msp430\obs_RTC_check\main.cpp:18:9 <US>c:macro@COM3<UE> <DS>COM3<DE> Extent=<ES>73:24 - 73:28<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:76:2: macro expansion=P1DIR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1209:9 <US>c:macro@P1DIR<UE> <DS>P1DIR<DE> Extent=<ES>76:2 - 76:7<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:82:24: macro expansion=GIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:157:9 <US>c:macro@GIE<UE> <DS>GIE<DE> Extent=<ES>82:24 - 82:27<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:82:28: macro expansion=LPM0_bits|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:174:9 <US>c:macro@LPM0_bits<UE> <DS>LPM0_bits<DE> Extent=<ES>82:28 - 82:37<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:161:3: macro expansion=P1IE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1214:9 <US>c:macro@P1IE<UE> <DS>P1IE<DE> Extent=<ES>161:3 - 161:7<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:161:12: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>161:12 - 161:16<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:161:17: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>161:17 - 161:21<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:162:3: macro expansion=P1IES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1213:9 <US>c:macro@P1IES<UE> <DS>P1IES<DE> Extent=<ES>162:3 - 162:8<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:162:13: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>162:13 - 162:17<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:163:3: macro expansion=P1IES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1213:9 <US>c:macro@P1IES<UE> <DS>P1IES<DE> Extent=<ES>163:3 - 163:8<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:163:13: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>163:13 - 163:17<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:164:3: macro expansion=P1IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1215:9 <US>c:macro@P1IFG<UE> <DS>P1IFG<DE> Extent=<ES>164:3 - 164:8<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:164:14: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>164:14 - 164:18<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:164:19: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>164:19 - 164:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:168:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>168:1 - 168:12<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:170:7: macro expansion=P1IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1215:9 <US>c:macro@P1IFG<UE> <DS>P1IFG<DE> Extent=<ES>170:7 - 170:12<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:170:15: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>170:15 - 170:19<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:170:23: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>170:23 - 170:27<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:172:5: macro expansion=P1IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1215:9 <US>c:macro@P1IFG<UE> <DS>P1IFG<DE> Extent=<ES>172:5 - 172:10<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:172:15: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>172:15 - 172:19<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:213:5: macro expansion=P1IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1215:9 <US>c:macro@P1IFG<UE> <DS>P1IFG<DE> Extent=<ES>213:5 - 213:10<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:213:15: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>213:15 - 213:19<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:226:5: macro expansion=P5SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1318:9 <US>c:macro@P5SEL<UE> <DS>P5SEL<DE> Extent=<ES>226:5 - 226:10<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:227:5: macro expansion=P7SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1357:9 <US>c:macro@P7SEL<UE> <DS>P7SEL<DE> Extent=<ES>227:5 - 227:10<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:228:18: macro expansion=XT1OFF|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3122:9 <US>c:macro@XT1OFF<UE> <DS>XT1OFF<DE> Extent=<ES>228:18 - 228:24<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:228:27: macro expansion=XT2OFF|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3130:9 <US>c:macro@XT2OFF<UE> <DS>XT2OFF<DE> Extent=<ES>228:27 - 228:33<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:229:16: macro expansion=XCAP_3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3166:9 <US>c:macro@XCAP_3<UE> <DS>XCAP_3<DE> Extent=<ES>229:16 - 229:22<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:233:20: macro expansion=XT2OFFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3180:9 <US>c:macro@XT2OFFG<UE> <DS>XT2OFFG<DE> Extent=<ES>233:20 - 233:27<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:233:30: macro expansion=XT1LFOFFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3178:9 <US>c:macro@XT1LFOFFG<UE> <DS>XT1LFOFFG<DE> Extent=<ES>233:30 - 233:39<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:233:42: macro expansion=XT1HFOFFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3179:9 <US>c:macro@XT1HFOFFG<UE> <DS>XT1HFOFFG<DE> Extent=<ES>233:42 - 233:51<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:233:54: macro expansion=DCOFFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3177:9 <US>c:macro@DCOFFG<UE> <DS>DCOFFG<DE> Extent=<ES>233:54 - 233:60<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:235:19: macro expansion=OFIFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2098:9 <US>c:macro@OFIFG<UE> <DS>OFIFG<DE> Extent=<ES>235:19 - 235:24<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:236:21: macro expansion=OFIFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2098:9 <US>c:macro@OFIFG<UE> <DS>OFIFG<DE> Extent=<ES>236:21 - 236:26<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:238:17: macro expansion=XT2DRIVE0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3136:9 <US>c:macro@XT2DRIVE0<UE> <DS>XT2DRIVE0<DE> Extent=<ES>238:17 - 238:26<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:239:16: macro expansion=SELA_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3004:9 <US>c:macro@SELA_0<UE> <DS>SELA_0<DE> Extent=<ES>239:16 - 239:22<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:239:25: macro expansion=SELS_5|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2994:9 <US>c:macro@SELS_5<UE> <DS>SELS_5<DE> Extent=<ES>239:25 - 239:31<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:239:34: macro expansion=SELM_5|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2979:9 <US>c:macro@SELM_5<UE> <DS>SELM_5<DE> Extent=<ES>239:34 - 239:40<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:241:16: macro expansion=CCIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2430:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>241:16 - 241:20<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:243:14: macro expansion=TASSEL_2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2403:9 <US>c:macro@TASSEL_2<UE> <DS>TASSEL_2<DE> Extent=<ES>243:14 - 243:22<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:243:25: macro expansion=MC_1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2394:9 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>243:25 - 243:29<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:243:32: macro expansion=TACLR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2389:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>243:32 - 243:37<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:260:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>260:1 - 260:12<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:267:6: macro expansion=P1OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1208:9 <US>c:macro@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>267:6 - 267:11<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:303:12: macro expansion=COM1|D:\github\msp430\obs_RTC_check\main.cpp:16:9 <US>c:macro@COM1<UE> <DS>COM1<DE> Extent=<ES>303:12 - 303:16<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:303:21: macro expansion=COM1|D:\github\msp430\obs_RTC_check\main.cpp:16:9 <US>c:macro@COM1<UE> <DS>COM1<DE> Extent=<ES>303:21 - 303:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:305:7: macro expansion=P3SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1279:9 <US>c:macro@P3SEL<UE> <DS>P3SEL<DE> Extent=<ES>305:7 - 305:12<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:306:7: macro expansion=UCA0CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3284:9 <US>c:macro@UCA0CTL1<UE> <DS>UCA0CTL1<DE> Extent=<ES>306:7 - 306:15<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:306:19: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>306:19 - 306:26<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:308:7: macro expansion=UCA0CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3284:9 <US>c:macro@UCA0CTL1<UE> <DS>UCA0CTL1<DE> Extent=<ES>308:7 - 308:15<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:308:19: macro expansion=UCSSEL_2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3394:9 <US>c:macro@UCSSEL_2<UE> <DS>UCSSEL_2<DE> Extent=<ES>308:19 - 308:27<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:309:7: macro expansion=UCA0BR0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3288:9 <US>c:macro@UCA0BR0<UE> <DS>UCA0BR0<DE> Extent=<ES>309:7 - 309:14<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:310:7: macro expansion=UCA0BR1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3289:9 <US>c:macro@UCA0BR1<UE> <DS>UCA0BR1<DE> Extent=<ES>310:7 - 310:14<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:312:18: macro expansion=UCBRS_1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3428:9 <US>c:macro@UCBRS_1<UE> <DS>UCBRS_1<DE> Extent=<ES>312:18 - 312:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:312:26: macro expansion=UCBRF_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3410:9 <US>c:macro@UCBRF_0<UE> <DS>UCBRF_0<DE> Extent=<ES>312:26 - 312:33<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:314:7: macro expansion=UCA0CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3284:9 <US>c:macro@UCA0CTL1<UE> <DS>UCA0CTL1<DE> Extent=<ES>314:7 - 314:15<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:314:20: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>314:20 - 314:27<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:315:7: macro expansion=UCA0IE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3306:9 <US>c:macro@UCA0IE<UE> <DS>UCA0IE<DE> Extent=<ES>315:7 - 315:13<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:315:17: macro expansion=UCRXIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3546:9 <US>c:macro@UCRXIE<UE> <DS>UCRXIE<DE> Extent=<ES>315:17 - 315:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:317:12: macro expansion=COM2|D:\github\msp430\obs_RTC_check\main.cpp:17:9 <US>c:macro@COM2<UE> <DS>COM2<DE> Extent=<ES>317:12 - 317:16<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:317:21: macro expansion=COM2|D:\github\msp430\obs_RTC_check\main.cpp:17:9 <US>c:macro@COM2<UE> <DS>COM2<DE> Extent=<ES>317:21 - 317:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:319:7: macro expansion=P5SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1318:9 <US>c:macro@P5SEL<UE> <DS>P5SEL<DE> Extent=<ES>319:7 - 319:12<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:320:7: macro expansion=UCA1CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3579:9 <US>c:macro@UCA1CTL1<UE> <DS>UCA1CTL1<DE> Extent=<ES>320:7 - 320:15<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:320:19: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>320:19 - 320:26<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:322:7: macro expansion=UCA1CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3579:9 <US>c:macro@UCA1CTL1<UE> <DS>UCA1CTL1<DE> Extent=<ES>322:7 - 322:15<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:322:19: macro expansion=UCSSEL_1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3393:9 <US>c:macro@UCSSEL_1<UE> <DS>UCSSEL_1<DE> Extent=<ES>322:19 - 322:27<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:323:7: macro expansion=UCA1BR0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3583:9 <US>c:macro@UCA1BR0<UE> <DS>UCA1BR0<DE> Extent=<ES>323:7 - 323:14<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:324:7: macro expansion=UCA1BR1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3584:9 <US>c:macro@UCA1BR1<UE> <DS>UCA1BR1<DE> Extent=<ES>324:7 - 324:14<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:325:18: macro expansion=UCBRS_3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3430:9 <US>c:macro@UCBRS_3<UE> <DS>UCBRS_3<DE> Extent=<ES>325:18 - 325:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:325:26: macro expansion=UCBRF_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3410:9 <US>c:macro@UCBRF_0<UE> <DS>UCBRF_0<DE> Extent=<ES>325:26 - 325:33<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:327:7: macro expansion=UCA1CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3579:9 <US>c:macro@UCA1CTL1<UE> <DS>UCA1CTL1<DE> Extent=<ES>327:7 - 327:15<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:327:20: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>327:20 - 327:27<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:328:7: macro expansion=UCA1IE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3601:9 <US>c:macro@UCA1IE<UE> <DS>UCA1IE<DE> Extent=<ES>328:7 - 328:13<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:328:17: macro expansion=UCRXIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3546:9 <US>c:macro@UCRXIE<UE> <DS>UCRXIE<DE> Extent=<ES>328:17 - 328:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:331:13: macro expansion=COM3|D:\github\msp430\obs_RTC_check\main.cpp:18:9 <US>c:macro@COM3<UE> <DS>COM3<DE> Extent=<ES>331:13 - 331:17<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:331:22: macro expansion=COM3|D:\github\msp430\obs_RTC_check\main.cpp:18:9 <US>c:macro@COM3<UE> <DS>COM3<DE> Extent=<ES>331:22 - 331:26<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:333:7: macro expansion=P9SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1396:9 <US>c:macro@P9SEL<UE> <DS>P9SEL<DE> Extent=<ES>333:7 - 333:12<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:334:7: macro expansion=UCA2CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3647:9 <US>c:macro@UCA2CTL1<UE> <DS>UCA2CTL1<DE> Extent=<ES>334:7 - 334:15<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:334:19: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>334:19 - 334:26<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:336:7: macro expansion=UCA2CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3647:9 <US>c:macro@UCA2CTL1<UE> <DS>UCA2CTL1<DE> Extent=<ES>336:7 - 336:15<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:336:19: macro expansion=UCSSEL_2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3394:9 <US>c:macro@UCSSEL_2<UE> <DS>UCSSEL_2<DE> Extent=<ES>336:19 - 336:27<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:337:7: macro expansion=UCA2BR0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3651:9 <US>c:macro@UCA2BR0<UE> <DS>UCA2BR0<DE> Extent=<ES>337:7 - 337:14<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:338:7: macro expansion=UCA2BR1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3652:9 <US>c:macro@UCA2BR1<UE> <DS>UCA2BR1<DE> Extent=<ES>338:7 - 338:14<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:339:18: macro expansion=UCBRS_1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3428:9 <US>c:macro@UCBRS_1<UE> <DS>UCBRS_1<DE> Extent=<ES>339:18 - 339:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:339:26: macro expansion=UCBRF_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3410:9 <US>c:macro@UCBRF_0<UE> <DS>UCBRF_0<DE> Extent=<ES>339:26 - 339:33<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:341:7: macro expansion=UCA2CTL0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3648:9 <US>c:macro@UCA2CTL0<UE> <DS>UCA2CTL0<DE> Extent=<ES>341:7 - 341:15<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:342:7: macro expansion=UCA2CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3647:9 <US>c:macro@UCA2CTL1<UE> <DS>UCA2CTL1<DE> Extent=<ES>342:7 - 342:15<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:342:20: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>342:20 - 342:27<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:343:7: macro expansion=UCA2IE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3669:9 <US>c:macro@UCA2IE<UE> <DS>UCA2IE<DE> Extent=<ES>343:7 - 343:13<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:343:17: macro expansion=UCRXIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3546:9 <US>c:macro@UCRXIE<UE> <DS>UCRXIE<DE> Extent=<ES>343:17 - 343:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:353:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>353:1 - 353:12<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:395:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>395:1 - 395:12<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:408:39: macro expansion=LPM0_bits|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:174:9 <US>c:macro@LPM0_bits<UE> <DS>LPM0_bits<DE> Extent=<ES>408:39 - 408:48<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:413:28: macro expansion=COM_BUF_Size|D:\github\msp430\obs_RTC_check\main.cpp:15:9 <US>c:macro@COM_BUF_Size<UE> <DS>COM_BUF_Size<DE> Extent=<ES>413:28 - 413:40<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:49:14: macro expansion=HPTERROR|D:\github\msp430\obs_RTC_check\hp_time.h:17:9 <US>c:macro@HPTERROR<UE> <DS>HPTERROR<DE> Extent=<ES>49:14 - 49:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:55:14: macro expansion=HPTERROR|D:\github\msp430\obs_RTC_check\hp_time.h:17:9 <US>c:macro@HPTERROR<UE> <DS>HPTERROR<DE> Extent=<ES>55:14 - 55:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:61:14: macro expansion=HPTERROR|D:\github\msp430\obs_RTC_check\hp_time.h:17:9 <US>c:macro@HPTERROR<UE> <DS>HPTERROR<DE> Extent=<ES>61:14 - 61:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:67:14: macro expansion=HPTERROR|D:\github\msp430\obs_RTC_check\hp_time.h:17:9 <US>c:macro@HPTERROR<UE> <DS>HPTERROR<DE> Extent=<ES>67:14 - 67:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:73:14: macro expansion=HPTERROR|D:\github\msp430\obs_RTC_check\hp_time.h:17:9 <US>c:macro@HPTERROR<UE> <DS>HPTERROR<DE> Extent=<ES>73:14 - 73:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:79:14: macro expansion=HPTERROR|D:\github\msp430\obs_RTC_check\hp_time.h:17:9 <US>c:macro@HPTERROR<UE> <DS>HPTERROR<DE> Extent=<ES>79:14 - 79:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:85:14: macro expansion=HPTERROR|D:\github\msp430\obs_RTC_check\hp_time.h:17:9 <US>c:macro@HPTERROR<UE> <DS>HPTERROR<DE> Extent=<ES>85:14 - 85:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:91:14: macro expansion=HPTERROR|D:\github\msp430\obs_RTC_check\hp_time.h:17:9 <US>c:macro@HPTERROR<UE> <DS>HPTERROR<DE> Extent=<ES>91:14 - 91:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:97:14: macro expansion=HPTERROR|D:\github\msp430\obs_RTC_check\hp_time.h:17:9 <US>c:macro@HPTERROR<UE> <DS>HPTERROR<DE> Extent=<ES>97:14 - 97:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:199:18: macro expansion=HPTERROR|D:\github\msp430\obs_RTC_check\hp_time.h:17:9 <US>c:macro@HPTERROR<UE> <DS>HPTERROR<DE> Extent=<ES>199:18 - 199:26<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:202:14: macro expansion=HPTERROR|D:\github\msp430\obs_RTC_check\hp_time.h:17:9 <US>c:macro@HPTERROR<UE> <DS>HPTERROR<DE> Extent=<ES>202:14 - 202:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:206:41: macro expansion=HPTMODULUS|D:\github\msp430\obs_RTC_check\hp_time.h:20:9 <US>c:macro@HPTMODULUS<UE> <DS>HPTMODULUS<DE> Extent=<ES>206:41 - 206:51<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:238:12: macro expansion=HPTERROR|D:\github\msp430\obs_RTC_check\hp_time.h:17:9 <US>c:macro@HPTERROR<UE> <DS>HPTERROR<DE> Extent=<ES>238:12 - 238:20<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:91: macro expansion=HPTMODULUS|D:\github\msp430\obs_RTC_check\hp_time.h:20:9 <US>c:macro@HPTMODULUS<UE> <DS>HPTMODULUS<DE> Extent=<ES>249:91 - 249:101<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:250:24: macro expansion=HPTMODULUS|D:\github\msp430\obs_RTC_check\hp_time.h:20:9 <US>c:macro@HPTMODULUS<UE> <DS>HPTMODULUS<DE> Extent=<ES>250:24 - 250:34<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:27:24: TypedefDecl=__istate_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:27:24 (Definition) <US>c:intrinsics.h@516@T@__istate_t<UE> <DS>unsigned short<DE> Extent=<ES>27:1 - 27:34<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:30:20: TypedefDecl=istate_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:30:20 (Definition) <US>c:intrinsics.h@573@T@istate_t<UE> <DS>__istate_t<DE> Extent=<ES>30:1 - 30:28<EE>
@@ -5172,6 +5022,61 @@
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3782:1: FieldDecl=WDTCTL_L|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3782:1 (Definition) <US>c:msp430x54xA.h@227873@Ua@Sa@FI@WDTCTL_L<UE> <DS>WDTCTL_L<DE> Extent=<ES>3782:1 - 3782:38<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3782:1: FieldDecl=WDTCTL_H|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3782:1 (Definition) <US>c:msp430x54xA.h@227873@Ua@Sa@FI@WDTCTL_H<UE> <DS>WDTCTL_H<DE> Extent=<ES>3782:1 - 3782:38<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3782:1: FieldDecl=WDTCTL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3782:1 (Definition) <US>c:msp430x54xA.h@227873@Ua@FI@WDTCTL<UE> <DS>WDTCTL<DE> Extent=<ES>3782:1 - 3782:38<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:5:26: TypedefDecl=hptime_t|D:\github\msp430\obs_RTC_check\hp_time.h:5:26 (Definition) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>5:1 - 5:34<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:7:24: TypedefDecl=uint16_t|D:\github\msp430\obs_RTC_check\hp_time.h:7:24 (Definition) <US>c:hp_time.h@104@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>7:1 - 7:32<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:8:23: TypedefDecl=uint8_t|D:\github\msp430\obs_RTC_check\hp_time.h:8:23 (Definition) <US>c:hp_time.h@138@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>8:1 - 8:30<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:10:22: TypedefDecl=int16_t|D:\github\msp430\obs_RTC_check\hp_time.h:10:22 (Definition) <US>c:hp_time.h@172@T@int16_t<UE> <DS>short<DE> Extent=<ES>10:1 - 10:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:24:16: StructDecl=btime_s|D:\github\msp430\obs_RTC_check\hp_time.h:24:16 (Definition) <US>c:@S@btime_s<UE> <DS>btime_s<DE> Extent=<ES>24:9 - 33:2<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:26:13: FieldDecl=year|D:\github\msp430\obs_RTC_check\hp_time.h:26:13 (Definition) <US>c:@S@btime_s@FI@year<UE> <DS>year<DE> Extent=<ES>26:3 - 26:17<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:26:3: TypeRef=uint16_t|D:\github\msp430\obs_RTC_check\hp_time.h:7:24 (Reference) <US>c:hp_time.h@104@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>26:3 - 26:11<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:27:13: FieldDecl=day|D:\github\msp430\obs_RTC_check\hp_time.h:27:13 (Definition) <US>c:@S@btime_s@FI@day<UE> <DS>day<DE> Extent=<ES>27:3 - 27:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:27:3: TypeRef=uint16_t|D:\github\msp430\obs_RTC_check\hp_time.h:7:24 (Reference) <US>c:hp_time.h@104@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>27:3 - 27:11<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:28:13: FieldDecl=hour|D:\github\msp430\obs_RTC_check\hp_time.h:28:13 (Definition) <US>c:@S@btime_s@FI@hour<UE> <DS>hour<DE> Extent=<ES>28:3 - 28:17<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:28:3: TypeRef=uint8_t|D:\github\msp430\obs_RTC_check\hp_time.h:8:23 (Reference) <US>c:hp_time.h@138@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>28:3 - 28:10<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:29:13: FieldDecl=min|D:\github\msp430\obs_RTC_check\hp_time.h:29:13 (Definition) <US>c:@S@btime_s@FI@min<UE> <DS>min<DE> Extent=<ES>29:3 - 29:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:29:3: TypeRef=uint8_t|D:\github\msp430\obs_RTC_check\hp_time.h:8:23 (Reference) <US>c:hp_time.h@138@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>29:3 - 29:10<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:30:13: FieldDecl=sec|D:\github\msp430\obs_RTC_check\hp_time.h:30:13 (Definition) <US>c:@S@btime_s@FI@sec<UE> <DS>sec<DE> Extent=<ES>30:3 - 30:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:30:3: TypeRef=uint8_t|D:\github\msp430\obs_RTC_check\hp_time.h:8:23 (Reference) <US>c:hp_time.h@138@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>30:3 - 30:10<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:31:13: FieldDecl=unused|D:\github\msp430\obs_RTC_check\hp_time.h:31:13 (Definition) <US>c:@S@btime_s@FI@unused<UE> <DS>unused<DE> Extent=<ES>31:3 - 31:19<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:31:3: TypeRef=uint8_t|D:\github\msp430\obs_RTC_check\hp_time.h:8:23 (Reference) <US>c:hp_time.h@138@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>31:3 - 31:10<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:32:13: FieldDecl=fract|D:\github\msp430\obs_RTC_check\hp_time.h:32:13 (Definition) <US>c:@S@btime_s@FI@fract<UE> <DS>fract<DE> Extent=<ES>32:3 - 32:18<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:32:3: TypeRef=uint16_t|D:\github\msp430\obs_RTC_check\hp_time.h:7:24 (Reference) <US>c:hp_time.h@104@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>32:3 - 32:11<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:34:1: TypedefDecl=BTime|D:\github\msp430\obs_RTC_check\hp_time.h:34:1 (Definition) <US>c:hp_time.h@595@T@BTime<UE> <DS>struct btime_s<DE> Extent=<ES>24:1 - 34:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:24:16: StructDecl=btime_s|D:\github\msp430\obs_RTC_check\hp_time.h:24:16 (Definition) <US>c:@S@btime_s<UE> <DS>btime_s<DE> Extent=<ES>24:9 - 33:2<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:26:13: FieldDecl=year|D:\github\msp430\obs_RTC_check\hp_time.h:26:13 (Definition) <US>c:@S@btime_s@FI@year<UE> <DS>year<DE> Extent=<ES>26:3 - 26:17<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:26:3: TypeRef=uint16_t|D:\github\msp430\obs_RTC_check\hp_time.h:7:24 (Reference) <US>c:hp_time.h@104@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>26:3 - 26:11<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:27:13: FieldDecl=day|D:\github\msp430\obs_RTC_check\hp_time.h:27:13 (Definition) <US>c:@S@btime_s@FI@day<UE> <DS>day<DE> Extent=<ES>27:3 - 27:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:27:3: TypeRef=uint16_t|D:\github\msp430\obs_RTC_check\hp_time.h:7:24 (Reference) <US>c:hp_time.h@104@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>27:3 - 27:11<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:28:13: FieldDecl=hour|D:\github\msp430\obs_RTC_check\hp_time.h:28:13 (Definition) <US>c:@S@btime_s@FI@hour<UE> <DS>hour<DE> Extent=<ES>28:3 - 28:17<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:28:3: TypeRef=uint8_t|D:\github\msp430\obs_RTC_check\hp_time.h:8:23 (Reference) <US>c:hp_time.h@138@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>28:3 - 28:10<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:29:13: FieldDecl=min|D:\github\msp430\obs_RTC_check\hp_time.h:29:13 (Definition) <US>c:@S@btime_s@FI@min<UE> <DS>min<DE> Extent=<ES>29:3 - 29:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:29:3: TypeRef=uint8_t|D:\github\msp430\obs_RTC_check\hp_time.h:8:23 (Reference) <US>c:hp_time.h@138@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>29:3 - 29:10<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:30:13: FieldDecl=sec|D:\github\msp430\obs_RTC_check\hp_time.h:30:13 (Definition) <US>c:@S@btime_s@FI@sec<UE> <DS>sec<DE> Extent=<ES>30:3 - 30:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:30:3: TypeRef=uint8_t|D:\github\msp430\obs_RTC_check\hp_time.h:8:23 (Reference) <US>c:hp_time.h@138@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>30:3 - 30:10<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:31:13: FieldDecl=unused|D:\github\msp430\obs_RTC_check\hp_time.h:31:13 (Definition) <US>c:@S@btime_s@FI@unused<UE> <DS>unused<DE> Extent=<ES>31:3 - 31:19<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:31:3: TypeRef=uint8_t|D:\github\msp430\obs_RTC_check\hp_time.h:8:23 (Reference) <US>c:hp_time.h@138@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>31:3 - 31:10<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:32:13: FieldDecl=fract|D:\github\msp430\obs_RTC_check\hp_time.h:32:13 (Definition) <US>c:@S@btime_s@FI@fract<UE> <DS>fract<DE> Extent=<ES>32:3 - 32:18<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:32:3: TypeRef=uint16_t|D:\github\msp430\obs_RTC_check\hp_time.h:7:24 (Reference) <US>c:hp_time.h@104@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>32:3 - 32:11<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:38:10: FunctionDecl=ms_timestr2hptime|D:\github\msp430\obs_RTC_check\hp_time.cpp:24:1 (Declaration) <US>c:@F@ms_timestr2hptime#*C#<UE> <DS>hptime_t ms_timestr2hptime(char *)<DE> Extent=<ES>38:1 - 38:43<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:38:1: TypeRef=hptime_t|D:\github\msp430\obs_RTC_check\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>38:1 - 38:9<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:38:35: ParmDecl=timestr|D:\github\msp430\obs_RTC_check\hp_time.h:38:35 (Definition) <US>c:hp_time.h@853@F@ms_timestr2hptime#*C#@timestr<UE> <DS>char *<DE> Extent=<ES>38:29 - 38:42<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:39:6: FunctionDecl=ms_md2doy|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:1 (Declaration) <US>c:@F@ms_md2doy#I#I#I#*I#<UE> <DS>int ms_md2doy(int, int, int, int *)<DE> Extent=<ES>39:1 - 39:58<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:39:21: ParmDecl=year|D:\github\msp430\obs_RTC_check\hp_time.h:39:21 (Definition) <US>c:hp_time.h@886@F@ms_md2doy#I#I#I#*I#@year<UE> <DS>int<DE> Extent=<ES>39:17 - 39:25<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:39:31: ParmDecl=month|D:\github\msp430\obs_RTC_check\hp_time.h:39:31 (Definition) <US>c:hp_time.h@896@F@ms_md2doy#I#I#I#*I#@month<UE> <DS>int<DE> Extent=<ES>39:27 - 39:36<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:39:42: ParmDecl=mday|D:\github\msp430\obs_RTC_check\hp_time.h:39:42 (Definition) <US>c:hp_time.h@907@F@ms_md2doy#I#I#I#*I#@mday<UE> <DS>int<DE> Extent=<ES>39:38 - 39:46<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:39:53: ParmDecl=jday|D:\github\msp430\obs_RTC_check\hp_time.h:39:53 (Definition) <US>c:hp_time.h@917@F@ms_md2doy#I#I#I#*I#@jday<UE> <DS>int *<DE> Extent=<ES>39:48 - 39:57<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:40:17: FunctionDecl=ms_time2hptime_int|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:1 (Declaration) <US>c:hp_time.h@930@F@ms_time2hptime_int#I#I#I#I#I#I#<UE> <DS>hptime_t ms_time2hptime_int(int, int, int, int, int, int)<DE> Extent=<ES>40:1 - 40:93<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:40:8: TypeRef=hptime_t|D:\github\msp430\obs_RTC_check\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>40:8 - 40:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:40:41: ParmDecl=year|D:\github\msp430\obs_RTC_check\hp_time.h:40:41 (Definition) <US>c:hp_time.h@966@F@ms_time2hptime_int#I#I#I#I#I#I#@year<UE> <DS>int<DE> Extent=<ES>40:37 - 40:45<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:40:51: ParmDecl=day|D:\github\msp430\obs_RTC_check\hp_time.h:40:51 (Definition) <US>c:hp_time.h@976@F@ms_time2hptime_int#I#I#I#I#I#I#@day<UE> <DS>int<DE> Extent=<ES>40:47 - 40:54<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:40:60: ParmDecl=hour|D:\github\msp430\obs_RTC_check\hp_time.h:40:60 (Definition) <US>c:hp_time.h@985@F@ms_time2hptime_int#I#I#I#I#I#I#@hour<UE> <DS>int<DE> Extent=<ES>40:56 - 40:64<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:40:70: ParmDecl=min|D:\github\msp430\obs_RTC_check\hp_time.h:40:70 (Definition) <US>c:hp_time.h@995@F@ms_time2hptime_int#I#I#I#I#I#I#@min<UE> <DS>int<DE> Extent=<ES>40:66 - 40:73<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:40:79: ParmDecl=sec|D:\github\msp430\obs_RTC_check\hp_time.h:40:79 (Definition) <US>c:hp_time.h@1004@F@ms_time2hptime_int#I#I#I#I#I#I#@sec<UE> <DS>int<DE> Extent=<ES>40:75 - 40:82<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:40:88: ParmDecl=usec|D:\github\msp430\obs_RTC_check\hp_time.h:40:88 (Definition) <US>c:hp_time.h@1013@F@ms_time2hptime_int#I#I#I#I#I#I#@usec<UE> <DS>int<DE> Extent=<ES>40:84 - 40:92<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:41:10: FunctionDecl=ms_btime2hptime|D:\github\msp430\obs_RTC_check\hp_time.cpp:222:1 (Declaration) <US>c:@F@ms_btime2hptime#*$@S@btime_s#<UE> <DS>hptime_t ms_btime2hptime(BTime *)<DE> Extent=<ES>41:1 - 41:40<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:41:1: TypeRef=hptime_t|D:\github\msp430\obs_RTC_check\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>41:1 - 41:9<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:41:34: ParmDecl=btime|D:\github\msp430\obs_RTC_check\hp_time.h:41:34 (Definition) <US>c:hp_time.h@1051@F@ms_btime2hptime#*$@S@btime_s#@btime<UE> <DS>BTime *<DE> Extent=<ES>41:27 - 41:39<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.h:41:27: TypeRef=BTime|D:\github\msp430\obs_RTC_check\hp_time.h:34:1 (Reference) <US>c:hp_time.h@595@T@BTime<UE> <DS>struct btime_s<DE> Extent=<ES>41:27 - 41:32<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:314:16: TypedefDecl=_Bool|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:314:16 (Definition) <US>c:yvals.h@9049@T@_Bool<UE> <DS>bool<DE> Extent=<ES>314:3 - 314:21<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:399:21: TypedefDecl=_Longlong|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:399:21 (Definition) <US>c:yvals.h@11030@T@_Longlong<UE> <DS>long long<DE> Extent=<ES>399:3 - 399:30<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:400:22: TypedefDecl=_ULonglong|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:400:22 (Definition) <US>c:yvals.h@11062@T@_ULonglong<UE> <DS>unsigned long long<DE> Extent=<ES>400:3 - 400:32<EE>
@@ -5692,529 +5597,683 @@
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:203:28: DeclRefExpr=_Err|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:201:22 (Reference) <US>c:string.h@7122@F@strerror#I#@_Err<UE> <DS>int<DE> Extent=<ES>203:28 - 203:32<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:203:34: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>203:34 - 203:35<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:203:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>203:34 - 203:35<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:43:23: TypedefDecl=__time32_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:43:23 (Definition) <US>c:time.h@1097@T@__time32_t<UE> <DS>long<DE> Extent=<ES>43:3 - 43:33<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:44:23: TypedefDecl=clock_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:44:23 (Definition) <US>c:time.h@1132@T@clock_t<UE> <DS>long<DE> Extent=<ES>44:3 - 44:30<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:50:28: TypedefDecl=__time64_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:50:28 (Definition) <US>c:time.h@1283@T@__time64_t<UE> <DS>long long<DE> Extent=<ES>50:3 - 50:38<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:68:22: TypedefDecl=time_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:68:22 (Definition) <US>c:time.h@1829@T@time_t<UE> <DS>__time32_t<DE> Extent=<ES>68:3 - 68:28<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:68:11: TypeRef=__time32_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:43:23 (Reference) <US>c:time.h@1097@T@__time32_t<UE> <DS>long<DE> Extent=<ES>68:11 - 68:21<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:71:8: StructDecl=tm|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:71:8 (Definition) <US>c:@S@tm<UE> <DS>tm<DE> Extent=<ES>71:1 - 86:2<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:73:7: FieldDecl=tm_sec|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:73:7 (Definition) <US>c:@S@tm@FI@tm_sec<UE> <DS>tm_sec<DE> Extent=<ES>73:3 - 73:13<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:74:7: FieldDecl=tm_min|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:74:7 (Definition) <US>c:@S@tm@FI@tm_min<UE> <DS>tm_min<DE> Extent=<ES>74:3 - 74:13<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:75:7: FieldDecl=tm_hour|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:75:7 (Definition) <US>c:@S@tm@FI@tm_hour<UE> <DS>tm_hour<DE> Extent=<ES>75:3 - 75:14<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:76:7: FieldDecl=tm_mday|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:76:7 (Definition) <US>c:@S@tm@FI@tm_mday<UE> <DS>tm_mday<DE> Extent=<ES>76:3 - 76:14<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:77:7: FieldDecl=tm_mon|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:77:7 (Definition) <US>c:@S@tm@FI@tm_mon<UE> <DS>tm_mon<DE> Extent=<ES>77:3 - 77:13<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:78:7: FieldDecl=tm_year|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:78:7 (Definition) <US>c:@S@tm@FI@tm_year<UE> <DS>tm_year<DE> Extent=<ES>78:3 - 78:14<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:79:7: FieldDecl=tm_wday|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:79:7 (Definition) <US>c:@S@tm@FI@tm_wday<UE> <DS>tm_wday<DE> Extent=<ES>79:3 - 79:14<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:80:7: FieldDecl=tm_yday|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:80:7 (Definition) <US>c:@S@tm@FI@tm_yday<UE> <DS>tm_yday<DE> Extent=<ES>80:3 - 80:14<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:81:7: FieldDecl=tm_isdst|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:81:7 (Definition) <US>c:@S@tm@FI@tm_isdst<UE> <DS>tm_isdst<DE> Extent=<ES>81:3 - 81:15<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:93:1: UnexposedDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:93:1 (Definition) <US><UE> <DS><DE> Extent=<ES>93:1 - 99:14<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:94:21: FunctionDecl=time|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:130:10 (Declaration) <US>c:@F@time<UE> <DS>time_t time(time_t *)<DE> Extent=<ES>94:14 - 94:35<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:94:14: TypeRef=time_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:68:22 (Reference) <US>c:time.h@1829@T@time_t<UE> <DS>__time32_t<DE> Extent=<ES>94:14 - 94:20<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:94:34: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:94:34 (Definition) <US><UE> <DS>time_t *<DE> Extent=<ES>94:26 - 94:35<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:94:26: TypeRef=time_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:68:22 (Reference) <US>c:time.h@1829@T@time_t<UE> <DS>__time32_t<DE> Extent=<ES>94:26 - 94:32<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:95:25: FunctionDecl=__time32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:95:25 (Declaration) <US>c:@F@__time32<UE> <DS>__time32_t __time32(__time32_t *)<DE> Extent=<ES>95:14 - 95:47<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:95:14: TypeRef=__time32_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:43:23 (Reference) <US>c:time.h@1097@T@__time32_t<UE> <DS>long<DE> Extent=<ES>95:14 - 95:24<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:95:46: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:95:46 (Definition) <US><UE> <DS>__time32_t *<DE> Extent=<ES>95:34 - 95:47<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:95:34: TypeRef=__time32_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:43:23 (Reference) <US>c:time.h@1097@T@__time32_t<UE> <DS>long<DE> Extent=<ES>95:34 - 95:44<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:97:27: FunctionDecl=__time64|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:97:27 (Declaration) <US>c:@F@__time64<UE> <DS>__time64_t __time64(__time64_t *)<DE> Extent=<ES>97:16 - 97:49<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:97:16: TypeRef=__time64_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:50:28 (Reference) <US>c:time.h@1283@T@__time64_t<UE> <DS>long long<DE> Extent=<ES>97:16 - 97:26<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:97:48: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:97:48 (Definition) <US><UE> <DS>__time64_t *<DE> Extent=<ES>97:36 - 97:49<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:97:36: TypeRef=__time64_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:50:28 (Reference) <US>c:time.h@1283@T@__time64_t<UE> <DS>long long<DE> Extent=<ES>97:36 - 97:46<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:101:1: UnexposedDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:101:1 (Definition) <US><UE> <DS><DE> Extent=<ES>101:1 - 124:16<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:102:21: FunctionDecl=asctime|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:102:21 (Declaration) <US>c:@F@asctime<UE> <DS>char * asctime(const struct tm *)<DE> Extent=<ES>102:14 - 102:47<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:102:46: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:102:46 (Definition) <US><UE> <DS>const struct tm *<DE> Extent=<ES>102:29 - 102:47<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:102:42: TypeRef=struct tm|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:71:8 (Reference) <US>c:@S@tm<UE> <DS>tm<DE> Extent=<ES>102:42 - 102:44<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:103:22: FunctionDecl=clock|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:103:22 (Declaration) <US>c:@F@clock<UE> <DS>clock_t clock(void)<DE> Extent=<ES>103:14 - 103:33<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:103:14: TypeRef=clock_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:44:23 (Reference) <US>c:time.h@1132@T@clock_t<UE> <DS>long<DE> Extent=<ES>103:14 - 103:21<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:104:21: FunctionDecl=ctime|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:140:10 (Declaration) <US>c:@F@ctime<UE> <DS>char * ctime(const time_t *)<DE> Extent=<ES>104:14 - 104:42<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:104:41: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:104:41 (Definition) <US><UE> <DS>const time_t *<DE> Extent=<ES>104:27 - 104:42<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:104:33: TypeRef=time_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:68:22 (Reference) <US>c:time.h@1829@T@time_t<UE> <DS>__time32_t<DE> Extent=<ES>104:33 - 104:39<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:105:30: FunctionDecl=difftime|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:150:10 (Declaration) <US>c:@F@difftime<UE> <DS>double difftime(time_t, time_t)<DE> Extent=<ES>105:23 - 105:54<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:105:45: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:105:45 (Definition) <US><UE> <DS>time_t<DE> Extent=<ES>105:39 - 105:46<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:105:39: TypeRef=time_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:68:22 (Reference) <US>c:time.h@1829@T@time_t<UE> <DS>__time32_t<DE> Extent=<ES>105:39 - 105:45<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:105:53: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:105:53 (Definition) <US><UE> <DS>time_t<DE> Extent=<ES>105:47 - 105:54<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:105:47: TypeRef=time_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:68:22 (Reference) <US>c:time.h@1829@T@time_t<UE> <DS>__time32_t<DE> Extent=<ES>105:47 - 105:53<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:106:26: FunctionDecl=gmtime|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:160:15 (Declaration) <US>c:@F@gmtime<UE> <DS>struct tm * gmtime(const time_t *)<DE> Extent=<ES>106:14 - 106:48<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:106:21: TypeRef=struct tm|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:71:8 (Reference) <US>c:@S@tm<UE> <DS>tm<DE> Extent=<ES>106:21 - 106:23<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:106:47: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:106:47 (Definition) <US><UE> <DS>const time_t *<DE> Extent=<ES>106:33 - 106:48<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:106:39: TypeRef=time_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:68:22 (Reference) <US>c:time.h@1829@T@time_t<UE> <DS>__time32_t<DE> Extent=<ES>106:39 - 106:45<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:107:26: FunctionDecl=localtime|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:170:15 (Declaration) <US>c:@F@localtime<UE> <DS>struct tm * localtime(const time_t *)<DE> Extent=<ES>107:14 - 107:51<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:107:21: TypeRef=struct tm|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:71:8 (Reference) <US>c:@S@tm<UE> <DS>tm<DE> Extent=<ES>107:21 - 107:23<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:107:50: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:107:50 (Definition) <US><UE> <DS>const time_t *<DE> Extent=<ES>107:36 - 107:51<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:107:42: TypeRef=time_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:68:22 (Reference) <US>c:time.h@1829@T@time_t<UE> <DS>__time32_t<DE> Extent=<ES>107:42 - 107:48<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:108:21: FunctionDecl=mktime|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:180:10 (Declaration) <US>c:@F@mktime<UE> <DS>time_t mktime(struct tm *)<DE> Extent=<ES>108:14 - 108:40<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:108:14: TypeRef=time_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:68:22 (Reference) <US>c:time.h@1829@T@time_t<UE> <DS>__time32_t<DE> Extent=<ES>108:14 - 108:20<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:108:39: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:108:39 (Definition) <US><UE> <DS>struct tm *<DE> Extent=<ES>108:28 - 108:40<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:108:35: TypeRef=struct tm|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:71:8 (Reference) <US>c:@S@tm<UE> <DS>tm<DE> Extent=<ES>108:35 - 108:37<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:110:21: FunctionDecl=__ctime32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:110:21 (Declaration) <US>c:@F@__ctime32<UE> <DS>char * __ctime32(const __time32_t *)<DE> Extent=<ES>110:14 - 110:50<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:110:49: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:110:49 (Definition) <US><UE> <DS>const __time32_t *<DE> Extent=<ES>110:31 - 110:50<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:110:37: TypeRef=__time32_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:43:23 (Reference) <US>c:time.h@1097@T@__time32_t<UE> <DS>long<DE> Extent=<ES>110:37 - 110:47<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:111:30: FunctionDecl=__difftime32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:111:30 (Declaration) <US>c:@F@__difftime32<UE> <DS>double __difftime32(__time32_t, __time32_t)<DE> Extent=<ES>111:23 - 111:66<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:111:53: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:111:53 (Definition) <US><UE> <DS>__time32_t<DE> Extent=<ES>111:43 - 111:54<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:111:43: TypeRef=__time32_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:43:23 (Reference) <US>c:time.h@1097@T@__time32_t<UE> <DS>long<DE> Extent=<ES>111:43 - 111:53<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:111:65: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:111:65 (Definition) <US><UE> <DS>__time32_t<DE> Extent=<ES>111:55 - 111:66<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:111:55: TypeRef=__time32_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:43:23 (Reference) <US>c:time.h@1097@T@__time32_t<UE> <DS>long<DE> Extent=<ES>111:55 - 111:65<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:112:26: FunctionDecl=__gmtime32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:112:26 (Declaration) <US>c:@F@__gmtime32<UE> <DS>struct tm * __gmtime32(const __time32_t *)<DE> Extent=<ES>112:14 - 112:56<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:112:21: TypeRef=struct tm|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:71:8 (Reference) <US>c:@S@tm<UE> <DS>tm<DE> Extent=<ES>112:21 - 112:23<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:112:55: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:112:55 (Definition) <US><UE> <DS>const __time32_t *<DE> Extent=<ES>112:37 - 112:56<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:112:43: TypeRef=__time32_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:43:23 (Reference) <US>c:time.h@1097@T@__time32_t<UE> <DS>long<DE> Extent=<ES>112:43 - 112:53<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:113:26: FunctionDecl=__localtime32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:113:26 (Declaration) <US>c:@F@__localtime32<UE> <DS>struct tm * __localtime32(const __time32_t *)<DE> Extent=<ES>113:14 - 113:59<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:113:21: TypeRef=struct tm|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:71:8 (Reference) <US>c:@S@tm<UE> <DS>tm<DE> Extent=<ES>113:21 - 113:23<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:113:58: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:113:58 (Definition) <US><UE> <DS>const __time32_t *<DE> Extent=<ES>113:40 - 113:59<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:113:46: TypeRef=__time32_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:43:23 (Reference) <US>c:time.h@1097@T@__time32_t<UE> <DS>long<DE> Extent=<ES>113:46 - 113:56<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:114:25: FunctionDecl=__mktime32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:114:25 (Declaration) <US>c:@F@__mktime32<UE> <DS>__time32_t __mktime32(struct tm *)<DE> Extent=<ES>114:14 - 114:48<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:114:14: TypeRef=__time32_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:43:23 (Reference) <US>c:time.h@1097@T@__time32_t<UE> <DS>long<DE> Extent=<ES>114:14 - 114:24<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:114:47: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:114:47 (Definition) <US><UE> <DS>struct tm *<DE> Extent=<ES>114:36 - 114:48<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:114:43: TypeRef=struct tm|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:71:8 (Reference) <US>c:@S@tm<UE> <DS>tm<DE> Extent=<ES>114:43 - 114:45<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:116:23: FunctionDecl=__ctime64|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:116:23 (Declaration) <US>c:@F@__ctime64<UE> <DS>char * __ctime64(const __time64_t *)<DE> Extent=<ES>116:16 - 116:52<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:116:51: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:116:51 (Definition) <US><UE> <DS>const __time64_t *<DE> Extent=<ES>116:33 - 116:52<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:116:39: TypeRef=__time64_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:50:28 (Reference) <US>c:time.h@1283@T@__time64_t<UE> <DS>long long<DE> Extent=<ES>116:39 - 116:49<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:117:32: FunctionDecl=__difftime64|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:117:32 (Declaration) <US>c:@F@__difftime64<UE> <DS>double __difftime64(__time64_t, __time64_t)<DE> Extent=<ES>117:25 - 117:68<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:117:55: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:117:55 (Definition) <US><UE> <DS>__time64_t<DE> Extent=<ES>117:45 - 117:56<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:117:45: TypeRef=__time64_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:50:28 (Reference) <US>c:time.h@1283@T@__time64_t<UE> <DS>long long<DE> Extent=<ES>117:45 - 117:55<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:117:67: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:117:67 (Definition) <US><UE> <DS>__time64_t<DE> Extent=<ES>117:57 - 117:68<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:117:57: TypeRef=__time64_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:50:28 (Reference) <US>c:time.h@1283@T@__time64_t<UE> <DS>long long<DE> Extent=<ES>117:57 - 117:67<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:118:28: FunctionDecl=__gmtime64|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:118:28 (Declaration) <US>c:@F@__gmtime64<UE> <DS>struct tm * __gmtime64(const __time64_t *)<DE> Extent=<ES>118:16 - 118:58<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:118:23: TypeRef=struct tm|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:71:8 (Reference) <US>c:@S@tm<UE> <DS>tm<DE> Extent=<ES>118:23 - 118:25<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:118:57: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:118:57 (Definition) <US><UE> <DS>const __time64_t *<DE> Extent=<ES>118:39 - 118:58<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:118:45: TypeRef=__time64_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:50:28 (Reference) <US>c:time.h@1283@T@__time64_t<UE> <DS>long long<DE> Extent=<ES>118:45 - 118:55<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:119:28: FunctionDecl=__localtime64|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:119:28 (Declaration) <US>c:@F@__localtime64<UE> <DS>struct tm * __localtime64(const __time64_t *)<DE> Extent=<ES>119:16 - 119:61<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:119:23: TypeRef=struct tm|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:71:8 (Reference) <US>c:@S@tm<UE> <DS>tm<DE> Extent=<ES>119:23 - 119:25<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:119:60: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:119:60 (Definition) <US><UE> <DS>const __time64_t *<DE> Extent=<ES>119:42 - 119:61<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:119:48: TypeRef=__time64_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:50:28 (Reference) <US>c:time.h@1283@T@__time64_t<UE> <DS>long long<DE> Extent=<ES>119:48 - 119:58<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:120:27: FunctionDecl=__mktime64|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:120:27 (Declaration) <US>c:@F@__mktime64<UE> <DS>__time64_t __mktime64(struct tm *)<DE> Extent=<ES>120:16 - 120:50<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:120:16: TypeRef=__time64_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:50:28 (Reference) <US>c:time.h@1283@T@__time64_t<UE> <DS>long long<DE> Extent=<ES>120:16 - 120:26<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:120:49: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:120:49 (Definition) <US><UE> <DS>struct tm *<DE> Extent=<ES>120:38 - 120:50<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:120:45: TypeRef=struct tm|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:71:8 (Reference) <US>c:@S@tm<UE> <DS>tm<DE> Extent=<ES>120:45 - 120:47<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:122:21: FunctionDecl=strftime|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:122:21 (Declaration) <US>c:@F@strftime<UE> <DS>size_t strftime(char *, size_t, const char *, const struct tm *)<DE> Extent=<ES>122:14 - 123:57<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:122:14: TypeRef=size_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ysizet.h:20:16 (Reference) <US>c:ysizet.h@389@T@size_t<UE> <DS>_Sizet<DE> Extent=<ES>122:14 - 122:20<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:122:45: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:122:45 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>122:30 - 122:46<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:122:53: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:122:53 (Definition) <US><UE> <DS>size_t<DE> Extent=<ES>122:47 - 122:54<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:122:47: TypeRef=size_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ysizet.h:20:16 (Reference) <US>c:ysizet.h@389@T@size_t<UE> <DS>_Sizet<DE> Extent=<ES>122:47 - 122:53<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:122:76: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:122:76 (Definition) <US><UE> <DS>const char *<DE> Extent=<ES>122:55 - 122:77<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:123:56: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:123:56 (Definition) <US><UE> <DS>const struct tm *<DE> Extent=<ES>123:30 - 123:57<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:123:43: TypeRef=struct tm|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:71:8 (Reference) <US>c:@S@tm<UE> <DS>tm<DE> Extent=<ES>123:43 - 123:45<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:130:10: FunctionDecl=time|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:130:10 (Definition) <US>c:@F@time#*L#<UE> <DS>time_t time(time_t *)<DE> Extent=<ES>130:3 - 137:4<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:130:3: TypeRef=time_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:68:22 (Reference) <US>c:time.h@1829@T@time_t<UE> <DS>__time32_t<DE> Extent=<ES>130:3 - 130:9<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:130:23: ParmDecl=p|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:130:23 (Definition) <US>c:time.h@3828@F@time#*L#@p<UE> <DS>time_t *<DE> Extent=<ES>130:15 - 130:24<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:130:15: TypeRef=time_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:68:22 (Reference) <US>c:time.h@1829@T@time_t<UE> <DS>__time32_t<DE> Extent=<ES>130:15 - 130:21<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:131:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>131:3 - 137:4<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:135:7: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>135:7 - 135:25<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:135:14: CallExpr=__time32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:95:25 <US>c:@F@__time32<UE> <DS>__time32_t __time32(__time32_t *)<DE> Extent=<ES>135:14 - 135:25<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:135:14: UnexposedExpr=__time32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:95:25 <US>c:@F@__time32<UE> <DS>__time32_t __time32(__time32_t *)<DE> Extent=<ES>135:14 - 135:22<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:135:14: DeclRefExpr=__time32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:95:25 (Reference) <US>c:@F@__time32<UE> <DS>__time32_t __time32(__time32_t *)<DE> Extent=<ES>135:14 - 135:22<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:135:23: UnexposedExpr=p|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:130:23 <US>c:time.h@3828@F@time#*L#@p<UE> <DS>time_t *<DE> Extent=<ES>135:23 - 135:24<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:135:23: DeclRefExpr=p|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:130:23 (Reference) <US>c:time.h@3828@F@time#*L#@p<UE> <DS>time_t *<DE> Extent=<ES>135:23 - 135:24<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:140:10: FunctionDecl=ctime|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:140:10 (Definition) <US>c:@F@ctime#*1L#<UE> <DS>char * ctime(const time_t *)<DE> Extent=<ES>140:3 - 147:4<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:140:30: ParmDecl=p|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:140:30 (Definition) <US>c:time.h@3997@F@ctime#*1L#@p<UE> <DS>const time_t *<DE> Extent=<ES>140:16 - 140:31<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:140:22: TypeRef=time_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:68:22 (Reference) <US>c:time.h@1829@T@time_t<UE> <DS>__time32_t<DE> Extent=<ES>140:22 - 140:28<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:141:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>141:3 - 147:4<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:145:7: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>145:7 - 145:26<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:145:14: CallExpr=__ctime32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:110:21 <US>c:@F@__ctime32<UE> <DS>char * __ctime32(const __time32_t *)<DE> Extent=<ES>145:14 - 145:26<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:145:14: UnexposedExpr=__ctime32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:110:21 <US>c:@F@__ctime32<UE> <DS>char * __ctime32(const __time32_t *)<DE> Extent=<ES>145:14 - 145:23<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:145:14: DeclRefExpr=__ctime32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:110:21 (Reference) <US>c:@F@__ctime32<UE> <DS>char * __ctime32(const __time32_t *)<DE> Extent=<ES>145:14 - 145:23<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:145:24: UnexposedExpr=p|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:140:30 <US>c:time.h@3997@F@ctime#*1L#@p<UE> <DS>const time_t *<DE> Extent=<ES>145:24 - 145:25<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:145:24: DeclRefExpr=p|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:140:30 (Reference) <US>c:time.h@3997@F@ctime#*1L#@p<UE> <DS>const time_t *<DE> Extent=<ES>145:24 - 145:25<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:150:10: FunctionDecl=difftime|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:150:10 (Definition) <US>c:@F@difftime#L#L#<UE> <DS>double difftime(time_t, time_t)<DE> Extent=<ES>150:3 - 157:4<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:150:26: ParmDecl=t1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:150:26 (Definition) <US>c:time.h@4177@F@difftime#L#L#@t1<UE> <DS>time_t<DE> Extent=<ES>150:19 - 150:28<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:150:19: TypeRef=time_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:68:22 (Reference) <US>c:time.h@1829@T@time_t<UE> <DS>__time32_t<DE> Extent=<ES>150:19 - 150:25<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:150:37: ParmDecl=t2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:150:37 (Definition) <US>c:time.h@4188@F@difftime#L#L#@t2<UE> <DS>time_t<DE> Extent=<ES>150:30 - 150:39<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:150:30: TypeRef=time_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:68:22 (Reference) <US>c:time.h@1829@T@time_t<UE> <DS>__time32_t<DE> Extent=<ES>150:30 - 150:36<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:151:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>151:3 - 157:4<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:155:7: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>155:7 - 155:34<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:155:14: CallExpr=__difftime32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:111:30 <US>c:@F@__difftime32<UE> <DS>double __difftime32(__time32_t, __time32_t)<DE> Extent=<ES>155:14 - 155:34<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:155:14: UnexposedExpr=__difftime32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:111:30 <US>c:@F@__difftime32<UE> <DS>double __difftime32(__time32_t, __time32_t)<DE> Extent=<ES>155:14 - 155:26<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:155:14: DeclRefExpr=__difftime32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:111:30 (Reference) <US>c:@F@__difftime32<UE> <DS>double __difftime32(__time32_t, __time32_t)<DE> Extent=<ES>155:14 - 155:26<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:155:27: UnexposedExpr=t1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:150:26 <US>c:time.h@4177@F@difftime#L#L#@t1<UE> <DS>time_t<DE> Extent=<ES>155:27 - 155:29<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:155:27: DeclRefExpr=t1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:150:26 (Reference) <US>c:time.h@4177@F@difftime#L#L#@t1<UE> <DS>time_t<DE> Extent=<ES>155:27 - 155:29<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:155:31: UnexposedExpr=t2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:150:37 <US>c:time.h@4188@F@difftime#L#L#@t2<UE> <DS>time_t<DE> Extent=<ES>155:31 - 155:33<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:155:31: DeclRefExpr=t2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:150:37 (Reference) <US>c:time.h@4188@F@difftime#L#L#@t2<UE> <DS>time_t<DE> Extent=<ES>155:31 - 155:33<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:160:15: FunctionDecl=gmtime|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:160:15 (Definition) <US>c:@F@gmtime#*1L#<UE> <DS>struct tm * gmtime(const time_t *)<DE> Extent=<ES>160:3 - 167:4<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:160:10: TypeRef=struct tm|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:71:8 (Reference) <US>c:@S@tm<UE> <DS>tm<DE> Extent=<ES>160:10 - 160:12<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:160:36: ParmDecl=p|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:160:36 (Definition) <US>c:time.h@4381@F@gmtime#*1L#@p<UE> <DS>const time_t *<DE> Extent=<ES>160:22 - 160:37<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:160:28: TypeRef=time_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:68:22 (Reference) <US>c:time.h@1829@T@time_t<UE> <DS>__time32_t<DE> Extent=<ES>160:28 - 160:34<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:161:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>161:3 - 167:4<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:165:7: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>165:7 - 165:27<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:165:14: CallExpr=__gmtime32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:112:26 <US>c:@F@__gmtime32<UE> <DS>struct tm * __gmtime32(const __time32_t *)<DE> Extent=<ES>165:14 - 165:27<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:165:14: UnexposedExpr=__gmtime32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:112:26 <US>c:@F@__gmtime32<UE> <DS>struct tm * __gmtime32(const __time32_t *)<DE> Extent=<ES>165:14 - 165:24<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:165:14: DeclRefExpr=__gmtime32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:112:26 (Reference) <US>c:@F@__gmtime32<UE> <DS>struct tm * __gmtime32(const __time32_t *)<DE> Extent=<ES>165:14 - 165:24<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:165:25: UnexposedExpr=p|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:160:36 <US>c:time.h@4381@F@gmtime#*1L#@p<UE> <DS>const time_t *<DE> Extent=<ES>165:25 - 165:26<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:165:25: DeclRefExpr=p|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:160:36 (Reference) <US>c:time.h@4381@F@gmtime#*1L#@p<UE> <DS>const time_t *<DE> Extent=<ES>165:25 - 165:26<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:170:15: FunctionDecl=localtime|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:170:15 (Definition) <US>c:@F@localtime#*1L#<UE> <DS>struct tm * localtime(const time_t *)<DE> Extent=<ES>170:3 - 177:4<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:170:10: TypeRef=struct tm|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:71:8 (Reference) <US>c:@S@tm<UE> <DS>tm<DE> Extent=<ES>170:10 - 170:12<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:170:39: ParmDecl=p|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:170:39 (Definition) <US>c:time.h@4569@F@localtime#*1L#@p<UE> <DS>const time_t *<DE> Extent=<ES>170:25 - 170:40<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:170:31: TypeRef=time_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:68:22 (Reference) <US>c:time.h@1829@T@time_t<UE> <DS>__time32_t<DE> Extent=<ES>170:31 - 170:37<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:171:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>171:3 - 177:4<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:175:7: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>175:7 - 175:30<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:175:14: CallExpr=__localtime32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:113:26 <US>c:@F@__localtime32<UE> <DS>struct tm * __localtime32(const __time32_t *)<DE> Extent=<ES>175:14 - 175:30<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:175:14: UnexposedExpr=__localtime32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:113:26 <US>c:@F@__localtime32<UE> <DS>struct tm * __localtime32(const __time32_t *)<DE> Extent=<ES>175:14 - 175:27<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:175:14: DeclRefExpr=__localtime32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:113:26 (Reference) <US>c:@F@__localtime32<UE> <DS>struct tm * __localtime32(const __time32_t *)<DE> Extent=<ES>175:14 - 175:27<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:175:28: UnexposedExpr=p|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:170:39 <US>c:time.h@4569@F@localtime#*1L#@p<UE> <DS>const time_t *<DE> Extent=<ES>175:28 - 175:29<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:175:28: DeclRefExpr=p|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:170:39 (Reference) <US>c:time.h@4569@F@localtime#*1L#@p<UE> <DS>const time_t *<DE> Extent=<ES>175:28 - 175:29<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:180:10: FunctionDecl=mktime|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:180:10 (Definition) <US>c:@F@mktime#*$@S@tm#<UE> <DS>time_t mktime(struct tm *)<DE> Extent=<ES>180:3 - 187:4<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:180:3: TypeRef=time_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:68:22 (Reference) <US>c:time.h@1829@T@time_t<UE> <DS>__time32_t<DE> Extent=<ES>180:3 - 180:9<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:180:28: ParmDecl=p|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:180:28 (Definition) <US>c:time.h@4755@F@mktime#*$@S@tm#@p<UE> <DS>struct tm *<DE> Extent=<ES>180:17 - 180:29<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:180:24: TypeRef=struct tm|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:71:8 (Reference) <US>c:@S@tm<UE> <DS>tm<DE> Extent=<ES>180:24 - 180:26<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:181:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>181:3 - 187:4<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:185:7: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>185:7 - 185:27<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:185:14: CallExpr=__mktime32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:114:25 <US>c:@F@__mktime32<UE> <DS>__time32_t __mktime32(struct tm *)<DE> Extent=<ES>185:14 - 185:27<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:185:14: UnexposedExpr=__mktime32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:114:25 <US>c:@F@__mktime32<UE> <DS>__time32_t __mktime32(struct tm *)<DE> Extent=<ES>185:14 - 185:24<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:185:14: DeclRefExpr=__mktime32|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:114:25 (Reference) <US>c:@F@__mktime32<UE> <DS>__time32_t __mktime32(struct tm *)<DE> Extent=<ES>185:14 - 185:24<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:185:25: UnexposedExpr=p|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:180:28 <US>c:time.h@4755@F@mktime#*$@S@tm#@p<UE> <DS>struct tm *<DE> Extent=<ES>185:25 - 185:26<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:185:25: DeclRefExpr=p|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:180:28 (Reference) <US>c:time.h@4755@F@mktime#*$@S@tm#@p<UE> <DS>struct tm *<DE> Extent=<ES>185:25 - 185:26<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:5:26: TypedefDecl=hptime_t|D:\github\msp430\obs_RTC_check\hp_time.h:5:26 (Definition) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>5:1 - 5:34<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:7:24: TypedefDecl=uint16_t|D:\github\msp430\obs_RTC_check\hp_time.h:7:24 (Definition) <US>c:hp_time.h@104@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>7:1 - 7:32<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:8:23: TypedefDecl=uint8_t|D:\github\msp430\obs_RTC_check\hp_time.h:8:23 (Definition) <US>c:hp_time.h@138@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>8:1 - 8:30<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:10:22: TypedefDecl=int16_t|D:\github\msp430\obs_RTC_check\hp_time.h:10:22 (Definition) <US>c:hp_time.h@172@T@int16_t<UE> <DS>short<DE> Extent=<ES>10:1 - 10:29<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:24:16: StructDecl=btime_s|D:\github\msp430\obs_RTC_check\hp_time.h:24:16 (Definition) <US>c:@S@btime_s<UE> <DS>btime_s<DE> Extent=<ES>24:9 - 33:2<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:26:13: FieldDecl=year|D:\github\msp430\obs_RTC_check\hp_time.h:26:13 (Definition) <US>c:@S@btime_s@FI@year<UE> <DS>year<DE> Extent=<ES>26:3 - 26:17<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:26:3: TypeRef=uint16_t|D:\github\msp430\obs_RTC_check\hp_time.h:7:24 (Reference) <US>c:hp_time.h@104@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>26:3 - 26:11<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:27:13: FieldDecl=day|D:\github\msp430\obs_RTC_check\hp_time.h:27:13 (Definition) <US>c:@S@btime_s@FI@day<UE> <DS>day<DE> Extent=<ES>27:3 - 27:16<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:27:3: TypeRef=uint16_t|D:\github\msp430\obs_RTC_check\hp_time.h:7:24 (Reference) <US>c:hp_time.h@104@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>27:3 - 27:11<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:28:13: FieldDecl=hour|D:\github\msp430\obs_RTC_check\hp_time.h:28:13 (Definition) <US>c:@S@btime_s@FI@hour<UE> <DS>hour<DE> Extent=<ES>28:3 - 28:17<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:28:3: TypeRef=uint8_t|D:\github\msp430\obs_RTC_check\hp_time.h:8:23 (Reference) <US>c:hp_time.h@138@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>28:3 - 28:10<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:29:13: FieldDecl=min|D:\github\msp430\obs_RTC_check\hp_time.h:29:13 (Definition) <US>c:@S@btime_s@FI@min<UE> <DS>min<DE> Extent=<ES>29:3 - 29:16<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:29:3: TypeRef=uint8_t|D:\github\msp430\obs_RTC_check\hp_time.h:8:23 (Reference) <US>c:hp_time.h@138@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>29:3 - 29:10<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:30:13: FieldDecl=sec|D:\github\msp430\obs_RTC_check\hp_time.h:30:13 (Definition) <US>c:@S@btime_s@FI@sec<UE> <DS>sec<DE> Extent=<ES>30:3 - 30:16<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:30:3: TypeRef=uint8_t|D:\github\msp430\obs_RTC_check\hp_time.h:8:23 (Reference) <US>c:hp_time.h@138@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>30:3 - 30:10<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:31:13: FieldDecl=unused|D:\github\msp430\obs_RTC_check\hp_time.h:31:13 (Definition) <US>c:@S@btime_s@FI@unused<UE> <DS>unused<DE> Extent=<ES>31:3 - 31:19<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:31:3: TypeRef=uint8_t|D:\github\msp430\obs_RTC_check\hp_time.h:8:23 (Reference) <US>c:hp_time.h@138@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>31:3 - 31:10<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:32:13: FieldDecl=fract|D:\github\msp430\obs_RTC_check\hp_time.h:32:13 (Definition) <US>c:@S@btime_s@FI@fract<UE> <DS>fract<DE> Extent=<ES>32:3 - 32:18<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:32:3: TypeRef=uint16_t|D:\github\msp430\obs_RTC_check\hp_time.h:7:24 (Reference) <US>c:hp_time.h@104@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>32:3 - 32:11<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:34:1: TypedefDecl=BTime|D:\github\msp430\obs_RTC_check\hp_time.h:34:1 (Definition) <US>c:hp_time.h@595@T@BTime<UE> <DS>struct btime_s<DE> Extent=<ES>24:1 - 34:6<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:24:16: StructDecl=btime_s|D:\github\msp430\obs_RTC_check\hp_time.h:24:16 (Definition) <US>c:@S@btime_s<UE> <DS>btime_s<DE> Extent=<ES>24:9 - 33:2<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:26:13: FieldDecl=year|D:\github\msp430\obs_RTC_check\hp_time.h:26:13 (Definition) <US>c:@S@btime_s@FI@year<UE> <DS>year<DE> Extent=<ES>26:3 - 26:17<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:26:3: TypeRef=uint16_t|D:\github\msp430\obs_RTC_check\hp_time.h:7:24 (Reference) <US>c:hp_time.h@104@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>26:3 - 26:11<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:27:13: FieldDecl=day|D:\github\msp430\obs_RTC_check\hp_time.h:27:13 (Definition) <US>c:@S@btime_s@FI@day<UE> <DS>day<DE> Extent=<ES>27:3 - 27:16<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:27:3: TypeRef=uint16_t|D:\github\msp430\obs_RTC_check\hp_time.h:7:24 (Reference) <US>c:hp_time.h@104@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>27:3 - 27:11<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:28:13: FieldDecl=hour|D:\github\msp430\obs_RTC_check\hp_time.h:28:13 (Definition) <US>c:@S@btime_s@FI@hour<UE> <DS>hour<DE> Extent=<ES>28:3 - 28:17<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:28:3: TypeRef=uint8_t|D:\github\msp430\obs_RTC_check\hp_time.h:8:23 (Reference) <US>c:hp_time.h@138@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>28:3 - 28:10<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:29:13: FieldDecl=min|D:\github\msp430\obs_RTC_check\hp_time.h:29:13 (Definition) <US>c:@S@btime_s@FI@min<UE> <DS>min<DE> Extent=<ES>29:3 - 29:16<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:29:3: TypeRef=uint8_t|D:\github\msp430\obs_RTC_check\hp_time.h:8:23 (Reference) <US>c:hp_time.h@138@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>29:3 - 29:10<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:30:13: FieldDecl=sec|D:\github\msp430\obs_RTC_check\hp_time.h:30:13 (Definition) <US>c:@S@btime_s@FI@sec<UE> <DS>sec<DE> Extent=<ES>30:3 - 30:16<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:30:3: TypeRef=uint8_t|D:\github\msp430\obs_RTC_check\hp_time.h:8:23 (Reference) <US>c:hp_time.h@138@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>30:3 - 30:10<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:31:13: FieldDecl=unused|D:\github\msp430\obs_RTC_check\hp_time.h:31:13 (Definition) <US>c:@S@btime_s@FI@unused<UE> <DS>unused<DE> Extent=<ES>31:3 - 31:19<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:31:3: TypeRef=uint8_t|D:\github\msp430\obs_RTC_check\hp_time.h:8:23 (Reference) <US>c:hp_time.h@138@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>31:3 - 31:10<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:32:13: FieldDecl=fract|D:\github\msp430\obs_RTC_check\hp_time.h:32:13 (Definition) <US>c:@S@btime_s@FI@fract<UE> <DS>fract<DE> Extent=<ES>32:3 - 32:18<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:32:3: TypeRef=uint16_t|D:\github\msp430\obs_RTC_check\hp_time.h:7:24 (Reference) <US>c:hp_time.h@104@T@uint16_t<UE> <DS>unsigned short<DE> Extent=<ES>32:3 - 32:11<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:38:10: FunctionDecl=ms_timestr2hptime|D:\github\msp430\obs_RTC_check\hp_time.h:38:10 (Declaration) <US>c:@F@ms_timestr2hptime#*C#<UE> <DS>hptime_t ms_timestr2hptime(char *)<DE> Extent=<ES>38:1 - 38:43<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:38:1: TypeRef=hptime_t|D:\github\msp430\obs_RTC_check\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>38:1 - 38:9<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:38:35: ParmDecl=timestr|D:\github\msp430\obs_RTC_check\hp_time.h:38:35 (Definition) <US>c:hp_time.h@853@F@ms_timestr2hptime#*C#@timestr<UE> <DS>char *<DE> Extent=<ES>38:29 - 38:42<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:39:6: FunctionDecl=ms_md2doy|D:\github\msp430\obs_RTC_check\hp_time.h:39:6 (Declaration) <US>c:@F@ms_md2doy#I#I#I#*I#<UE> <DS>int ms_md2doy(int, int, int, int *)<DE> Extent=<ES>39:1 - 39:58<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:39:21: ParmDecl=year|D:\github\msp430\obs_RTC_check\hp_time.h:39:21 (Definition) <US>c:hp_time.h@886@F@ms_md2doy#I#I#I#*I#@year<UE> <DS>int<DE> Extent=<ES>39:17 - 39:25<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:39:31: ParmDecl=month|D:\github\msp430\obs_RTC_check\hp_time.h:39:31 (Definition) <US>c:hp_time.h@896@F@ms_md2doy#I#I#I#*I#@month<UE> <DS>int<DE> Extent=<ES>39:27 - 39:36<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:39:42: ParmDecl=mday|D:\github\msp430\obs_RTC_check\hp_time.h:39:42 (Definition) <US>c:hp_time.h@907@F@ms_md2doy#I#I#I#*I#@mday<UE> <DS>int<DE> Extent=<ES>39:38 - 39:46<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:39:53: ParmDecl=jday|D:\github\msp430\obs_RTC_check\hp_time.h:39:53 (Definition) <US>c:hp_time.h@917@F@ms_md2doy#I#I#I#*I#@jday<UE> <DS>int *<DE> Extent=<ES>39:48 - 39:57<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:40:17: FunctionDecl=ms_time2hptime_int|D:\github\msp430\obs_RTC_check\hp_time.h:40:17 (Declaration) <US>c:hp_time.h@930@F@ms_time2hptime_int#I#I#I#I#I#I#<UE> <DS>hptime_t ms_time2hptime_int(int, int, int, int, int, int)<DE> Extent=<ES>40:1 - 40:93<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:40:8: TypeRef=hptime_t|D:\github\msp430\obs_RTC_check\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>40:8 - 40:16<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:40:41: ParmDecl=year|D:\github\msp430\obs_RTC_check\hp_time.h:40:41 (Definition) <US>c:hp_time.h@966@F@ms_time2hptime_int#I#I#I#I#I#I#@year<UE> <DS>int<DE> Extent=<ES>40:37 - 40:45<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:40:51: ParmDecl=day|D:\github\msp430\obs_RTC_check\hp_time.h:40:51 (Definition) <US>c:hp_time.h@976@F@ms_time2hptime_int#I#I#I#I#I#I#@day<UE> <DS>int<DE> Extent=<ES>40:47 - 40:54<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:40:60: ParmDecl=hour|D:\github\msp430\obs_RTC_check\hp_time.h:40:60 (Definition) <US>c:hp_time.h@985@F@ms_time2hptime_int#I#I#I#I#I#I#@hour<UE> <DS>int<DE> Extent=<ES>40:56 - 40:64<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:40:70: ParmDecl=min|D:\github\msp430\obs_RTC_check\hp_time.h:40:70 (Definition) <US>c:hp_time.h@995@F@ms_time2hptime_int#I#I#I#I#I#I#@min<UE> <DS>int<DE> Extent=<ES>40:66 - 40:73<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:40:79: ParmDecl=sec|D:\github\msp430\obs_RTC_check\hp_time.h:40:79 (Definition) <US>c:hp_time.h@1004@F@ms_time2hptime_int#I#I#I#I#I#I#@sec<UE> <DS>int<DE> Extent=<ES>40:75 - 40:82<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:40:88: ParmDecl=usec|D:\github\msp430\obs_RTC_check\hp_time.h:40:88 (Definition) <US>c:hp_time.h@1013@F@ms_time2hptime_int#I#I#I#I#I#I#@usec<UE> <DS>int<DE> Extent=<ES>40:84 - 40:92<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:41:10: FunctionDecl=ms_btime2hptime|D:\github\msp430\obs_RTC_check\hp_time.h:41:10 (Declaration) <US>c:@F@ms_btime2hptime#*$@S@btime_s#<UE> <DS>hptime_t ms_btime2hptime(BTime *)<DE> Extent=<ES>41:1 - 41:40<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:41:1: TypeRef=hptime_t|D:\github\msp430\obs_RTC_check\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>41:1 - 41:9<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:41:34: ParmDecl=btime|D:\github\msp430\obs_RTC_check\hp_time.h:41:34 (Definition) <US>c:hp_time.h@1051@F@ms_btime2hptime#*$@S@btime_s#@btime<UE> <DS>BTime *<DE> Extent=<ES>41:27 - 41:39<EE>
-<L>D:\github\msp430\obs_RTC_check\hp_time.h:41:27: TypeRef=BTime|D:\github\msp430\obs_RTC_check\hp_time.h:34:1 (Reference) <US>c:hp_time.h@595@T@BTime<UE> <DS>struct btime_s<DE> Extent=<ES>41:27 - 41:32<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:22:5: VarDecl=Control_Mode|D:\github\msp430\obs_RTC_check\main.cpp:22:5 (Definition) <US>c:@Control_Mode<UE> <DS>Control_Mode<DE> Extent=<ES>22:1 - 22:21<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:22:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>22:20 - 22:21<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:23:5: VarDecl=Diff_1PPS|D:\github\msp430\obs_RTC_check\main.cpp:23:5 (Definition) <US>c:@Diff_1PPS<UE> <DS>Diff_1PPS<DE> Extent=<ES>23:1 - 23:18<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:23:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>23:17 - 23:18<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:25:5: VarDecl=CloCk_10KHz|D:\github\msp430\obs_RTC_check\main.cpp:25:5 (Definition) <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>25:1 - 25:19<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:25:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>25:18 - 25:19<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:26:6: FunctionDecl=DelayMs|D:\github\msp430\obs_RTC_check\main.cpp:248:6 (Declaration) <US>c:@F@DelayMs#I#<UE> <DS>void DelayMs(int)<DE> Extent=<ES>26:1 - 26:21<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:26:18: ParmDecl=ms|D:\github\msp430\obs_RTC_check\main.cpp:26:18 (Definition) <US>c:main.cpp@499@F@DelayMs#I#@ms<UE> <DS>int<DE> Extent=<ES>26:14 - 26:20<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:27:6: FunctionDecl=findStrPoint|D:\github\msp430\obs_RTC_check\main.cpp:277:6 (Declaration) <US>c:@F@findStrPoint#*C#S0_#C#I#<UE> <DS>void findStrPoint(char *, char *, char, int)<DE> Extent=<ES>27:1 - 27:56<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:27:25: ParmDecl=a|D:\github\msp430\obs_RTC_check\main.cpp:27:25 (Definition) <US>c:main.cpp@527@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>27:19 - 27:26<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:27:33: ParmDecl=ans|D:\github\msp430\obs_RTC_check\main.cpp:27:33 (Definition) <US>c:main.cpp@535@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>27:27 - 27:36<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:27:42: ParmDecl=feature|D:\github\msp430\obs_RTC_check\main.cpp:27:42 (Definition) <US>c:main.cpp@545@F@findStrPoint#*C#S0_#C#I#@feature<UE> <DS>char<DE> Extent=<ES>27:37 - 27:49<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:27:54: ParmDecl=n|D:\github\msp430\obs_RTC_check\main.cpp:27:54 (Definition) <US>c:main.cpp@558@F@findStrPoint#*C#S0_#C#I#@n<UE> <DS>int<DE> Extent=<ES>27:50 - 27:55<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:28:6: VarDecl=Getp|D:\github\msp430\obs_RTC_check\main.cpp:28:6 (Definition) <US>c:@Getp<UE> <DS>Getp<DE> Extent=<ES>28:1 - 28:14<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:28:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>28:11 - 28:13<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:30:6: FunctionDecl=Open_Syn_Interrupt|D:\github\msp430\obs_RTC_check\main.cpp:160:6 (Declaration) <US>c:@F@Open_Syn_Interrupt#<UE> <DS>void Open_Syn_Interrupt(void)<DE> Extent=<ES>30:1 - 30:26<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:31:6: FunctionDecl=UART_Init|D:\github\msp430\obs_RTC_check\main.cpp:301:6 (Declaration) <US>c:@F@UART_Init#I#<UE> <DS>void UART_Init(int)<DE> Extent=<ES>31:1 - 31:24<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:31:20: ParmDecl=com|D:\github\msp430\obs_RTC_check\main.cpp:31:20 (Definition) <US>c:main.cpp@628@F@UART_Init#I#@com<UE> <DS>int<DE> Extent=<ES>31:16 - 31:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:33:8: VarDecl=GPS_time|D:\github\msp430\obs_RTC_check\main.cpp:33:8 (Definition) <US>c:@GPS_time<UE> <DS>GPS_time<DE> Extent=<ES>33:1 - 33:16<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:33:1: TypeRef=time_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\time.h:68:22 (Reference) <US>c:time.h@1829@T@time_t<UE> <DS>__time32_t<DE> Extent=<ES>33:1 - 33:7<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:36:6: VarDecl=string|D:\github\msp430\obs_RTC_check\main.cpp:36:6 (Definition) <US>c:@string<UE> <DS>string<DE> Extent=<ES>36:1 - 36:16<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:36:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>36:13 - 36:15<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:38:6: VarDecl=COM1_BUFFER|D:\github\msp430\obs_RTC_check\main.cpp:38:6 (Definition) <US>c:@COM1_BUFFER<UE> <DS>COM1_BUFFER<DE> Extent=<ES>38:1 - 38:31<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:38:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>38:18 - 38:30<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:39:6: VarDecl=COM1_REC_BUFFER|D:\github\msp430\obs_RTC_check\main.cpp:39:6 (Definition) <US>c:@COM1_REC_BUFFER<UE> <DS>COM1_REC_BUFFER<DE> Extent=<ES>39:1 - 39:35<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:39:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>39:22 - 39:34<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:41:6: VarDecl=COM2_BUFFER|D:\github\msp430\obs_RTC_check\main.cpp:41:6 (Definition) <US>c:@COM2_BUFFER<UE> <DS>COM2_BUFFER<DE> Extent=<ES>41:1 - 41:31<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:41:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>41:18 - 41:30<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:42:6: VarDecl=COM2_REC_BUFFER|D:\github\msp430\obs_RTC_check\main.cpp:42:6 (Definition) <US>c:@COM2_REC_BUFFER<UE> <DS>COM2_REC_BUFFER<DE> Extent=<ES>42:1 - 42:35<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:42:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:22 - 42:34<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:44:6: VarDecl=COM3_BUFFER|D:\github\msp430\obs_RTC_check\main.cpp:44:6 (Definition) <US>c:@COM3_BUFFER<UE> <DS>COM3_BUFFER<DE> Extent=<ES>44:1 - 44:31<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:44:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>44:18 - 44:30<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:45:6: VarDecl=COM3_REC_BUFFER|D:\github\msp430\obs_RTC_check\main.cpp:45:6 (Definition) <US>c:@COM3_REC_BUFFER<UE> <DS>COM3_REC_BUFFER<DE> Extent=<ES>45:1 - 45:35<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:45:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>45:22 - 45:34<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:47:5: VarDecl=UART_COM1_RX_count|D:\github\msp430\obs_RTC_check\main.cpp:47:5 (Definition) <US>c:@UART_COM1_RX_count<UE> <DS>UART_COM1_RX_count<DE> Extent=<ES>47:1 - 47:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:47:24: VarDecl=UART_COM2_RX_count|D:\github\msp430\obs_RTC_check\main.cpp:47:24 (Definition) <US>c:@UART_COM2_RX_count<UE> <DS>UART_COM2_RX_count<DE> Extent=<ES>47:1 - 47:42<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:47:43: VarDecl=UART_COM3_RX_count|D:\github\msp430\obs_RTC_check\main.cpp:47:43 (Definition) <US>c:@UART_COM3_RX_count<UE> <DS>UART_COM3_RX_count<DE> Extent=<ES>47:1 - 47:61<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:51:7: VarDecl=nEw_ms|D:\github\msp430\obs_RTC_check\main.cpp:51:7 (Definition) <US>c:@nEw_ms<UE> <DS>nEw_ms<DE> Extent=<ES>51:1 - 51:13<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:53:5: VarDecl=GPS_MODE|D:\github\msp430\obs_RTC_check\main.cpp:53:5 (Definition) <US>c:@GPS_MODE<UE> <DS>GPS_MODE<DE> Extent=<ES>53:1 - 53:17<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:53:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>53:16 - 53:17<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:55:6: FunctionDecl=Crystal_Init|D:\github\msp430\obs_RTC_check\main.cpp:224:6 (Declaration) <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>55:1 - 55:20<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:57:6: FunctionDecl=main|D:\github\msp430\obs_RTC_check\main.cpp:57:6 (Definition) <US>c:@F@main<UE> <DS>void main(void)<DE> Extent=<ES>57:1 - 157:2<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:58:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>58:1 - 157:2<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:61:2: CallExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>61:2 - 61:9<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:61:2: UnexposedExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>61:2 - 61:9<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:61:2: DeclRefExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:39:20 (Reference) <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>61:2 - 61:9<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:64:1: DeclStmt= <US><UE> <DS><DE> Extent=<ES>64:1 - 64:32<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:64:17: VarDecl=s1|D:\github\msp430\obs_RTC_check\main.cpp:64:17 (Definition) <US>c:main.cpp@1555@F@main@s1<UE> <DS>s1<DE> Extent=<ES>64:1 - 64:19<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:64:8: TypeRef=hptime_t|D:\github\msp430\obs_RTC_check\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>64:8 - 64:16<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:64:20: VarDecl=s2|D:\github\msp430\obs_RTC_check\main.cpp:64:20 (Declaration) <US>c:main.cpp@1555@F@main@s2<UE> <DS>s2<DE> Extent=<ES>64:20 - 64:22<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:64:8: TypeRef=hptime_t|D:\github\msp430\obs_RTC_check\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>64:8 - 64:16<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:64:23: VarDecl=s3|D:\github\msp430\obs_RTC_check\main.cpp:64:23 (Declaration) <US>c:main.cpp@1555@F@main@s3<UE> <DS>s3<DE> Extent=<ES>64:23 - 64:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:64:8: TypeRef=hptime_t|D:\github\msp430\obs_RTC_check\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>64:8 - 64:16<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:64:26: VarDecl=s4|D:\github\msp430\obs_RTC_check\main.cpp:64:26 (Declaration) <US>c:main.cpp@1555@F@main@s4<UE> <DS>s4<DE> Extent=<ES>64:26 - 64:28<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:64:8: TypeRef=hptime_t|D:\github\msp430\obs_RTC_check\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>64:8 - 64:16<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:64:29: VarDecl=s5|D:\github\msp430\obs_RTC_check\main.cpp:64:29 (Declaration) <US>c:main.cpp@1555@F@main@s5<UE> <DS>s5<DE> Extent=<ES>64:29 - 64:31<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:64:8: TypeRef=hptime_t|D:\github\msp430\obs_RTC_check\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>64:8 - 64:16<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:66:1: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>66:1 - 66:53<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:66:1: DeclRefExpr=s1|D:\github\msp430\obs_RTC_check\main.cpp:64:17 (Reference) <US>c:main.cpp@1555@F@main@s1<UE> <DS>s1<DE> Extent=<ES>66:1 - 66:3<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:66:6: CallExpr=ms_timestr2hptime|D:\github\msp430\obs_RTC_check\hp_time.h:38:10 <US>c:@F@ms_timestr2hptime#*C#<UE> <DS>hptime_t ms_timestr2hptime(char *)<DE> Extent=<ES>66:6 - 66:53<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:66:6: UnexposedExpr=ms_timestr2hptime|D:\github\msp430\obs_RTC_check\hp_time.h:38:10 <US>c:@F@ms_timestr2hptime#*C#<UE> <DS>hptime_t ms_timestr2hptime(char *)<DE> Extent=<ES>66:6 - 66:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:66:6: DeclRefExpr=ms_timestr2hptime|D:\github\msp430\obs_RTC_check\hp_time.h:38:10 (Reference) <US>c:@F@ms_timestr2hptime#*C#<UE> <DS>hptime_t ms_timestr2hptime(char *)<DE> Extent=<ES>66:6 - 66:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:66:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>66:24 - 66:52<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:66:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>66:24 - 66:52<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:66:24: StringLiteral= <US><UE> <DS><DE> Extent=<ES>66:24 - 66:52<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:67:1: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>67:1 - 67:53<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:67:1: DeclRefExpr=s2|D:\github\msp430\obs_RTC_check\main.cpp:64:20 (Reference) <US>c:main.cpp@1555@F@main@s2<UE> <DS>s2<DE> Extent=<ES>67:1 - 67:3<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:67:6: CallExpr=ms_timestr2hptime|D:\github\msp430\obs_RTC_check\hp_time.h:38:10 <US>c:@F@ms_timestr2hptime#*C#<UE> <DS>hptime_t ms_timestr2hptime(char *)<DE> Extent=<ES>67:6 - 67:53<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:67:6: UnexposedExpr=ms_timestr2hptime|D:\github\msp430\obs_RTC_check\hp_time.h:38:10 <US>c:@F@ms_timestr2hptime#*C#<UE> <DS>hptime_t ms_timestr2hptime(char *)<DE> Extent=<ES>67:6 - 67:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:67:6: DeclRefExpr=ms_timestr2hptime|D:\github\msp430\obs_RTC_check\hp_time.h:38:10 (Reference) <US>c:@F@ms_timestr2hptime#*C#<UE> <DS>hptime_t ms_timestr2hptime(char *)<DE> Extent=<ES>67:6 - 67:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:67:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>67:24 - 67:52<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:67:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>67:24 - 67:52<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:67:24: StringLiteral= <US><UE> <DS><DE> Extent=<ES>67:24 - 67:52<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:68:1: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>68:1 - 68:53<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:68:1: DeclRefExpr=s3|D:\github\msp430\obs_RTC_check\main.cpp:64:23 (Reference) <US>c:main.cpp@1555@F@main@s3<UE> <DS>s3<DE> Extent=<ES>68:1 - 68:3<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:68:6: CallExpr=ms_timestr2hptime|D:\github\msp430\obs_RTC_check\hp_time.h:38:10 <US>c:@F@ms_timestr2hptime#*C#<UE> <DS>hptime_t ms_timestr2hptime(char *)<DE> Extent=<ES>68:6 - 68:53<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:68:6: UnexposedExpr=ms_timestr2hptime|D:\github\msp430\obs_RTC_check\hp_time.h:38:10 <US>c:@F@ms_timestr2hptime#*C#<UE> <DS>hptime_t ms_timestr2hptime(char *)<DE> Extent=<ES>68:6 - 68:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:68:6: DeclRefExpr=ms_timestr2hptime|D:\github\msp430\obs_RTC_check\hp_time.h:38:10 (Reference) <US>c:@F@ms_timestr2hptime#*C#<UE> <DS>hptime_t ms_timestr2hptime(char *)<DE> Extent=<ES>68:6 - 68:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:68:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>68:24 - 68:52<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:68:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>68:24 - 68:52<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:68:24: StringLiteral= <US><UE> <DS><DE> Extent=<ES>68:24 - 68:52<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:69:1: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>69:1 - 69:11<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:69:1: DeclRefExpr=s4|D:\github\msp430\obs_RTC_check\main.cpp:64:26 (Reference) <US>c:main.cpp@1555@F@main@s4<UE> <DS>s4<DE> Extent=<ES>69:1 - 69:3<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:69:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>69:6 - 69:11<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:69:6: UnexposedExpr=s3|D:\github\msp430\obs_RTC_check\main.cpp:64:23 <US>c:main.cpp@1555@F@main@s3<UE> <DS>s3<DE> Extent=<ES>69:6 - 69:8<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:69:6: DeclRefExpr=s3|D:\github\msp430\obs_RTC_check\main.cpp:64:23 (Reference) <US>c:main.cpp@1555@F@main@s3<UE> <DS>s3<DE> Extent=<ES>69:6 - 69:8<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:69:9: UnexposedExpr=s1|D:\github\msp430\obs_RTC_check\main.cpp:64:17 <US>c:main.cpp@1555@F@main@s1<UE> <DS>s1<DE> Extent=<ES>69:9 - 69:11<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:69:9: DeclRefExpr=s1|D:\github\msp430\obs_RTC_check\main.cpp:64:17 (Reference) <US>c:main.cpp@1555@F@main@s1<UE> <DS>s1<DE> Extent=<ES>69:9 - 69:11<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:70:1: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>70:1 - 70:11<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:70:1: DeclRefExpr=s5|D:\github\msp430\obs_RTC_check\main.cpp:64:29 (Reference) <US>c:main.cpp@1555@F@main@s5<UE> <DS>s5<DE> Extent=<ES>70:1 - 70:3<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:70:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>70:6 - 70:11<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:70:6: UnexposedExpr=s1|D:\github\msp430\obs_RTC_check\main.cpp:64:17 <US>c:main.cpp@1555@F@main@s1<UE> <DS>s1<DE> Extent=<ES>70:6 - 70:8<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:70:6: DeclRefExpr=s1|D:\github\msp430\obs_RTC_check\main.cpp:64:17 (Reference) <US>c:main.cpp@1555@F@main@s1<UE> <DS>s1<DE> Extent=<ES>70:6 - 70:8<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:70:9: UnexposedExpr=s2|D:\github\msp430\obs_RTC_check\main.cpp:64:20 <US>c:main.cpp@1555@F@main@s2<UE> <DS>s2<DE> Extent=<ES>70:9 - 70:11<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:70:9: DeclRefExpr=s2|D:\github\msp430\obs_RTC_check\main.cpp:64:20 (Reference) <US>c:main.cpp@1555@F@main@s2<UE> <DS>s2<DE> Extent=<ES>70:9 - 70:11<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:72:2: CallExpr=Crystal_Init|D:\github\msp430\obs_RTC_check\main.cpp:224:6 <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>72:2 - 72:16<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:72:2: UnexposedExpr=Crystal_Init|D:\github\msp430\obs_RTC_check\main.cpp:224:6 <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>72:2 - 72:14<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:72:2: DeclRefExpr=Crystal_Init|D:\github\msp430\obs_RTC_check\main.cpp:224:6 (Reference) <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>72:2 - 72:14<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:73:4: CallExpr=UART_Init|D:\github\msp430\obs_RTC_check\main.cpp:301:6 <US>c:@F@UART_Init#I#<UE> <DS>void UART_Init(int)<DE> Extent=<ES>73:4 - 73:29<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:73:4: UnexposedExpr=UART_Init|D:\github\msp430\obs_RTC_check\main.cpp:301:6 <US>c:@F@UART_Init#I#<UE> <DS>void UART_Init(int)<DE> Extent=<ES>73:4 - 73:13<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:73:4: DeclRefExpr=UART_Init|D:\github\msp430\obs_RTC_check\main.cpp:301:6 (Reference) <US>c:@F@UART_Init#I#<UE> <DS>void UART_Init(int)<DE> Extent=<ES>73:4 - 73:13<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:73:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>73:14 - 73:28<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:73:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>73:14 - 73:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:73:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>73:14 - 73:18<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:73:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>73:19 - 73:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:73:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>73:24 - 73:28<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:78:2: CallExpr=Open_Syn_Interrupt|D:\github\msp430\obs_RTC_check\main.cpp:160:6 <US>c:@F@Open_Syn_Interrupt#<UE> <DS>void Open_Syn_Interrupt(void)<DE> Extent=<ES>78:2 - 78:22<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:78:2: UnexposedExpr=Open_Syn_Interrupt|D:\github\msp430\obs_RTC_check\main.cpp:160:6 <US>c:@F@Open_Syn_Interrupt#<UE> <DS>void Open_Syn_Interrupt(void)<DE> Extent=<ES>78:2 - 78:20<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:78:2: DeclRefExpr=Open_Syn_Interrupt|D:\github\msp430\obs_RTC_check\main.cpp:160:6 (Reference) <US>c:@F@Open_Syn_Interrupt#<UE> <DS>void Open_Syn_Interrupt(void)<DE> Extent=<ES>78:2 - 78:20<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:80:4: WhileStmt= <US><UE> <DS><DE> Extent=<ES>80:4 - 155:5<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:80:10: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>80:10 - 80:11<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:80:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>80:10 - 80:11<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:80:12: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>80:12 - 155:5<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:82:6: CallExpr=__bis_SR_register|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>82:6 - 82:38<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:82:6: UnexposedExpr=__bis_SR_register|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>82:6 - 82:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:82:6: DeclRefExpr=__bis_SR_register|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 (Reference) <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>82:6 - 82:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:82:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>82:24 - 82:37<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:82:24: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>82:24 - 82:37<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:82:24: ParenExpr= <US><UE> <DS><DE> Extent=<ES>82:24 - 82:27<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:82:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>82:24 - 82:27<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:82:28: ParenExpr= <US><UE> <DS><DE> Extent=<ES>82:28 - 82:37<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:82:28: ParenExpr= <US><UE> <DS><DE> Extent=<ES>82:28 - 82:37<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:82:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>82:28 - 82:37<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:160:6: FunctionDecl=Open_Syn_Interrupt|D:\github\msp430\obs_RTC_check\main.cpp:160:6 (Definition) <US>c:@F@Open_Syn_Interrupt#<UE> <DS>void Open_Syn_Interrupt(void)<DE> Extent=<ES>160:1 - 165:2<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:160:26: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>160:26 - 165:2<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:168:18: FunctionDecl=P1ISR|D:\github\msp430\obs_RTC_check\main.cpp:168:18 (Definition) <US>c:@F@P1ISR#<UE> <DS>void P1ISR(void)<DE> Extent=<ES>168:13 - 218:2<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:169:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>169:1 - 218:2<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:220:6: FunctionDecl=int2str|D:\github\msp430\obs_RTC_check\main.cpp:220:6 (Definition) <US>c:@F@int2str#L#*C#<UE> <DS>void int2str(long, char *)<DE> Extent=<ES>220:1 - 222:2<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:220:23: ParmDecl=i|D:\github\msp430\obs_RTC_check\main.cpp:220:23 (Definition) <US>c:main.cpp@5848@F@int2str#L#*C#@i<UE> <DS>long<DE> Extent=<ES>220:14 - 220:24<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:220:31: ParmDecl=s|D:\github\msp430\obs_RTC_check\main.cpp:220:31 (Definition) <US>c:main.cpp@5859@F@int2str#L#*C#@s<UE> <DS>char *<DE> Extent=<ES>220:25 - 220:32<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:220:34: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>220:34 - 222:2<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:221:6: CallExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>221:6 - 221:26<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:221:6: UnexposedExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>221:6 - 221:13<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:221:6: DeclRefExpr=sprintf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:174:42 (Reference) <US>c:@F@sprintf<UE> <DS>int sprintf(char *, const char *, ...)<DE> Extent=<ES>221:6 - 221:13<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:221:14: UnexposedExpr=s|D:\github\msp430\obs_RTC_check\main.cpp:220:31 <US>c:main.cpp@5859@F@int2str#L#*C#@s<UE> <DS>char *<DE> Extent=<ES>221:14 - 221:15<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:221:14: DeclRefExpr=s|D:\github\msp430\obs_RTC_check\main.cpp:220:31 (Reference) <US>c:main.cpp@5859@F@int2str#L#*C#@s<UE> <DS>char *<DE> Extent=<ES>221:14 - 221:15<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:221:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>221:16 - 221:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:221:16: StringLiteral= <US><UE> <DS><DE> Extent=<ES>221:16 - 221:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:221:24: UnexposedExpr=i|D:\github\msp430\obs_RTC_check\main.cpp:220:23 <US>c:main.cpp@5848@F@int2str#L#*C#@i<UE> <DS>long<DE> Extent=<ES>221:24 - 221:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:221:24: DeclRefExpr=i|D:\github\msp430\obs_RTC_check\main.cpp:220:23 (Reference) <US>c:main.cpp@5848@F@int2str#L#*C#@i<UE> <DS>long<DE> Extent=<ES>221:24 - 221:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:224:6: FunctionDecl=Crystal_Init|D:\github\msp430\obs_RTC_check\main.cpp:224:6 (Definition) <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>224:1 - 246:2<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:224:20: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>224:20 - 246:2<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:248:6: FunctionDecl=DelayMs|D:\github\msp430\obs_RTC_check\main.cpp:248:6 (Definition) <US>c:@F@DelayMs#I#<UE> <DS>void DelayMs(int)<DE> Extent=<ES>248:1 - 254:2<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:248:18: ParmDecl=ms|D:\github\msp430\obs_RTC_check\main.cpp:248:18 (Definition) <US>c:main.cpp@7119@F@DelayMs#I#@ms<UE> <DS>int<DE> Extent=<ES>248:14 - 248:20<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:248:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>248:21 - 254:2<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:251:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>251:3 - 252:24<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:251:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>251:7 - 251:15<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:251:11: VarDecl=i|D:\github\msp430\obs_RTC_check\main.cpp:251:11 (Definition) <US>c:main.cpp@7157@F@DelayMs#I#@i<UE> <DS>i<DE> Extent=<ES>251:7 - 251:14<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:251:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>251:13 - 251:14<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:251:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>251:15 - 251:19<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:251:15: UnexposedExpr=i|D:\github\msp430\obs_RTC_check\main.cpp:251:11 <US>c:main.cpp@7157@F@DelayMs#I#@i<UE> <DS>i<DE> Extent=<ES>251:15 - 251:16<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:251:15: DeclRefExpr=i|D:\github\msp430\obs_RTC_check\main.cpp:251:11 (Reference) <US>c:main.cpp@7157@F@DelayMs#I#@i<UE> <DS>i<DE> Extent=<ES>251:15 - 251:16<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:251:17: UnexposedExpr=ms|D:\github\msp430\obs_RTC_check\main.cpp:248:18 <US>c:main.cpp@7119@F@DelayMs#I#@ms<UE> <DS>int<DE> Extent=<ES>251:17 - 251:19<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:251:17: DeclRefExpr=ms|D:\github\msp430\obs_RTC_check\main.cpp:248:18 (Reference) <US>c:main.cpp@7119@F@DelayMs#I#@ms<UE> <DS>int<DE> Extent=<ES>251:17 - 251:19<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:251:20: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>251:20 - 251:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:251:20: DeclRefExpr=i|D:\github\msp430\obs_RTC_check\main.cpp:251:11 (Reference) <US>c:main.cpp@7157@F@DelayMs#I#@i<UE> <DS>i<DE> Extent=<ES>251:20 - 251:21<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:252:3: CallExpr=__delay_cycles|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>252:3 - 252:24<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:252:3: UnexposedExpr=__delay_cycles|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>252:3 - 252:17<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:252:3: DeclRefExpr=__delay_cycles|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>252:3 - 252:17<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:252:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>252:18 - 252:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:252:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>252:18 - 252:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:258:5: VarDecl=is|D:\github\msp430\obs_RTC_check\main.cpp:258:5 (Definition) <US>c:@is<UE> <DS>is<DE> Extent=<ES>258:1 - 258:9<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:258:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>258:8 - 258:9<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:260:18: FunctionDecl=TIMER0_A0_ISR|D:\github\msp430\obs_RTC_check\main.cpp:260:18 (Definition) <US>c:@F@TIMER0_A0_ISR#<UE> <DS>void TIMER0_A0_ISR(void)<DE> Extent=<ES>260:13 - 274:2<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:261:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>261:1 - 274:2<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:262:3: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>262:3 - 262:16<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:262:3: DeclRefExpr=CloCk_10KHz|D:\github\msp430\obs_RTC_check\main.cpp:25:5 (Reference) <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>262:3 - 262:14<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:263:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>263:3 - 273:4<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:263:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>263:6 - 263:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:263:6: UnexposedExpr=CloCk_10KHz|D:\github\msp430\obs_RTC_check\main.cpp:25:5 <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>263:6 - 263:17<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:263:6: DeclRefExpr=CloCk_10KHz|D:\github\msp430\obs_RTC_check\main.cpp:25:5 (Reference) <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>263:6 - 263:17<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:263:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>263:18 - 263:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:263:24: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>263:24 - 273:4<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:264:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>264:5 - 264:18<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:264:5: DeclRefExpr=CloCk_10KHz|D:\github\msp430\obs_RTC_check\main.cpp:25:5 (Reference) <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>264:5 - 264:16<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:264:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>264:17 - 264:18<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:277:6: FunctionDecl=findStrPoint|D:\github\msp430\obs_RTC_check\main.cpp:277:6 (Definition) <US>c:@F@findStrPoint#*C#S0_#C#I#<UE> <DS>void findStrPoint(char *, char *, char, int)<DE> Extent=<ES>277:1 - 297:2<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:277:25: ParmDecl=a|D:\github\msp430\obs_RTC_check\main.cpp:277:25 (Definition) <US>c:main.cpp@7734@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>277:19 - 277:26<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:277:33: ParmDecl=ans|D:\github\msp430\obs_RTC_check\main.cpp:277:33 (Definition) <US>c:main.cpp@7742@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>277:27 - 277:36<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:277:42: ParmDecl=feature|D:\github\msp430\obs_RTC_check\main.cpp:277:42 (Definition) <US>c:main.cpp@7752@F@findStrPoint#*C#S0_#C#I#@feature<UE> <DS>char<DE> Extent=<ES>277:37 - 277:49<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:277:54: ParmDecl=n|D:\github\msp430\obs_RTC_check\main.cpp:277:54 (Definition) <US>c:main.cpp@7765@F@findStrPoint#*C#S0_#C#I#@n<UE> <DS>int<DE> Extent=<ES>277:50 - 277:55<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:277:56: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>277:56 - 297:2<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:278:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>278:7 - 278:45<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:278:11: VarDecl=strcount|D:\github\msp430\obs_RTC_check\main.cpp:278:11 (Definition) <US>c:main.cpp@7780@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>278:7 - 278:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:278:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>278:22 - 278:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:278:25: VarDecl=Ncount|D:\github\msp430\obs_RTC_check\main.cpp:278:25 (Declaration) <US>c:main.cpp@7780@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>278:25 - 278:35<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:278:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>278:34 - 278:35<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:278:37: VarDecl=pop|D:\github\msp430\obs_RTC_check\main.cpp:278:37 (Declaration) <US>c:main.cpp@7780@F@findStrPoint#*C#S0_#C#I#@pop<UE> <DS>pop<DE> Extent=<ES>278:37 - 278:44<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:278:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>278:43 - 278:44<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:279:7: WhileStmt= <US><UE> <DS><DE> Extent=<ES>279:7 - 295:8<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:279:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>279:13 - 279:30<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:279:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>279:13 - 279:24<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:279:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>279:13 - 279:24<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:279:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>279:13 - 279:24<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:279:13: UnexposedExpr=a|D:\github\msp430\obs_RTC_check\main.cpp:277:25 <US>c:main.cpp@7734@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>279:13 - 279:14<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:279:13: DeclRefExpr=a|D:\github\msp430\obs_RTC_check\main.cpp:277:25 (Reference) <US>c:main.cpp@7734@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>279:13 - 279:14<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:279:15: UnexposedExpr=strcount|D:\github\msp430\obs_RTC_check\main.cpp:278:11 <US>c:main.cpp@7780@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>279:15 - 279:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:279:15: DeclRefExpr=strcount|D:\github\msp430\obs_RTC_check\main.cpp:278:11 (Reference) <US>c:main.cpp@7780@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>279:15 - 279:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:279:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>279:26 - 279:30<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:279:26: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>279:26 - 279:30<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:280:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>280:7 - 295:8<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:281:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>281:10 - 293:11<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:281:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>281:13 - 281:34<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:281:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>281:13 - 281:24<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:281:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>281:13 - 281:24<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:281:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>281:13 - 281:24<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:281:13: UnexposedExpr=a|D:\github\msp430\obs_RTC_check\main.cpp:277:25 <US>c:main.cpp@7734@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>281:13 - 281:14<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:281:13: DeclRefExpr=a|D:\github\msp430\obs_RTC_check\main.cpp:277:25 (Reference) <US>c:main.cpp@7734@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>281:13 - 281:14<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:281:15: UnexposedExpr=strcount|D:\github\msp430\obs_RTC_check\main.cpp:278:11 <US>c:main.cpp@7780@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>281:15 - 281:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:281:15: DeclRefExpr=strcount|D:\github\msp430\obs_RTC_check\main.cpp:278:11 (Reference) <US>c:main.cpp@7780@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>281:15 - 281:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:281:27: UnexposedExpr=feature|D:\github\msp430\obs_RTC_check\main.cpp:277:42 <US>c:main.cpp@7752@F@findStrPoint#*C#S0_#C#I#@feature<UE> <DS>char<DE> Extent=<ES>281:27 - 281:34<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:281:27: UnexposedExpr=feature|D:\github\msp430\obs_RTC_check\main.cpp:277:42 <US>c:main.cpp@7752@F@findStrPoint#*C#S0_#C#I#@feature<UE> <DS>char<DE> Extent=<ES>281:27 - 281:34<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:281:27: DeclRefExpr=feature|D:\github\msp430\obs_RTC_check\main.cpp:277:42 (Reference) <US>c:main.cpp@7752@F@findStrPoint#*C#S0_#C#I#@feature<UE> <DS>char<DE> Extent=<ES>281:27 - 281:34<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:281:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>281:35 - 289:11<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:282:13: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>282:13 - 282:18<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:282:13: DeclRefExpr=pop|D:\github\msp430\obs_RTC_check\main.cpp:278:37 (Reference) <US>c:main.cpp@7780@F@findStrPoint#*C#S0_#C#I#@pop<UE> <DS>pop<DE> Extent=<ES>282:13 - 282:16<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:283:13: IfStmt= <US><UE> <DS><DE> Extent=<ES>283:13 - 287:14<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:283:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>283:16 - 283:22<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:283:16: UnexposedExpr=pop|D:\github\msp430\obs_RTC_check\main.cpp:278:37 <US>c:main.cpp@7780@F@findStrPoint#*C#S0_#C#I#@pop<UE> <DS>pop<DE> Extent=<ES>283:16 - 283:19<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:283:16: DeclRefExpr=pop|D:\github\msp430\obs_RTC_check\main.cpp:278:37 (Reference) <US>c:main.cpp@7780@F@findStrPoint#*C#S0_#C#I#@pop<UE> <DS>pop<DE> Extent=<ES>283:16 - 283:19<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:283:21: UnexposedExpr=n|D:\github\msp430\obs_RTC_check\main.cpp:277:54 <US>c:main.cpp@7765@F@findStrPoint#*C#S0_#C#I#@n<UE> <DS>int<DE> Extent=<ES>283:21 - 283:22<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:283:21: DeclRefExpr=n|D:\github\msp430\obs_RTC_check\main.cpp:277:54 (Reference) <US>c:main.cpp@7765@F@findStrPoint#*C#S0_#C#I#@n<UE> <DS>int<DE> Extent=<ES>283:21 - 283:22<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:284:13: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>284:13 - 287:14<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:285:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>285:14 - 285:30<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:285:14: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>285:14 - 285:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:285:14: UnexposedExpr=ans|D:\github\msp430\obs_RTC_check\main.cpp:277:33 <US>c:main.cpp@7742@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>285:14 - 285:17<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:285:14: DeclRefExpr=ans|D:\github\msp430\obs_RTC_check\main.cpp:277:33 (Reference) <US>c:main.cpp@7742@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>285:14 - 285:17<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:285:18: UnexposedExpr=Ncount|D:\github\msp430\obs_RTC_check\main.cpp:278:25 <US>c:main.cpp@7780@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>285:18 - 285:24<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:285:18: DeclRefExpr=Ncount|D:\github\msp430\obs_RTC_check\main.cpp:278:25 (Reference) <US>c:main.cpp@7780@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>285:18 - 285:24<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:285:26: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>285:26 - 285:30<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:286:14: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>286:14 - 286:20<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:288:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>288:13 - 288:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:288:13: DeclRefExpr=Ncount|D:\github\msp430\obs_RTC_check\main.cpp:278:25 (Reference) <US>c:main.cpp@7780@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>288:13 - 288:19<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:288:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>288:22 - 288:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:290:14: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>290:14 - 293:11<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:291:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>291:11 - 291:36<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:291:11: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>291:11 - 291:22<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:291:11: UnexposedExpr=ans|D:\github\msp430\obs_RTC_check\main.cpp:277:33 <US>c:main.cpp@7742@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>291:11 - 291:14<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:291:11: DeclRefExpr=ans|D:\github\msp430\obs_RTC_check\main.cpp:277:33 (Reference) <US>c:main.cpp@7742@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>291:11 - 291:14<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:291:15: UnexposedExpr=Ncount|D:\github\msp430\obs_RTC_check\main.cpp:278:25 <US>c:main.cpp@7780@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>291:15 - 291:21<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:291:15: DeclRefExpr=Ncount|D:\github\msp430\obs_RTC_check\main.cpp:278:25 (Reference) <US>c:main.cpp@7780@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>291:15 - 291:21<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:291:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>291:25 - 291:36<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:291:25: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>291:25 - 291:36<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:291:25: UnexposedExpr=a|D:\github\msp430\obs_RTC_check\main.cpp:277:25 <US>c:main.cpp@7734@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>291:25 - 291:26<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:291:25: DeclRefExpr=a|D:\github\msp430\obs_RTC_check\main.cpp:277:25 (Reference) <US>c:main.cpp@7734@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>291:25 - 291:26<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:291:27: UnexposedExpr=strcount|D:\github\msp430\obs_RTC_check\main.cpp:278:11 <US>c:main.cpp@7780@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>291:27 - 291:35<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:291:27: DeclRefExpr=strcount|D:\github\msp430\obs_RTC_check\main.cpp:278:11 (Reference) <US>c:main.cpp@7780@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>291:27 - 291:35<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:292:11: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>292:11 - 292:19<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:292:11: DeclRefExpr=Ncount|D:\github\msp430\obs_RTC_check\main.cpp:278:25 (Reference) <US>c:main.cpp@7780@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>292:11 - 292:17<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:294:11: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>294:11 - 294:21<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:294:11: DeclRefExpr=strcount|D:\github\msp430\obs_RTC_check\main.cpp:278:11 (Reference) <US>c:main.cpp@7780@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>294:11 - 294:19<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:296:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>296:9 - 296:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:296:9: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>296:9 - 296:20<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:296:9: UnexposedExpr=ans|D:\github\msp430\obs_RTC_check\main.cpp:277:33 <US>c:main.cpp@7742@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>296:9 - 296:12<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:296:9: DeclRefExpr=ans|D:\github\msp430\obs_RTC_check\main.cpp:277:33 (Reference) <US>c:main.cpp@7742@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>296:9 - 296:12<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:296:13: UnexposedExpr=Ncount|D:\github\msp430\obs_RTC_check\main.cpp:278:25 <US>c:main.cpp@7780@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>296:13 - 296:19<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:296:13: DeclRefExpr=Ncount|D:\github\msp430\obs_RTC_check\main.cpp:278:25 (Reference) <US>c:main.cpp@7780@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>296:13 - 296:19<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:296:21: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>296:21 - 296:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:301:6: FunctionDecl=UART_Init|D:\github\msp430\obs_RTC_check\main.cpp:301:6 (Definition) <US>c:@F@UART_Init#I#<UE> <DS>void UART_Init(int)<DE> Extent=<ES>301:1 - 350:2<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:301:20: ParmDecl=com|D:\github\msp430\obs_RTC_check\main.cpp:301:20 (Definition) <US>c:main.cpp@8273@F@UART_Init#I#@com<UE> <DS>int<DE> Extent=<ES>301:16 - 301:23<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:301:24: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>301:24 - 350:2<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:303:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>303:3 - 316:4<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:303:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>303:7 - 303:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:303:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>303:7 - 303:17<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:303:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>303:8 - 303:16<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:303:8: UnexposedExpr=com|D:\github\msp430\obs_RTC_check\main.cpp:301:20 <US>c:main.cpp@8273@F@UART_Init#I#@com<UE> <DS>int<DE> Extent=<ES>303:8 - 303:11<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:303:8: DeclRefExpr=com|D:\github\msp430\obs_RTC_check\main.cpp:301:20 (Reference) <US>c:main.cpp@8273@F@UART_Init#I#@com<UE> <DS>int<DE> Extent=<ES>303:8 - 303:11<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:303:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>303:12 - 303:16<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:303:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>303:21 - 303:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:303:27: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>303:27 - 316:4<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:317:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>317:3 - 329:4<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:317:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>317:7 - 317:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:317:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>317:7 - 317:17<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:317:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>317:8 - 317:16<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:317:8: UnexposedExpr=com|D:\github\msp430\obs_RTC_check\main.cpp:301:20 <US>c:main.cpp@8273@F@UART_Init#I#@com<UE> <DS>int<DE> Extent=<ES>317:8 - 317:11<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:317:8: DeclRefExpr=com|D:\github\msp430\obs_RTC_check\main.cpp:301:20 (Reference) <US>c:main.cpp@8273@F@UART_Init#I#@com<UE> <DS>int<DE> Extent=<ES>317:8 - 317:11<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:317:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>317:12 - 317:16<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:317:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>317:21 - 317:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:317:27: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>317:27 - 329:4<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:331:4: IfStmt= <US><UE> <DS><DE> Extent=<ES>331:4 - 344:4<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:331:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>331:8 - 331:26<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:331:8: ParenExpr= <US><UE> <DS><DE> Extent=<ES>331:8 - 331:18<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:331:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>331:9 - 331:17<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:331:9: UnexposedExpr=com|D:\github\msp430\obs_RTC_check\main.cpp:301:20 <US>c:main.cpp@8273@F@UART_Init#I#@com<UE> <DS>int<DE> Extent=<ES>331:9 - 331:12<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:331:9: DeclRefExpr=com|D:\github\msp430\obs_RTC_check\main.cpp:301:20 (Reference) <US>c:main.cpp@8273@F@UART_Init#I#@com<UE> <DS>int<DE> Extent=<ES>331:9 - 331:12<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:331:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>331:13 - 331:17<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:331:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>331:22 - 331:26<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:331:28: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>331:28 - 344:4<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:346:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>346:3 - 346:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:346:3: DeclRefExpr=UART_COM1_RX_count|D:\github\msp430\obs_RTC_check\main.cpp:47:5 (Reference) <US>c:@UART_COM1_RX_count<UE> <DS>UART_COM1_RX_count<DE> Extent=<ES>346:3 - 346:21<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:346:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>346:24 - 346:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:347:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>347:3 - 347:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:347:3: DeclRefExpr=UART_COM2_RX_count|D:\github\msp430\obs_RTC_check\main.cpp:47:24 (Reference) <US>c:@UART_COM2_RX_count<UE> <DS>UART_COM2_RX_count<DE> Extent=<ES>347:3 - 347:21<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:347:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>347:24 - 347:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:348:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>348:3 - 348:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:348:3: DeclRefExpr=UART_COM3_RX_count|D:\github\msp430\obs_RTC_check\main.cpp:47:43 (Reference) <US>c:@UART_COM3_RX_count<UE> <DS>UART_COM3_RX_count<DE> Extent=<ES>348:3 - 348:21<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:348:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>348:24 - 348:25<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:353:18: FunctionDecl=USCI_A0_ISR|D:\github\msp430\obs_RTC_check\main.cpp:353:18 (Definition) <US>c:@F@USCI_A0_ISR#<UE> <DS>void USCI_A0_ISR(void)<DE> Extent=<ES>353:13 - 392:2<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:354:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>354:1 - 392:2<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:395:18: FunctionDecl=USCI_A1_ISR|D:\github\msp430\obs_RTC_check\main.cpp:395:18 (Definition) <US>c:@F@USCI_A1_ISR#<UE> <DS>void USCI_A1_ISR(void)<DE> Extent=<ES>395:13 - 419:2<EE>
-<L>D:\github\msp430\obs_RTC_check\main.cpp:396:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>396:1 - 419:2<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:24:1: FunctionDecl=ms_timestr2hptime|D:\github\msp430\obs_RTC_check\hp_time.cpp:24:1 (Definition) <US>c:@F@ms_timestr2hptime#*C#<UE> <DS>hptime_t ms_timestr2hptime(char *)<DE> Extent=<ES>23:1 - 101:2<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:23:1: TypeRef=hptime_t|D:\github\msp430\obs_RTC_check\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>23:1 - 23:9<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:24:26: ParmDecl=timestr|D:\github\msp430\obs_RTC_check\hp_time.cpp:24:26 (Definition) <US>c:hp_time.cpp@987@F@ms_timestr2hptime#*C#@timestr<UE> <DS>char *<DE> Extent=<ES>24:20 - 24:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:25:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>25:1 - 101:2<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:26:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>26:3 - 26:14<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:26:7: VarDecl=fields|D:\github\msp430\obs_RTC_check\hp_time.cpp:26:7 (Definition) <US>c:hp_time.cpp@1008@F@ms_timestr2hptime#*C#@fields<UE> <DS>fields<DE> Extent=<ES>26:3 - 26:13<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:27:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>27:3 - 27:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:27:7: VarDecl=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:27:7 (Definition) <US>c:hp_time.cpp@1023@F@ms_timestr2hptime#*C#@year<UE> <DS>year<DE> Extent=<ES>27:3 - 27:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:27:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>27:14 - 27:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:28:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>28:3 - 28:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:28:7: VarDecl=mon|D:\github\msp430\obs_RTC_check\hp_time.cpp:28:7 (Definition) <US>c:hp_time.cpp@1040@F@ms_timestr2hptime#*C#@mon<UE> <DS>mon<DE> Extent=<ES>28:3 - 28:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:28:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>28:14 - 28:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:29:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>29:3 - 29:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:29:7: VarDecl=mday|D:\github\msp430\obs_RTC_check\hp_time.cpp:29:7 (Definition) <US>c:hp_time.cpp@1057@F@ms_timestr2hptime#*C#@mday<UE> <DS>mday<DE> Extent=<ES>29:3 - 29:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:29:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>29:14 - 29:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:30:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>30:3 - 30:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:30:7: VarDecl=day|D:\github\msp430\obs_RTC_check\hp_time.cpp:30:7 (Definition) <US>c:hp_time.cpp@1074@F@ms_timestr2hptime#*C#@day<UE> <DS>day<DE> Extent=<ES>30:3 - 30:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:30:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>30:14 - 30:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:31:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>31:3 - 31:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:31:7: VarDecl=hour|D:\github\msp430\obs_RTC_check\hp_time.cpp:31:7 (Definition) <US>c:hp_time.cpp@1091@F@ms_timestr2hptime#*C#@hour<UE> <DS>hour<DE> Extent=<ES>31:3 - 31:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:31:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>31:14 - 31:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:32:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>32:3 - 32:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:32:7: VarDecl=min|D:\github\msp430\obs_RTC_check\hp_time.cpp:32:7 (Definition) <US>c:hp_time.cpp@1108@F@ms_timestr2hptime#*C#@min<UE> <DS>min<DE> Extent=<ES>32:3 - 32:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:32:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>32:14 - 32:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:33:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>33:3 - 33:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:33:7: VarDecl=sec|D:\github\msp430\obs_RTC_check\hp_time.cpp:33:7 (Definition) <US>c:hp_time.cpp@1125@F@ms_timestr2hptime#*C#@sec<UE> <DS>sec<DE> Extent=<ES>33:3 - 33:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:33:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>33:14 - 33:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:34:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>34:3 - 34:21<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:34:9: VarDecl=fusec|D:\github\msp430\obs_RTC_check\hp_time.cpp:34:9 (Definition) <US>c:hp_time.cpp@1142@F@ms_timestr2hptime#*C#@fusec<UE> <DS>fusec<DE> Extent=<ES>34:3 - 34:20<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:34:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>34:17 - 34:20<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:34:17: FloatingLiteral= <US><UE> <DS><DE> Extent=<ES>34:17 - 34:20<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:36:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>36:3 - 36:24<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:36:15: VarDecl=usec|D:\github\msp430\obs_RTC_check\hp_time.cpp:36:15 (Definition) <US>c:hp_time.cpp@1189@F@ms_timestr2hptime#*C#@usec<UE> <DS>usec<DE> Extent=<ES>36:3 - 36:23<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:36:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>36:22 - 36:23<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:36:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>36:22 - 36:23<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>38:3 - 38:134<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:3: DeclRefExpr=fields|D:\github\msp430\obs_RTC_check\hp_time.cpp:26:7 (Reference) <US>c:hp_time.cpp@1008@F@ms_timestr2hptime#*C#@fields<UE> <DS>fields<DE> Extent=<ES>38:3 - 38:9<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:12: CallExpr=sscanf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:176:42 <US>c:@F@sscanf<UE> <DS>int sscanf(const char *, const char *, ...)<DE> Extent=<ES>38:12 - 38:134<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:12: UnexposedExpr=sscanf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:176:42 <US>c:@F@sscanf<UE> <DS>int sscanf(const char *, const char *, ...)<DE> Extent=<ES>38:12 - 38:18<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:12: DeclRefExpr=sscanf|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:176:42 (Reference) <US>c:@F@sscanf<UE> <DS>int sscanf(const char *, const char *, ...)<DE> Extent=<ES>38:12 - 38:18<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:19: UnexposedExpr=timestr|D:\github\msp430\obs_RTC_check\hp_time.cpp:24:26 <US>c:hp_time.cpp@987@F@ms_timestr2hptime#*C#@timestr<UE> <DS>char *<DE> Extent=<ES>38:19 - 38:26<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:19: UnexposedExpr=timestr|D:\github\msp430\obs_RTC_check\hp_time.cpp:24:26 <US>c:hp_time.cpp@987@F@ms_timestr2hptime#*C#@timestr<UE> <DS>char *<DE> Extent=<ES>38:19 - 38:26<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:19: DeclRefExpr=timestr|D:\github\msp430\obs_RTC_check\hp_time.cpp:24:26 (Reference) <US>c:hp_time.cpp@987@F@ms_timestr2hptime#*C#@timestr<UE> <DS>char *<DE> Extent=<ES>38:19 - 38:26<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>38:28 - 38:87<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:28: StringLiteral= <US><UE> <DS><DE> Extent=<ES>38:28 - 38:87<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:88: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>38:88 - 38:93<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:89: DeclRefExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:27:7 (Reference) <US>c:hp_time.cpp@1023@F@ms_timestr2hptime#*C#@year<UE> <DS>year<DE> Extent=<ES>38:89 - 38:93<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:95: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>38:95 - 38:99<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:96: DeclRefExpr=mon|D:\github\msp430\obs_RTC_check\hp_time.cpp:28:7 (Reference) <US>c:hp_time.cpp@1040@F@ms_timestr2hptime#*C#@mon<UE> <DS>mon<DE> Extent=<ES>38:96 - 38:99<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:101: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>38:101 - 38:106<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:102: DeclRefExpr=mday|D:\github\msp430\obs_RTC_check\hp_time.cpp:29:7 (Reference) <US>c:hp_time.cpp@1057@F@ms_timestr2hptime#*C#@mday<UE> <DS>mday<DE> Extent=<ES>38:102 - 38:106<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:108: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>38:108 - 38:113<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:109: DeclRefExpr=hour|D:\github\msp430\obs_RTC_check\hp_time.cpp:31:7 (Reference) <US>c:hp_time.cpp@1091@F@ms_timestr2hptime#*C#@hour<UE> <DS>hour<DE> Extent=<ES>38:109 - 38:113<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:115: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>38:115 - 38:119<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:116: DeclRefExpr=min|D:\github\msp430\obs_RTC_check\hp_time.cpp:32:7 (Reference) <US>c:hp_time.cpp@1108@F@ms_timestr2hptime#*C#@min<UE> <DS>min<DE> Extent=<ES>38:116 - 38:119<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:121: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>38:121 - 38:125<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:122: DeclRefExpr=sec|D:\github\msp430\obs_RTC_check\hp_time.cpp:33:7 (Reference) <US>c:hp_time.cpp@1125@F@ms_timestr2hptime#*C#@sec<UE> <DS>sec<DE> Extent=<ES>38:122 - 38:125<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:127: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>38:127 - 38:133<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:38:128: DeclRefExpr=fusec|D:\github\msp430\obs_RTC_check\hp_time.cpp:34:9 (Reference) <US>c:hp_time.cpp@1142@F@ms_timestr2hptime#*C#@fusec<UE> <DS>fusec<DE> Extent=<ES>38:128 - 38:133<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:41:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>41:3 - 44:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:41:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>41:8 - 41:20<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:41:8: UnexposedExpr=fusec|D:\github\msp430\obs_RTC_check\hp_time.cpp:34:9 <US>c:hp_time.cpp@1142@F@ms_timestr2hptime#*C#@fusec<UE> <DS>fusec<DE> Extent=<ES>41:8 - 41:13<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:41:8: UnexposedExpr=fusec|D:\github\msp430\obs_RTC_check\hp_time.cpp:34:9 <US>c:hp_time.cpp@1142@F@ms_timestr2hptime#*C#@fusec<UE> <DS>fusec<DE> Extent=<ES>41:8 - 41:13<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:41:8: DeclRefExpr=fusec|D:\github\msp430\obs_RTC_check\hp_time.cpp:34:9 (Reference) <US>c:hp_time.cpp@1142@F@ms_timestr2hptime#*C#@fusec<UE> <DS>fusec<DE> Extent=<ES>41:8 - 41:13<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:41:17: FloatingLiteral= <US><UE> <DS><DE> Extent=<ES>41:17 - 41:20<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:42:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>42:5 - 44:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:43:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>43:7 - 43:52<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:43:7: DeclRefExpr=usec|D:\github\msp430\obs_RTC_check\hp_time.cpp:36:15 (Reference) <US>c:hp_time.cpp@1189@F@ms_timestr2hptime#*C#@usec<UE> <DS>usec<DE> Extent=<ES>43:7 - 43:11<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:43:14: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>43:14 - 43:52<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:43:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>43:27 - 43:52<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:43:27: ParenExpr= <US><UE> <DS><DE> Extent=<ES>43:27 - 43:52<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:43:28: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>43:28 - 43:51<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:43:28: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>43:28 - 43:45<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:43:28: UnexposedExpr=fusec|D:\github\msp430\obs_RTC_check\hp_time.cpp:34:9 <US>c:hp_time.cpp@1142@F@ms_timestr2hptime#*C#@fusec<UE> <DS>fusec<DE> Extent=<ES>43:28 - 43:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:43:28: UnexposedExpr=fusec|D:\github\msp430\obs_RTC_check\hp_time.cpp:34:9 <US>c:hp_time.cpp@1142@F@ms_timestr2hptime#*C#@fusec<UE> <DS>fusec<DE> Extent=<ES>43:28 - 43:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:43:28: DeclRefExpr=fusec|D:\github\msp430\obs_RTC_check\hp_time.cpp:34:9 (Reference) <US>c:hp_time.cpp@1142@F@ms_timestr2hptime#*C#@fusec<UE> <DS>fusec<DE> Extent=<ES>43:28 - 43:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:43:36: FloatingLiteral= <US><UE> <DS><DE> Extent=<ES>43:36 - 43:45<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:43:48: FloatingLiteral= <US><UE> <DS><DE> Extent=<ES>43:48 - 43:51<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:46:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>46:3 - 50:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:46:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>46:8 - 46:18<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:46:8: UnexposedExpr=fields|D:\github\msp430\obs_RTC_check\hp_time.cpp:26:7 <US>c:hp_time.cpp@1008@F@ms_timestr2hptime#*C#@fields<UE> <DS>fields<DE> Extent=<ES>46:8 - 46:14<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:46:8: DeclRefExpr=fields|D:\github\msp430\obs_RTC_check\hp_time.cpp:26:7 (Reference) <US>c:hp_time.cpp@1008@F@ms_timestr2hptime#*C#@fields<UE> <DS>fields<DE> Extent=<ES>46:8 - 46:14<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:46:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>46:17 - 46:18<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:47:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>47:5 - 50:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:49:7: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>49:7 - 49:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:49:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>49:14 - 49:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:49:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>49:14 - 49:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:52:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>52:3 - 56:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:52:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>52:8 - 52:34<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:52:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>52:8 - 52:19<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:52:8: UnexposedExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:27:7 <US>c:hp_time.cpp@1023@F@ms_timestr2hptime#*C#@year<UE> <DS>year<DE> Extent=<ES>52:8 - 52:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:52:8: DeclRefExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:27:7 (Reference) <US>c:hp_time.cpp@1023@F@ms_timestr2hptime#*C#@year<UE> <DS>year<DE> Extent=<ES>52:8 - 52:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:52:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>52:15 - 52:19<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:52:23: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>52:23 - 52:34<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:52:23: UnexposedExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:27:7 <US>c:hp_time.cpp@1023@F@ms_timestr2hptime#*C#@year<UE> <DS>year<DE> Extent=<ES>52:23 - 52:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:52:23: DeclRefExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:27:7 (Reference) <US>c:hp_time.cpp@1023@F@ms_timestr2hptime#*C#@year<UE> <DS>year<DE> Extent=<ES>52:23 - 52:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:52:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>52:30 - 52:34<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:53:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>53:5 - 56:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:55:7: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>55:7 - 55:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:55:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>55:14 - 55:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:55:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>55:14 - 55:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:58:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>58:3 - 62:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:58:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>58:8 - 58:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:58:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>58:8 - 58:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:58:8: UnexposedExpr=mon|D:\github\msp430\obs_RTC_check\hp_time.cpp:28:7 <US>c:hp_time.cpp@1040@F@ms_timestr2hptime#*C#@mon<UE> <DS>mon<DE> Extent=<ES>58:8 - 58:11<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:58:8: DeclRefExpr=mon|D:\github\msp430\obs_RTC_check\hp_time.cpp:28:7 (Reference) <US>c:hp_time.cpp@1040@F@ms_timestr2hptime#*C#@mon<UE> <DS>mon<DE> Extent=<ES>58:8 - 58:11<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:58:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>58:14 - 58:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:58:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>58:19 - 58:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:58:19: UnexposedExpr=mon|D:\github\msp430\obs_RTC_check\hp_time.cpp:28:7 <US>c:hp_time.cpp@1040@F@ms_timestr2hptime#*C#@mon<UE> <DS>mon<DE> Extent=<ES>58:19 - 58:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:58:19: DeclRefExpr=mon|D:\github\msp430\obs_RTC_check\hp_time.cpp:28:7 (Reference) <US>c:hp_time.cpp@1040@F@ms_timestr2hptime#*C#@mon<UE> <DS>mon<DE> Extent=<ES>58:19 - 58:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:58:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>58:25 - 58:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:59:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>59:5 - 62:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:61:7: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>61:7 - 61:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:61:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>61:14 - 61:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:61:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>61:14 - 61:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:64:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>64:3 - 68:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:64:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>64:8 - 64:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:64:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>64:8 - 64:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:64:8: UnexposedExpr=mday|D:\github\msp430\obs_RTC_check\hp_time.cpp:29:7 <US>c:hp_time.cpp@1057@F@ms_timestr2hptime#*C#@mday<UE> <DS>mday<DE> Extent=<ES>64:8 - 64:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:64:8: DeclRefExpr=mday|D:\github\msp430\obs_RTC_check\hp_time.cpp:29:7 (Reference) <US>c:hp_time.cpp@1057@F@ms_timestr2hptime#*C#@mday<UE> <DS>mday<DE> Extent=<ES>64:8 - 64:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:64:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>64:15 - 64:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:64:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>64:20 - 64:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:64:20: UnexposedExpr=mday|D:\github\msp430\obs_RTC_check\hp_time.cpp:29:7 <US>c:hp_time.cpp@1057@F@ms_timestr2hptime#*C#@mday<UE> <DS>mday<DE> Extent=<ES>64:20 - 64:24<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:64:20: DeclRefExpr=mday|D:\github\msp430\obs_RTC_check\hp_time.cpp:29:7 (Reference) <US>c:hp_time.cpp@1057@F@ms_timestr2hptime#*C#@mday<UE> <DS>mday<DE> Extent=<ES>64:20 - 64:24<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:64:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>64:27 - 64:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:65:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>65:5 - 68:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:67:7: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>67:7 - 67:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:67:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>67:14 - 67:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:67:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>67:14 - 67:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:71:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>71:3 - 74:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:71:8: UnexposedExpr=ms_md2doy|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:1 <US>c:@F@ms_md2doy#I#I#I#*I#<UE> <DS>int ms_md2doy(int, int, int, int *)<DE> Extent=<ES>71:8 - 71:40<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:71:8: CallExpr=ms_md2doy|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:1 <US>c:@F@ms_md2doy#I#I#I#*I#<UE> <DS>int ms_md2doy(int, int, int, int *)<DE> Extent=<ES>71:8 - 71:40<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:71:8: UnexposedExpr=ms_md2doy|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:1 <US>c:@F@ms_md2doy#I#I#I#*I#<UE> <DS>int ms_md2doy(int, int, int, int *)<DE> Extent=<ES>71:8 - 71:17<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:71:8: DeclRefExpr=ms_md2doy|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:1 (Reference) <US>c:@F@ms_md2doy#I#I#I#*I#<UE> <DS>int ms_md2doy(int, int, int, int *)<DE> Extent=<ES>71:8 - 71:17<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:71:18: UnexposedExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:27:7 <US>c:hp_time.cpp@1023@F@ms_timestr2hptime#*C#@year<UE> <DS>year<DE> Extent=<ES>71:18 - 71:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:71:18: DeclRefExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:27:7 (Reference) <US>c:hp_time.cpp@1023@F@ms_timestr2hptime#*C#@year<UE> <DS>year<DE> Extent=<ES>71:18 - 71:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:71:24: UnexposedExpr=mon|D:\github\msp430\obs_RTC_check\hp_time.cpp:28:7 <US>c:hp_time.cpp@1040@F@ms_timestr2hptime#*C#@mon<UE> <DS>mon<DE> Extent=<ES>71:24 - 71:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:71:24: DeclRefExpr=mon|D:\github\msp430\obs_RTC_check\hp_time.cpp:28:7 (Reference) <US>c:hp_time.cpp@1040@F@ms_timestr2hptime#*C#@mon<UE> <DS>mon<DE> Extent=<ES>71:24 - 71:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:71:29: UnexposedExpr=mday|D:\github\msp430\obs_RTC_check\hp_time.cpp:29:7 <US>c:hp_time.cpp@1057@F@ms_timestr2hptime#*C#@mday<UE> <DS>mday<DE> Extent=<ES>71:29 - 71:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:71:29: DeclRefExpr=mday|D:\github\msp430\obs_RTC_check\hp_time.cpp:29:7 (Reference) <US>c:hp_time.cpp@1057@F@ms_timestr2hptime#*C#@mday<UE> <DS>mday<DE> Extent=<ES>71:29 - 71:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:71:35: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>71:35 - 71:39<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:71:36: DeclRefExpr=day|D:\github\msp430\obs_RTC_check\hp_time.cpp:30:7 (Reference) <US>c:hp_time.cpp@1074@F@ms_timestr2hptime#*C#@day<UE> <DS>day<DE> Extent=<ES>71:36 - 71:39<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:72:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>72:5 - 74:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:73:7: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>73:7 - 73:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:73:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>73:14 - 73:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:73:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>73:14 - 73:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:76:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>76:3 - 80:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:76:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>76:8 - 76:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:76:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>76:8 - 76:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:76:8: UnexposedExpr=hour|D:\github\msp430\obs_RTC_check\hp_time.cpp:31:7 <US>c:hp_time.cpp@1091@F@ms_timestr2hptime#*C#@hour<UE> <DS>hour<DE> Extent=<ES>76:8 - 76:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:76:8: DeclRefExpr=hour|D:\github\msp430\obs_RTC_check\hp_time.cpp:31:7 (Reference) <US>c:hp_time.cpp@1091@F@ms_timestr2hptime#*C#@hour<UE> <DS>hour<DE> Extent=<ES>76:8 - 76:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:76:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>76:15 - 76:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:76:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>76:20 - 76:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:76:20: UnexposedExpr=hour|D:\github\msp430\obs_RTC_check\hp_time.cpp:31:7 <US>c:hp_time.cpp@1091@F@ms_timestr2hptime#*C#@hour<UE> <DS>hour<DE> Extent=<ES>76:20 - 76:24<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:76:20: DeclRefExpr=hour|D:\github\msp430\obs_RTC_check\hp_time.cpp:31:7 (Reference) <US>c:hp_time.cpp@1091@F@ms_timestr2hptime#*C#@hour<UE> <DS>hour<DE> Extent=<ES>76:20 - 76:24<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:76:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>76:27 - 76:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:77:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>77:5 - 80:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:79:7: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>79:7 - 79:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:79:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>79:14 - 79:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:79:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>79:14 - 79:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:82:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>82:3 - 86:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:82:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>82:8 - 82:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:82:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>82:8 - 82:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:82:8: UnexposedExpr=min|D:\github\msp430\obs_RTC_check\hp_time.cpp:32:7 <US>c:hp_time.cpp@1108@F@ms_timestr2hptime#*C#@min<UE> <DS>min<DE> Extent=<ES>82:8 - 82:11<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:82:8: DeclRefExpr=min|D:\github\msp430\obs_RTC_check\hp_time.cpp:32:7 (Reference) <US>c:hp_time.cpp@1108@F@ms_timestr2hptime#*C#@min<UE> <DS>min<DE> Extent=<ES>82:8 - 82:11<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:82:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>82:14 - 82:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:82:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>82:19 - 82:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:82:19: UnexposedExpr=min|D:\github\msp430\obs_RTC_check\hp_time.cpp:32:7 <US>c:hp_time.cpp@1108@F@ms_timestr2hptime#*C#@min<UE> <DS>min<DE> Extent=<ES>82:19 - 82:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:82:19: DeclRefExpr=min|D:\github\msp430\obs_RTC_check\hp_time.cpp:32:7 (Reference) <US>c:hp_time.cpp@1108@F@ms_timestr2hptime#*C#@min<UE> <DS>min<DE> Extent=<ES>82:19 - 82:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:82:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>82:25 - 82:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:83:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>83:5 - 86:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:85:7: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>85:7 - 85:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:85:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>85:14 - 85:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:85:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>85:14 - 85:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:88:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>88:3 - 92:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:88:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>88:8 - 88:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:88:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>88:8 - 88:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:88:8: UnexposedExpr=sec|D:\github\msp430\obs_RTC_check\hp_time.cpp:33:7 <US>c:hp_time.cpp@1125@F@ms_timestr2hptime#*C#@sec<UE> <DS>sec<DE> Extent=<ES>88:8 - 88:11<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:88:8: DeclRefExpr=sec|D:\github\msp430\obs_RTC_check\hp_time.cpp:33:7 (Reference) <US>c:hp_time.cpp@1125@F@ms_timestr2hptime#*C#@sec<UE> <DS>sec<DE> Extent=<ES>88:8 - 88:11<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:88:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>88:14 - 88:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:88:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>88:19 - 88:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:88:19: UnexposedExpr=sec|D:\github\msp430\obs_RTC_check\hp_time.cpp:33:7 <US>c:hp_time.cpp@1125@F@ms_timestr2hptime#*C#@sec<UE> <DS>sec<DE> Extent=<ES>88:19 - 88:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:88:19: DeclRefExpr=sec|D:\github\msp430\obs_RTC_check\hp_time.cpp:33:7 (Reference) <US>c:hp_time.cpp@1125@F@ms_timestr2hptime#*C#@sec<UE> <DS>sec<DE> Extent=<ES>88:19 - 88:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:88:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>88:25 - 88:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:89:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>89:5 - 92:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:91:7: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>91:7 - 91:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:91:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>91:14 - 91:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:91:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>91:14 - 91:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:94:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>94:3 - 98:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:94:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>94:8 - 94:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:94:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>94:8 - 94:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:94:8: UnexposedExpr=usec|D:\github\msp430\obs_RTC_check\hp_time.cpp:36:15 <US>c:hp_time.cpp@1189@F@ms_timestr2hptime#*C#@usec<UE> <DS>usec<DE> Extent=<ES>94:8 - 94:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:94:8: DeclRefExpr=usec|D:\github\msp430\obs_RTC_check\hp_time.cpp:36:15 (Reference) <US>c:hp_time.cpp@1189@F@ms_timestr2hptime#*C#@usec<UE> <DS>usec<DE> Extent=<ES>94:8 - 94:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:94:15: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>94:15 - 94:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:94:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>94:15 - 94:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:94:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>94:20 - 94:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:94:20: UnexposedExpr=usec|D:\github\msp430\obs_RTC_check\hp_time.cpp:36:15 <US>c:hp_time.cpp@1189@F@ms_timestr2hptime#*C#@usec<UE> <DS>usec<DE> Extent=<ES>94:20 - 94:24<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:94:20: DeclRefExpr=usec|D:\github\msp430\obs_RTC_check\hp_time.cpp:36:15 (Reference) <US>c:hp_time.cpp@1189@F@ms_timestr2hptime#*C#@usec<UE> <DS>usec<DE> Extent=<ES>94:20 - 94:24<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:94:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>94:27 - 94:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:94:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>94:27 - 94:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:95:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>95:5 - 98:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:97:7: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>97:7 - 97:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:97:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>97:14 - 97:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:97:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>97:14 - 97:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:100:3: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>100:3 - 100:61<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:100:10: CallExpr=ms_time2hptime_int|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:1 <US>c:hp_time.h@930@F@ms_time2hptime_int#I#I#I#I#I#I#<UE> <DS>hptime_t ms_time2hptime_int(int, int, int, int, int, int)<DE> Extent=<ES>100:10 - 100:61<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:100:10: UnexposedExpr=ms_time2hptime_int|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:1 <US>c:hp_time.h@930@F@ms_time2hptime_int#I#I#I#I#I#I#<UE> <DS>hptime_t ms_time2hptime_int(int, int, int, int, int, int)<DE> Extent=<ES>100:10 - 100:28<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:100:10: DeclRefExpr=ms_time2hptime_int|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:1 (Reference) <US>c:hp_time.h@930@F@ms_time2hptime_int#I#I#I#I#I#I#<UE> <DS>hptime_t ms_time2hptime_int(int, int, int, int, int, int)<DE> Extent=<ES>100:10 - 100:28<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:100:29: UnexposedExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:27:7 <US>c:hp_time.cpp@1023@F@ms_timestr2hptime#*C#@year<UE> <DS>year<DE> Extent=<ES>100:29 - 100:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:100:29: DeclRefExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:27:7 (Reference) <US>c:hp_time.cpp@1023@F@ms_timestr2hptime#*C#@year<UE> <DS>year<DE> Extent=<ES>100:29 - 100:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:100:35: UnexposedExpr=day|D:\github\msp430\obs_RTC_check\hp_time.cpp:30:7 <US>c:hp_time.cpp@1074@F@ms_timestr2hptime#*C#@day<UE> <DS>day<DE> Extent=<ES>100:35 - 100:38<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:100:35: DeclRefExpr=day|D:\github\msp430\obs_RTC_check\hp_time.cpp:30:7 (Reference) <US>c:hp_time.cpp@1074@F@ms_timestr2hptime#*C#@day<UE> <DS>day<DE> Extent=<ES>100:35 - 100:38<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:100:40: UnexposedExpr=hour|D:\github\msp430\obs_RTC_check\hp_time.cpp:31:7 <US>c:hp_time.cpp@1091@F@ms_timestr2hptime#*C#@hour<UE> <DS>hour<DE> Extent=<ES>100:40 - 100:44<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:100:40: DeclRefExpr=hour|D:\github\msp430\obs_RTC_check\hp_time.cpp:31:7 (Reference) <US>c:hp_time.cpp@1091@F@ms_timestr2hptime#*C#@hour<UE> <DS>hour<DE> Extent=<ES>100:40 - 100:44<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:100:46: UnexposedExpr=min|D:\github\msp430\obs_RTC_check\hp_time.cpp:32:7 <US>c:hp_time.cpp@1108@F@ms_timestr2hptime#*C#@min<UE> <DS>min<DE> Extent=<ES>100:46 - 100:49<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:100:46: DeclRefExpr=min|D:\github\msp430\obs_RTC_check\hp_time.cpp:32:7 (Reference) <US>c:hp_time.cpp@1108@F@ms_timestr2hptime#*C#@min<UE> <DS>min<DE> Extent=<ES>100:46 - 100:49<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:100:51: UnexposedExpr=sec|D:\github\msp430\obs_RTC_check\hp_time.cpp:33:7 <US>c:hp_time.cpp@1125@F@ms_timestr2hptime#*C#@sec<UE> <DS>sec<DE> Extent=<ES>100:51 - 100:54<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:100:51: DeclRefExpr=sec|D:\github\msp430\obs_RTC_check\hp_time.cpp:33:7 (Reference) <US>c:hp_time.cpp@1125@F@ms_timestr2hptime#*C#@sec<UE> <DS>sec<DE> Extent=<ES>100:51 - 100:54<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:100:56: UnexposedExpr=usec|D:\github\msp430\obs_RTC_check\hp_time.cpp:36:15 <US>c:hp_time.cpp@1189@F@ms_timestr2hptime#*C#@usec<UE> <DS>usec<DE> Extent=<ES>100:56 - 100:60<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:100:56: UnexposedExpr=usec|D:\github\msp430\obs_RTC_check\hp_time.cpp:36:15 <US>c:hp_time.cpp@1189@F@ms_timestr2hptime#*C#@usec<UE> <DS>usec<DE> Extent=<ES>100:56 - 100:60<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:100:56: DeclRefExpr=usec|D:\github\msp430\obs_RTC_check\hp_time.cpp:36:15 (Reference) <US>c:hp_time.cpp@1189@F@ms_timestr2hptime#*C#@usec<UE> <DS>usec<DE> Extent=<ES>100:56 - 100:60<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:117:1: FunctionDecl=ms_md2doy|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:1 (Definition) <US>c:@F@ms_md2doy#I#I#I#*I#<UE> <DS>int ms_md2doy(int, int, int, int *)<DE> Extent=<ES>116:1 - 169:2<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:117:15: ParmDecl=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:15 (Definition) <US>c:hp_time.cpp@3550@F@ms_md2doy#I#I#I#*I#@year<UE> <DS>int<DE> Extent=<ES>117:11 - 117:19<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:117:25: ParmDecl=month|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:25 (Definition) <US>c:hp_time.cpp@3560@F@ms_md2doy#I#I#I#*I#@month<UE> <DS>int<DE> Extent=<ES>117:21 - 117:30<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:117:36: ParmDecl=mday|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:36 (Definition) <US>c:hp_time.cpp@3571@F@ms_md2doy#I#I#I#*I#@mday<UE> <DS>int<DE> Extent=<ES>117:32 - 117:40<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:117:47: ParmDecl=jday|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:47 (Definition) <US>c:hp_time.cpp@3581@F@ms_md2doy#I#I#I#*I#@jday<UE> <DS>int *<DE> Extent=<ES>117:42 - 117:51<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:118:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>118:1 - 169:2<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:119:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>119:3 - 119:11<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:119:7: VarDecl=idx|D:\github\msp430\obs_RTC_check\hp_time.cpp:119:7 (Definition) <US>c:hp_time.cpp@3598@F@ms_md2doy#I#I#I#*I#@idx<UE> <DS>idx<DE> Extent=<ES>119:3 - 119:10<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:120:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>120:3 - 120:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:120:7: VarDecl=leap|D:\github\msp430\obs_RTC_check\hp_time.cpp:120:7 (Definition) <US>c:hp_time.cpp@3610@F@ms_md2doy#I#I#I#*I#@leap<UE> <DS>leap<DE> Extent=<ES>120:3 - 120:11<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:121:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>121:3 - 121:65<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:121:7: VarDecl=days|D:\github\msp430\obs_RTC_check\hp_time.cpp:121:7 (Definition) <US>c:hp_time.cpp@3623@F@ms_md2doy#I#I#I#*I#@days<UE> <DS>days<DE> Extent=<ES>121:3 - 121:64<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:121:16: InitListExpr= <US><UE> <DS><DE> Extent=<ES>121:16 - 121:64<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:121:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>121:17 - 121:19<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:121:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>121:21 - 121:23<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:121:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>121:25 - 121:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:121:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>121:29 - 121:31<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:121:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>121:33 - 121:35<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:121:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>121:37 - 121:39<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:121:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>121:41 - 121:43<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:121:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>121:45 - 121:47<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:121:49: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>121:49 - 121:51<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:121:53: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>121:53 - 121:55<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:121:57: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>121:57 - 121:59<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:121:61: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>121:61 - 121:63<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:124:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>124:3 - 128:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:124:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>124:8 - 124:34<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:124:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>124:8 - 124:19<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:124:8: UnexposedExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:15 <US>c:hp_time.cpp@3550@F@ms_md2doy#I#I#I#*I#@year<UE> <DS>int<DE> Extent=<ES>124:8 - 124:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:124:8: DeclRefExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:15 (Reference) <US>c:hp_time.cpp@3550@F@ms_md2doy#I#I#I#*I#@year<UE> <DS>int<DE> Extent=<ES>124:8 - 124:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:124:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>124:15 - 124:19<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:124:23: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>124:23 - 124:34<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:124:23: UnexposedExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:15 <US>c:hp_time.cpp@3550@F@ms_md2doy#I#I#I#*I#@year<UE> <DS>int<DE> Extent=<ES>124:23 - 124:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:124:23: DeclRefExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:15 (Reference) <US>c:hp_time.cpp@3550@F@ms_md2doy#I#I#I#*I#@year<UE> <DS>int<DE> Extent=<ES>124:23 - 124:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:124:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>124:30 - 124:34<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:125:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>125:5 - 128:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:127:7: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>127:7 - 127:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:127:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>127:14 - 127:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:127:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>127:15 - 127:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:129:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>129:3 - 133:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:129:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>129:8 - 129:31<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:129:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>129:8 - 129:17<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:129:8: UnexposedExpr=month|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:25 <US>c:hp_time.cpp@3560@F@ms_md2doy#I#I#I#*I#@month<UE> <DS>int<DE> Extent=<ES>129:8 - 129:13<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:129:8: DeclRefExpr=month|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:25 (Reference) <US>c:hp_time.cpp@3560@F@ms_md2doy#I#I#I#*I#@month<UE> <DS>int<DE> Extent=<ES>129:8 - 129:13<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:129:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>129:16 - 129:17<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:129:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>129:21 - 129:31<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:129:21: UnexposedExpr=month|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:25 <US>c:hp_time.cpp@3560@F@ms_md2doy#I#I#I#*I#@month<UE> <DS>int<DE> Extent=<ES>129:21 - 129:26<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:129:21: DeclRefExpr=month|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:25 (Reference) <US>c:hp_time.cpp@3560@F@ms_md2doy#I#I#I#*I#@month<UE> <DS>int<DE> Extent=<ES>129:21 - 129:26<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:129:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>129:29 - 129:31<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:130:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>130:5 - 133:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:132:7: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>132:7 - 132:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:132:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>132:14 - 132:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:132:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>132:15 - 132:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:134:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>134:3 - 138:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:134:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>134:8 - 134:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:134:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>134:8 - 134:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:134:8: UnexposedExpr=mday|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:36 <US>c:hp_time.cpp@3571@F@ms_md2doy#I#I#I#*I#@mday<UE> <DS>int<DE> Extent=<ES>134:8 - 134:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:134:8: DeclRefExpr=mday|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:36 (Reference) <US>c:hp_time.cpp@3571@F@ms_md2doy#I#I#I#*I#@mday<UE> <DS>int<DE> Extent=<ES>134:8 - 134:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:134:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>134:15 - 134:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:134:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>134:20 - 134:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:134:20: UnexposedExpr=mday|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:36 <US>c:hp_time.cpp@3571@F@ms_md2doy#I#I#I#*I#@mday<UE> <DS>int<DE> Extent=<ES>134:20 - 134:24<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:134:20: DeclRefExpr=mday|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:36 (Reference) <US>c:hp_time.cpp@3571@F@ms_md2doy#I#I#I#*I#@mday<UE> <DS>int<DE> Extent=<ES>134:20 - 134:24<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:134:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>134:27 - 134:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:135:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>135:5 - 138:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:137:7: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>137:7 - 137:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:137:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>137:14 - 137:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:137:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>137:15 - 137:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>141:3 - 141:75<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:3: DeclRefExpr=leap|D:\github\msp430\obs_RTC_check\hp_time.cpp:120:7 (Reference) <US>c:hp_time.cpp@3610@F@ms_md2doy#I#I#I#*I#@leap<UE> <DS>leap<DE> Extent=<ES>141:3 - 141:7<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:10: ConditionalOperator= <US><UE> <DS><DE> Extent=<ES>141:10 - 141:75<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:10: ParenExpr= <US><UE> <DS><DE> Extent=<ES>141:10 - 141:67<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>141:12 - 141:65<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:12: ParenExpr= <US><UE> <DS><DE> Extent=<ES>141:12 - 141:46<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>141:13 - 141:45<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:13: ParenExpr= <US><UE> <DS><DE> Extent=<ES>141:13 - 141:26<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>141:14 - 141:25<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>141:14 - 141:20<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:14: UnexposedExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:15 <US>c:hp_time.cpp@3550@F@ms_md2doy#I#I#I#*I#@year<UE> <DS>int<DE> Extent=<ES>141:14 - 141:18<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:14: DeclRefExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:15 (Reference) <US>c:hp_time.cpp@3550@F@ms_md2doy#I#I#I#*I#@year<UE> <DS>int<DE> Extent=<ES>141:14 - 141:18<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>141:19 - 141:20<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>141:24 - 141:25<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>141:30 - 141:45<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:31: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>141:31 - 141:44<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:31: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>141:31 - 141:39<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:31: UnexposedExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:15 <US>c:hp_time.cpp@3550@F@ms_md2doy#I#I#I#*I#@year<UE> <DS>int<DE> Extent=<ES>141:31 - 141:35<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:31: DeclRefExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:15 (Reference) <US>c:hp_time.cpp@3550@F@ms_md2doy#I#I#I#*I#@year<UE> <DS>int<DE> Extent=<ES>141:31 - 141:35<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>141:36 - 141:39<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>141:43 - 141:44<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:50: ParenExpr= <US><UE> <DS><DE> Extent=<ES>141:50 - 141:65<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:51: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>141:51 - 141:64<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:51: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>141:51 - 141:59<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:51: UnexposedExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:15 <US>c:hp_time.cpp@3550@F@ms_md2doy#I#I#I#*I#@year<UE> <DS>int<DE> Extent=<ES>141:51 - 141:55<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:51: DeclRefExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:15 (Reference) <US>c:hp_time.cpp@3550@F@ms_md2doy#I#I#I#*I#@year<UE> <DS>int<DE> Extent=<ES>141:51 - 141:55<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:56: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>141:56 - 141:59<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:63: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>141:63 - 141:64<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:70: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>141:70 - 141:71<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:141:74: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>141:74 - 141:75<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:144:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>144:3 - 145:14<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:144:8: UnexposedExpr=leap|D:\github\msp430\obs_RTC_check\hp_time.cpp:120:7 <US>c:hp_time.cpp@3610@F@ms_md2doy#I#I#I#*I#@leap<UE> <DS>leap<DE> Extent=<ES>144:8 - 144:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:144:8: UnexposedExpr=leap|D:\github\msp430\obs_RTC_check\hp_time.cpp:120:7 <US>c:hp_time.cpp@3610@F@ms_md2doy#I#I#I#*I#@leap<UE> <DS>leap<DE> Extent=<ES>144:8 - 144:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:144:8: DeclRefExpr=leap|D:\github\msp430\obs_RTC_check\hp_time.cpp:120:7 (Reference) <US>c:hp_time.cpp@3610@F@ms_md2doy#I#I#I#*I#@leap<UE> <DS>leap<DE> Extent=<ES>144:8 - 144:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:145:5: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>145:5 - 145:14<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:145:5: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>145:5 - 145:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:145:5: UnexposedExpr=days|D:\github\msp430\obs_RTC_check\hp_time.cpp:121:7 <US>c:hp_time.cpp@3623@F@ms_md2doy#I#I#I#*I#@days<UE> <DS>days<DE> Extent=<ES>145:5 - 145:9<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:145:5: DeclRefExpr=days|D:\github\msp430\obs_RTC_check\hp_time.cpp:121:7 (Reference) <US>c:hp_time.cpp@3623@F@ms_md2doy#I#I#I#*I#@days<UE> <DS>days<DE> Extent=<ES>145:5 - 145:9<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:145:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>145:10 - 145:11<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:148:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>148:3 - 152:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:148:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>148:8 - 148:28<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:148:8: UnexposedExpr=mday|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:36 <US>c:hp_time.cpp@3571@F@ms_md2doy#I#I#I#*I#@mday<UE> <DS>int<DE> Extent=<ES>148:8 - 148:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:148:8: DeclRefExpr=mday|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:36 (Reference) <US>c:hp_time.cpp@3571@F@ms_md2doy#I#I#I#*I#@mday<UE> <DS>int<DE> Extent=<ES>148:8 - 148:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:148:15: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>148:15 - 148:28<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:148:15: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>148:15 - 148:28<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:148:15: UnexposedExpr=days|D:\github\msp430\obs_RTC_check\hp_time.cpp:121:7 <US>c:hp_time.cpp@3623@F@ms_md2doy#I#I#I#*I#@days<UE> <DS>days<DE> Extent=<ES>148:15 - 148:19<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:148:15: DeclRefExpr=days|D:\github\msp430\obs_RTC_check\hp_time.cpp:121:7 (Reference) <US>c:hp_time.cpp@3623@F@ms_md2doy#I#I#I#*I#@days<UE> <DS>days<DE> Extent=<ES>148:15 - 148:19<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:148:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>148:20 - 148:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:148:20: UnexposedExpr=month|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:25 <US>c:hp_time.cpp@3560@F@ms_md2doy#I#I#I#*I#@month<UE> <DS>int<DE> Extent=<ES>148:20 - 148:25<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:148:20: DeclRefExpr=month|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:25 (Reference) <US>c:hp_time.cpp@3560@F@ms_md2doy#I#I#I#*I#@month<UE> <DS>int<DE> Extent=<ES>148:20 - 148:25<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:148:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>148:26 - 148:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:149:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>149:5 - 152:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:151:7: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>151:7 - 151:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:151:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>151:14 - 151:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:151:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>151:15 - 151:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:154:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>154:3 - 154:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:154:3: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>154:3 - 154:8<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:154:4: UnexposedExpr=jday|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:47 <US>c:hp_time.cpp@3581@F@ms_md2doy#I#I#I#*I#@jday<UE> <DS>int *<DE> Extent=<ES>154:4 - 154:8<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:154:4: DeclRefExpr=jday|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:47 (Reference) <US>c:hp_time.cpp@3581@F@ms_md2doy#I#I#I#*I#@jday<UE> <DS>int *<DE> Extent=<ES>154:4 - 154:8<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:154:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>154:11 - 154:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:155:3: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>155:3 - 155:10<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:155:3: DeclRefExpr=month|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:25 (Reference) <US>c:hp_time.cpp@3560@F@ms_md2doy#I#I#I#*I#@month<UE> <DS>int<DE> Extent=<ES>155:3 - 155:8<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:157:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>157:3 - 166:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:157:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>157:9 - 157:14<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:157:9: DeclRefExpr=idx|D:\github\msp430\obs_RTC_check\hp_time.cpp:119:7 (Reference) <US>c:hp_time.cpp@3598@F@ms_md2doy#I#I#I#*I#@idx<UE> <DS>idx<DE> Extent=<ES>157:9 - 157:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:157:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>157:13 - 157:14<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:157:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>157:16 - 157:24<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:157:16: UnexposedExpr=idx|D:\github\msp430\obs_RTC_check\hp_time.cpp:119:7 <US>c:hp_time.cpp@3598@F@ms_md2doy#I#I#I#*I#@idx<UE> <DS>idx<DE> Extent=<ES>157:16 - 157:19<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:157:16: DeclRefExpr=idx|D:\github\msp430\obs_RTC_check\hp_time.cpp:119:7 (Reference) <US>c:hp_time.cpp@3598@F@ms_md2doy#I#I#I#*I#@idx<UE> <DS>idx<DE> Extent=<ES>157:16 - 157:19<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:157:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>157:22 - 157:24<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:157:26: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>157:26 - 157:31<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:157:26: DeclRefExpr=idx|D:\github\msp430\obs_RTC_check\hp_time.cpp:119:7 (Reference) <US>c:hp_time.cpp@3598@F@ms_md2doy#I#I#I#*I#@idx<UE> <DS>idx<DE> Extent=<ES>157:26 - 157:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:158:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>158:5 - 166:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:159:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>159:7 - 163:3<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:159:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>159:12 - 159:24<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:159:12: UnexposedExpr=idx|D:\github\msp430\obs_RTC_check\hp_time.cpp:119:7 <US>c:hp_time.cpp@3598@F@ms_md2doy#I#I#I#*I#@idx<UE> <DS>idx<DE> Extent=<ES>159:12 - 159:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:159:12: DeclRefExpr=idx|D:\github\msp430\obs_RTC_check\hp_time.cpp:119:7 (Reference) <US>c:hp_time.cpp@3598@F@ms_md2doy#I#I#I#*I#@idx<UE> <DS>idx<DE> Extent=<ES>159:12 - 159:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:159:19: UnexposedExpr=month|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:25 <US>c:hp_time.cpp@3560@F@ms_md2doy#I#I#I#*I#@month<UE> <DS>int<DE> Extent=<ES>159:19 - 159:24<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:159:19: DeclRefExpr=month|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:25 (Reference) <US>c:hp_time.cpp@3560@F@ms_md2doy#I#I#I#*I#@month<UE> <DS>int<DE> Extent=<ES>159:19 - 159:24<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:160:2: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>160:2 - 163:3<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:161:4: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>161:4 - 161:17<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:161:4: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>161:4 - 161:9<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:161:5: UnexposedExpr=jday|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:47 <US>c:hp_time.cpp@3581@F@ms_md2doy#I#I#I#*I#@jday<UE> <DS>int *<DE> Extent=<ES>161:5 - 161:9<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:161:5: DeclRefExpr=jday|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:47 (Reference) <US>c:hp_time.cpp@3581@F@ms_md2doy#I#I#I#*I#@jday<UE> <DS>int *<DE> Extent=<ES>161:5 - 161:9<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:161:13: UnexposedExpr=mday|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:36 <US>c:hp_time.cpp@3571@F@ms_md2doy#I#I#I#*I#@mday<UE> <DS>int<DE> Extent=<ES>161:13 - 161:17<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:161:13: DeclRefExpr=mday|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:36 (Reference) <US>c:hp_time.cpp@3571@F@ms_md2doy#I#I#I#*I#@mday<UE> <DS>int<DE> Extent=<ES>161:13 - 161:17<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:162:4: BreakStmt= <US><UE> <DS><DE> Extent=<ES>162:4 - 162:9<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:165:7: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>165:7 - 165:25<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:165:7: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>165:7 - 165:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:165:8: UnexposedExpr=jday|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:47 <US>c:hp_time.cpp@3581@F@ms_md2doy#I#I#I#*I#@jday<UE> <DS>int *<DE> Extent=<ES>165:8 - 165:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:165:8: DeclRefExpr=jday|D:\github\msp430\obs_RTC_check\hp_time.cpp:117:47 (Reference) <US>c:hp_time.cpp@3581@F@ms_md2doy#I#I#I#*I#@jday<UE> <DS>int *<DE> Extent=<ES>165:8 - 165:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:165:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>165:16 - 165:25<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:165:16: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>165:16 - 165:25<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:165:16: UnexposedExpr=days|D:\github\msp430\obs_RTC_check\hp_time.cpp:121:7 <US>c:hp_time.cpp@3623@F@ms_md2doy#I#I#I#*I#@days<UE> <DS>days<DE> Extent=<ES>165:16 - 165:20<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:165:16: DeclRefExpr=days|D:\github\msp430\obs_RTC_check\hp_time.cpp:121:7 (Reference) <US>c:hp_time.cpp@3623@F@ms_md2doy#I#I#I#*I#@days<UE> <DS>days<DE> Extent=<ES>165:16 - 165:20<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:165:21: UnexposedExpr=idx|D:\github\msp430\obs_RTC_check\hp_time.cpp:119:7 <US>c:hp_time.cpp@3598@F@ms_md2doy#I#I#I#*I#@idx<UE> <DS>idx<DE> Extent=<ES>165:21 - 165:24<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:165:21: DeclRefExpr=idx|D:\github\msp430\obs_RTC_check\hp_time.cpp:119:7 (Reference) <US>c:hp_time.cpp@3598@F@ms_md2doy#I#I#I#*I#@idx<UE> <DS>idx<DE> Extent=<ES>165:21 - 165:24<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:168:3: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>168:3 - 168:11<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:168:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>168:10 - 168:11<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:181:1: FunctionDecl=ms_time2hptime_int|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:1 (Definition) <US>c:hp_time.h@930@F@ms_time2hptime_int#I#I#I#I#I#I#<UE> <DS>hptime_t ms_time2hptime_int(int, int, int, int, int, int)<DE> Extent=<ES>180:1 - 209:2<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:180:8: TypeRef=hptime_t|D:\github\msp430\obs_RTC_check\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>180:8 - 180:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:181:25: ParmDecl=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:25 (Definition) <US>c:hp_time.cpp@5301@F@ms_time2hptime_int#I#I#I#I#I#I#@year<UE> <DS>int<DE> Extent=<ES>181:21 - 181:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:181:35: ParmDecl=day|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:35 (Definition) <US>c:hp_time.cpp@5311@F@ms_time2hptime_int#I#I#I#I#I#I#@day<UE> <DS>int<DE> Extent=<ES>181:31 - 181:38<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:181:44: ParmDecl=hour|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:44 (Definition) <US>c:hp_time.cpp@5320@F@ms_time2hptime_int#I#I#I#I#I#I#@hour<UE> <DS>int<DE> Extent=<ES>181:40 - 181:48<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:181:54: ParmDecl=min|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:54 (Definition) <US>c:hp_time.cpp@5330@F@ms_time2hptime_int#I#I#I#I#I#I#@min<UE> <DS>int<DE> Extent=<ES>181:50 - 181:57<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:181:63: ParmDecl=sec|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:63 (Definition) <US>c:hp_time.cpp@5339@F@ms_time2hptime_int#I#I#I#I#I#I#@sec<UE> <DS>int<DE> Extent=<ES>181:59 - 181:66<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:181:72: ParmDecl=usec|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:72 (Definition) <US>c:hp_time.cpp@5348@F@ms_time2hptime_int#I#I#I#I#I#I#@usec<UE> <DS>int<DE> Extent=<ES>181:68 - 181:76<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:182:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>182:1 - 209:2<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:183:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>183:3 - 183:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:183:9: VarDecl=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:183:9 (Definition) <US>c:hp_time.cpp@5364@F@ms_time2hptime_int#I#I#I#I#I#I#@btime<UE> <DS>btime<DE> Extent=<ES>183:3 - 183:14<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:183:3: TypeRef=BTime|D:\github\msp430\obs_RTC_check\hp_time.h:34:1 (Reference) <US>c:hp_time.h@595@T@BTime<UE> <DS>struct btime_s<DE> Extent=<ES>183:3 - 183:8<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:183:9: CallExpr=btime_s|D:\github\msp430\obs_RTC_check\hp_time.h:24:16 <US>c:@S@btime_s@F@btime_s#<UE> <DS>void btime_s(void)<DE> Extent=<ES>183:9 - 183:14<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:184:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>184:3 - 184:19<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:184:12: VarDecl=hptime|D:\github\msp430\obs_RTC_check\hp_time.cpp:184:12 (Definition) <US>c:hp_time.cpp@5380@F@ms_time2hptime_int#I#I#I#I#I#I#@hptime<UE> <DS>hptime<DE> Extent=<ES>184:3 - 184:18<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:184:3: TypeRef=hptime_t|D:\github\msp430\obs_RTC_check\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>184:3 - 184:11<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:186:3: CallExpr=memset|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:31:42 <US>c:@F@memset<UE> <DS>void * memset(void *, int, size_t)<DE> Extent=<ES>186:3 - 186:35<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:186:3: UnexposedExpr=memset|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:31:42 <US>c:@F@memset<UE> <DS>void * memset(void *, int, size_t)<DE> Extent=<ES>186:3 - 186:9<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:186:3: DeclRefExpr=memset|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:31:42 (Reference) <US>c:@F@memset<UE> <DS>void * memset(void *, int, size_t)<DE> Extent=<ES>186:3 - 186:9<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:186:10: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>186:10 - 186:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:186:10: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>186:10 - 186:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:186:11: DeclRefExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:183:9 (Reference) <US>c:hp_time.cpp@5364@F@ms_time2hptime_int#I#I#I#I#I#I#@btime<UE> <DS>btime<DE> Extent=<ES>186:11 - 186:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:186:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>186:18 - 186:19<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:186:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>186:21 - 186:34<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:186:28: TypeRef=BTime|D:\github\msp430\obs_RTC_check\hp_time.h:34:1 (Reference) <US>c:hp_time.h@595@T@BTime<UE> <DS>struct btime_s<DE> Extent=<ES>186:28 - 186:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:187:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>187:3 - 187:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:187:9: MemberRefExpr=day|D:\github\msp430\obs_RTC_check\hp_time.h:27:13 (Reference) <US>c:@S@btime_s@FI@day<UE> <DS>day<DE> Extent=<ES>187:3 - 187:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:187:3: DeclRefExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:183:9 (Reference) <US>c:hp_time.cpp@5364@F@ms_time2hptime_int#I#I#I#I#I#I#@btime<UE> <DS>btime<DE> Extent=<ES>187:3 - 187:8<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:187:15: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>187:15 - 187:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:187:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>187:15 - 187:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:190:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>190:3 - 190:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:190:9: MemberRefExpr=year|D:\github\msp430\obs_RTC_check\hp_time.h:26:13 (Reference) <US>c:@S@btime_s@FI@year<UE> <DS>year<DE> Extent=<ES>190:3 - 190:13<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:190:3: DeclRefExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:183:9 (Reference) <US>c:hp_time.cpp@5364@F@ms_time2hptime_int#I#I#I#I#I#I#@btime<UE> <DS>btime<DE> Extent=<ES>190:3 - 190:8<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:190:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>190:16 - 190:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:190:16: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>190:16 - 190:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:190:17: TypeRef=int16_t|D:\github\msp430\obs_RTC_check\hp_time.h:10:22 (Reference) <US>c:hp_time.h@172@T@int16_t<UE> <DS>short<DE> Extent=<ES>190:17 - 190:24<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:190:25: UnexposedExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:25 <US>c:hp_time.cpp@5301@F@ms_time2hptime_int#I#I#I#I#I#I#@year<UE> <DS>int<DE> Extent=<ES>190:25 - 190:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:190:25: UnexposedExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:25 <US>c:hp_time.cpp@5301@F@ms_time2hptime_int#I#I#I#I#I#I#@year<UE> <DS>int<DE> Extent=<ES>190:25 - 190:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:190:25: DeclRefExpr=year|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:25 (Reference) <US>c:hp_time.cpp@5301@F@ms_time2hptime_int#I#I#I#I#I#I#@year<UE> <DS>int<DE> Extent=<ES>190:25 - 190:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:191:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>191:3 - 191:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:191:9: MemberRefExpr=day|D:\github\msp430\obs_RTC_check\hp_time.h:27:13 (Reference) <US>c:@S@btime_s@FI@day<UE> <DS>day<DE> Extent=<ES>191:3 - 191:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:191:3: DeclRefExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:183:9 (Reference) <US>c:hp_time.cpp@5364@F@ms_time2hptime_int#I#I#I#I#I#I#@btime<UE> <DS>btime<DE> Extent=<ES>191:3 - 191:8<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:191:15: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>191:15 - 191:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:191:15: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>191:15 - 191:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:191:16: TypeRef=int16_t|D:\github\msp430\obs_RTC_check\hp_time.h:10:22 (Reference) <US>c:hp_time.h@172@T@int16_t<UE> <DS>short<DE> Extent=<ES>191:16 - 191:23<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:191:24: UnexposedExpr=day|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:35 <US>c:hp_time.cpp@5311@F@ms_time2hptime_int#I#I#I#I#I#I#@day<UE> <DS>int<DE> Extent=<ES>191:24 - 191:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:191:24: UnexposedExpr=day|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:35 <US>c:hp_time.cpp@5311@F@ms_time2hptime_int#I#I#I#I#I#I#@day<UE> <DS>int<DE> Extent=<ES>191:24 - 191:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:191:24: DeclRefExpr=day|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:35 (Reference) <US>c:hp_time.cpp@5311@F@ms_time2hptime_int#I#I#I#I#I#I#@day<UE> <DS>int<DE> Extent=<ES>191:24 - 191:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:192:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>192:3 - 192:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:192:9: MemberRefExpr=hour|D:\github\msp430\obs_RTC_check\hp_time.h:28:13 (Reference) <US>c:@S@btime_s@FI@hour<UE> <DS>hour<DE> Extent=<ES>192:3 - 192:13<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:192:3: DeclRefExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:183:9 (Reference) <US>c:hp_time.cpp@5364@F@ms_time2hptime_int#I#I#I#I#I#I#@btime<UE> <DS>btime<DE> Extent=<ES>192:3 - 192:8<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:192:16: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>192:16 - 192:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:192:17: TypeRef=uint8_t|D:\github\msp430\obs_RTC_check\hp_time.h:8:23 (Reference) <US>c:hp_time.h@138@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>192:17 - 192:24<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:192:25: UnexposedExpr=hour|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:44 <US>c:hp_time.cpp@5320@F@ms_time2hptime_int#I#I#I#I#I#I#@hour<UE> <DS>int<DE> Extent=<ES>192:25 - 192:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:192:25: UnexposedExpr=hour|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:44 <US>c:hp_time.cpp@5320@F@ms_time2hptime_int#I#I#I#I#I#I#@hour<UE> <DS>int<DE> Extent=<ES>192:25 - 192:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:192:25: DeclRefExpr=hour|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:44 (Reference) <US>c:hp_time.cpp@5320@F@ms_time2hptime_int#I#I#I#I#I#I#@hour<UE> <DS>int<DE> Extent=<ES>192:25 - 192:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:193:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>193:3 - 193:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:193:9: MemberRefExpr=min|D:\github\msp430\obs_RTC_check\hp_time.h:29:13 (Reference) <US>c:@S@btime_s@FI@min<UE> <DS>min<DE> Extent=<ES>193:3 - 193:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:193:3: DeclRefExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:183:9 (Reference) <US>c:hp_time.cpp@5364@F@ms_time2hptime_int#I#I#I#I#I#I#@btime<UE> <DS>btime<DE> Extent=<ES>193:3 - 193:8<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:193:15: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>193:15 - 193:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:193:16: TypeRef=uint8_t|D:\github\msp430\obs_RTC_check\hp_time.h:8:23 (Reference) <US>c:hp_time.h@138@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>193:16 - 193:23<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:193:24: UnexposedExpr=min|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:54 <US>c:hp_time.cpp@5330@F@ms_time2hptime_int#I#I#I#I#I#I#@min<UE> <DS>int<DE> Extent=<ES>193:24 - 193:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:193:24: UnexposedExpr=min|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:54 <US>c:hp_time.cpp@5330@F@ms_time2hptime_int#I#I#I#I#I#I#@min<UE> <DS>int<DE> Extent=<ES>193:24 - 193:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:193:24: DeclRefExpr=min|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:54 (Reference) <US>c:hp_time.cpp@5330@F@ms_time2hptime_int#I#I#I#I#I#I#@min<UE> <DS>int<DE> Extent=<ES>193:24 - 193:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:194:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>194:3 - 194:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:194:9: MemberRefExpr=sec|D:\github\msp430\obs_RTC_check\hp_time.h:30:13 (Reference) <US>c:@S@btime_s@FI@sec<UE> <DS>sec<DE> Extent=<ES>194:3 - 194:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:194:3: DeclRefExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:183:9 (Reference) <US>c:hp_time.cpp@5364@F@ms_time2hptime_int#I#I#I#I#I#I#@btime<UE> <DS>btime<DE> Extent=<ES>194:3 - 194:8<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:194:15: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>194:15 - 194:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:194:16: TypeRef=uint8_t|D:\github\msp430\obs_RTC_check\hp_time.h:8:23 (Reference) <US>c:hp_time.h@138@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>194:16 - 194:23<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:194:24: UnexposedExpr=sec|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:63 <US>c:hp_time.cpp@5339@F@ms_time2hptime_int#I#I#I#I#I#I#@sec<UE> <DS>int<DE> Extent=<ES>194:24 - 194:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:194:24: UnexposedExpr=sec|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:63 <US>c:hp_time.cpp@5339@F@ms_time2hptime_int#I#I#I#I#I#I#@sec<UE> <DS>int<DE> Extent=<ES>194:24 - 194:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:194:24: DeclRefExpr=sec|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:63 (Reference) <US>c:hp_time.cpp@5339@F@ms_time2hptime_int#I#I#I#I#I#I#@sec<UE> <DS>int<DE> Extent=<ES>194:24 - 194:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:195:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>195:3 - 195:18<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:195:9: MemberRefExpr=fract|D:\github\msp430\obs_RTC_check\hp_time.h:32:13 (Reference) <US>c:@S@btime_s@FI@fract<UE> <DS>fract<DE> Extent=<ES>195:3 - 195:14<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:195:3: DeclRefExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:183:9 (Reference) <US>c:hp_time.cpp@5364@F@ms_time2hptime_int#I#I#I#I#I#I#@btime<UE> <DS>btime<DE> Extent=<ES>195:3 - 195:8<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:195:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>195:17 - 195:18<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:195:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>195:17 - 195:18<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:197:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>197:3 - 197:35<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:197:3: DeclRefExpr=hptime|D:\github\msp430\obs_RTC_check\hp_time.cpp:184:12 (Reference) <US>c:hp_time.cpp@5380@F@ms_time2hptime_int#I#I#I#I#I#I#@hptime<UE> <DS>hptime<DE> Extent=<ES>197:3 - 197:9<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:197:12: CallExpr=ms_btime2hptime|D:\github\msp430\obs_RTC_check\hp_time.cpp:222:1 <US>c:@F@ms_btime2hptime#*$@S@btime_s#<UE> <DS>hptime_t ms_btime2hptime(BTime *)<DE> Extent=<ES>197:12 - 197:35<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:197:12: UnexposedExpr=ms_btime2hptime|D:\github\msp430\obs_RTC_check\hp_time.cpp:222:1 <US>c:@F@ms_btime2hptime#*$@S@btime_s#<UE> <DS>hptime_t ms_btime2hptime(BTime *)<DE> Extent=<ES>197:12 - 197:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:197:12: DeclRefExpr=ms_btime2hptime|D:\github\msp430\obs_RTC_check\hp_time.cpp:222:1 (Reference) <US>c:@F@ms_btime2hptime#*$@S@btime_s#<UE> <DS>hptime_t ms_btime2hptime(BTime *)<DE> Extent=<ES>197:12 - 197:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:197:28: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>197:28 - 197:34<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:197:29: DeclRefExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:183:9 (Reference) <US>c:hp_time.cpp@5364@F@ms_time2hptime_int#I#I#I#I#I#I#@btime<UE> <DS>btime<DE> Extent=<ES>197:29 - 197:34<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:199:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>199:3 - 203:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:199:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>199:8 - 199:26<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:199:8: UnexposedExpr=hptime|D:\github\msp430\obs_RTC_check\hp_time.cpp:184:12 <US>c:hp_time.cpp@5380@F@ms_time2hptime_int#I#I#I#I#I#I#@hptime<UE> <DS>hptime<DE> Extent=<ES>199:8 - 199:14<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:199:8: DeclRefExpr=hptime|D:\github\msp430\obs_RTC_check\hp_time.cpp:184:12 (Reference) <US>c:hp_time.cpp@5380@F@ms_time2hptime_int#I#I#I#I#I#I#@hptime<UE> <DS>hptime<DE> Extent=<ES>199:8 - 199:14<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:199:18: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>199:18 - 199:26<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:199:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>199:18 - 199:26<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:200:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>200:5 - 203:6<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:202:7: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>202:7 - 202:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:202:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>202:14 - 202:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:202:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>202:14 - 202:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:206:3: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>206:3 - 206:52<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:206:3: DeclRefExpr=hptime|D:\github\msp430\obs_RTC_check\hp_time.cpp:184:12 (Reference) <US>c:hp_time.cpp@5380@F@ms_time2hptime_int#I#I#I#I#I#I#@hptime<UE> <DS>hptime<DE> Extent=<ES>206:3 - 206:9<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:206:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>206:13 - 206:52<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:206:13: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>206:13 - 206:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:206:14: TypeRef=hptime_t|D:\github\msp430\obs_RTC_check\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>206:14 - 206:22<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:206:23: UnexposedExpr=usec|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:72 <US>c:hp_time.cpp@5348@F@ms_time2hptime_int#I#I#I#I#I#I#@usec<UE> <DS>int<DE> Extent=<ES>206:23 - 206:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:206:23: UnexposedExpr=usec|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:72 <US>c:hp_time.cpp@5348@F@ms_time2hptime_int#I#I#I#I#I#I#@usec<UE> <DS>int<DE> Extent=<ES>206:23 - 206:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:206:23: DeclRefExpr=usec|D:\github\msp430\obs_RTC_check\hp_time.cpp:181:72 (Reference) <US>c:hp_time.cpp@5348@F@ms_time2hptime_int#I#I#I#I#I#I#@usec<UE> <DS>int<DE> Extent=<ES>206:23 - 206:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:206:30: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>206:30 - 206:52<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:206:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>206:30 - 206:52<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:206:31: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>206:31 - 206:51<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:206:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>206:31 - 206:38<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:206:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>206:41 - 206:51<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:208:3: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>208:3 - 208:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:208:10: UnexposedExpr=hptime|D:\github\msp430\obs_RTC_check\hp_time.cpp:184:12 <US>c:hp_time.cpp@5380@F@ms_time2hptime_int#I#I#I#I#I#I#@hptime<UE> <DS>hptime<DE> Extent=<ES>208:10 - 208:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:208:10: DeclRefExpr=hptime|D:\github\msp430\obs_RTC_check\hp_time.cpp:184:12 (Reference) <US>c:hp_time.cpp@5380@F@ms_time2hptime_int#I#I#I#I#I#I#@hptime<UE> <DS>hptime<DE> Extent=<ES>208:10 - 208:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:222:1: FunctionDecl=ms_btime2hptime|D:\github\msp430\obs_RTC_check\hp_time.cpp:222:1 (Definition) <US>c:@F@ms_btime2hptime#*$@S@btime_s#<UE> <DS>hptime_t ms_btime2hptime(BTime *)<DE> Extent=<ES>221:1 - 253:2<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:221:1: TypeRef=hptime_t|D:\github\msp430\obs_RTC_check\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>221:1 - 221:9<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:222:25: ParmDecl=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:222:25 (Definition) <US>c:hp_time.cpp@6526@F@ms_btime2hptime#*$@S@btime_s#@btime<UE> <DS>BTime *<DE> Extent=<ES>222:18 - 222:30<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:222:18: TypeRef=BTime|D:\github\msp430\obs_RTC_check\hp_time.h:34:1 (Reference) <US>c:hp_time.h@595@T@BTime<UE> <DS>struct btime_s<DE> Extent=<ES>222:18 - 222:23<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:223:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>223:1 - 253:2<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:224:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>224:3 - 224:19<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:224:12: VarDecl=hptime|D:\github\msp430\obs_RTC_check\hp_time.cpp:224:12 (Definition) <US>c:hp_time.cpp@6546@F@ms_btime2hptime#*$@S@btime_s#@hptime<UE> <DS>hptime<DE> Extent=<ES>224:3 - 224:18<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:224:3: TypeRef=hptime_t|D:\github\msp430\obs_RTC_check\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>224:3 - 224:11<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:226:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>226:3 - 226:25<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:226:15: VarDecl=shortyear|D:\github\msp430\obs_RTC_check\hp_time.cpp:226:15 (Definition) <US>c:hp_time.cpp@6570@F@ms_btime2hptime#*$@S@btime_s#@shortyear<UE> <DS>shortyear<DE> Extent=<ES>226:3 - 226:24<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:227:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>227:3 - 227:30<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:227:15: VarDecl=a4|D:\github\msp430\obs_RTC_check\hp_time.cpp:227:15 (Definition) <US>c:hp_time.cpp@6596@F@ms_btime2hptime#*$@S@btime_s#@a4<UE> <DS>a4<DE> Extent=<ES>227:3 - 227:17<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:227:19: VarDecl=a100|D:\github\msp430\obs_RTC_check\hp_time.cpp:227:19 (Declaration) <US>c:hp_time.cpp@6596@F@ms_btime2hptime#*$@S@btime_s#@a100<UE> <DS>a100<DE> Extent=<ES>227:19 - 227:23<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:227:25: VarDecl=a400|D:\github\msp430\obs_RTC_check\hp_time.cpp:227:25 (Declaration) <US>c:hp_time.cpp@6596@F@ms_btime2hptime#*$@S@btime_s#@a400<UE> <DS>a400<DE> Extent=<ES>227:25 - 227:29<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:228:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>228:3 - 228:37<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:228:15: VarDecl=intervening_leap_days|D:\github\msp430\obs_RTC_check\hp_time.cpp:228:15 (Definition) <US>c:hp_time.cpp@6627@F@ms_btime2hptime#*$@S@btime_s#@intervening_leap_days<UE> <DS>intervening_leap_days<DE> Extent=<ES>228:3 - 228:36<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:229:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>229:3 - 229:20<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:229:15: VarDecl=days|D:\github\msp430\obs_RTC_check\hp_time.cpp:229:15 (Definition) <US>c:hp_time.cpp@6665@F@ms_btime2hptime#*$@S@btime_s#@days<UE> <DS>days<DE> Extent=<ES>229:3 - 229:19<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:237:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>237:3 - 238:20<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:237:8: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>237:8 - 237:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:237:10: UnexposedExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:222:25 <US>c:hp_time.cpp@6526@F@ms_btime2hptime#*$@S@btime_s#@btime<UE> <DS>BTime *<DE> Extent=<ES>237:10 - 237:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:237:10: UnexposedExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:222:25 <US>c:hp_time.cpp@6526@F@ms_btime2hptime#*$@S@btime_s#@btime<UE> <DS>BTime *<DE> Extent=<ES>237:10 - 237:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:237:10: DeclRefExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:222:25 (Reference) <US>c:hp_time.cpp@6526@F@ms_btime2hptime#*$@S@btime_s#@btime<UE> <DS>BTime *<DE> Extent=<ES>237:10 - 237:15<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:238:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>238:5 - 238:20<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:238:12: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>238:12 - 238:20<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:238:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>238:12 - 238:20<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:240:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>240:3 - 240:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:240:3: DeclRefExpr=shortyear|D:\github\msp430\obs_RTC_check\hp_time.cpp:226:15 (Reference) <US>c:hp_time.cpp@6570@F@ms_btime2hptime#*$@S@btime_s#@shortyear<UE> <DS>shortyear<DE> Extent=<ES>240:3 - 240:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:240:15: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>240:15 - 240:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:240:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>240:15 - 240:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:240:22: UnexposedExpr=year|D:\github\msp430\obs_RTC_check\hp_time.h:26:13 <US>c:@S@btime_s@FI@year<UE> <DS>year<DE> Extent=<ES>240:15 - 240:26<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:240:22: UnexposedExpr=year|D:\github\msp430\obs_RTC_check\hp_time.h:26:13 <US>c:@S@btime_s@FI@year<UE> <DS>year<DE> Extent=<ES>240:15 - 240:26<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:240:22: MemberRefExpr=year|D:\github\msp430\obs_RTC_check\hp_time.h:26:13 (Reference) <US>c:@S@btime_s@FI@year<UE> <DS>year<DE> Extent=<ES>240:15 - 240:26<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:240:15: UnexposedExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:222:25 <US>c:hp_time.cpp@6526@F@ms_btime2hptime#*$@S@btime_s#@btime<UE> <DS>BTime *<DE> Extent=<ES>240:15 - 240:20<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:240:15: DeclRefExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:222:25 (Reference) <US>c:hp_time.cpp@6526@F@ms_btime2hptime#*$@S@btime_s#@btime<UE> <DS>BTime *<DE> Extent=<ES>240:15 - 240:20<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:240:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>240:29 - 240:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:242:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>242:3 - 242:50<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:242:3: DeclRefExpr=a4|D:\github\msp430\obs_RTC_check\hp_time.cpp:227:15 (Reference) <US>c:hp_time.cpp@6596@F@ms_btime2hptime#*$@S@btime_s#@a4<UE> <DS>a4<DE> Extent=<ES>242:3 - 242:5<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:242:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>242:8 - 242:50<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:242:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>242:8 - 242:30<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:242:8: ParenExpr= <US><UE> <DS><DE> Extent=<ES>242:8 - 242:24<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:242:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>242:9 - 242:23<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:242:9: UnexposedExpr=shortyear|D:\github\msp430\obs_RTC_check\hp_time.cpp:226:15 <US>c:hp_time.cpp@6570@F@ms_btime2hptime#*$@S@btime_s#@shortyear<UE> <DS>shortyear<DE> Extent=<ES>242:9 - 242:18<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:242:9: DeclRefExpr=shortyear|D:\github\msp430\obs_RTC_check\hp_time.cpp:226:15 (Reference) <US>c:hp_time.cpp@6570@F@ms_btime2hptime#*$@S@btime_s#@shortyear<UE> <DS>shortyear<DE> Extent=<ES>242:9 - 242:18<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:242:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>242:22 - 242:23<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:242:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>242:27 - 242:30<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:242:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>242:27 - 242:30<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:242:33: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>242:33 - 242:50<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:242:33: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>242:33 - 242:50<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:242:35: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>242:35 - 242:50<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:242:35: ParenExpr= <US><UE> <DS><DE> Extent=<ES>242:35 - 242:50<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:242:36: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>242:36 - 242:49<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:242:36: UnexposedExpr=shortyear|D:\github\msp430\obs_RTC_check\hp_time.cpp:226:15 <US>c:hp_time.cpp@6570@F@ms_btime2hptime#*$@S@btime_s#@shortyear<UE> <DS>shortyear<DE> Extent=<ES>242:36 - 242:45<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:242:36: DeclRefExpr=shortyear|D:\github\msp430\obs_RTC_check\hp_time.cpp:226:15 (Reference) <US>c:hp_time.cpp@6570@F@ms_btime2hptime#*$@S@btime_s#@shortyear<UE> <DS>shortyear<DE> Extent=<ES>242:36 - 242:45<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:242:48: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>242:48 - 242:49<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:242:48: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>242:48 - 242:49<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:243:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>243:3 - 243:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:243:3: DeclRefExpr=a100|D:\github\msp430\obs_RTC_check\hp_time.cpp:227:19 (Reference) <US>c:hp_time.cpp@6596@F@ms_btime2hptime#*$@S@btime_s#@a100<UE> <DS>a100<DE> Extent=<ES>243:3 - 243:7<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:243:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>243:10 - 243:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:243:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>243:10 - 243:17<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:243:10: UnexposedExpr=a4|D:\github\msp430\obs_RTC_check\hp_time.cpp:227:15 <US>c:hp_time.cpp@6596@F@ms_btime2hptime#*$@S@btime_s#@a4<UE> <DS>a4<DE> Extent=<ES>243:10 - 243:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:243:10: DeclRefExpr=a4|D:\github\msp430\obs_RTC_check\hp_time.cpp:227:15 (Reference) <US>c:hp_time.cpp@6596@F@ms_btime2hptime#*$@S@btime_s#@a4<UE> <DS>a4<DE> Extent=<ES>243:10 - 243:12<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:243:15: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>243:15 - 243:17<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:243:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>243:15 - 243:17<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:243:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>243:20 - 243:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:243:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>243:20 - 243:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:243:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>243:21 - 243:32<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:243:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>243:21 - 243:28<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:243:21: UnexposedExpr=a4|D:\github\msp430\obs_RTC_check\hp_time.cpp:227:15 <US>c:hp_time.cpp@6596@F@ms_btime2hptime#*$@S@btime_s#@a4<UE> <DS>a4<DE> Extent=<ES>243:21 - 243:23<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:243:21: DeclRefExpr=a4|D:\github\msp430\obs_RTC_check\hp_time.cpp:227:15 (Reference) <US>c:hp_time.cpp@6596@F@ms_btime2hptime#*$@S@btime_s#@a4<UE> <DS>a4<DE> Extent=<ES>243:21 - 243:23<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:243:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>243:26 - 243:28<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:243:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>243:26 - 243:28<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:243:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>243:31 - 243:32<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:243:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>243:31 - 243:32<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:244:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>244:3 - 244:19<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:244:3: DeclRefExpr=a400|D:\github\msp430\obs_RTC_check\hp_time.cpp:227:25 (Reference) <US>c:hp_time.cpp@6596@F@ms_btime2hptime#*$@S@btime_s#@a400<UE> <DS>a400<DE> Extent=<ES>244:3 - 244:7<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:244:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>244:10 - 244:19<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:244:10: UnexposedExpr=a100|D:\github\msp430\obs_RTC_check\hp_time.cpp:227:19 <US>c:hp_time.cpp@6596@F@ms_btime2hptime#*$@S@btime_s#@a100<UE> <DS>a100<DE> Extent=<ES>244:10 - 244:14<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:244:10: DeclRefExpr=a100|D:\github\msp430\obs_RTC_check\hp_time.cpp:227:19 (Reference) <US>c:hp_time.cpp@6596@F@ms_btime2hptime#*$@S@btime_s#@a100<UE> <DS>a100<DE> Extent=<ES>244:10 - 244:14<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:244:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>244:18 - 244:19<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>245:3 - 245:64<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:3: DeclRefExpr=intervening_leap_days|D:\github\msp430\obs_RTC_check\hp_time.cpp:228:15 (Reference) <US>c:hp_time.cpp@6627@F@ms_btime2hptime#*$@S@btime_s#@intervening_leap_days<UE> <DS>intervening_leap_days<DE> Extent=<ES>245:3 - 245:24<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:27: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>245:27 - 245:64<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:27: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>245:27 - 245:51<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:27: ParenExpr= <US><UE> <DS><DE> Extent=<ES>245:27 - 245:37<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:28: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>245:28 - 245:36<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:28: UnexposedExpr=a4|D:\github\msp430\obs_RTC_check\hp_time.cpp:227:15 <US>c:hp_time.cpp@6596@F@ms_btime2hptime#*$@S@btime_s#@a4<UE> <DS>a4<DE> Extent=<ES>245:28 - 245:30<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:28: DeclRefExpr=a4|D:\github\msp430\obs_RTC_check\hp_time.cpp:227:15 (Reference) <US>c:hp_time.cpp@6596@F@ms_btime2hptime#*$@S@btime_s#@a4<UE> <DS>a4<DE> Extent=<ES>245:28 - 245:30<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:33: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>245:33 - 245:36<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>245:33 - 245:36<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:40: ParenExpr= <US><UE> <DS><DE> Extent=<ES>245:40 - 245:51<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:41: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>245:41 - 245:50<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:41: UnexposedExpr=a100|D:\github\msp430\obs_RTC_check\hp_time.cpp:227:19 <US>c:hp_time.cpp@6596@F@ms_btime2hptime#*$@S@btime_s#@a100<UE> <DS>a100<DE> Extent=<ES>245:41 - 245:45<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:41: DeclRefExpr=a100|D:\github\msp430\obs_RTC_check\hp_time.cpp:227:19 (Reference) <US>c:hp_time.cpp@6596@F@ms_btime2hptime#*$@S@btime_s#@a100<UE> <DS>a100<DE> Extent=<ES>245:41 - 245:45<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:48: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>245:48 - 245:50<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:48: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>245:48 - 245:50<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:54: ParenExpr= <US><UE> <DS><DE> Extent=<ES>245:54 - 245:64<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:55: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>245:55 - 245:63<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:55: UnexposedExpr=a400|D:\github\msp430\obs_RTC_check\hp_time.cpp:227:25 <US>c:hp_time.cpp@6596@F@ms_btime2hptime#*$@S@btime_s#@a400<UE> <DS>a400<DE> Extent=<ES>245:55 - 245:59<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:55: DeclRefExpr=a400|D:\github\msp430\obs_RTC_check\hp_time.cpp:227:25 (Reference) <US>c:hp_time.cpp@6596@F@ms_btime2hptime#*$@S@btime_s#@a400<UE> <DS>a400<DE> Extent=<ES>245:55 - 245:59<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:62: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>245:62 - 245:63<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:245:62: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>245:62 - 245:63<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>247:3 - 247:77<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:3: DeclRefExpr=days|D:\github\msp430\obs_RTC_check\hp_time.cpp:229:15 (Reference) <US>c:hp_time.cpp@6665@F@ms_btime2hptime#*$@S@btime_s#@days<UE> <DS>days<DE> Extent=<ES>247:3 - 247:7<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:10: ParenExpr= <US><UE> <DS><DE> Extent=<ES>247:10 - 247:77<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>247:11 - 247:76<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>247:11 - 247:57<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>247:11 - 247:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>247:11 - 247:14<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>247:11 - 247:14<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:17: ParenExpr= <US><UE> <DS><DE> Extent=<ES>247:17 - 247:33<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>247:18 - 247:32<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:18: UnexposedExpr=shortyear|D:\github\msp430\obs_RTC_check\hp_time.cpp:226:15 <US>c:hp_time.cpp@6570@F@ms_btime2hptime#*$@S@btime_s#@shortyear<UE> <DS>shortyear<DE> Extent=<ES>247:18 - 247:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:18: DeclRefExpr=shortyear|D:\github\msp430\obs_RTC_check\hp_time.cpp:226:15 (Reference) <US>c:hp_time.cpp@6570@F@ms_btime2hptime#*$@S@btime_s#@shortyear<UE> <DS>shortyear<DE> Extent=<ES>247:18 - 247:27<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:30: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>247:30 - 247:32<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>247:30 - 247:32<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:36: UnexposedExpr=intervening_leap_days|D:\github\msp430\obs_RTC_check\hp_time.cpp:228:15 <US>c:hp_time.cpp@6627@F@ms_btime2hptime#*$@S@btime_s#@intervening_leap_days<UE> <DS>intervening_leap_days<DE> Extent=<ES>247:36 - 247:57<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:36: DeclRefExpr=intervening_leap_days|D:\github\msp430\obs_RTC_check\hp_time.cpp:228:15 (Reference) <US>c:hp_time.cpp@6627@F@ms_btime2hptime#*$@S@btime_s#@intervening_leap_days<UE> <DS>intervening_leap_days<DE> Extent=<ES>247:36 - 247:57<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:60: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>247:60 - 247:76<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:60: ParenExpr= <US><UE> <DS><DE> Extent=<ES>247:60 - 247:76<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:61: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>247:61 - 247:75<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:68: UnexposedExpr=day|D:\github\msp430\obs_RTC_check\hp_time.h:27:13 <US>c:@S@btime_s@FI@day<UE> <DS>day<DE> Extent=<ES>247:61 - 247:71<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:68: UnexposedExpr=day|D:\github\msp430\obs_RTC_check\hp_time.h:27:13 <US>c:@S@btime_s@FI@day<UE> <DS>day<DE> Extent=<ES>247:61 - 247:71<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:68: MemberRefExpr=day|D:\github\msp430\obs_RTC_check\hp_time.h:27:13 (Reference) <US>c:@S@btime_s@FI@day<UE> <DS>day<DE> Extent=<ES>247:61 - 247:71<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:61: UnexposedExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:222:25 <US>c:hp_time.cpp@6526@F@ms_btime2hptime#*$@S@btime_s#@btime<UE> <DS>BTime *<DE> Extent=<ES>247:61 - 247:66<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:61: DeclRefExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:222:25 (Reference) <US>c:hp_time.cpp@6526@F@ms_btime2hptime#*$@S@btime_s#@btime<UE> <DS>BTime *<DE> Extent=<ES>247:61 - 247:66<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:247:74: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>247:74 - 247:75<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>249:3 - 250:44<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:3: DeclRefExpr=hptime|D:\github\msp430\obs_RTC_check\hp_time.cpp:224:12 (Reference) <US>c:hp_time.cpp@6546@F@ms_btime2hptime#*$@S@btime_s#@hptime<UE> <DS>hptime<DE> Extent=<ES>249:3 - 249:9<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>249:12 - 250:44<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>249:12 - 249:101<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:12: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>249:12 - 249:88<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:13: TypeRef=hptime_t|D:\github\msp430\obs_RTC_check\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>249:13 - 249:21<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>249:23 - 249:88<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>249:23 - 249:88<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:24: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>249:24 - 249:87<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:24: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>249:24 - 249:74<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>249:24 - 249:26<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>249:24 - 249:26<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:29: ParenExpr= <US><UE> <DS><DE> Extent=<ES>249:29 - 249:74<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:30: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>249:30 - 249:73<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:30: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>249:30 - 249:60<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:30: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>249:30 - 249:32<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>249:30 - 249:32<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:35: ParenExpr= <US><UE> <DS><DE> Extent=<ES>249:35 - 249:60<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:36: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>249:36 - 249:59<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:36: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>249:36 - 249:45<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>249:36 - 249:38<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>249:36 - 249:38<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:41: UnexposedExpr=days|D:\github\msp430\obs_RTC_check\hp_time.cpp:229:15 <US>c:hp_time.cpp@6665@F@ms_btime2hptime#*$@S@btime_s#@days<UE> <DS>days<DE> Extent=<ES>249:41 - 249:45<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:41: DeclRefExpr=days|D:\github\msp430\obs_RTC_check\hp_time.cpp:229:15 (Reference) <US>c:hp_time.cpp@6665@F@ms_btime2hptime#*$@S@btime_s#@days<UE> <DS>days<DE> Extent=<ES>249:41 - 249:45<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:55: UnexposedExpr=hour|D:\github\msp430\obs_RTC_check\hp_time.h:28:13 <US>c:@S@btime_s@FI@hour<UE> <DS>hour<DE> Extent=<ES>249:48 - 249:59<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:55: UnexposedExpr=hour|D:\github\msp430\obs_RTC_check\hp_time.h:28:13 <US>c:@S@btime_s@FI@hour<UE> <DS>hour<DE> Extent=<ES>249:48 - 249:59<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:55: MemberRefExpr=hour|D:\github\msp430\obs_RTC_check\hp_time.h:28:13 (Reference) <US>c:@S@btime_s@FI@hour<UE> <DS>hour<DE> Extent=<ES>249:48 - 249:59<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:48: UnexposedExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:222:25 <US>c:hp_time.cpp@6526@F@ms_btime2hptime#*$@S@btime_s#@btime<UE> <DS>BTime *<DE> Extent=<ES>249:48 - 249:53<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:48: DeclRefExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:222:25 (Reference) <US>c:hp_time.cpp@6526@F@ms_btime2hptime#*$@S@btime_s#@btime<UE> <DS>BTime *<DE> Extent=<ES>249:48 - 249:53<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:70: UnexposedExpr=min|D:\github\msp430\obs_RTC_check\hp_time.h:29:13 <US>c:@S@btime_s@FI@min<UE> <DS>min<DE> Extent=<ES>249:63 - 249:73<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:70: UnexposedExpr=min|D:\github\msp430\obs_RTC_check\hp_time.h:29:13 <US>c:@S@btime_s@FI@min<UE> <DS>min<DE> Extent=<ES>249:63 - 249:73<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:70: MemberRefExpr=min|D:\github\msp430\obs_RTC_check\hp_time.h:29:13 (Reference) <US>c:@S@btime_s@FI@min<UE> <DS>min<DE> Extent=<ES>249:63 - 249:73<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:63: UnexposedExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:222:25 <US>c:hp_time.cpp@6526@F@ms_btime2hptime#*$@S@btime_s#@btime<UE> <DS>BTime *<DE> Extent=<ES>249:63 - 249:68<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:63: DeclRefExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:222:25 (Reference) <US>c:hp_time.cpp@6526@F@ms_btime2hptime#*$@S@btime_s#@btime<UE> <DS>BTime *<DE> Extent=<ES>249:63 - 249:68<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:84: UnexposedExpr=sec|D:\github\msp430\obs_RTC_check\hp_time.h:30:13 <US>c:@S@btime_s@FI@sec<UE> <DS>sec<DE> Extent=<ES>249:77 - 249:87<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:84: UnexposedExpr=sec|D:\github\msp430\obs_RTC_check\hp_time.h:30:13 <US>c:@S@btime_s@FI@sec<UE> <DS>sec<DE> Extent=<ES>249:77 - 249:87<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:84: MemberRefExpr=sec|D:\github\msp430\obs_RTC_check\hp_time.h:30:13 (Reference) <US>c:@S@btime_s@FI@sec<UE> <DS>sec<DE> Extent=<ES>249:77 - 249:87<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:77: UnexposedExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:222:25 <US>c:hp_time.cpp@6526@F@ms_btime2hptime#*$@S@btime_s#@btime<UE> <DS>BTime *<DE> Extent=<ES>249:77 - 249:82<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:77: DeclRefExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:222:25 (Reference) <US>c:hp_time.cpp@6526@F@ms_btime2hptime#*$@S@btime_s#@btime<UE> <DS>BTime *<DE> Extent=<ES>249:77 - 249:82<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:91: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>249:91 - 249:101<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:249:91: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>249:91 - 249:101<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:250:7: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>250:7 - 250:44<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:250:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>250:7 - 250:44<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:250:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>250:8 - 250:43<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:250:15: UnexposedExpr=fract|D:\github\msp430\obs_RTC_check\hp_time.h:32:13 <US>c:@S@btime_s@FI@fract<UE> <DS>fract<DE> Extent=<ES>250:8 - 250:20<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:250:15: UnexposedExpr=fract|D:\github\msp430\obs_RTC_check\hp_time.h:32:13 <US>c:@S@btime_s@FI@fract<UE> <DS>fract<DE> Extent=<ES>250:8 - 250:20<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:250:15: MemberRefExpr=fract|D:\github\msp430\obs_RTC_check\hp_time.h:32:13 (Reference) <US>c:@S@btime_s@FI@fract<UE> <DS>fract<DE> Extent=<ES>250:8 - 250:20<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:250:8: UnexposedExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:222:25 <US>c:hp_time.cpp@6526@F@ms_btime2hptime#*$@S@btime_s#@btime<UE> <DS>BTime *<DE> Extent=<ES>250:8 - 250:13<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:250:8: DeclRefExpr=btime|D:\github\msp430\obs_RTC_check\hp_time.cpp:222:25 (Reference) <US>c:hp_time.cpp@6526@F@ms_btime2hptime#*$@S@btime_s#@btime<UE> <DS>BTime *<DE> Extent=<ES>250:8 - 250:13<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:250:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>250:23 - 250:43<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:250:24: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>250:24 - 250:42<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:250:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>250:24 - 250:34<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:250:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>250:37 - 250:42<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:252:3: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>252:3 - 252:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:252:10: UnexposedExpr=hptime|D:\github\msp430\obs_RTC_check\hp_time.cpp:224:12 <US>c:hp_time.cpp@6546@F@ms_btime2hptime#*$@S@btime_s#@hptime<UE> <DS>hptime<DE> Extent=<ES>252:10 - 252:16<EE>
+<L>D:\github\msp430\obs_RTC_check\hp_time.cpp:252:10: DeclRefExpr=hptime|D:\github\msp430\obs_RTC_check\hp_time.cpp:224:12 (Reference) <US>c:hp_time.cpp@6546@F@ms_btime2hptime#*$@S@btime_s#@hptime<UE> <DS>hptime<DE> Extent=<ES>252:10 - 252:16<EE>
