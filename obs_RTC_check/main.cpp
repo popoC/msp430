@@ -17,14 +17,32 @@
 #define COM2 0x02
 #define COM3 0x04
 
+#define gPs_tIme 1
+#define BUF_SIZE 10
+int cOm_fLag = 0;
 
+
+typedef struct gps_info
+{
+char utc_time[BUF_SIZE];
+char status;
+float latitude_value;
+char latitude;
+float longtitude_value;
+char longtitude;
+float speed;
+float azimuth_angle;
+char utc_data[BUF_SIZE];
+};//GPS_INFO;
+
+//GPS_INFO gPsData;
 
 int Control_Mode = 1; //--- command is ##--*    (-- 為模式編號, 0~65535)
 int Diff_1PPS = 0;
 
 int CloCk_10KHz =0;
 void DelayMs(int ms);
-void findStrPoint(char *a,char *ans,char feature,int n);
+
 char Getp[50];
 
 void Open_Syn_Interrupt();
@@ -72,7 +90,7 @@ s5 = s1-s2;
  Crystal_Init();                          // 震盪器初始化
    UART_Init(COM1+COM2+COM3);                         // Rs232初始化    
  
-
+gps_info GPS_INFO;
  P1DIR = 0x01 + 0x20;
 
  Open_Syn_Interrupt();
@@ -80,7 +98,17 @@ s5 = s1-s2;
    while(1){
   
      __bis_SR_register(GIE+LPM0_bits);
-
+     if(cOm_fLag == gPs_tIme){ 
+          cOm_fLag = 0;
+          
+          if( strncmp("$GPRMC",COM2_BUFFER,6)==0){ 
+             sscanf(COM2_BUFFER,"$GPRMC,%[^,],%c,%f,%c,%f,%c,%f,%f,%[^,]",
+                    GPS_INFO.utc_time,&(GPS_INFO.status),&(GPS_INFO.latitude_value),
+                    &(GPS_INFO.latitude),&(GPS_INFO.longtitude_value),
+                    &(GPS_INFO.longtitude),&(GPS_INFO.speed),&(GPS_INFO.azimuth_angle),GPS_INFO.utc_data); 
+           cOm_fLag = 0;
+          }
+     }
      /*
        
      if(cOm_fLag == oBs_tIme){
@@ -262,39 +290,12 @@ __interrupt void TIMER0_A0_ISR(void)
   CloCk_10KHz++;
   if(CloCk_10KHz>20000){
     CloCk_10KHz=0;
-    
-    
-     P1OUT ^= 0x20;
+    P1OUT ^= 0x20;
      
-  //  sprintf(string," counter  %03d   ",is);is++;if(is>200)is=0;
-  //  Print_Memo(0,0,string); 
-    
-   
   }
 }
 //----------------------------------------------------------------------------
 
-void findStrPoint(char *a,char *ans,char feature,int n){
-      int strcount = 0, Ncount = 0, pop = 0;
-      while(a[strcount]!='\0')
-      {
-         if(a[strcount]== feature){
-            pop++;
-            if(pop==n)
-            {
-             ans[Ncount]='\0';
-             return;
-            }
-            Ncount = 0;
-         }
-         else{
-          ans[Ncount] = a[strcount];
-          Ncount++;
-         }
-          strcount++;
-      }
-        ans[Ncount]='\0';
-}
 
 //--------------------------------------
 
@@ -353,40 +354,23 @@ void UART_Init(int com){
 __interrupt void USCI_A0_ISR(void)
 {
   switch(__even_in_range(UCA0IV,4))
-  {/*
-  case 2:                                   // Vector 2 - RXIFG
-    
-     //if(COM1_to_COM4)
-
-    if(Control_Mode==3){
-        while (!(UCA3IFG&UCTXIFG));        // com1 to com4
-        UCA3TXBUF = UCA0RXBUF;
-    }else{
-    
- 
+  {
+     case 2:                                   // Vector 2 - RXIFG
         COM1_REC_BUFFER[UART_COM1_RX_count] = UCA0RXBUF;
         UART_COM1_RX_count++;
-        
-         //  if(UART_COM1_RX_BUF[UART_COM1_RX_count-1] == '=')
-        if((UART_COM1_RX_BUF[0] == 't'))   
-        {
-          if(UART_COM1_RX_count>=11){
-            memcpy(COM1_Command,UART_COM1_RX_BUF,UART_COM1_RX_count+1);
+    
+       if(COM1_REC_BUFFER[UART_COM1_RX_count-1] == '\n')
+       {
+            memcpy(COM1_BUFFER,COM1_REC_BUFFER,UART_COM1_RX_count+1);
             UART_COM1_RX_count = 0;
-            cOm_fLag = oBs_tIme;
             __bic_SR_register_on_exit(LPM0_bits); // Exit LPM0
-          }
-        }
-        else{
-           UART_COM1_RX_count = 0;
-        }
-          
-        
-        
-      if(UART_COM1_RX_count>=COM_BUF_Size)UART_COM1_RX_count=0;
-    }
-    break;
-  */
+       
+       }
+ 
+    
+    if(UART_COM1_RX_count>=COM_BUF_Size)UART_COM1_RX_count=0;   
+       
+     break;
   default: break;  
   }
 }
@@ -405,6 +389,7 @@ __interrupt void USCI_A1_ISR(void)
        {
             memcpy(COM2_BUFFER,COM2_REC_BUFFER,UART_COM2_RX_count+1);
             UART_COM2_RX_count = 0;
+            cOm_fLag = gPs_tIme;
             __bic_SR_register_on_exit(LPM0_bits); // Exit LPM0
        
        }
