@@ -36,7 +36,7 @@ ActionState=1
 Enabled=0
 ShowSource=1
 [DebugChecksum]
-Checksum=-1753976186
+Checksum=246647805
 [State Storage]
 Control Register=0
 [EEM State Storage]
@@ -57,9 +57,8 @@ Fmt0={W}0:gg	4	0
 Fmt1={W}0:s4	3	0
 Fmt2={W}0:s5	3	0
 [Breakpoints]
-Bp0=_ "STD_CODE" "{$PROJ_DIR$\main.cpp}.72.4" 0 0 0 0 "" 0 ""
-Bp1=_ "STD_CODE" "{$PROJ_DIR$\main.cpp}.109.12" 1 0 0 0 "" 0 ""
-Count=2
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\main.cpp}.117.12" 1 0 0 0 "" 0 ""
+Count=1
 [FET]
 Clock mode=14
 Extended Clock mode=-1

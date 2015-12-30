@@ -18,6 +18,7 @@
 #define COM3 0x04
 
 #define gPs_tIme 1
+
 #define BUF_SIZE 10
 int cOm_fLag = 0;
 
@@ -25,18 +26,18 @@ int cOm_fLag = 0;
 typedef struct gps_info
 {
 char utc_time[BUF_SIZE];
-char status;
-float latitude_value;
+char status[2];
+char latitude_value[BUF_SIZE];
 char latitude;
-float longtitude_value;
+char longtitude_value[BUF_SIZE];
 char longtitude;
-float speed;
-float azimuth_angle;
+char speed[BUF_SIZE];
+char azimuth_angle[BUF_SIZE];
 char utc_data[BUF_SIZE];
 };//GPS_INFO;
-
+char *gpsStr;
 //GPS_INFO gPsData;
-
+void findStrPoint(char *a,char *ans,char feature,int n);
 int Control_Mode = 1; //--- command is ##--*    (-- 為模式編號, 0~65535)
 int Diff_1PPS = 0;
 
@@ -102,10 +103,17 @@ gps_info GPS_INFO;
           cOm_fLag = 0;
           
           if( strncmp("$GPRMC",COM2_BUFFER,6)==0){ 
-             sscanf(COM2_BUFFER,"$GPRMC,%[^,],%c,%f,%c,%f,%c,%f,%f,%[^,]",
-                    GPS_INFO.utc_time,&(GPS_INFO.status),&(GPS_INFO.latitude_value),
-                    &(GPS_INFO.latitude),&(GPS_INFO.longtitude_value),
-                    &(GPS_INFO.longtitude),&(GPS_INFO.speed),&(GPS_INFO.azimuth_angle),GPS_INFO.utc_data); 
+            
+           findStrPoint(COM2_BUFFER,GPS_INFO.status ,',',3);
+           if(GPS_INFO.status[0]=='A'); //--- 這裡開始數據有效
+           findStrPoint(COM2_BUFFER,GPS_INFO.utc_time,',',2);
+           findStrPoint(COM2_BUFFER,GPS_INFO.utc_data,',',10);
+           
+           //strcpy(GPS_INFO.utc_data , gpsStr);
+              //  gpsStr = strtok(NULL,",");
+              
+              
+              
            cOm_fLag = 0;
           }
      }
@@ -388,6 +396,7 @@ __interrupt void USCI_A1_ISR(void)
        if(COM2_REC_BUFFER[UART_COM2_RX_count-1] == '\n')
        {
             memcpy(COM2_BUFFER,COM2_REC_BUFFER,UART_COM2_RX_count+1);
+            memset(COM2_REC_BUFFER,0,UART_COM2_RX_count+1);
             UART_COM2_RX_count = 0;
             cOm_fLag = gPs_tIme;
             __bic_SR_register_on_exit(LPM0_bits); // Exit LPM0
@@ -403,3 +412,24 @@ __interrupt void USCI_A1_ISR(void)
  //   __bic_SR_register_on_exit(LPM3_bits); // Exit LPM0
 }
 //------------------------------------------------------------------------------
+void findStrPoint(char *a,char *ans,char feature,int n){
+      int strcount = 0, Ncount = 0, pop = 0;
+      while(a[strcount]!='\0')
+      {
+         if(a[strcount]== feature){
+            pop++;
+            if(pop==n)
+            {
+             ans[Ncount]='\0';
+             return;
+            }
+            Ncount = 0;
+         }
+         else{
+          ans[Ncount] = a[strcount];
+          Ncount++;
+         }
+          strcount++;
+      }
+        ans[Ncount]='\0';
+}
