@@ -5,12 +5,6 @@ GraphEnabled=0
 ShowTimeLog=1
 ShowTimeSum=1
 SumSortOrder=0
-[DataLog]
-LogEnabled=0
-SumEnabled=0
-GraphEnabled=0
-ShowTimeLog=1
-ShowTimeSum=1
 [Stack]
 FillEnabled=0
 OverflowWarningsEnabled=1
@@ -36,11 +30,9 @@ ActionState=1
 Enabled=0
 ShowSource=1
 [DebugChecksum]
-Checksum=246647805
+Checksum=-2088289878
 [State Storage]
 Control Register=0
-[EEM State Storage]
-Buffer=BAAAAAAAAAAAAAAAAAAAAAAA
 [Sequencer]
 Control Register=0
 NextState0=0
@@ -52,10 +44,8 @@ State Storage=0
 ShowArgs=0
 [Disassembly]
 MixedMode=1
-[watch_formats]
-Fmt0={W}0:gg	4	0
-Fmt1={W}0:s4	3	0
-Fmt2={W}0:s5	3	0
+[EEM State Storage]
+Buffer=AAAAAAAADAAAAAAAAAAAAAAA
 [Log file]
 LoggingEnabled=_ 0
 LogFile=_ ""
@@ -74,7 +64,7 @@ Exclusions=
 [Breakpoints]
 Count=0
 [FET]
-Clock mode=14
+Clock mode=38
 Extended Clock mode=-1
 Secure Password=
 Extended Clock Control Enable=1
@@ -94,5 +84,6 @@ SR=0
 all registers=0
 File name=
 [Aliases]
-Count=0
+A0=_ "C:\Users\tori\Dropbox\OBS\100Hz logger 相關資料\2013 OBS Data Logger\20120627 Msp2013 code v3.01\main.cpp" ""
+Count=1
 SuppressDialog=0
