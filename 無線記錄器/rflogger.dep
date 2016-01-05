@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2707022419</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\hp_time.cpp</file>
+      <file>$PROJ_DIR$\main.cpp</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.h</file>
+      <file>$PROJ_DIR$\hp_time.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\hp_time.r43</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F5436A.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\msp430x54xA.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hp_time.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\rflogger.pbd</file>
+      <file>$PROJ_DIR$\Debug\Exe\rflogger.ulp</file>
+      <file>$PROJ_DIR$\Debug\Exe\rflogger.d43</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\hp_time.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 14 21 9 8 5 11 2 4 13 7 12 6 3 10 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 21 9 8 5 11 2 4 13 7 12 6 3 10 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 21 9 8 5 11 2 4 13 7 12 6 3 10 14 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 9 8 5 11 2 4 13 7 12 6 3 10 14 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ULP430</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\rflogger.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 20 17 19 23 18</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
