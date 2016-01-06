@@ -36,7 +36,7 @@ ActionState=1
 Enabled=0
 ShowSource=1
 [DebugChecksum]
-Checksum=650281687
+Checksum=1780398018
 [State Storage]
 Control Register=0
 [EEM State Storage]
@@ -52,6 +52,8 @@ State Storage=0
 ShowArgs=0
 [Disassembly]
 MixedMode=1
+[watch_formats]
+Fmt0={W}0:nowTime	4	0
 [Breakpoints]
 Count=0
 [FET]
