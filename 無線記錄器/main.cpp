@@ -41,7 +41,7 @@ static int  sysTime_flag = 0;
 
 char GPS_Time_String[] = "2000/12/22 10:12:22.000000";
 
-int CloCk_10KHz =0;
+long int CloCk_10KHz =0;
 
 void findStrPoint(char *a,char *ans,char feature,int n);
 
@@ -126,22 +126,22 @@ void main(void)
    ADS1222Init();                           // ADS1222初始化
  
   static hptime_t nowTime;
+  
+  //nowTime = ms_timestr2hptime("2000/12/22 10:12:22.000000"); 
+  //nowTime = ms_timestr2hptime("2000/12/22 10:12:22.000000"); 
+    nowTime = 0;    
   while(1){
            __bis_SR_register(LPM0_bits + GIE);       // Enter LPM0, enable interrupts 此處中斷大約100Hz
-           
-           
-             for(int d1elAy=0;d1elAy<1600;d1elAy++);    //--delay 
+   
+    
+     nowTime = 0;    
+     nowTime  =   sysTime+CloCk_10KHz*100;   //get_hp_Gps_time(COM1_BUFFER);       
+    
+     for(int d1elAy=0;d1elAy<1600;d1elAy++);    //--delay 
              
                 if(First_Data < 5){ First_Data += ADS1222_SELF_CALIBRATION();}
                 else{ ADS1222_STANDBY_MODE(); }
-
                 
-                
-      
-     
-                
-     nowTime = 0;    
-     nowTime  =   sysTime+CloCk_10KHz*100;   //get_hp_Gps_time(COM1_BUFFER);    
      //        nowTime  =   get_hp_Gps_time(COM1_BUFFER);    
                 
      string[0] = '$';                               //資料起始
@@ -174,10 +174,11 @@ void main(void)
      string[20] =  '\n';  
      
      
-     
      //nTX1_Len = 16;
-    //  RS232_Send_Char(string,16,COM2);  
-       RS232_Send_Char(string,21,COM2);  
+     
+      
+      RS232_Send_Char(string,21,COM2);   //---~ 1ms
+      memset(string,0,30+1);
       
                if(sysTime_flag == 1){
                    sysTime_Buffer = get_hp_Gps_time(COM1_BUFFER);
@@ -198,8 +199,10 @@ __interrupt void P1ISR (void)
    //  P1OUT ^= BIT6;    //-----for check pps 
      
      if(sysTime_flag == 2){
+        
         sysTime = sysTime_Buffer+1000000;
         sysTime_flag = 0;
+        CloCk_10KHz = 0;
      }
      
      
@@ -211,9 +214,9 @@ __interrupt void P1ISR (void)
 __interrupt void TIMER0_A0_ISR(void)
 {
   CloCk_10KHz++;
-  if(CloCk_10KHz>10000){
+  if(CloCk_10KHz>10000){      //-----保險@@~
     CloCk_10KHz=0;
-    
+     sysTime += 1000000;
     //P1OUT ^= BIT7;
   } 
   
@@ -455,7 +458,7 @@ __interrupt void USCI_A0_ISR(void)
   break;
   default: break;  
   }
-    __bic_SR_register_on_exit(LPM0_bits); // Exit LPM0
+  //  __bic_SR_register_on_exit(LPM0_bits); // Exit LPM0
 }
 //----------------------------------------------------------------------------
 #pragma vector=USCI_A1_VECTOR //COM2
