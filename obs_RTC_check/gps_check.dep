@@ -6,55 +6,55 @@
   <configuration>
     <name>Debug</name>
     <outputs>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.h</file>
       <file>$PROJ_DIR$\hp_time.cpp</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\time.h</file>
       <file>$PROJ_DIR$\main.cpp</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hp_time.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
       <file>$TOOLKIT_DIR$\config\lnk430F5438A.xcl</file>
-      <file>$TOOLKIT_DIR$\inc\msp430x54xA.h</file>
-      <file>$PROJ_DIR$\Debug\Exe\gps_check.ulp</file>
-      <file>$PROJ_DIR$\Debug\Obj\hp_time.r43</file>
       <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
       <file>$PROJ_DIR$\Debug\Exe\gps_check.d43</file>
-      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\gps_check.pbd</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
-      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
-      <file>$PROJ_DIR$\hp_time.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
-      <file>$TOOLKIT_DIR$\inc\in430.h</file>
-      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\hp_time.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
       <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hp_time.r43</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430x54xA.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\time.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
+      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
+      <file>$PROJ_DIR$\hp_time.h</file>
       <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\gps_check.pbd</file>
+      <file>$PROJ_DIR$\Debug\Exe\gps_check.ulp</file>
     </outputs>
     <file>
       <name>$PROJ_DIR$\hp_time.cpp</name>
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 7</file>
+          <file> 14</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 21</file>
+          <file> 6</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 16 5 19 8 27 25 15 24 20 22 17 18 1 13 12</file>
+          <file> 24 19 15 10 7 5 21 12 2 8 16 0 17 13 18</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 16 5 19 8 27 25 15 24 20 22 17 18 1 13 12</file>
+          <file> 24 19 15 10 7 5 21 12 2 8 16 0 17 13 18</file>
         </tool>
       </inputs>
     </file>
@@ -63,30 +63,21 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 26</file>
+          <file> 25</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 23</file>
+          <file> 1</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 5 19 8 27 25 15 24 20 22 17 18 1 13 12 2 16</file>
+          <file> 19 15 10 7 5 21 12 2 8 16 0 17 13 18 20 24</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 5 19 8 27 25 15 24 20 22 17 18 1 13 12 2 16</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Debug\Exe\gps_check.d43</name>
-      <inputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 4 14 7 26 10</file>
+          <file> 19 15 10 7 5 21 12 2 8 16 0 17 13 18 20 24</file>
         </tool>
       </inputs>
     </file>
@@ -95,13 +86,22 @@
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 9</file>
+          <file> 11</file>
         </tool>
         <tool>
           <name>ULP430</name>
-          <file> 6</file>
+          <file> 27</file>
         </tool>
       </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\gps_check.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 9 23 14 25 22</file>
+        </tool>
+      </inputs>
     </file>
   </configuration>
   <configuration>

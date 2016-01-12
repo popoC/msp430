@@ -1,7 +1,9 @@
 //-- 20151224
 // for OBS RTC
-//--  com1 -> obs logger
-//--  com2 -> gps 
+//--  COM1 115200 -> obs logger
+//--  COM2 9600   -> gps 
+//--  COM3 115200   -> pc
+
 //   command List
 //--  P1.6 OBS-1pps
 //--  P1.7 GPS-1pps
@@ -64,6 +66,10 @@ char COM3_BUFFER[COM_BUF_Size];    // -- 9600   PC
 char COM3_REC_BUFFER[COM_BUF_Size];    // -- receive buffer
 
 int UART_COM1_RX_count,UART_COM2_RX_count,UART_COM3_RX_count;
+
+void UART_SendStr(char *str,char com);
+void RS232_Send_Char(char *str,int count,char com);
+
 //------------------------------------------------------------------------------
 
 
@@ -112,7 +118,7 @@ gps_info GPS_INFO;
            //strcpy(GPS_INFO.utc_data , gpsStr);
               //  gpsStr = strtok(NULL,",");
               
-              
+            UART_SendStr("hih2i \r\n",COM3);  
               
            cOm_fLag = 0;
           }
@@ -412,6 +418,33 @@ __interrupt void USCI_A1_ISR(void)
  //   __bic_SR_register_on_exit(LPM3_bits); // Exit LPM0
 }
 //------------------------------------------------------------------------------
+#pragma vector=USCI_A2_VECTOR //COM3
+__interrupt void USCI_A2_ISR(void)
+{
+  
+  switch(__even_in_range(UCA2IV,4))
+  {
+     case 2:                                   // Vector 2 - RXIFG
+        COM3_REC_BUFFER[UART_COM3_RX_count] = UCA2RXBUF;
+        UART_COM3_RX_count++;
+    
+       if(COM3_REC_BUFFER[UART_COM3_RX_count-1] == '\n')
+       {
+            memcpy(COM3_BUFFER,COM3_REC_BUFFER,UART_COM3_RX_count+1);
+            memset(COM3_REC_BUFFER,0,UART_COM3_RX_count+1);
+            UART_COM3_RX_count = 0;
+            __bic_SR_register_on_exit(LPM0_bits); // Exit LPM0
+       
+       }
+    
+    if(UART_COM3_RX_count>=COM_BUF_Size)UART_COM3_RX_count=0;   
+      
+    break;
+  default: break;  
+  }
+ //   __bic_SR_register_on_exit(LPM3_bits); // Exit LPM0
+}
+//------------------------------------------------------------------------------
 void findStrPoint(char *a,char *ans,char feature,int n){
       int strcount = 0, Ncount = 0, pop = 0;
       while(a[strcount]!='\0')
@@ -432,4 +465,37 @@ void findStrPoint(char *a,char *ans,char feature,int n){
           strcount++;
       }
         ans[Ncount]='\0';
+}
+//------------------------------------------------------------------------------
+void UART_SendByte(unsigned char data,char com)
+{
+  if((com&COM1) == COM1){
+    while (!(UCA0IFG&UCTXIFG));             // USCI_A1 TX buffer ready?
+    UCA0TXBUF = data;
+  }
+  if((com&COM2) == COM2){
+    while (!(UCA1IFG&UCTXIFG));             // USCI_A1 TX buffer ready?
+    UCA1TXBUF = data;
+  }
+  if((com&COM3) == COM3){
+    while (!(UCA2IFG&UCTXIFG));             // USCI_A1 TX buffer ready?
+    UCA2TXBUF = data;
+  }
+  
+  
+}
+void UART_SendStr(char *str,char com)
+{
+        while (*str != '\0')
+        {
+            UART_SendByte(*str++,com);	          // 發送數據
+        }
+        
+}
+void RS232_Send_Char(char *str,int count,char com)
+{
+        for(int i=0;i<count;i++)
+        {
+            UART_SendByte(*str++,com);	          // 發送數據
+        }
 }

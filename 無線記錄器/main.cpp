@@ -214,7 +214,7 @@ __interrupt void P1ISR (void)
 __interrupt void TIMER0_A0_ISR(void)
 {
   CloCk_10KHz++;
-  if(CloCk_10KHz>10000){      //-----«OÀI@@~
+  if(CloCk_10KHz>10001){      //-----«OÀI@@~
     CloCk_10KHz=0;
      sysTime += 1000000;
     //P1OUT ^= BIT7;
