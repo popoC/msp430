@@ -124,7 +124,7 @@ void main(void)
          switch(OUTPUT_MODE){
            case LOGGER_TIME:
              out_timer_counter++;
-             if(out_timer_counter>=10){
+             if(out_timer_counter>=100){
                out_timer_counter = 0;
                      string[0] = 't';                  //¸ê®Æ«¬ºA fix 2012 1224
                      string[9] = 0;  string[10] = 1;  

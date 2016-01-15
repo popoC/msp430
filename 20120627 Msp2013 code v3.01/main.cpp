@@ -66,7 +66,7 @@ _DINT();     // Ãö³¬¤¤Â_
   P2DIR &= ~BIT6;                           //set p2.6 input
   
   
- ms = 0;  sec = 0 ;   minute = 16 ;  hour = 11;  day = 22;  month = 3;  year = 12;
+ ms = 0;  sec = 0 ;   minute = 0 ;  hour = 0;  day = 1;  month = 1;  year = 0;
  delay = 0;
  
   CCTL0 = CCIE;                             // CCR0 interrupt enabled

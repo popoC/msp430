@@ -1,8 +1,8 @@
 //-- 20151224
 // for OBS RTC
-//--  COM1 115200 -> obs logger
+//--  COM1 115200 -> pc
 //--  COM2 9600   -> gps 
-//--  COM3 115200   -> pc
+//--  COM3 115200   -> obs logger
 
 //   command List
 //--  P1.6 OBS-1pps
@@ -20,33 +20,46 @@
 #define COM3 0x04
 
 #define gPs_tIme 1
-
 #define BUF_SIZE 10
-int cOm_fLag = 0;
+
+#define GPS_PPS_PIN BIT7
+#define OBS_PPS_PIN BIT6
 
 
-typedef struct gps_info
-{
-char utc_time[BUF_SIZE];
-char status[2];
-char latitude_value[BUF_SIZE];
-char latitude;
-char longtitude_value[BUF_SIZE];
-char longtitude;
-char speed[BUF_SIZE];
-char azimuth_angle[BUF_SIZE];
-char utc_data[BUF_SIZE];
-};//GPS_INFO;
-char *gpsStr;
-//GPS_INFO gPsData;
+
+
+char GPS_Time_String[]  = "2000/12/22 10:12:22.000000";
+char diff_Time_String[] = "18446744073709551616           ";
+
+char OBS_Time_String[] = "2000/12/22 10:12:22.000000";
+float OBS_ms = 0;
+int OBS_Time_Flag = 0;
+int OBS_Time_PPS_Flag = 0;
+
+int OBS_10k_Buffer = 0;
+
+
+
+static hptime_t OBS_Time_hp,diff_Time_hp;       //--   1s = 1000000 counter
+
+hptime_t CCR1_hp;
+float ccr1_counter = 0;
+
+
+static int  GPSTime_flag = 0;
+static hptime_t GPSTime,GPSTime_Buffer;       //--   1s = 1000000 counter
+
+
+char checksum = 0;
+
+
 void findStrPoint(char *a,char *ans,char feature,int n);
 int Control_Mode = 1; //--- command is ##--*    (-- 為模式編號, 0~65535)
 int Diff_1PPS = 0;
 
-int CloCk_10KHz =0;
+hptime_t CloCk_10KHz =0;
 void DelayMs(int ms);
 
-char Getp[50];
 
 void Open_Syn_Interrupt();
 void UART_Init(int com);
@@ -62,7 +75,7 @@ char COM1_REC_BUFFER[COM_BUF_Size];    // -- receive buffer
 char COM2_BUFFER[COM_BUF_Size];    // -- 9600   GPS
 char COM2_REC_BUFFER[COM_BUF_Size];    // -- receive buffer
 
-char COM3_BUFFER[COM_BUF_Size];    // -- 9600   PC
+char COM3_BUFFER[COM_BUF_Size];    // -- 115200   PC
 char COM3_REC_BUFFER[COM_BUF_Size];    // -- receive buffer
 
 int UART_COM1_RX_count,UART_COM2_RX_count,UART_COM3_RX_count;
@@ -73,126 +86,134 @@ void RS232_Send_Char(char *str,int count,char com);
 //------------------------------------------------------------------------------
 
 
-float nEw_ms;
 
-int GPS_MODE = 0;
 //-----------------------------------------------------------------------------
 void Crystal_Init();
+
+hptime_t get_hp_Gps_time(char *tstr){
+   char gpsinfo[10];
+   hptime_t s1;
+
+           findStrPoint(tstr,gpsinfo,',',2);
+        
+            GPS_Time_String[11] =  gpsinfo[0];
+            GPS_Time_String[12] =  gpsinfo[1];
+            GPS_Time_String[14] =  gpsinfo[2];
+            GPS_Time_String[15] =  gpsinfo[3];
+            GPS_Time_String[17] =  gpsinfo[4];
+            GPS_Time_String[18] =  gpsinfo[5];
+           
+           findStrPoint(tstr,gpsinfo,',',10);
+
+            GPS_Time_String[2] =  gpsinfo[4];
+            GPS_Time_String[3] =  gpsinfo[5];
+            GPS_Time_String[5] =  gpsinfo[2];
+            GPS_Time_String[6] =  gpsinfo[3];
+            GPS_Time_String[8] =  gpsinfo[0];
+            GPS_Time_String[9] =  gpsinfo[1];
+          //  sprintf(&GPS_Time_String[20],"%04d",CloCk_10KHz);
+            s1 = ms_timestr2hptime(GPS_Time_String);       
+           //s1 = ms_timestr2hptime("1980/12/22 10:12:22.016803");       
+           return s1;       
+  
+}
 
 void main( void )
 {
   // Stop watchdog timer to prevent time out reset
   WDTCTL = WDTPW + WDTHOLD;
- _DINT();     // 關閉中斷
- 
-//char time1[] = 
-static hptime_t s1,s2,s3,s4,s5;
-
-s1 = ms_timestr2hptime("1980/12/22 10:12:22.016803");
-s2 = ms_timestr2hptime("1980/12/12 10:12:22.016800");
-s3 = ms_timestr2hptime("2015/12/22 10:12:22.016898");
-s4 = s3-s1;
-s5 = s1-s2;
+// _DINT();     // 關閉中斷
 
  Crystal_Init();                          // 震盪器初始化
-   UART_Init(COM1+COM2+COM3);                         // Rs232初始化    
- 
-gps_info GPS_INFO;
+ UART_Init(COM1+COM2+COM3);                         // Rs232初始化    
+//  UART_Init(COM1+COM3);                         // Rs232初始化    
+
  P1DIR = 0x01 + 0x20;
 
  Open_Syn_Interrupt();
  
+ 
+  _EINT();
+  __bis_SR_register(GIE);
    while(1){
   
-     __bis_SR_register(GIE+LPM0_bits);
-     if(cOm_fLag == gPs_tIme){ 
-          cOm_fLag = 0;
-          
-          if( strncmp("$GPRMC",COM2_BUFFER,6)==0){ 
+   //  __bis_SR_register(GIE+LPM0_bits);
+    
+     
+     if(OBS_Time_Flag){
+          OBS_Time_PPS_Flag = 1;
+     
+          OBS_Time_Flag = 0;
+     
+            //char OBS_Time_String[] = "2000/12/22 10:12:22.000000";
+            OBS_Time_String[2] = COM3_BUFFER[1]/10+48;
+            OBS_Time_String[3] = COM3_BUFFER[1]%10+48;  
+
+            OBS_Time_String[5] = COM3_BUFFER[2]/10+48;
+            OBS_Time_String[6] = COM3_BUFFER[2]%10+48;  
+
+            OBS_Time_String[8] = COM3_BUFFER[3]/10+48;
+            OBS_Time_String[9] = COM3_BUFFER[3]%10+48;  
+              
+            OBS_Time_String[11] = COM3_BUFFER[4]/10+48;
+            OBS_Time_String[12] = COM3_BUFFER[4]%10+48;  
+
+            OBS_Time_String[14] = COM3_BUFFER[5]/10+48;
+            OBS_Time_String[15] = COM3_BUFFER[5]%10+48;  
+
+            OBS_Time_String[17] = COM3_BUFFER[6]/10+48;
+            OBS_Time_String[18] = COM3_BUFFER[6]%10+48;  
             
-           findStrPoint(COM2_BUFFER,GPS_INFO.status ,',',3);
-           if(GPS_INFO.status[0]=='A'); //--- 這裡開始數據有效
-           findStrPoint(COM2_BUFFER,GPS_INFO.utc_time,',',2);
-           findStrPoint(COM2_BUFFER,GPS_INFO.utc_data,',',10);
+           OBS_Time_hp = ms_timestr2hptime(OBS_Time_String); 
            
-           //strcpy(GPS_INFO.utc_data , gpsStr);
-              //  gpsStr = strtok(NULL,",");
-              
-            UART_SendStr("hih2i \r\n",COM3);  
-              
-           cOm_fLag = 0;
-          }
+          
+           while(OBS_Time_PPS_Flag);
+           
+           
+           OBS_Time_hp = OBS_Time_hp+1000000;  //OBS_ms = CloCk_10KHz;
+           
+           ccr1_counter = ccr1_counter*30.517578125;
+           CCR1_hp =  (hptime_t)ccr1_counter;
+           //diff_Time_hp  =   (sysTime+(CloCk_10KHz*100)) - OBS_Time_hp;
+           diff_Time_hp  =   (GPSTime+(CCR1_hp)) - OBS_Time_hp;
+           
+           /* 
+            
+           
+           OBS_ms =  ((float)COM3_BUFFER[7] / 125)*1000 + ((float)COM3_BUFFER[8]/10); 
+           OBS_Time_hp = OBS_Time_hp + (hptime_t)(OBS_ms*1000); 
+           
+           
+         diff_Time_hp  =   (sysTime+(hptime_t)(OBS_10k_Buffer*100)) - OBS_Time_hp;
+          */ 
+           
+      //    ms_hptime2mdtimestr(diff_Time_hp, diff_Time_String, 1);   //   ms_hptime2mdtimestr(sysTime, diff_Time_String, 1);
+          
+          int rec = snprintf(diff_Time_String,30,"%lld",diff_Time_hp);
+          
+          diff_Time_String[rec] = '\r';
+          diff_Time_String[rec+1] = '\n';
+          diff_Time_String[rec+2] = 0;
+          
+          UART_SendStr(diff_Time_String,COM1); 
+         
+    /*      */
+     } 
+     
+     
+     
+     
+     
+     if(GPSTime_flag == 1){
+                   GPSTime_Buffer = get_hp_Gps_time(COM2_BUFFER);
+                   GPSTime_flag = 2;
+                   GPS_Time_String[21]='\r';
+                   GPS_Time_String[22]='\n';
+                   GPS_Time_String[23]=0;
+                 //  UART_SendStr(GPS_Time_String,COM3);
+                 //  UART_SendStr(GPS_Time_String,COM1);
+                   
      }
-     /*
-       
-     if(cOm_fLag == oBs_tIme){
-      
-          nEw_ms =  ((float)COM1_BUFFER[7] / 125)*1000 + ((float)COM1_BUFFER[8]/10);
-
-
-          if((nEw_ms > 100) &&(nEw_ms < 960)){
-            if(obs_time_str_come == false){
-       
-              //P1OUT |= 0x20;
-         
-              obs_time_str_come = true;
-  
-              Obs_hh = COM1_BUFFER[4];
-              Obs_mm = COM1_BUFFER[5];
-              Obs_ss = COM1_BUFFER[6];
-       
-             oBs_mms = Obs_hh*1440 + Obs_mm*60 + Obs_ss; 
-         
-             DelayMs(20);
-             //P1OUT &= ~0x20;
-            }
-          }
-       
-      memset( COM1_Command, 0, sizeof(COM1_Command) ); 
-     }
-     
-     
-     
-     if(cOm_fLag == gPs_tIme){     // COM2 GPS收到 /n 執行
-      
-       if( strstr(COM2_Command,"GPRMC")!=0 ){
-         
-         //P1OUT |= 0x20;
-         
-                 findStrPoint(COM2_Command,Getp,',',3);
-                  
-                 GPS_MODE = Getp[0];
-                 memset( string, 0, sizeof(string) ); 
-
-                  
-                  
-                  
-                  findStrPoint(COM2_Command,Getp,',',10);
-                Gps_yy = (Getp[4]-48)*10+(Getp[5]-48);  
-                Gps_MM = (Getp[2]-48)*10+(Getp[3]-48);  
-                Gps_dd = (Getp[0]-48)*10+(Getp[1]-48);  
-
-   
-                  findStrPoint(COM2_Command,Getp,',',2);
-               Gps_hh = (Getp[0]-48)*10+(Getp[1]-48);  
-               Gps_mm = (Getp[2]-48)*10+(Getp[3]-48);  
-               Gps_ss = (Getp[4]-48)*10+(Getp[5]-48);  
-
-               if(GPS_MODE == 'A'){
-                 sprintf(string,"A = %02d:%02d:%02d .",Gps_hh,Gps_mm,Gps_ss); 
-               }
-               else{
-                 sprintf(string,"V = %02d:%02d:%02d .",Gps_hh,Gps_mm,Gps_ss); 
-               }
-         Print_Memo(0,1,string);
-         memset( COM2_Command, 0, sizeof(COM2_Command) );
-       //           P1OUT &= ~0x20;
-
-       }
-     }
-     
-  */
-     
      
    }
    
@@ -200,62 +221,37 @@ gps_info GPS_INFO;
 
 //-------------------------------------------------------------------------
 void Open_Syn_Interrupt(){
-  P1IE  |= BIT6+BIT7;                   // Set P1.1, 1.2, 1.5interrupt
-  P1IES |=  BIT6;                       // 選擇中斷模式(1 負緣觸發 ) for Seascan  
-  P1IES &= ~BIT7;                       // 選擇中斷模式(0 正緣觸發 ) 由負變正 for GPS
-  P1IFG &= ~(BIT6+BIT7);                             //
+  P1IE  |= OBS_PPS_PIN+GPS_PPS_PIN;                   // Set P1.1, 1.2, 1.5interrupt
+  P1IES |=  OBS_PPS_PIN;                       // 選擇中斷模式(1 負緣觸發 ) for Seascan  
+  P1IES &= ~GPS_PPS_PIN;                       // 選擇中斷模式(0 正緣觸發 ) 由負變正 for GPS
+  P1IFG &= ~(OBS_PPS_PIN+GPS_PPS_PIN);                             //
 }
 //-------------------------------------------------------------------------
 #pragma vector=PORT1_VECTOR
 __interrupt void P1ISR (void)
 {
-  if((P1IFG & BIT6) ==BIT6){
-     Diff_1PPS = CloCk_10KHz;
-    P1IFG &= ~BIT6;         
-  /*
-     if(obs_time_str_come){
-        oBs_mms+=1;
-       
-        Diff_1PPS_2 = (gPs_mms - oBs_mms)*10000 + Diff_1PPS;
-       
-        obs_time_str_come = false;
-        wait_seascan_pps = true;
-     } 
+  if((P1IFG & OBS_PPS_PIN) ==OBS_PPS_PIN){
+     //Diff_1PPS = CloCk_10KHz;
      
-     
+     ccr1_counter = TA0R;
+     OBS_Time_PPS_Flag = 0;
+    P1IFG &= ~OBS_PPS_PIN;         
+                        
   }  
-  if((P1IFG & BIT7) ==BIT7){  
-    CloCk_10KHz = 0;
-    gPs_mms = Gps_hh*1440+Gps_mm*60+Gps_ss+1; //  +1 是因為GPS字串傳出比1PPS慢  GPS
-    
-    
-     if(Control_Mode == 5){
-       Control_Mode = 1;
-       if(Gps_ss < 58){
-	setTime[0] = '@'; //
-	setTime[1] = 11;   //
-	setTime[2] = 't'; // 0x7A , need bigger than '0x60'
-        setTime[3] = Gps_yy;
-        setTime[4] = Gps_MM;
-        setTime[5] = Gps_dd;
-        setTime[6] = Gps_hh;
-        setTime[7] = Gps_mm;
-        setTime[8] = Gps_ss+2;
-        setTime[9] = 0;
-	setTime[10] = '$'; //
+  if((P1IFG & GPS_PPS_PIN) ==GPS_PPS_PIN){
+     if(GPSTime_flag == 2){
+
+        TA0CTL |=  TACLR  ;  //計數歸零
+        CloCk_10KHz = 0;
+        GPSTime = GPSTime_Buffer+1000000;
+        GPSTime_flag = 0;
         
-        for(int i=0;i<11;i++){
-         UART_SendByte(setTime[i],COM1);
-        }
-       }
-       
+        
+        
      }
-    
-    */
-    P1IFG &= ~BIT7;                      
-  }  
+      P1IFG &= ~GPS_PPS_PIN; 
+  }
   
-//   __bic_SR_register_on_exit(LPM0_bits); // Exit LPM0
 
 }
 //-------------------------------------------------------------------------
@@ -281,8 +277,11 @@ void Crystal_Init(){
     UCSCTL4 |= SELA_0 + SELS_5 + SELM_5;      // Select SMCLK, ACLK source and DCO source
  
     TA0CCTL0 = CCIE;                          // CCR0 interrupt enabled
-    TA0CCR0 = 2000-1;
-    TA0CTL = TASSEL_2 + MC_1 + TACLR ;         // SMCLK, contmode, clear TAR
+    //TA0CCR0 = 1200-1;                         // 12MHz -> 10Khz
+    TA0CCR0 = 32768-1;                         // 32768 -> 10Khz
+    
+    
+    TA0CTL = TASSEL_1 + MC_1 + TACLR  ;         // SMCLK, contmode, clear TAR
  
   
 }
@@ -301,12 +300,16 @@ int is=9;
 #pragma vector=TIMER0_A0_VECTOR
 __interrupt void TIMER0_A0_ISR(void)
 {
+  /*
   CloCk_10KHz++;
-  if(CloCk_10KHz>20000){
+  if(CloCk_10KHz>10010){
     CloCk_10KHz=0;
-    P1OUT ^= 0x20;
-     
-  }
+     sysTime += 1000000;
+    //P1OUT ^= 0x20;
+    
+  } P1OUT ^= 0x20; 
+  */
+    GPSTime += 1000000;
 }
 //----------------------------------------------------------------------------
 
@@ -325,7 +328,8 @@ void UART_Init(int com){
       UCA0BR1 = 0x00;                           //
 
       UCA0MCTL = UCBRS_1+UCBRF_0;              // user guide p954 Rev. O
-
+      
+    //  UCA0CTL0 = 0;
       UCA0CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**
       UCA0IE |= UCRXIE;                         // Enable USCI_A0 RX interrupt
   }
@@ -353,7 +357,7 @@ void UART_Init(int com){
       UCA2BR1 = 0x00;                           //
       UCA2MCTL = UCBRS_1+UCBRF_0;               // Modulation UCBRSx=3, UCBRFx=0
 
-      UCA2CTL0 = 0;
+      //UCA2CTL0 = 0;
       UCA2CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**
       UCA2IE |= UCRXIE;                         // Enable USCI_A0 RX interrupt
   }
@@ -373,7 +377,7 @@ __interrupt void USCI_A0_ISR(void)
         COM1_REC_BUFFER[UART_COM1_RX_count] = UCA0RXBUF;
         UART_COM1_RX_count++;
     
-       if(COM1_REC_BUFFER[UART_COM1_RX_count-1] == '\n')
+       if((COM1_REC_BUFFER[UART_COM1_RX_count-1] == 1)&&(UART_COM1_RX_count==11))
        {
             memcpy(COM1_BUFFER,COM1_REC_BUFFER,UART_COM1_RX_count+1);
             UART_COM1_RX_count = 0;
@@ -399,14 +403,28 @@ __interrupt void USCI_A1_ISR(void)
         COM2_REC_BUFFER[UART_COM2_RX_count] = UCA1RXBUF;
         UART_COM2_RX_count++;
     
-       if(COM2_REC_BUFFER[UART_COM2_RX_count-1] == '\n')
+        if(COM2_REC_BUFFER[UART_COM2_RX_count-1] == '\n')
        {
+         if(strncmp("$GPRMC",COM2_REC_BUFFER,6)==0){
             memcpy(COM2_BUFFER,COM2_REC_BUFFER,UART_COM2_RX_count+1);
+            
+            checksum = 0;
+            for(int k=1;k<UART_COM2_RX_count-5;k++){
+              checksum ^= COM2_BUFFER[k];
+            }
+            
+            if(checksum == ((COM2_BUFFER[UART_COM2_RX_count-4]-48)*16+(COM2_BUFFER[UART_COM2_RX_count-3]-48))){
+            
+              checksum = 0;
+              //-- 收到正確GPS字串~~ ~
+              GPSTime_flag = 1;  
+              
+              
+            }
+            
+         }
             memset(COM2_REC_BUFFER,0,UART_COM2_RX_count+1);
             UART_COM2_RX_count = 0;
-            cOm_fLag = gPs_tIme;
-            __bic_SR_register_on_exit(LPM0_bits); // Exit LPM0
-       
        }
  
     
@@ -428,13 +446,23 @@ __interrupt void USCI_A2_ISR(void)
         COM3_REC_BUFFER[UART_COM3_RX_count] = UCA2RXBUF;
         UART_COM3_RX_count++;
     
-       if(COM3_REC_BUFFER[UART_COM3_RX_count-1] == '\n')
-       {
+       if(COM3_REC_BUFFER[UART_COM3_RX_count-1] == 1&&(UART_COM3_RX_count==11))
+       { 
+            OBS_10k_Buffer = CloCk_10KHz;
+            
             memcpy(COM3_BUFFER,COM3_REC_BUFFER,UART_COM3_RX_count+1);
+            
+            
+            OBS_Time_Flag = 1;
+            
             memset(COM3_REC_BUFFER,0,UART_COM3_RX_count+1);
             UART_COM3_RX_count = 0;
+            
             __bic_SR_register_on_exit(LPM0_bits); // Exit LPM0
        
+       }
+       else if(COM3_REC_BUFFER[UART_COM3_RX_count-1] == 1&&(UART_COM3_RX_count>11)){
+            UART_COM3_RX_count = 0;
        }
     
     if(UART_COM3_RX_count>=COM_BUF_Size)UART_COM3_RX_count=0;   
