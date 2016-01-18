@@ -18,7 +18,7 @@
   extern char string[150];
   extern bool StartRecord;
   extern bool Set_RTC_Flag;
-extern unsigned char RTC_Serial[7];
+extern unsigned char RTC_Serial[8];
   
 //------------------------------------------------------------------------------
 void UART_Init(BYTE com){

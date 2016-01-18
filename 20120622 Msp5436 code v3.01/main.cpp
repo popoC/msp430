@@ -175,7 +175,9 @@ void main(void)
            if((Update_Cont%6) == 0){
             
              P1OUT |= 0x01;
-              get_time();  
+              get_time(); 
+             string[0] = 't';                  //¸ê®Æ«¬ºA fix 2012 1224
+             string[9] = 0;  string[10] = 1;   
               memcpy(&(string[1]),RTC_Serial,8);
              RS232_Send_Char(string,11,COM2);
               P1OUT &= ~0x01;
