@@ -26,7 +26,7 @@
 #define OBS_PPS_PIN BIT6
 
 
-int Control_Mode = 2;  //-    0. 時間比對
+int Control_Mode = 0;  //-    0. 時間比對
                        //-    1. 切換AD輸出
                        //-    2. 輸出OBS時間
 
@@ -82,7 +82,7 @@ char COM3_BUFFER[COM_BUF_Size];    // -- 115200   PC
 char COM3_REC_BUFFER[COM_BUF_Size];    // -- receive buffer
 
 int UART_COM1_RX_count,UART_COM2_RX_count,UART_COM3_RX_count;
-void UART_SendByte(unsigned char data,char com);
+
 void UART_SendStr(char *str,char com);
 void RS232_Send_Char(char *str,int count,char com);
 
@@ -141,66 +141,82 @@ void main( void )
    while(1){
   
    //  __bis_SR_register(GIE+LPM0_bits);
+    
      
-     if(Control_Mode == 0){
+     if(OBS_Time_Flag){
+          OBS_Time_PPS_Flag = 1;
      
-          if(OBS_Time_Flag){
-              OBS_Time_PPS_Flag = 1;
-              OBS_Time_Flag = 0;
+          OBS_Time_Flag = 0;
+     
+            //char OBS_Time_String[] = "2000/12/22 10:12:22.000000";
+            OBS_Time_String[2] = COM3_BUFFER[1]/10+48;
+            OBS_Time_String[3] = COM3_BUFFER[1]%10+48;  
 
-                OBS_Time_String[2] = COM3_BUFFER[1]/10+48;             //char OBS_Time_String[] = "2000/12/22 10:12:22.000000";
-                OBS_Time_String[3] = COM3_BUFFER[1]%10+48;  
+            OBS_Time_String[5] = COM3_BUFFER[2]/10+48;
+            OBS_Time_String[6] = COM3_BUFFER[2]%10+48;  
 
-                OBS_Time_String[5] = COM3_BUFFER[2]/10+48;
-                OBS_Time_String[6] = COM3_BUFFER[2]%10+48;  
-
-                OBS_Time_String[8] = COM3_BUFFER[3]/10+48;
-                OBS_Time_String[9] = COM3_BUFFER[3]%10+48;  
+            OBS_Time_String[8] = COM3_BUFFER[3]/10+48;
+            OBS_Time_String[9] = COM3_BUFFER[3]%10+48;  
               
-                OBS_Time_String[11] = COM3_BUFFER[4]/10+48;
-                OBS_Time_String[12] = COM3_BUFFER[4]%10+48;  
+            OBS_Time_String[11] = COM3_BUFFER[4]/10+48;
+            OBS_Time_String[12] = COM3_BUFFER[4]%10+48;  
 
-                OBS_Time_String[14] = COM3_BUFFER[5]/10+48;
-                OBS_Time_String[15] = COM3_BUFFER[5]%10+48;  
+            OBS_Time_String[14] = COM3_BUFFER[5]/10+48;
+            OBS_Time_String[15] = COM3_BUFFER[5]%10+48;  
 
-                OBS_Time_String[17] = COM3_BUFFER[6]/10+48;
-                OBS_Time_String[18] = COM3_BUFFER[6]%10+48;  
-                
-              OBS_Time_hp = ms_timestr2hptime(OBS_Time_String); 
+            OBS_Time_String[17] = COM3_BUFFER[6]/10+48;
+            OBS_Time_String[18] = COM3_BUFFER[6]%10+48;  
+            
+           OBS_Time_hp = ms_timestr2hptime(OBS_Time_String); 
            
           
-              while(OBS_Time_PPS_Flag);
+           while(OBS_Time_PPS_Flag);
            
-              OBS_Time_hp = OBS_Time_hp+1000000;  //OBS_ms = CloCk_10KHz;
-              ccr1_counter = ccr1_counter*30.517578125;
-              CCR1_hp =  (hptime_t)ccr1_counter;
-              diff_Time_hp  =   (GPSTime+(CCR1_hp)) - OBS_Time_hp;
+           
+           OBS_Time_hp = OBS_Time_hp+1000000;  //OBS_ms = CloCk_10KHz;
+           
+           ccr1_counter = ccr1_counter*30.517578125;
+           CCR1_hp =  (hptime_t)ccr1_counter;
+           //diff_Time_hp  =   (sysTime+(CloCk_10KHz*100)) - OBS_Time_hp;
+           diff_Time_hp  =   (GPSTime+(CCR1_hp)) - OBS_Time_hp;
+           
+           /* 
+            
+           
+           OBS_ms =  ((float)COM3_BUFFER[7] / 125)*1000 + ((float)COM3_BUFFER[8]/10); 
+           OBS_Time_hp = OBS_Time_hp + (hptime_t)(OBS_ms*1000); 
+           
+           
+         diff_Time_hp  =   (sysTime+(hptime_t)(OBS_10k_Buffer*100)) - OBS_Time_hp;
+          */ 
+           
       //    ms_hptime2mdtimestr(diff_Time_hp, diff_Time_String, 1);   //   ms_hptime2mdtimestr(sysTime, diff_Time_String, 1);
-              diff_Time_String[0] = '%';
-              int rec = snprintf(&diff_Time_String[1],30,"%lld",diff_Time_hp);
-              diff_Time_String[rec+1] = '\r';          diff_Time_String[rec+2] = '\n';          diff_Time_String[rec+3] = 0;
-              UART_SendStr(diff_Time_String,COM1); 
+          
+          int rec = snprintf(diff_Time_String,30,"%lld",diff_Time_hp);
+          
+          diff_Time_String[rec] = '\r';
+          diff_Time_String[rec+1] = '\n';
+          diff_Time_String[rec+2] = 0;
+          
+          UART_SendStr(diff_Time_String,COM1); 
          
-          }     
-          if(GPSTime_flag == 1){
+    /*      */
+     } 
+     
+     
+     
+     
+     
+     if(GPSTime_flag == 1){
                    GPSTime_Buffer = get_hp_Gps_time(COM2_BUFFER);
                    GPSTime_flag = 2;
-                   GPS_Time_String[21]='\r';                   GPS_Time_String[22]='\n';                   GPS_Time_String[23]=0;
-                   //  UART_SendStr(GPS_Time_String,COM3);
+                   GPS_Time_String[21]='\r';
+                   GPS_Time_String[22]='\n';
+                   GPS_Time_String[23]=0;
+                 //  UART_SendStr(GPS_Time_String,COM3);
+                 //  UART_SendStr(GPS_Time_String,COM1);
                    
-          }
      }
-     else if(Control_Mode==1){
-     
-     
-     
-     }
-     else if(Control_Mode==2){
-     
-     
-     
-     }
-     
      
    }
    
@@ -372,25 +388,13 @@ __interrupt void USCI_A0_ISR(void)
          switch(COM1_REC_BUFFER[2]){
          case 'T':
            Control_Mode = 2;
-           
-           RS232_Send_Char(COM1_REC_BUFFER,UART_COM1_RX_count,COM3);
-           
            break;
          case 'A':
            Control_Mode = 1;
-           
-           RS232_Send_Char(COM1_REC_BUFFER,UART_COM1_RX_count,COM3);
-           
            break;
          case 'S':
-           Control_Mode = 2;           
-           
-           RS232_Send_Char(COM1_REC_BUFFER,UART_COM1_RX_count,COM3);
-          //  StartRecord 
-           break;
-         case 'D':
            Control_Mode = 0;           
-         
+         //  StartRecord = true;
            break;
            
          }
@@ -467,33 +471,25 @@ __interrupt void USCI_A2_ISR(void)
         COM3_REC_BUFFER[UART_COM3_RX_count] = UCA2RXBUF;
         UART_COM3_RX_count++;
     
-        if(Control_Mode==0){   
-        
-            if(COM3_REC_BUFFER[UART_COM3_RX_count-1] == 1&&(UART_COM3_RX_count==11))
-            { 
-                  OBS_10k_Buffer = CloCk_10KHz;
+       if(COM3_REC_BUFFER[UART_COM3_RX_count-1] == 1&&(UART_COM3_RX_count==11))
+       { 
+            OBS_10k_Buffer = CloCk_10KHz;
             
-                  memcpy(COM3_BUFFER,COM3_REC_BUFFER,UART_COM3_RX_count+1);
+            memcpy(COM3_BUFFER,COM3_REC_BUFFER,UART_COM3_RX_count+1);
             
             
-                  OBS_Time_Flag = 1;
+            OBS_Time_Flag = 1;
             
-                  memset(COM3_REC_BUFFER,0,UART_COM3_RX_count+1);
-                  UART_COM3_RX_count = 0;
+            memset(COM3_REC_BUFFER,0,UART_COM3_RX_count+1);
+            UART_COM3_RX_count = 0;
             
-                  __bic_SR_register_on_exit(LPM0_bits); // Exit LPM0
+            __bic_SR_register_on_exit(LPM0_bits); // Exit LPM0
        
-            }
-            else if(COM3_REC_BUFFER[UART_COM3_RX_count-1] == 1&&(UART_COM3_RX_count>11)){
-                  UART_COM3_RX_count = 0;
-            }
-        }
-        else{
-        
-          UART_SendByte(COM3_REC_BUFFER[UART_COM3_RX_count-1],COM1);
-          UART_COM3_RX_count--;
-        
-        }    
+       }
+       else if(COM3_REC_BUFFER[UART_COM3_RX_count-1] == 1&&(UART_COM3_RX_count>11)){
+            UART_COM3_RX_count = 0;
+       }
+    
     if(UART_COM3_RX_count>=COM_BUF_Size)UART_COM3_RX_count=0;   
       
     break;

@@ -160,6 +160,8 @@ void main(void)
   if(read_SD_format()){return;}           // read SD card format 
   
   
+             string[0] = 't';                  //資料型態 fix 2012 1224
+             string[9] = 0;  string[10] = 1;   
   
   while(StartRecord){
   
@@ -176,8 +178,6 @@ void main(void)
             
              P1OUT |= 0x01;
               get_time(); 
-             string[0] = 't';                  //資料型態 fix 2012 1224
-             string[9] = 0;  string[10] = 1;   
               memcpy(&(string[1]),RTC_Serial,8);
              RS232_Send_Char(string,11,COM2);
               P1OUT &= ~0x01;

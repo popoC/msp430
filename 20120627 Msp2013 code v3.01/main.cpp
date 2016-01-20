@@ -61,7 +61,7 @@ _DINT();     // 關閉中斷
   P1DIR &= ~(BIT1+BIT2+BIT7);               // Set pin to input direction
   P1OUT&=~BIT4;
   P1OUT&=~BIT6;                             //p1.6 一開始 為low
-
+  P1OUT &= ~BIT0;                           
   P2SEL &= ~BIT6;                           //設定 P2.6為一般IO用途
   P2DIR &= ~BIT6;                           //set p2.6 input
   
@@ -167,11 +167,11 @@ __interrupt void P1ISR (void)
 {
      ms++;
      fix_ms = 0;
-     P1OUT &= ~BIT0; //-----for newboard v1.0
+    // P1OUT &= ~BIT0; //-----for newboard v1.0
 
   if(ms>=125){
      ms=0;sec++;
-     P1OUT |= BIT0;
+  //   P1OUT |= BIT0;
   }//-----for newboard v1.0
    if(sec>=60){sec=0;minute++;}
    if(minute>=60){minute=0;hour++;}

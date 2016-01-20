@@ -6400,63 +6400,63 @@
 <L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:160:6: DeclRefExpr=read_SD_format|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:457:5 (Reference) <US>c:@F@read_SD_format#<UE> <DS>int read_SD_format(void)<DE> Extent=<ES>160:6 - 160:20<EE>	1
 <L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:160:6: UnexposedExpr=read_SD_format|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:457:5 <US>c:@F@read_SD_format#<UE> <DS>int read_SD_format(void)<DE> Extent=<ES>160:6 - 160:20<EE>	1
 <L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:160:6: UnexposedExpr=read_SD_format|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:457:5 <US>c:@F@read_SD_format#<UE> <DS>int read_SD_format(void)<DE> Extent=<ES>160:6 - 160:22<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:164:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>164:21 - 207:4<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:164:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>164:3 - 207:4<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:164:9: DeclRefExpr=StartRecord|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:29:6 (Reference) <US>c:@StartRecord<UE> <DS>StartRecord<DE> Extent=<ES>164:9 - 164:20<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:164:9: UnexposedExpr=StartRecord|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:29:6 <US>c:@StartRecord<UE> <DS>StartRecord<DE> Extent=<ES>164:9 - 164:20<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:166:16: CallExpr=__bis_SR_register|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4_2\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>166:16 - 166:50<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:166:16: DeclRefExpr=__bis_SR_register|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4_2\430\inc\intrinsics.h:51:30 (Reference) <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>166:16 - 166:33<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:166:16: UnexposedExpr=__bis_SR_register|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4_2\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>166:16 - 166:33<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:166:34: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>166:34 - 166:49<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:166:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>166:34 - 166:43<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:166:34: ParenExpr= <US><UE> <DS><DE> Extent=<ES>166:34 - 166:43<EE>	2
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:166:34: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>166:34 - 166:49<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:166:34: macro expansion=LPM0_bits|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4_2\430\inc\msp430x54x.h:190:9 <US>c:macro@LPM0_bits<UE> <DS>LPM0_bits<DE> Extent=<ES>166:34 - 166:43<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:166:46: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>166:46 - 166:49<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:166:46: ParenExpr= <US><UE> <DS><DE> Extent=<ES>166:46 - 166:49<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:166:46: macro expansion=GIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4_2\430\inc\msp430x54x.h:173:9 <US>c:macro@GIE<UE> <DS>GIE<DE> Extent=<ES>166:46 - 166:49<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:168:31: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>168:31 - 199:6<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:168:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>168:5 - 199:6<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:168:8: DeclRefExpr=ADS1222_Interrupt_Flag|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:52:6 (Reference) <US>c:@ADS1222_Interrupt_Flag<UE> <DS>ADS1222_Interrupt_Flag<DE> Extent=<ES>168:8 - 168:30<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:168:8: UnexposedExpr=ADS1222_Interrupt_Flag|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:52:6 <US>c:@ADS1222_Interrupt_Flag<UE> <DS>ADS1222_Interrupt_Flag<DE> Extent=<ES>168:8 - 168:30<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:170:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>170:12 - 170:42<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:170:12: DeclRefExpr=ADS1222_Interrupt_Flag|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:52:6 (Reference) <US>c:@ADS1222_Interrupt_Flag<UE> <DS>ADS1222_Interrupt_Flag<DE> Extent=<ES>170:12 - 170:34<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:170:37: CXXBoolLiteralExpr= <US><UE> <DS><DE> Extent=<ES>170:37 - 170:42<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:172:12: DeclRefExpr=Update_Cont|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:28:5 (Reference) <US>c:@Update_Cont<UE> <DS>Update_Cont<DE> Extent=<ES>172:12 - 172:23<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:172:12: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>172:12 - 172:25<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:175:12: IfStmt= <US><UE> <DS><DE> Extent=<ES>175:12 - 185:13<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:175:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>175:15 - 175:35<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:175:15: ParenExpr= <US><UE> <DS><DE> Extent=<ES>175:15 - 175:30<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:175:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>175:16 - 175:29<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:175:16: DeclRefExpr=Update_Cont|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:28:5 (Reference) <US>c:@Update_Cont<UE> <DS>Update_Cont<DE> Extent=<ES>175:16 - 175:27<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:175:16: UnexposedExpr=Update_Cont|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:28:5 <US>c:@Update_Cont<UE> <DS>Update_Cont<DE> Extent=<ES>175:16 - 175:27<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:175:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>175:28 - 175:29<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:175:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>175:34 - 175:35<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:175:36: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>175:36 - 185:13<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:177:14: macro expansion=P1OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4_2\430\inc\msp430x54x.h:1220:9 <US>c:macro@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>177:14 - 177:19<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:178:15: CallExpr=get_time|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:605:6 <US>c:@F@get_time#<UE> <DS>void get_time(void)<DE> Extent=<ES>178:15 - 178:25<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:178:15: DeclRefExpr=get_time|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:605:6 (Reference) <US>c:@F@get_time#<UE> <DS>void get_time(void)<DE> Extent=<ES>178:15 - 178:23<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:178:15: UnexposedExpr=get_time|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:605:6 <US>c:@F@get_time#<UE> <DS>void get_time(void)<DE> Extent=<ES>178:15 - 178:23<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:179:14: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>179:14 - 179:23<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:179:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>179:14 - 179:29<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:179:14: DeclRefExpr=string|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:47:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>179:14 - 179:20<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:179:14: UnexposedExpr=string|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:47:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>179:14 - 179:20<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:179:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>179:21 - 179:22<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:179:26: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>179:26 - 179:29<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:180:14: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>180:14 - 180:23<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:180:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>180:14 - 180:27<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:180:14: DeclRefExpr=string|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:47:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>180:14 - 180:20<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:180:14: UnexposedExpr=string|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:47:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>180:14 - 180:20<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:180:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>180:21 - 180:22<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:180:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>180:26 - 180:27<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:180:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>180:26 - 180:27<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:180:30: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>180:30 - 180:40<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:180:30: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>180:30 - 180:44<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:180:30: DeclRefExpr=string|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:47:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>180:30 - 180:36<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:180:30: UnexposedExpr=string|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:47:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>180:30 - 180:36<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:180:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>180:37 - 180:39<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:180:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>180:43 - 180:44<EE>	1
-<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:180:43: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>180:43 - 180:44<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:163:14: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>163:14 - 163:23<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:163:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>163:14 - 163:29<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:163:14: DeclRefExpr=string|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:47:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>163:14 - 163:20<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:163:14: UnexposedExpr=string|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:47:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>163:14 - 163:20<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:163:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>163:21 - 163:22<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:163:26: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>163:26 - 163:29<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:164:14: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>164:14 - 164:23<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:164:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>164:14 - 164:27<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:164:14: DeclRefExpr=string|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:47:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>164:14 - 164:20<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:164:14: UnexposedExpr=string|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:47:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>164:14 - 164:20<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:164:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>164:21 - 164:22<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:164:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>164:26 - 164:27<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:164:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>164:26 - 164:27<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:164:30: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>164:30 - 164:40<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:164:30: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>164:30 - 164:44<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:164:30: DeclRefExpr=string|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:47:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>164:30 - 164:36<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:164:30: UnexposedExpr=string|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:47:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>164:30 - 164:36<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:164:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>164:37 - 164:39<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:164:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>164:43 - 164:44<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:164:43: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>164:43 - 164:44<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:166:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>166:21 - 207:4<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:166:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>166:3 - 207:4<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:166:9: DeclRefExpr=StartRecord|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:29:6 (Reference) <US>c:@StartRecord<UE> <DS>StartRecord<DE> Extent=<ES>166:9 - 166:20<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:166:9: UnexposedExpr=StartRecord|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:29:6 <US>c:@StartRecord<UE> <DS>StartRecord<DE> Extent=<ES>166:9 - 166:20<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:168:16: CallExpr=__bis_SR_register|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4_2\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>168:16 - 168:50<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:168:16: DeclRefExpr=__bis_SR_register|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4_2\430\inc\intrinsics.h:51:30 (Reference) <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>168:16 - 168:33<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:168:16: UnexposedExpr=__bis_SR_register|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4_2\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>168:16 - 168:33<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:168:34: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>168:34 - 168:49<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:168:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>168:34 - 168:43<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:168:34: ParenExpr= <US><UE> <DS><DE> Extent=<ES>168:34 - 168:43<EE>	2
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:168:34: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>168:34 - 168:49<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:168:34: macro expansion=LPM0_bits|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4_2\430\inc\msp430x54x.h:190:9 <US>c:macro@LPM0_bits<UE> <DS>LPM0_bits<DE> Extent=<ES>168:34 - 168:43<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:168:46: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>168:46 - 168:49<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:168:46: ParenExpr= <US><UE> <DS><DE> Extent=<ES>168:46 - 168:49<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:168:46: macro expansion=GIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4_2\430\inc\msp430x54x.h:173:9 <US>c:macro@GIE<UE> <DS>GIE<DE> Extent=<ES>168:46 - 168:49<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:170:31: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>170:31 - 199:6<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:170:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>170:5 - 199:6<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:170:8: DeclRefExpr=ADS1222_Interrupt_Flag|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:52:6 (Reference) <US>c:@ADS1222_Interrupt_Flag<UE> <DS>ADS1222_Interrupt_Flag<DE> Extent=<ES>170:8 - 170:30<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:170:8: UnexposedExpr=ADS1222_Interrupt_Flag|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:52:6 <US>c:@ADS1222_Interrupt_Flag<UE> <DS>ADS1222_Interrupt_Flag<DE> Extent=<ES>170:8 - 170:30<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:172:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>172:12 - 172:42<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:172:12: DeclRefExpr=ADS1222_Interrupt_Flag|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:52:6 (Reference) <US>c:@ADS1222_Interrupt_Flag<UE> <DS>ADS1222_Interrupt_Flag<DE> Extent=<ES>172:12 - 172:34<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:172:37: CXXBoolLiteralExpr= <US><UE> <DS><DE> Extent=<ES>172:37 - 172:42<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:174:12: DeclRefExpr=Update_Cont|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:28:5 (Reference) <US>c:@Update_Cont<UE> <DS>Update_Cont<DE> Extent=<ES>174:12 - 174:23<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:174:12: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>174:12 - 174:25<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:177:12: IfStmt= <US><UE> <DS><DE> Extent=<ES>177:12 - 185:13<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:177:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>177:15 - 177:35<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:177:15: ParenExpr= <US><UE> <DS><DE> Extent=<ES>177:15 - 177:30<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:177:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>177:16 - 177:29<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:177:16: DeclRefExpr=Update_Cont|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:28:5 (Reference) <US>c:@Update_Cont<UE> <DS>Update_Cont<DE> Extent=<ES>177:16 - 177:27<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:177:16: UnexposedExpr=Update_Cont|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:28:5 <US>c:@Update_Cont<UE> <DS>Update_Cont<DE> Extent=<ES>177:16 - 177:27<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:177:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>177:28 - 177:29<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:177:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>177:34 - 177:35<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:177:36: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>177:36 - 185:13<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:179:14: macro expansion=P1OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4_2\430\inc\msp430x54x.h:1220:9 <US>c:macro@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>179:14 - 179:19<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:180:15: CallExpr=get_time|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:605:6 <US>c:@F@get_time#<UE> <DS>void get_time(void)<DE> Extent=<ES>180:15 - 180:25<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:180:15: DeclRefExpr=get_time|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:605:6 (Reference) <US>c:@F@get_time#<UE> <DS>void get_time(void)<DE> Extent=<ES>180:15 - 180:23<EE>	1
+<L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:180:15: UnexposedExpr=get_time|D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:605:6 <US>c:@F@get_time#<UE> <DS>void get_time(void)<DE> Extent=<ES>180:15 - 180:23<EE>	1
 <L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:181:15: CallExpr=memcpy|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4_2\430\inc\dlib\c\string.h:28:42 <US>c:@F@memcpy<UE> <DS>void * memcpy(void *, const void *, size_t)<DE> Extent=<ES>181:15 - 181:48<EE>	1
 <L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:181:15: DeclRefExpr=memcpy|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4_2\430\inc\dlib\c\string.h:28:42 (Reference) <US>c:@F@memcpy<UE> <DS>void * memcpy(void *, const void *, size_t)<DE> Extent=<ES>181:15 - 181:21<EE>	1
 <L>D:\github\msp430\20120622 Msp5436 code v3.01\main.cpp:181:15: UnexposedExpr=memcpy|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4_2\430\inc\dlib\c\string.h:28:42 <US>c:@F@memcpy<UE> <DS>void * memcpy(void *, const void *, size_t)<DE> Extent=<ES>181:15 - 181:21<EE>	1
