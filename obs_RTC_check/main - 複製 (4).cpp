@@ -1,4 +1,3 @@
-//-- 20160604 --- 修正GPS字串更新
 //-- 20151224
 // for OBS RTC
 //--  COM1 115200 -> pc
@@ -50,15 +49,7 @@ hptime_t CCR1_hp;
 float ccr1_counter = 0;
 
 
-// GPSTime_flag = 1  收到GPS字串
-// GPSTime_flag = 2  字串轉換成hptime
-//
-
 static int  GPSTime_flag = 0;
-
-
-
-
 static hptime_t GPSTime,GPSTime_Buffer;       //--   1s = 1000000 counter
 
 
@@ -191,14 +182,13 @@ void main( void )
               UART_SendStr(diff_Time_String,COM1); 
          
           }     
-          /*if(GPSTime_flag == 1){
+          if(GPSTime_flag == 1){
                    GPSTime_Buffer = get_hp_Gps_time(COM2_BUFFER);
                    GPSTime_flag = 2;
                    GPS_Time_String[21]='\r';                   GPS_Time_String[22]='\n';                   GPS_Time_String[23]=0;
                    //  UART_SendStr(GPS_Time_String,COM3);
                    
           }
-*/
      }
      else if(Control_Mode==1){
      
@@ -242,6 +232,9 @@ __interrupt void P1ISR (void)
         CloCk_10KHz = 0;
         GPSTime = GPSTime_Buffer+1000000;
         GPSTime_flag = 0;
+        
+        
+        
      }
       P1IFG &= ~GPS_PPS_PIN; 
   }
@@ -445,11 +438,7 @@ __interrupt void USCI_A1_ISR(void)
             
               checksum = 0;
               //-- 收到正確GPS字串~~ ~
-//               = 1;  
-
-              GPSTime_Buffer = get_hp_Gps_time(COM2_BUFFER);
-              GPSTime_flag = 2;
-              GPS_Time_String[21]='\r';                   GPS_Time_String[22]='\n';                   GPS_Time_String[23]=0;
+              GPSTime_flag = 1;  
               
               
             }

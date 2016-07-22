@@ -19,6 +19,6 @@
 @REM 
 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\common\bin\cspybat" "C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\bin\430proc.dll" "C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\bin\430fet.dll"  %1 --plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\bin\430bat.dll" --backend -B "--hardware_multiplier" "16" "--hwmult_type" "1" "-p" "C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\config\MSP430F1611.ddf" "--iv_base" "0xFFE0" "-d" "fet" "--erase_main" "--derivative" "MSP430F1611" "--protocol" "4wire" "--eem" "EMEX_HIGH" "--port" "Automatic" "--connection" "ti_usb" "--settlingtime=0" "--msp430_dll" "msp430.dll" "--vccDefault" "3.3" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4_2\common\bin\cspybat" "C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4_2\430\bin\430proc.dll" "C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4_2\430\bin\430fet.dll"  %1 --plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4_2\430\bin\430bat.dll" --backend -B "--hardware_multiplier" "16" "--hwmult_type" "1" "-p" "C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4_2\430\config\MSP430F1611.ddf" "--iv_base" "0xFFE0" "-d" "fet" "--erase_main" "--derivative" "MSP430F1611" "--protocol" "4wire" "--eem" "EMEX_HIGH" "--port" "Automatic" "--connection" "ti_usb" "--settlingtime=0" "--msp430_dll" "msp430.dll" "--vccDefault" "3.3" 
 
 

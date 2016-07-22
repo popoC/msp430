@@ -6,78 +6,93 @@
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
-      <file>$PROJ_DIR$\FAT32.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\sdhc.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
-      <file>$PROJ_DIR$\spi.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
-      <file>$TOOLKIT_DIR$\config\lnk430F1611.xcl</file>
-      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
-      <file>$TOOLKIT_DIR$\config\multiplier.xcl</file>
-      <file>$PROJ_DIR$\sdhc.h</file>
-      <file>$PROJ_DIR$\bq32000.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\fat32.r43</file>
-      <file>$PROJ_DIR$\sdcomm_spi.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\bq32000.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
-      <file>$PROJ_DIR$\main.h</file>
+      <file>$PROJ_DIR$\main.cpp</file>
       <file>$PROJ_DIR$\spi.cpp</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$TOOLKIT_DIR$\config\multiplier.xcl</file>
+      <file>$PROJ_DIR$\sdhc.cpp</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi.pbi</file>
+      <file>$PROJ_DIR$\bq32000.cpp</file>
+      <file>$PROJ_DIR$\fat32.cpp</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$PROJ_DIR$\spi.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sdhc.pbi</file>
+      <file>$PROJ_DIR$\main.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sdhc.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$PROJ_DIR$\FAT32.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$PROJ_DIR$\sdhc.h</file>
       <file>$PROJ_DIR$\types.h</file>
       <file>$PROJ_DIR$\Debug\Obj\motoV3.pbd</file>
-      <file>$PROJ_DIR$\sdhc.cpp</file>
+      <file>$PROJ_DIR$\Debug\Obj\bq32000.r43</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+      <file>$PROJ_DIR$\bq32000.h</file>
       <file>$TOOLKIT_DIR$\inc\msp430x16x.h</file>
       <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\fat32.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\spi.r43</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F1611.xcl</file>
+      <file>$PROJ_DIR$\sdcomm_spi.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\fat32.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
       <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\sdhc.r43</file>
-      <file>$PROJ_DIR$\fat32.cpp</file>
-      <file>$PROJ_DIR$\main.cpp</file>
-      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
-      <file>$PROJ_DIR$\bq32000.cpp</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi.r43</file>
       <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\motoV3.ulp</file>
+      <file>$PROJ_DIR$\Debug\Obj\bq32000.pbi</file>
       <file>$PROJ_DIR$\Debug\Exe\motoV3.d43</file>
-      <file>$PROJ_DIR$\Debug\Obj\bq32000.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\spi.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\fat32.pbi</file>
     </outputs>
     <file>
-      <name>[ROOT_NODE]</name>
+      <name>$PROJ_DIR$\main.cpp</name>
       <outputs>
         <tool>
-          <name>XLINK</name>
-          <file> 39</file>
+          <name>ICC430</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 28 37 24 33 19 9 35 16 15 41 5 17 14 2 12 31 21 20 26 10 27 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 37 24 33 19 9 35 16 15 41 5 17 14 2 12 31 21 20 26 10 27 18</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\spi.cpp</name>
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 28</file>
+          <file> 36</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 41</file>
+          <file> 6</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 22 38 8 17 14 19 5</file>
+          <file> 28 37 24 12 31 21 10</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 22 38 8 17 14 19 5</file>
+          <file> 28 37 24 12 31 21 10</file>
         </tool>
       </inputs>
     </file>
@@ -86,67 +101,21 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 31</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 2</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 22 38 8 17 14 19 10 37 27 0 25 34 29 12 3 16 5</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 22 38 8 17 14 19 10 37 27 0 25 34 29 12 3 16 5</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\fat32.cpp</name>
-      <outputs>
-        <tool>
-          <name>ICC430</name>
           <file> 13</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 24</file>
+          <file> 11</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 17 14 19 10 22 38 8 37 27 0 25 34 29 12 3 16 5 1 6 35</file>
+          <file> 28 37 24 12 31 21 20 26 19 9 35 16 15 41 5 17 10</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 17 14 19 10 22 38 8 37 27 0 25 34 29 12 3 16 5 1 6 35</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\main.cpp</name>
-      <outputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 26</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 23</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 22 38 8 6 27 0 25 34 29 12 3 16 35 4 17 14 19 10 37 5 11 1</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 22 38 8 6 27 0 25 34 29 12 3 16 35 4 17 14 19 10 37 5 11 1</file>
+          <file> 28 37 24 12 31 21 20 26 19 9 35 16 15 41 5 17 10</file>
         </tool>
       </inputs>
     </file>
@@ -155,30 +124,66 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 40</file>
+          <file> 23</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 15</file>
+          <file> 39</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 22 38 8 11</file>
+          <file> 28 37 24 27</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 22 38 8 11</file>
+          <file> 28 37 24 27</file>
         </tool>
       </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\fat32.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 12 31 21 20 28 37 24 26 19 9 35 16 15 41 5 17 10 18 33 14</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 31 21 20 28 37 24 26 19 9 35 16 15 41 5 17 10 18 33 14</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ULP430</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
     </file>
     <file>
       <name>$PROJ_DIR$\Debug\Exe\motoV3.d43</name>
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 7 9 40 13 26 31 28 30</file>
+          <file> 30 3 23 32 25 13 36 34</file>
         </tool>
       </inputs>
     </file>

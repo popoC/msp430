@@ -223,7 +223,7 @@
         </option>
         <option>
           <name>UsbComPort</name>
-          <state>COM11</state>
+          <state>COM4</state>
         </option>
         <option>
           <name>FetConnection</name>
@@ -268,7 +268,7 @@
         </option>
         <option>
           <name>CRadioAutoManualType</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>ExternalCodeDownload</name>

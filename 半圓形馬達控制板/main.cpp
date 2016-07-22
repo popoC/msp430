@@ -1,4 +1,6 @@
+//-- 2016 0722 修改煞車後停止
 //-- 2016 0111  增加煞車功能~~ 
+
 //-2011/09/05 加入bq32000`~
 //******************************************************************************
 // ***** I/O **** .......4/19
@@ -706,7 +708,10 @@ void GoHome(){
           couX--; couY--;    
                if( (couX <0) && (!closeX)){closeX = true;  MotoControl_Stop(1);} 
                if( (couY <0) && (!closeY)){closeY = true;  MotoControl_Stop(2);}     
-               if(closeX && closeY)break;
+               if(closeX && closeY){
+				   MotoControl_Stop(3);
+				   break;
+			   }
         }
      
         cou = (long int)motor_T_AD * 1150;   while(cou > 0){       cou--;   }      
@@ -757,8 +762,12 @@ void GoToRange_V2(){
           MotoControl_Stop(2);
    }
 
-    if(enter_range_X && enter_range_Y )break;
-    if(countTTT > 5000)break;
+    if(enter_range_X && enter_range_Y ){
+		MotoControl_Stop(3);break;
+	}
+    if(countTTT > 5000){
+		MotoControl_Stop(3);break;
+	}
  }
 }
 //-----------------------------------------------------------------------------------
@@ -789,15 +798,16 @@ void MotoControl_Run(int ch,int cw_ccw){
 void MotoControl_Stop(int ch){
   switch(ch){
   case 1:
-    //P4SEL &= ~(BIT2+BIT3);
+    P4SEL &= ~(BIT2+BIT3);
     //P4OUT &= ~(BIT2+BIT3);
     
     P4OUT |= (BIT2+BIT3);
     break;  
   case 2:
+    P4SEL &= ~(BIT4+BIT5);
     P4OUT |= (BIT4+BIT5);
     
-    //P4SEL &= ~(BIT4+BIT5);
+    
     //P4OUT &= ~(BIT4+BIT5);
     break;
   case 3:

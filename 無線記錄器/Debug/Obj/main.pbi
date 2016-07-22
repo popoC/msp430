@@ -327,7 +327,7 @@
 <L><invalid loc>:331:9: macro definition=__TOPP_DATA_MEMORY_LIST3__ <US>c:macro@__TOPP_DATA_MEMORY_LIST3__<UE> <DS>__TOPP_DATA_MEMORY_LIST3__<DE> Extent=<ES>331:9 - 331:97<EE>
 <L><invalid loc>:332:9: macro definition=__DATA_MEM0_SIZE_TYPE__ <US>c:macro@__DATA_MEM0_SIZE_TYPE__<UE> <DS>__DATA_MEM0_SIZE_TYPE__<DE> Extent=<ES>332:9 - 332:45<EE>
 <L><invalid loc>:333:9: macro definition=__DATA_MEM0_INDEX_TYPE__ <US>c:macro@__DATA_MEM0_INDEX_TYPE__<UE> <DS>__DATA_MEM0_INDEX_TYPE__<DE> Extent=<ES>333:9 - 333:44<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:14:1: inclusion directive=msp430x54xA.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h<IE>  [multi-include guarded] Extent=<ES>14:1 - 14:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:15:1: inclusion directive=msp430x54xA.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h<IE>  [multi-include guarded] Extent=<ES>15:1 - 15:12<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:26:9: macro definition=__msp430x54xA <US>c:macro@__msp430x54xA<UE> <DS>__msp430x54xA<DE> Extent=<ES>26:9 - 26:22<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:28:9: macro definition=__MSP430_HEADER_VERSION__ <US>c:macro@__MSP430_HEADER_VERSION__<UE> <DS>__MSP430_HEADER_VERSION__<DE> Extent=<ES>28:9 - 28:39<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:36:8: macro expansion=__TID__|<invalid loc>:210:9 <US>c:macro@__TID__<UE> <DS>__TID__<DE> Extent=<ES>36:8 - 36:15<EE>
@@ -3432,7 +3432,7 @@
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3905:9: macro definition=UNMI_VECTOR <US>c:macro@UNMI_VECTOR<UE> <DS>UNMI_VECTOR<DE> Extent=<ES>3905:9 - 3905:38<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3906:9: macro definition=SYSNMI_VECTOR <US>c:macro@SYSNMI_VECTOR<UE> <DS>SYSNMI_VECTOR<DE> Extent=<ES>3906:9 - 3906:38<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3907:9: macro definition=RESET_VECTOR <US>c:macro@RESET_VECTOR<UE> <DS>RESET_VECTOR<DE> Extent=<ES>3907:9 - 3907:38<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:15:1: inclusion directive=stdio.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h<IE>  Extent=<ES>15:1 - 15:11<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:16:1: inclusion directive=stdio.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h<IE>  Extent=<ES>16:1 - 16:11<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:4:9: macro definition=_STDIO <US>c:macro@_STDIO<UE> <DS>_STDIO<DE> Extent=<ES>4:9 - 4:15<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:10:1: inclusion directive=ycheck.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h<IE>  Extent=<ES>10:1 - 10:11<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:21:11: macro definition=__INTRINSIC <US>c:macro@__INTRINSIC<UE> <DS>__INTRINSIC<DE> Extent=<ES>21:11 - 21:34<EE>
@@ -3834,12 +3834,12 @@
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:206:1: macro expansion=_END_C_LIB_DECL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:286:11 <US>c:macro@_END_C_LIB_DECL<UE> <DS>_END_C_LIB_DECL<DE> Extent=<ES>206:1 - 206:16<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:211:7: macro expansion=_DLIB_FILE_DESCRIPTOR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\DLib_Defaults.h:103:9 <US>c:macro@_DLIB_FILE_DESCRIPTOR<UE> <DS>_DLIB_FILE_DESCRIPTOR<DE> Extent=<ES>211:7 - 211:28<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdio.h:228:1: macro expansion=_C_STD_END|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:276:13 <US>c:macro@_C_STD_END<UE> <DS>_C_STD_END<DE> Extent=<ES>228:1 - 228:11<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:17:1: inclusion directive=hp_time.h <US><UE> <DS><DE> <IS>D:\github\msp430\無線記錄器\hp_time.h<IE>  [multi-include guarded] Extent=<ES>17:1 - 17:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:18:1: inclusion directive=hp_time.h <US><UE> <DS><DE> <IS>D:\github\msp430\無線記錄器\hp_time.h<IE>  [multi-include guarded] Extent=<ES>18:1 - 18:21<EE>
 <L>D:\github\msp430\無線記錄器\hp_time.h:2:9: macro definition=HP_TIME_H <US>c:macro@HP_TIME_H<UE> <DS>HP_TIME_H<DE> Extent=<ES>2:9 - 2:18<EE>
 <L>D:\github\msp430\無線記錄器\hp_time.h:3:1: inclusion directive=msp430x54xA.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h<IE>  [multi-include guarded] Extent=<ES>3:1 - 3:25<EE>
 <L>D:\github\msp430\無線記錄器\hp_time.h:17:9: macro definition=HPTERROR <US>c:macro@HPTERROR<UE> <DS>HPTERROR<DE> Extent=<ES>17:9 - 17:37<EE>
 <L>D:\github\msp430\無線記錄器\hp_time.h:20:9: macro definition=HPTMODULUS <US>c:macro@HPTMODULUS<UE> <DS>HPTMODULUS<DE> Extent=<ES>20:9 - 20:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:18:1: inclusion directive=string.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h<IE>  Extent=<ES>18:1 - 18:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:19:1: inclusion directive=string.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h<IE>  Extent=<ES>19:1 - 19:20<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:4:9: macro definition=_STRING <US>c:macro@_STRING<UE> <DS>_STRING<DE> Extent=<ES>4:9 - 4:16<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:10:1: inclusion directive=ycheck.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h<IE>  Extent=<ES>10:1 - 10:11<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\ycheck.h:21:11: macro definition=__INTRINSIC <US>c:macro@__INTRINSIC<UE> <DS>__INTRINSIC<DE> Extent=<ES>21:11 - 21:34<EE>
@@ -3947,197 +3947,176 @@
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:105:3: macro expansion=_EXTERN_CPP|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:289:11 <US>c:macro@_EXTERN_CPP<UE> <DS>_EXTERN_CPP<DE> Extent=<ES>105:3 - 105:14<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:166:3: macro expansion=_END_EXTERN_CPP|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:290:11 <US>c:macro@_END_EXTERN_CPP<UE> <DS>_END_EXTERN_CPP<DE> Extent=<ES>166:3 - 166:18<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:454:1: macro expansion=_C_STD_END|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\yvals.h:276:13 <US>c:macro@_C_STD_END<UE> <DS>_C_STD_END<DE> Extent=<ES>454:1 - 454:11<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:20:10: macro definition=COM1 <US>c:macro@COM1<UE> <DS>COM1<DE> Extent=<ES>20:10 - 20:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:21:10: macro definition=COM2 <US>c:macro@COM2<UE> <DS>COM2<DE> Extent=<ES>21:10 - 21:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:39:9: macro definition=BUF_SIZE <US>c:macro@BUF_SIZE<UE> <DS>BUF_SIZE<DE> Extent=<ES>39:9 - 39:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:104:13: macro expansion=WDTPW|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3806:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>104:13 - 104:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:104:21: macro expansion=WDTHOLD|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3792:9 <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>104:21 - 104:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:106:4: macro expansion=P6DIR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1322:9 <US>c:macro@P6DIR<UE> <DS>P6DIR<DE> Extent=<ES>106:4 - 106:9<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:106:14: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>106:14 - 106:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:106:19: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>106:19 - 106:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:106:24: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>106:24 - 106:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:107:4: macro expansion=P6DIR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1322:9 <US>c:macro@P6DIR<UE> <DS>P6DIR<DE> Extent=<ES>107:4 - 107:9<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:107:15: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>107:15 - 107:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:107:20: macro expansion=BIT2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:134:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>107:20 - 107:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:107:25: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>107:25 - 107:29<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:108:4: macro expansion=P6OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1321:9 <US>c:macro@P6OUT<UE> <DS>P6OUT<DE> Extent=<ES>108:4 - 108:9<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:108:15: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>108:15 - 108:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:108:20: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>108:20 - 108:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:108:25: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>108:25 - 108:29<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:110:4: macro expansion=P1DIR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1209:9 <US>c:macro@P1DIR<UE> <DS>P1DIR<DE> Extent=<ES>110:4 - 110:9<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:110:13: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>110:13 - 110:17<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:110:19: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>110:19 - 110:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:110:26: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>110:26 - 110:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:111:4: macro expansion=P1OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1208:9 <US>c:macro@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>111:4 - 111:9<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:111:13: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>111:13 - 111:17<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:114:4: macro expansion=P1DIR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1209:9 <US>c:macro@P1DIR<UE> <DS>P1DIR<DE> Extent=<ES>114:4 - 114:9<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:114:14: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>114:14 - 114:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:115:4: macro expansion=P1IE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1214:9 <US>c:macro@P1IE<UE> <DS>P1IE<DE> Extent=<ES>115:4 - 115:8<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:116:4: macro expansion=P1IES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1213:9 <US>c:macro@P1IES<UE> <DS>P1IES<DE> Extent=<ES>116:4 - 116:9<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:117:4: macro expansion=P1IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1215:9 <US>c:macro@P1IFG<UE> <DS>P1IFG<DE> Extent=<ES>117:4 - 117:9<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:118:4: macro expansion=P1IE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1214:9 <US>c:macro@P1IE<UE> <DS>P1IE<DE> Extent=<ES>118:4 - 118:8<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:118:13: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>118:13 - 118:17<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:119:4: macro expansion=P1IES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1213:9 <US>c:macro@P1IES<UE> <DS>P1IES<DE> Extent=<ES>119:4 - 119:9<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:119:14: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>119:14 - 119:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:125:14: macro expansion=COM2|D:\github\msp430\無線記錄器\main.cpp:21:10 <US>c:macro@COM2<UE> <DS>COM2<DE> Extent=<ES>125:14 - 125:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:125:19: macro expansion=COM1|D:\github\msp430\無線記錄器\main.cpp:20:10 <US>c:macro@COM1<UE> <DS>COM1<DE> Extent=<ES>125:19 - 125:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:134:30: macro expansion=LPM0_bits|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:174:9 <US>c:macro@LPM0_bits<UE> <DS>LPM0_bits<DE> Extent=<ES>134:30 - 134:39<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:134:42: macro expansion=GIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:157:9 <US>c:macro@GIE<UE> <DS>GIE<DE> Extent=<ES>134:42 - 134:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:180:33: macro expansion=COM2|D:\github\msp430\無線記錄器\main.cpp:21:10 <US>c:macro@COM2<UE> <DS>COM2<DE> Extent=<ES>180:33 - 180:37<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:197:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>197:1 - 197:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:210:6: macro expansion=P1IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1215:9 <US>c:macro@P1IFG<UE> <DS>P1IFG<DE> Extent=<ES>210:6 - 210:11<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:210:16: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>210:16 - 210:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:214:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>214:1 - 214:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:229:5: macro expansion=P5SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1318:9 <US>c:macro@P5SEL<UE> <DS>P5SEL<DE> Extent=<ES>229:5 - 229:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:230:5: macro expansion=P7SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1357:9 <US>c:macro@P7SEL<UE> <DS>P7SEL<DE> Extent=<ES>230:5 - 230:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:231:18: macro expansion=XT1OFF|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3122:9 <US>c:macro@XT1OFF<UE> <DS>XT1OFF<DE> Extent=<ES>231:18 - 231:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:231:27: macro expansion=XT2OFF|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3130:9 <US>c:macro@XT2OFF<UE> <DS>XT2OFF<DE> Extent=<ES>231:27 - 231:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:232:16: macro expansion=XCAP_3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3166:9 <US>c:macro@XCAP_3<UE> <DS>XCAP_3<DE> Extent=<ES>232:16 - 232:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:236:20: macro expansion=XT2OFFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3180:9 <US>c:macro@XT2OFFG<UE> <DS>XT2OFFG<DE> Extent=<ES>236:20 - 236:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:236:30: macro expansion=XT1LFOFFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3178:9 <US>c:macro@XT1LFOFFG<UE> <DS>XT1LFOFFG<DE> Extent=<ES>236:30 - 236:39<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:236:42: macro expansion=XT1HFOFFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3179:9 <US>c:macro@XT1HFOFFG<UE> <DS>XT1HFOFFG<DE> Extent=<ES>236:42 - 236:51<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:236:54: macro expansion=DCOFFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3177:9 <US>c:macro@DCOFFG<UE> <DS>DCOFFG<DE> Extent=<ES>236:54 - 236:60<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:238:19: macro expansion=OFIFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2098:9 <US>c:macro@OFIFG<UE> <DS>OFIFG<DE> Extent=<ES>238:19 - 238:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:239:21: macro expansion=OFIFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2098:9 <US>c:macro@OFIFG<UE> <DS>OFIFG<DE> Extent=<ES>239:21 - 239:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:241:17: macro expansion=XT2DRIVE0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3136:9 <US>c:macro@XT2DRIVE0<UE> <DS>XT2DRIVE0<DE> Extent=<ES>241:17 - 241:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:242:16: macro expansion=SELA_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3004:9 <US>c:macro@SELA_0<UE> <DS>SELA_0<DE> Extent=<ES>242:16 - 242:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:242:25: macro expansion=SELS_5|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2994:9 <US>c:macro@SELS_5<UE> <DS>SELS_5<DE> Extent=<ES>242:25 - 242:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:242:34: macro expansion=SELM_5|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2979:9 <US>c:macro@SELM_5<UE> <DS>SELM_5<DE> Extent=<ES>242:34 - 242:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:244:3: macro expansion=P4SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1286:9 <US>c:macro@P4SEL<UE> <DS>P4SEL<DE> Extent=<ES>244:3 - 244:8<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:245:3: macro expansion=P4DIR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1283:9 <US>c:macro@P4DIR<UE> <DS>P4DIR<DE> Extent=<ES>245:3 - 245:8<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:250:3: macro expansion=TBCCR0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2569:9 <US>c:macro@TBCCR0<UE> <DS>TBCCR0<DE> Extent=<ES>250:3 - 250:9<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:251:3: macro expansion=TBCCTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2562:9 <US>c:macro@TBCCTL1<UE> <DS>TBCCTL1<DE> Extent=<ES>251:3 - 251:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:251:13: macro expansion=OUTMOD_4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2440:9 <US>c:macro@OUTMOD_4<UE> <DS>OUTMOD_4<DE> Extent=<ES>251:13 - 251:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:252:3: macro expansion=TBCCR1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2570:9 <US>c:macro@TBCCR1<UE> <DS>TBCCR1<DE> Extent=<ES>252:3 - 252:9<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:254:3: macro expansion=TBCTL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2560:9 <US>c:macro@TBCTL<UE> <DS>TBCTL<DE> Extent=<ES>254:3 - 254:8<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:254:11: macro expansion=TBSSEL_2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2597:9 <US>c:macro@TBSSEL_2<UE> <DS>TBSSEL_2<DE> Extent=<ES>254:11 - 254:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:254:22: macro expansion=MC_1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2394:9 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>254:22 - 254:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:254:29: macro expansion=TBCLR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2588:9 <US>c:macro@TBCLR<UE> <DS>TBCLR<DE> Extent=<ES>254:29 - 254:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:256:15: macro expansion=CCIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2430:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>256:15 - 256:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:258:13: macro expansion=TASSEL_2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2403:9 <US>c:macro@TASSEL_2<UE> <DS>TASSEL_2<DE> Extent=<ES>258:13 - 258:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:258:24: macro expansion=MC_1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2394:9 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>258:24 - 258:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:258:31: macro expansion=TACLR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2389:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>258:31 - 258:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:269:3: macro expansion=P2SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1233:9 <US>c:macro@P2SEL<UE> <DS>P2SEL<DE> Extent=<ES>269:3 - 269:8<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:270:3: macro expansion=P2DIR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1230:9 <US>c:macro@P2DIR<UE> <DS>P2DIR<DE> Extent=<ES>270:3 - 270:8<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:270:12: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>270:12 - 270:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:271:3: macro expansion=P2DIR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1230:9 <US>c:macro@P2DIR<UE> <DS>P2DIR<DE> Extent=<ES>271:3 - 271:8<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:271:14: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>271:14 - 271:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:271:19: macro expansion=BIT2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:134:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>271:19 - 271:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:271:24: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>271:24 - 271:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:271:29: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>271:29 - 271:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:272:3: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>272:3 - 272:8<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:272:14: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>272:14 - 272:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:273:3: macro expansion=P2IE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1235:9 <US>c:macro@P2IE<UE> <DS>P2IE<DE> Extent=<ES>273:3 - 273:7<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:274:3: macro expansion=P2IES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1234:9 <US>c:macro@P2IES<UE> <DS>P2IES<DE> Extent=<ES>274:3 - 274:8<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:275:3: macro expansion=P2IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1236:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>275:3 - 275:8<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:276:3: macro expansion=P2IES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1234:9 <US>c:macro@P2IES<UE> <DS>P2IES<DE> Extent=<ES>276:3 - 276:8<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:276:13: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>276:13 - 276:17<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:276:18: macro expansion=BIT2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:134:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>276:18 - 276:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:276:23: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>276:23 - 276:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:276:28: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>276:28 - 276:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:277:3: macro expansion=P2IE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1235:9 <US>c:macro@P2IE<UE> <DS>P2IE<DE> Extent=<ES>277:3 - 277:7<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:277:13: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>277:13 - 277:17<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:277:18: macro expansion=BIT2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:134:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>277:18 - 277:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:277:23: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>277:23 - 277:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:277:28: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>277:28 - 277:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:281:3: macro expansion=_EINT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:86:9 <US>c:macro@_EINT<UE> <DS>_EINT<DE> Extent=<ES>281:3 - 281:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:286:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>286:1 - 286:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:288:7: macro expansion=P2IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1236:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>288:7 - 288:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:288:15: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>288:15 - 288:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:288:23: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>288:23 - 288:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:288:57: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>288:57 - 288:61<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:288:62: macro expansion=P2IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1236:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>288:62 - 288:67<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:288:73: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>288:73 - 288:77<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:289:7: macro expansion=P2IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1236:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>289:7 - 289:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:289:15: macro expansion=BIT2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:134:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>289:15 - 289:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:289:23: macro expansion=BIT2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:134:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>289:23 - 289:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:289:57: macro expansion=BIT2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:134:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>289:57 - 289:61<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:289:62: macro expansion=P2IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1236:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>289:62 - 289:67<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:289:73: macro expansion=BIT2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:134:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>289:73 - 289:77<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:290:7: macro expansion=P2IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1236:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>290:7 - 290:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:290:15: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>290:15 - 290:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:290:23: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>290:23 - 290:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:290:57: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>290:57 - 290:61<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:290:62: macro expansion=P2IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1236:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>290:62 - 290:67<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:290:73: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>290:73 - 290:77<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:291:7: macro expansion=P2IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1236:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>291:7 - 291:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:291:15: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>291:15 - 291:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:291:23: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>291:23 - 291:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:291:57: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>291:57 - 291:61<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:291:62: macro expansion=P2IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1236:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>291:62 - 291:67<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:291:73: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>291:73 - 291:77<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:293:21: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>293:21 - 293:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:293:26: macro expansion=BIT2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:134:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>293:26 - 293:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:293:31: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>293:31 - 293:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:293:36: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>293:36 - 293:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:301:17: macro expansion=P2IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1236:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>301:17 - 301:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:301:28: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>301:28 - 301:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:301:33: macro expansion=BIT2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:134:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>301:33 - 301:37<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:301:38: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>301:38 - 301:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:301:43: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>301:43 - 301:47<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:302:43: macro expansion=LPM0_bits|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:174:9 <US>c:macro@LPM0_bits<UE> <DS>LPM0_bits<DE> Extent=<ES>302:43 - 302:52<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:311:5: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>311:5 - 311:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:311:15: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>311:15 - 311:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:315:16: macro expansion=P2IN|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1228:9 <US>c:macro@P2IN<UE> <DS>P2IN<DE> Extent=<ES>315:16 - 315:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:319:5: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>319:5 - 319:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:319:16: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>319:16 - 319:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:322:5: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>322:5 - 322:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:322:15: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>322:15 - 322:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:324:5: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>324:5 - 324:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:324:16: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>324:16 - 324:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:328:5: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>328:5 - 328:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:328:15: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>328:15 - 328:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:330:5: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>330:5 - 330:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:330:16: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>330:16 - 330:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:335:5: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>335:5 - 335:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:335:15: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>335:15 - 335:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:337:5: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>337:5 - 337:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:337:16: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>337:16 - 337:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:346:5: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>346:5 - 346:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:346:15: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>346:15 - 346:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:350:16: macro expansion=P2IN|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1228:9 <US>c:macro@P2IN<UE> <DS>P2IN<DE> Extent=<ES>350:16 - 350:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:355:5: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>355:5 - 355:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:355:16: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>355:16 - 355:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:371:4: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>371:4 - 371:9<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:371:15: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>371:15 - 371:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:385:12: macro expansion=COM1|D:\github\msp430\無線記錄器\main.cpp:20:10 <US>c:macro@COM1<UE> <DS>COM1<DE> Extent=<ES>385:12 - 385:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:385:21: macro expansion=COM1|D:\github\msp430\無線記錄器\main.cpp:20:10 <US>c:macro@COM1<UE> <DS>COM1<DE> Extent=<ES>385:21 - 385:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:387:7: macro expansion=P3SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1279:9 <US>c:macro@P3SEL<UE> <DS>P3SEL<DE> Extent=<ES>387:7 - 387:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:388:7: macro expansion=UCA0CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3284:9 <US>c:macro@UCA0CTL1<UE> <DS>UCA0CTL1<DE> Extent=<ES>388:7 - 388:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:388:19: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>388:19 - 388:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:390:7: macro expansion=UCA0CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3284:9 <US>c:macro@UCA0CTL1<UE> <DS>UCA0CTL1<DE> Extent=<ES>390:7 - 390:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:390:19: macro expansion=UCSSEL_1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3393:9 <US>c:macro@UCSSEL_1<UE> <DS>UCSSEL_1<DE> Extent=<ES>390:19 - 390:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:391:7: macro expansion=UCA0BR0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3288:9 <US>c:macro@UCA0BR0<UE> <DS>UCA0BR0<DE> Extent=<ES>391:7 - 391:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:392:7: macro expansion=UCA0BR1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3289:9 <US>c:macro@UCA0BR1<UE> <DS>UCA0BR1<DE> Extent=<ES>392:7 - 392:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:394:18: macro expansion=UCBRS_3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3430:9 <US>c:macro@UCBRS_3<UE> <DS>UCBRS_3<DE> Extent=<ES>394:18 - 394:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:394:26: macro expansion=UCBRF_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3410:9 <US>c:macro@UCBRF_0<UE> <DS>UCBRF_0<DE> Extent=<ES>394:26 - 394:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:396:7: macro expansion=UCA0CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3284:9 <US>c:macro@UCA0CTL1<UE> <DS>UCA0CTL1<DE> Extent=<ES>396:7 - 396:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:396:20: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>396:20 - 396:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:397:7: macro expansion=UCA0IE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3306:9 <US>c:macro@UCA0IE<UE> <DS>UCA0IE<DE> Extent=<ES>397:7 - 397:13<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:397:17: macro expansion=UCRXIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3546:9 <US>c:macro@UCRXIE<UE> <DS>UCRXIE<DE> Extent=<ES>397:17 - 397:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:399:12: macro expansion=COM2|D:\github\msp430\無線記錄器\main.cpp:21:10 <US>c:macro@COM2<UE> <DS>COM2<DE> Extent=<ES>399:12 - 399:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:399:21: macro expansion=COM2|D:\github\msp430\無線記錄器\main.cpp:21:10 <US>c:macro@COM2<UE> <DS>COM2<DE> Extent=<ES>399:21 - 399:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:401:7: macro expansion=P5SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1318:9 <US>c:macro@P5SEL<UE> <DS>P5SEL<DE> Extent=<ES>401:7 - 401:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:402:7: macro expansion=UCA1CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3579:9 <US>c:macro@UCA1CTL1<UE> <DS>UCA1CTL1<DE> Extent=<ES>402:7 - 402:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:402:19: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>402:19 - 402:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:404:7: macro expansion=UCA1CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3579:9 <US>c:macro@UCA1CTL1<UE> <DS>UCA1CTL1<DE> Extent=<ES>404:7 - 404:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:404:19: macro expansion=UCSSEL_2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3394:9 <US>c:macro@UCSSEL_2<UE> <DS>UCSSEL_2<DE> Extent=<ES>404:19 - 404:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:406:9: macro expansion=UCA1BR0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3583:9 <US>c:macro@UCA1BR0<UE> <DS>UCA1BR0<DE> Extent=<ES>406:9 - 406:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:407:9: macro expansion=UCA1BR1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3584:9 <US>c:macro@UCA1BR1<UE> <DS>UCA1BR1<DE> Extent=<ES>407:9 - 407:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:410:18: macro expansion=UCBRS_5|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3432:9 <US>c:macro@UCBRS_5<UE> <DS>UCBRS_5<DE> Extent=<ES>410:18 - 410:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:410:26: macro expansion=UCBRF_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3410:9 <US>c:macro@UCBRF_0<UE> <DS>UCBRF_0<DE> Extent=<ES>410:26 - 410:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:412:7: macro expansion=UCA1CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3579:9 <US>c:macro@UCA1CTL1<UE> <DS>UCA1CTL1<DE> Extent=<ES>412:7 - 412:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:412:20: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>412:20 - 412:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:424:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>424:1 - 424:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:465:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>465:1 - 465:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:492:11: macro expansion=COM1|D:\github\msp430\無線記錄器\main.cpp:20:10 <US>c:macro@COM1<UE> <DS>COM1<DE> Extent=<ES>492:11 - 492:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:492:20: macro expansion=COM1|D:\github\msp430\無線記錄器\main.cpp:20:10 <US>c:macro@COM1<UE> <DS>COM1<DE> Extent=<ES>492:20 - 492:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:493:14: macro expansion=UCA0IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3307:9 <US>c:macro@UCA0IFG<UE> <DS>UCA0IFG<DE> Extent=<ES>493:14 - 493:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:493:22: macro expansion=UCTXIFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3557:9 <US>c:macro@UCTXIFG<UE> <DS>UCTXIFG<DE> Extent=<ES>493:22 - 493:29<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:496:11: macro expansion=COM2|D:\github\msp430\無線記錄器\main.cpp:21:10 <US>c:macro@COM2<UE> <DS>COM2<DE> Extent=<ES>496:11 - 496:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:496:20: macro expansion=COM2|D:\github\msp430\無線記錄器\main.cpp:21:10 <US>c:macro@COM2<UE> <DS>COM2<DE> Extent=<ES>496:20 - 496:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:497:14: macro expansion=UCA1IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3602:9 <US>c:macro@UCA1IFG<UE> <DS>UCA1IFG<DE> Extent=<ES>497:14 - 497:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:497:22: macro expansion=UCTXIFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3557:9 <US>c:macro@UCTXIFG<UE> <DS>UCTXIFG<DE> Extent=<ES>497:22 - 497:29<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:21:10: macro definition=COM1 <US>c:macro@COM1<UE> <DS>COM1<DE> Extent=<ES>21:10 - 21:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:22:10: macro definition=COM2 <US>c:macro@COM2<UE> <DS>COM2<DE> Extent=<ES>22:10 - 22:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:58:13: macro expansion=WDTPW|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3806:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>58:13 - 58:18<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:58:21: macro expansion=WDTHOLD|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3792:9 <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>58:21 - 58:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:60:4: macro expansion=P6DIR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1322:9 <US>c:macro@P6DIR<UE> <DS>P6DIR<DE> Extent=<ES>60:4 - 60:9<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:60:14: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>60:14 - 60:18<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:60:19: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>60:19 - 60:23<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:60:24: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>60:24 - 60:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:61:4: macro expansion=P6DIR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1322:9 <US>c:macro@P6DIR<UE> <DS>P6DIR<DE> Extent=<ES>61:4 - 61:9<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:61:15: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>61:15 - 61:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:61:20: macro expansion=BIT2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:134:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>61:20 - 61:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:61:25: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>61:25 - 61:29<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:62:4: macro expansion=P6OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1321:9 <US>c:macro@P6OUT<UE> <DS>P6OUT<DE> Extent=<ES>62:4 - 62:9<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:62:15: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>62:15 - 62:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:62:20: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>62:20 - 62:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:62:25: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:139:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>62:25 - 62:29<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:64:4: macro expansion=P1DIR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1209:9 <US>c:macro@P1DIR<UE> <DS>P1DIR<DE> Extent=<ES>64:4 - 64:9<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:64:13: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>64:13 - 64:17<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:64:19: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>64:19 - 64:23<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:64:26: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:138:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>64:26 - 64:30<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:65:4: macro expansion=P1OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1208:9 <US>c:macro@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>65:4 - 65:9<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:65:13: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>65:13 - 65:17<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:68:14: macro expansion=COM2|D:\github\msp430\無線記錄器\main.cpp:22:10 <US>c:macro@COM2<UE> <DS>COM2<DE> Extent=<ES>68:14 - 68:18<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:76:30: macro expansion=LPM0_bits|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:174:9 <US>c:macro@LPM0_bits<UE> <DS>LPM0_bits<DE> Extent=<ES>76:30 - 76:39<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:76:42: macro expansion=GIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:157:9 <US>c:macro@GIE<UE> <DS>GIE<DE> Extent=<ES>76:42 - 76:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:116:33: macro expansion=COM2|D:\github\msp430\無線記錄器\main.cpp:22:10 <US>c:macro@COM2<UE> <DS>COM2<DE> Extent=<ES>116:33 - 116:37<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:129:5: macro expansion=P5SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1318:9 <US>c:macro@P5SEL<UE> <DS>P5SEL<DE> Extent=<ES>129:5 - 129:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:130:5: macro expansion=P7SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1357:9 <US>c:macro@P7SEL<UE> <DS>P7SEL<DE> Extent=<ES>130:5 - 130:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:131:18: macro expansion=XT1OFF|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3122:9 <US>c:macro@XT1OFF<UE> <DS>XT1OFF<DE> Extent=<ES>131:18 - 131:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:131:27: macro expansion=XT2OFF|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3130:9 <US>c:macro@XT2OFF<UE> <DS>XT2OFF<DE> Extent=<ES>131:27 - 131:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:132:16: macro expansion=XCAP_3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3166:9 <US>c:macro@XCAP_3<UE> <DS>XCAP_3<DE> Extent=<ES>132:16 - 132:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:136:20: macro expansion=XT2OFFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3180:9 <US>c:macro@XT2OFFG<UE> <DS>XT2OFFG<DE> Extent=<ES>136:20 - 136:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:136:30: macro expansion=XT1LFOFFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3178:9 <US>c:macro@XT1LFOFFG<UE> <DS>XT1LFOFFG<DE> Extent=<ES>136:30 - 136:39<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:136:42: macro expansion=XT1HFOFFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3179:9 <US>c:macro@XT1HFOFFG<UE> <DS>XT1HFOFFG<DE> Extent=<ES>136:42 - 136:51<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:136:54: macro expansion=DCOFFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3177:9 <US>c:macro@DCOFFG<UE> <DS>DCOFFG<DE> Extent=<ES>136:54 - 136:60<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:138:19: macro expansion=OFIFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2098:9 <US>c:macro@OFIFG<UE> <DS>OFIFG<DE> Extent=<ES>138:19 - 138:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:139:21: macro expansion=OFIFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2098:9 <US>c:macro@OFIFG<UE> <DS>OFIFG<DE> Extent=<ES>139:21 - 139:26<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:141:17: macro expansion=XT2DRIVE0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3136:9 <US>c:macro@XT2DRIVE0<UE> <DS>XT2DRIVE0<DE> Extent=<ES>141:17 - 141:26<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:142:16: macro expansion=SELA_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3004:9 <US>c:macro@SELA_0<UE> <DS>SELA_0<DE> Extent=<ES>142:16 - 142:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:142:25: macro expansion=SELS_5|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2994:9 <US>c:macro@SELS_5<UE> <DS>SELS_5<DE> Extent=<ES>142:25 - 142:31<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:142:34: macro expansion=SELM_5|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2979:9 <US>c:macro@SELM_5<UE> <DS>SELM_5<DE> Extent=<ES>142:34 - 142:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:144:3: macro expansion=P4SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1286:9 <US>c:macro@P4SEL<UE> <DS>P4SEL<DE> Extent=<ES>144:3 - 144:8<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:145:3: macro expansion=P4DIR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1283:9 <US>c:macro@P4DIR<UE> <DS>P4DIR<DE> Extent=<ES>145:3 - 145:8<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:147:3: macro expansion=TBCCR0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2569:9 <US>c:macro@TBCCR0<UE> <DS>TBCCR0<DE> Extent=<ES>147:3 - 147:9<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:148:3: macro expansion=TBCCTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2562:9 <US>c:macro@TBCCTL1<UE> <DS>TBCCTL1<DE> Extent=<ES>148:3 - 148:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:148:13: macro expansion=OUTMOD_4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2440:9 <US>c:macro@OUTMOD_4<UE> <DS>OUTMOD_4<DE> Extent=<ES>148:13 - 148:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:149:3: macro expansion=TBCCR1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2570:9 <US>c:macro@TBCCR1<UE> <DS>TBCCR1<DE> Extent=<ES>149:3 - 149:9<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:151:3: macro expansion=TBCTL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2560:9 <US>c:macro@TBCTL<UE> <DS>TBCTL<DE> Extent=<ES>151:3 - 151:8<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:151:11: macro expansion=TBSSEL_2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2597:9 <US>c:macro@TBSSEL_2<UE> <DS>TBSSEL_2<DE> Extent=<ES>151:11 - 151:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:151:22: macro expansion=MC_1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2394:9 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>151:22 - 151:26<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:151:29: macro expansion=TBCLR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:2588:9 <US>c:macro@TBCLR<UE> <DS>TBCLR<DE> Extent=<ES>151:29 - 151:34<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:163:3: macro expansion=P2SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1233:9 <US>c:macro@P2SEL<UE> <DS>P2SEL<DE> Extent=<ES>163:3 - 163:8<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:164:3: macro expansion=P2DIR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1230:9 <US>c:macro@P2DIR<UE> <DS>P2DIR<DE> Extent=<ES>164:3 - 164:8<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:164:12: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>164:12 - 164:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:165:3: macro expansion=P2DIR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1230:9 <US>c:macro@P2DIR<UE> <DS>P2DIR<DE> Extent=<ES>165:3 - 165:8<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:165:14: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>165:14 - 165:18<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:165:19: macro expansion=BIT2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:134:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>165:19 - 165:23<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:165:24: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>165:24 - 165:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:165:29: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>165:29 - 165:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:166:3: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>166:3 - 166:8<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:166:14: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>166:14 - 166:18<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:167:3: macro expansion=P2IE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1235:9 <US>c:macro@P2IE<UE> <DS>P2IE<DE> Extent=<ES>167:3 - 167:7<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:168:3: macro expansion=P2IES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1234:9 <US>c:macro@P2IES<UE> <DS>P2IES<DE> Extent=<ES>168:3 - 168:8<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:169:3: macro expansion=P2IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1236:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>169:3 - 169:8<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:170:3: macro expansion=P2IES|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1234:9 <US>c:macro@P2IES<UE> <DS>P2IES<DE> Extent=<ES>170:3 - 170:8<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:170:13: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>170:13 - 170:17<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:170:18: macro expansion=BIT2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:134:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>170:18 - 170:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:170:23: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>170:23 - 170:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:170:28: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>170:28 - 170:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:171:3: macro expansion=P2IE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1235:9 <US>c:macro@P2IE<UE> <DS>P2IE<DE> Extent=<ES>171:3 - 171:7<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:171:13: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>171:13 - 171:17<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:171:18: macro expansion=BIT2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:134:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>171:18 - 171:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:171:23: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>171:23 - 171:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:171:28: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>171:28 - 171:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:175:3: macro expansion=_EINT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:86:9 <US>c:macro@_EINT<UE> <DS>_EINT<DE> Extent=<ES>175:3 - 175:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:180:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>180:1 - 180:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:182:7: macro expansion=P2IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1236:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>182:7 - 182:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:182:15: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>182:15 - 182:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:182:23: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>182:23 - 182:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:182:57: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>182:57 - 182:61<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:182:62: macro expansion=P2IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1236:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>182:62 - 182:67<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:182:73: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>182:73 - 182:77<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:183:7: macro expansion=P2IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1236:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>183:7 - 183:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:183:15: macro expansion=BIT2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:134:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>183:15 - 183:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:183:23: macro expansion=BIT2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:134:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>183:23 - 183:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:183:57: macro expansion=BIT2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:134:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>183:57 - 183:61<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:183:62: macro expansion=P2IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1236:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>183:62 - 183:67<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:183:73: macro expansion=BIT2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:134:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>183:73 - 183:77<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:184:7: macro expansion=P2IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1236:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>184:7 - 184:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:184:15: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>184:15 - 184:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:184:23: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>184:23 - 184:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:184:57: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>184:57 - 184:61<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:184:62: macro expansion=P2IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1236:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>184:62 - 184:67<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:184:73: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>184:73 - 184:77<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:185:7: macro expansion=P2IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1236:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>185:7 - 185:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:185:15: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>185:15 - 185:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:185:23: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>185:23 - 185:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:185:57: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>185:57 - 185:61<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:185:62: macro expansion=P2IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1236:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>185:62 - 185:67<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:185:73: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>185:73 - 185:77<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:21: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>187:21 - 187:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:26: macro expansion=BIT2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:134:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>187:26 - 187:30<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:31: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>187:31 - 187:35<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:36: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>187:36 - 187:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:195:17: macro expansion=P2IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1236:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>195:17 - 195:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:195:28: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:135:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>195:28 - 195:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:195:33: macro expansion=BIT2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:134:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>195:33 - 195:37<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:195:38: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:133:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>195:38 - 195:42<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:195:43: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:136:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>195:43 - 195:47<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:196:43: macro expansion=LPM0_bits|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:174:9 <US>c:macro@LPM0_bits<UE> <DS>LPM0_bits<DE> Extent=<ES>196:43 - 196:52<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:205:5: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>205:5 - 205:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:205:15: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>205:15 - 205:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:209:16: macro expansion=P2IN|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1228:9 <US>c:macro@P2IN<UE> <DS>P2IN<DE> Extent=<ES>209:16 - 209:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:213:5: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>213:5 - 213:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:213:16: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>213:16 - 213:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:216:5: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>216:5 - 216:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:216:15: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>216:15 - 216:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:218:5: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>218:5 - 218:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:218:16: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>218:16 - 218:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:222:5: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>222:5 - 222:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:222:15: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>222:15 - 222:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:224:5: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>224:5 - 224:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:224:16: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>224:16 - 224:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:229:5: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>229:5 - 229:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:229:15: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>229:15 - 229:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:231:5: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>231:5 - 231:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:231:16: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>231:16 - 231:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:240:5: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>240:5 - 240:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:240:15: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>240:15 - 240:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:244:16: macro expansion=P2IN|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1228:9 <US>c:macro@P2IN<UE> <DS>P2IN<DE> Extent=<ES>244:16 - 244:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:249:5: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>249:5 - 249:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:249:16: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>249:16 - 249:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:265:4: macro expansion=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1229:9 <US>c:macro@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>265:4 - 265:9<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:265:15: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:132:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>265:15 - 265:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:279:12: macro expansion=COM1|D:\github\msp430\無線記錄器\main.cpp:21:10 <US>c:macro@COM1<UE> <DS>COM1<DE> Extent=<ES>279:12 - 279:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:279:21: macro expansion=COM1|D:\github\msp430\無線記錄器\main.cpp:21:10 <US>c:macro@COM1<UE> <DS>COM1<DE> Extent=<ES>279:21 - 279:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:281:7: macro expansion=P3SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1279:9 <US>c:macro@P3SEL<UE> <DS>P3SEL<DE> Extent=<ES>281:7 - 281:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:282:7: macro expansion=UCA0CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3284:9 <US>c:macro@UCA0CTL1<UE> <DS>UCA0CTL1<DE> Extent=<ES>282:7 - 282:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:282:19: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>282:19 - 282:26<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:284:7: macro expansion=UCA0CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3284:9 <US>c:macro@UCA0CTL1<UE> <DS>UCA0CTL1<DE> Extent=<ES>284:7 - 284:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:284:19: macro expansion=UCSSEL_1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3393:9 <US>c:macro@UCSSEL_1<UE> <DS>UCSSEL_1<DE> Extent=<ES>284:19 - 284:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:285:7: macro expansion=UCA0BR0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3288:9 <US>c:macro@UCA0BR0<UE> <DS>UCA0BR0<DE> Extent=<ES>285:7 - 285:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:286:7: macro expansion=UCA0BR1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3289:9 <US>c:macro@UCA0BR1<UE> <DS>UCA0BR1<DE> Extent=<ES>286:7 - 286:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:288:18: macro expansion=UCBRS_3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3430:9 <US>c:macro@UCBRS_3<UE> <DS>UCBRS_3<DE> Extent=<ES>288:18 - 288:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:288:26: macro expansion=UCBRF_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3410:9 <US>c:macro@UCBRF_0<UE> <DS>UCBRF_0<DE> Extent=<ES>288:26 - 288:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:290:7: macro expansion=UCA0CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3284:9 <US>c:macro@UCA0CTL1<UE> <DS>UCA0CTL1<DE> Extent=<ES>290:7 - 290:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:290:20: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>290:20 - 290:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:291:7: macro expansion=UCA0IE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3306:9 <US>c:macro@UCA0IE<UE> <DS>UCA0IE<DE> Extent=<ES>291:7 - 291:13<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:291:17: macro expansion=UCRXIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3546:9 <US>c:macro@UCRXIE<UE> <DS>UCRXIE<DE> Extent=<ES>291:17 - 291:23<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:293:12: macro expansion=COM2|D:\github\msp430\無線記錄器\main.cpp:22:10 <US>c:macro@COM2<UE> <DS>COM2<DE> Extent=<ES>293:12 - 293:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:293:21: macro expansion=COM2|D:\github\msp430\無線記錄器\main.cpp:22:10 <US>c:macro@COM2<UE> <DS>COM2<DE> Extent=<ES>293:21 - 293:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:295:7: macro expansion=P5SEL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:1318:9 <US>c:macro@P5SEL<UE> <DS>P5SEL<DE> Extent=<ES>295:7 - 295:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:296:7: macro expansion=UCA1CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3579:9 <US>c:macro@UCA1CTL1<UE> <DS>UCA1CTL1<DE> Extent=<ES>296:7 - 296:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:296:19: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>296:19 - 296:26<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:298:7: macro expansion=UCA1CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3579:9 <US>c:macro@UCA1CTL1<UE> <DS>UCA1CTL1<DE> Extent=<ES>298:7 - 298:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:298:19: macro expansion=UCSSEL_2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3394:9 <US>c:macro@UCSSEL_2<UE> <DS>UCSSEL_2<DE> Extent=<ES>298:19 - 298:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:300:9: macro expansion=UCA1BR0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3583:9 <US>c:macro@UCA1BR0<UE> <DS>UCA1BR0<DE> Extent=<ES>300:9 - 300:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:301:9: macro expansion=UCA1BR1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3584:9 <US>c:macro@UCA1BR1<UE> <DS>UCA1BR1<DE> Extent=<ES>301:9 - 301:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:304:18: macro expansion=UCBRS_5|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3432:9 <US>c:macro@UCBRS_5<UE> <DS>UCBRS_5<DE> Extent=<ES>304:18 - 304:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:304:26: macro expansion=UCBRF_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3410:9 <US>c:macro@UCBRF_0<UE> <DS>UCBRF_0<DE> Extent=<ES>304:26 - 304:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:306:7: macro expansion=UCA1CTL1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3579:9 <US>c:macro@UCA1CTL1<UE> <DS>UCA1CTL1<DE> Extent=<ES>306:7 - 306:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:306:20: macro expansion=UCSWRST|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3377:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>306:20 - 306:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:319:11: macro expansion=COM1|D:\github\msp430\無線記錄器\main.cpp:21:10 <US>c:macro@COM1<UE> <DS>COM1<DE> Extent=<ES>319:11 - 319:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:319:20: macro expansion=COM1|D:\github\msp430\無線記錄器\main.cpp:21:10 <US>c:macro@COM1<UE> <DS>COM1<DE> Extent=<ES>319:20 - 319:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:320:14: macro expansion=UCA0IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3307:9 <US>c:macro@UCA0IFG<UE> <DS>UCA0IFG<DE> Extent=<ES>320:14 - 320:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:320:22: macro expansion=UCTXIFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3557:9 <US>c:macro@UCTXIFG<UE> <DS>UCTXIFG<DE> Extent=<ES>320:22 - 320:29<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:323:11: macro expansion=COM2|D:\github\msp430\無線記錄器\main.cpp:22:10 <US>c:macro@COM2<UE> <DS>COM2<DE> Extent=<ES>323:11 - 323:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:323:20: macro expansion=COM2|D:\github\msp430\無線記錄器\main.cpp:22:10 <US>c:macro@COM2<UE> <DS>COM2<DE> Extent=<ES>323:20 - 323:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:324:14: macro expansion=UCA1IFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3602:9 <US>c:macro@UCA1IFG<UE> <DS>UCA1IFG<DE> Extent=<ES>324:14 - 324:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:324:22: macro expansion=UCTXIFG|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\msp430x54xA.h:3557:9 <US>c:macro@UCTXIFG<UE> <DS>UCTXIFG<DE> Extent=<ES>324:22 - 324:29<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:27:24: TypedefDecl=__istate_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:27:24 (Definition) <US>c:intrinsics.h@516@T@__istate_t<UE> <DS>unsigned short<DE> Extent=<ES>27:1 - 27:34<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:30:20: TypedefDecl=istate_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:30:20 (Definition) <US>c:intrinsics.h@573@T@istate_t<UE> <DS>__istate_t<DE> Extent=<ES>30:1 - 30:28<EE>
@@ -5774,1189 +5753,773 @@
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:203:28: DeclRefExpr=_Err|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:201:22 (Reference) <US>c:string.h@7122@F@strerror#I#@_Err<UE> <DS>int<DE> Extent=<ES>203:28 - 203:32<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:203:34: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>203:34 - 203:35<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:203:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>203:34 - 203:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:23:6: FunctionDecl=Crystal_Init|D:\github\msp430\無線記錄器\main.cpp:227:6 (Declaration) <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>23:1 - 23:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:24:6: FunctionDecl=UART_Init|D:\github\msp430\無線記錄器\main.cpp:383:6 (Declaration) <US>c:@F@UART_Init#C#<UE> <DS>void UART_Init(char)<DE> Extent=<ES>24:1 - 24:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:24:21: ParmDecl=com|D:\github\msp430\無線記錄器\main.cpp:24:21 (Definition) <US>c:main.cpp@1096@F@UART_Init#C#@com<UE> <DS>char<DE> Extent=<ES>24:16 - 24:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:25:6: FunctionDecl=RS232_Send_Char|D:\github\msp430\無線記錄器\main.cpp:510:6 (Declaration) <US>c:@F@RS232_Send_Char#*C#I#C#<UE> <DS>void RS232_Send_Char(char *, int, char)<DE> Extent=<ES>25:1 - 25:51<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:25:28: ParmDecl=str|D:\github\msp430\無線記錄器\main.cpp:25:28 (Definition) <US>c:main.cpp@1129@F@RS232_Send_Char#*C#I#C#@str<UE> <DS>char *<DE> Extent=<ES>25:22 - 25:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:25:36: ParmDecl=count|D:\github\msp430\無線記錄器\main.cpp:25:36 (Definition) <US>c:main.cpp@1139@F@RS232_Send_Char#*C#I#C#@count<UE> <DS>int<DE> Extent=<ES>25:32 - 25:41<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:25:47: ParmDecl=com|D:\github\msp430\無線記錄器\main.cpp:25:47 (Definition) <US>c:main.cpp@1149@F@RS232_Send_Char#*C#I#C#@com<UE> <DS>char<DE> Extent=<ES>25:42 - 25:50<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:27:5: VarDecl=UART_COM1_RX_count|D:\github\msp430\無線記錄器\main.cpp:27:5 (Definition) <US>c:@UART_COM1_RX_count<UE> <DS>UART_COM1_RX_count<DE> Extent=<ES>27:1 - 27:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:27:24: VarDecl=UART_COM2_RX_count|D:\github\msp430\無線記錄器\main.cpp:27:24 (Definition) <US>c:@UART_COM2_RX_count<UE> <DS>UART_COM2_RX_count<DE> Extent=<ES>27:1 - 27:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:28:15: VarDecl=UART_COM2_RX_BUF|D:\github\msp430\無線記錄器\main.cpp:28:15 (Definition) <US>c:@UART_COM2_RX_BUF<UE> <DS>UART_COM2_RX_BUF<DE> Extent=<ES>28:1 - 28:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:28:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>28:32 - 28:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:30:6: VarDecl=COM1_BUFFER|D:\github\msp430\無線記錄器\main.cpp:30:6 (Definition) <US>c:@COM1_BUFFER<UE> <DS>COM1_BUFFER<DE> Extent=<ES>30:1 - 30:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:30:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>30:18 - 30:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:31:6: VarDecl=COM1_REC_BUFFER|D:\github\msp430\無線記錄器\main.cpp:31:6 (Definition) <US>c:@COM1_REC_BUFFER<UE> <DS>COM1_REC_BUFFER<DE> Extent=<ES>31:1 - 31:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:31:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>31:22 - 31:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:34:17: VarDecl=sysTime|D:\github\msp430\無線記錄器\main.cpp:34:17 (Definition) <US>c:main.cpp@1413@sysTime<UE> <DS>sysTime<DE> Extent=<ES>34:1 - 34:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:34:8: TypeRef=hptime_t|D:\github\msp430\無線記錄器\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>34:8 - 34:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:34:25: VarDecl=sysTime_Buffer|D:\github\msp430\無線記錄器\main.cpp:34:25 (Definition) <US>c:main.cpp@1413@sysTime_Buffer<UE> <DS>sysTime_Buffer<DE> Extent=<ES>34:1 - 34:39<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:34:8: TypeRef=hptime_t|D:\github\msp430\無線記錄器\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>34:8 - 34:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:35:13: VarDecl=sysTime_flag|D:\github\msp430\無線記錄器\main.cpp:35:13 (Definition) <US>c:main.cpp@1488@sysTime_flag<UE> <DS>sysTime_flag<DE> Extent=<ES>35:1 - 35:29<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:35:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>35:28 - 35:29<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:42:6: VarDecl=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 (Definition) <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>42:1 - 42:54<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:42:26: StringLiteral= <US><UE> <DS><DE> Extent=<ES>42:26 - 42:54<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:44:10: VarDecl=CloCk_10KHz|D:\github\msp430\無線記錄器\main.cpp:44:10 (Definition) <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>44:1 - 44:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:44:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>44:23 - 44:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:44:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>44:23 - 44:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:46:6: FunctionDecl=findStrPoint|D:\github\msp430\無線記錄器\main.cpp:519:6 (Declaration) <US>c:@F@findStrPoint#*C#S0_#C#I#<UE> <DS>void findStrPoint(char *, char *, char, int)<DE> Extent=<ES>46:1 - 46:56<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:46:25: ParmDecl=a|D:\github\msp430\無線記錄器\main.cpp:46:25 (Definition) <US>c:main.cpp@1682@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>46:19 - 46:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:46:33: ParmDecl=ans|D:\github\msp430\無線記錄器\main.cpp:46:33 (Definition) <US>c:main.cpp@1690@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>46:27 - 46:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:46:42: ParmDecl=feature|D:\github\msp430\無線記錄器\main.cpp:46:42 (Definition) <US>c:main.cpp@1700@F@findStrPoint#*C#S0_#C#I#@feature<UE> <DS>char<DE> Extent=<ES>46:37 - 46:49<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:46:54: ParmDecl=n|D:\github\msp430\無線記錄器\main.cpp:46:54 (Definition) <US>c:main.cpp@1713@F@findStrPoint#*C#S0_#C#I#@n<UE> <DS>int<DE> Extent=<ES>46:50 - 46:55<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:50:10: FunctionDecl=get_hp_Gps_time|D:\github\msp430\無線記錄器\main.cpp:50:10 (Definition) <US>c:@F@get_hp_Gps_time#*C#<UE> <DS>hptime_t get_hp_Gps_time(char *)<DE> Extent=<ES>50:1 - 76:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:50:1: TypeRef=hptime_t|D:\github\msp430\無線記錄器\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>50:1 - 50:9<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:50:32: ParmDecl=tstr|D:\github\msp430\無線記錄器\main.cpp:50:32 (Definition) <US>c:main.cpp@1753@F@get_hp_Gps_time#*C#@tstr<UE> <DS>char *<DE> Extent=<ES>50:26 - 50:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:50:37: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>50:37 - 76:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:51:4: DeclStmt= <US><UE> <DS><DE> Extent=<ES>51:4 - 51:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:51:9: VarDecl=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 (Definition) <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>51:4 - 51:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:51:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>51:17 - 51:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:52:4: DeclStmt= <US><UE> <DS><DE> Extent=<ES>52:4 - 52:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:52:13: VarDecl=s1|D:\github\msp430\無線記錄器\main.cpp:52:13 (Definition) <US>c:main.cpp@1792@F@get_hp_Gps_time#*C#@s1<UE> <DS>s1<DE> Extent=<ES>52:4 - 52:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:52:4: TypeRef=hptime_t|D:\github\msp430\無線記錄器\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>52:4 - 52:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:54:12: CallExpr=findStrPoint|D:\github\msp430\無線記錄器\main.cpp:519:6 <US>c:@F@findStrPoint#*C#S0_#C#I#<UE> <DS>void findStrPoint(char *, char *, char, int)<DE> Extent=<ES>54:12 - 54:44<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:54:12: UnexposedExpr=findStrPoint|D:\github\msp430\無線記錄器\main.cpp:519:6 <US>c:@F@findStrPoint#*C#S0_#C#I#<UE> <DS>void findStrPoint(char *, char *, char, int)<DE> Extent=<ES>54:12 - 54:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:54:12: DeclRefExpr=findStrPoint|D:\github\msp430\無線記錄器\main.cpp:519:6 (Reference) <US>c:@F@findStrPoint#*C#S0_#C#I#<UE> <DS>void findStrPoint(char *, char *, char, int)<DE> Extent=<ES>54:12 - 54:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:54:25: UnexposedExpr=tstr|D:\github\msp430\無線記錄器\main.cpp:50:32 <US>c:main.cpp@1753@F@get_hp_Gps_time#*C#@tstr<UE> <DS>char *<DE> Extent=<ES>54:25 - 54:29<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:54:25: DeclRefExpr=tstr|D:\github\msp430\無線記錄器\main.cpp:50:32 (Reference) <US>c:main.cpp@1753@F@get_hp_Gps_time#*C#@tstr<UE> <DS>char *<DE> Extent=<ES>54:25 - 54:29<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:54:30: UnexposedExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>54:30 - 54:37<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:54:30: DeclRefExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 (Reference) <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>54:30 - 54:37<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:54:38: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>54:38 - 54:41<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:54:42: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:42 - 54:43<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:56:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>56:13 - 56:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:56:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>56:13 - 56:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:56:13: UnexposedExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>56:13 - 56:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:56:13: DeclRefExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 (Reference) <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>56:13 - 56:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:56:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:29 - 56:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:56:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>56:36 - 56:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:56:36: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>56:36 - 56:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:56:36: UnexposedExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>56:36 - 56:43<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:56:36: DeclRefExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 (Reference) <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>56:36 - 56:43<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:56:44: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:44 - 56:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:57:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>57:13 - 57:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:57:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>57:13 - 57:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:57:13: UnexposedExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>57:13 - 57:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:57:13: DeclRefExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 (Reference) <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>57:13 - 57:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:57:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:29 - 57:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:57:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>57:36 - 57:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:57:36: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>57:36 - 57:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:57:36: UnexposedExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>57:36 - 57:43<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:57:36: DeclRefExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 (Reference) <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>57:36 - 57:43<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:57:44: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:44 - 57:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:58:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>58:13 - 58:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:58:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>58:13 - 58:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:58:13: UnexposedExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>58:13 - 58:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:58:13: DeclRefExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 (Reference) <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>58:13 - 58:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:58:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>58:29 - 58:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:58:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>58:36 - 58:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:58:36: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>58:36 - 58:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:58:36: UnexposedExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>58:36 - 58:43<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:58:36: DeclRefExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 (Reference) <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>58:36 - 58:43<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:58:44: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>58:44 - 58:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:59:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>59:13 - 59:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:59:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>59:13 - 59:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:59:13: UnexposedExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>59:13 - 59:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:59:13: DeclRefExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 (Reference) <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>59:13 - 59:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:59:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>59:29 - 59:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:59:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>59:36 - 59:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:59:36: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>59:36 - 59:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:59:36: UnexposedExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>59:36 - 59:43<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:59:36: DeclRefExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 (Reference) <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>59:36 - 59:43<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:59:44: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>59:44 - 59:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:60:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>60:13 - 60:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:60:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>60:13 - 60:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:60:13: UnexposedExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>60:13 - 60:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:60:13: DeclRefExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 (Reference) <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>60:13 - 60:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:60:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>60:29 - 60:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:60:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>60:36 - 60:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:60:36: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>60:36 - 60:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:60:36: UnexposedExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>60:36 - 60:43<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:60:36: DeclRefExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 (Reference) <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>60:36 - 60:43<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:60:44: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>60:44 - 60:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:61:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>61:13 - 61:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:61:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>61:13 - 61:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:61:13: UnexposedExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>61:13 - 61:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:61:13: DeclRefExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 (Reference) <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>61:13 - 61:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:61:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>61:29 - 61:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:61:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>61:36 - 61:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:61:36: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>61:36 - 61:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:61:36: UnexposedExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>61:36 - 61:43<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:61:36: DeclRefExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 (Reference) <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>61:36 - 61:43<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:61:44: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>61:44 - 61:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:63:12: CallExpr=findStrPoint|D:\github\msp430\無線記錄器\main.cpp:519:6 <US>c:@F@findStrPoint#*C#S0_#C#I#<UE> <DS>void findStrPoint(char *, char *, char, int)<DE> Extent=<ES>63:12 - 63:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:63:12: UnexposedExpr=findStrPoint|D:\github\msp430\無線記錄器\main.cpp:519:6 <US>c:@F@findStrPoint#*C#S0_#C#I#<UE> <DS>void findStrPoint(char *, char *, char, int)<DE> Extent=<ES>63:12 - 63:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:63:12: DeclRefExpr=findStrPoint|D:\github\msp430\無線記錄器\main.cpp:519:6 (Reference) <US>c:@F@findStrPoint#*C#S0_#C#I#<UE> <DS>void findStrPoint(char *, char *, char, int)<DE> Extent=<ES>63:12 - 63:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:63:25: UnexposedExpr=tstr|D:\github\msp430\無線記錄器\main.cpp:50:32 <US>c:main.cpp@1753@F@get_hp_Gps_time#*C#@tstr<UE> <DS>char *<DE> Extent=<ES>63:25 - 63:29<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:63:25: DeclRefExpr=tstr|D:\github\msp430\無線記錄器\main.cpp:50:32 (Reference) <US>c:main.cpp@1753@F@get_hp_Gps_time#*C#@tstr<UE> <DS>char *<DE> Extent=<ES>63:25 - 63:29<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:63:30: UnexposedExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>63:30 - 63:37<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:63:30: DeclRefExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 (Reference) <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>63:30 - 63:37<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:63:38: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>63:38 - 63:41<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:63:42: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>63:42 - 63:44<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:65:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>65:13 - 65:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:65:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>65:13 - 65:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:65:13: UnexposedExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>65:13 - 65:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:65:13: DeclRefExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 (Reference) <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>65:13 - 65:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:65:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>65:29 - 65:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:65:35: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>65:35 - 65:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:65:35: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>65:35 - 65:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:65:35: UnexposedExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>65:35 - 65:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:65:35: DeclRefExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 (Reference) <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>65:35 - 65:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:65:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>65:43 - 65:44<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:66:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>66:13 - 66:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:66:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>66:13 - 66:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:66:13: UnexposedExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>66:13 - 66:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:66:13: DeclRefExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 (Reference) <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>66:13 - 66:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:66:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>66:29 - 66:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:66:35: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>66:35 - 66:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:66:35: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>66:35 - 66:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:66:35: UnexposedExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>66:35 - 66:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:66:35: DeclRefExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 (Reference) <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>66:35 - 66:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:66:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>66:43 - 66:44<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:67:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>67:13 - 67:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:67:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>67:13 - 67:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:67:13: UnexposedExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>67:13 - 67:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:67:13: DeclRefExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 (Reference) <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>67:13 - 67:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:67:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>67:29 - 67:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:67:35: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>67:35 - 67:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:67:35: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>67:35 - 67:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:67:35: UnexposedExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>67:35 - 67:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:67:35: DeclRefExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 (Reference) <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>67:35 - 67:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:67:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>67:43 - 67:44<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:68:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>68:13 - 68:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:68:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>68:13 - 68:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:68:13: UnexposedExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>68:13 - 68:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:68:13: DeclRefExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 (Reference) <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>68:13 - 68:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:68:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>68:29 - 68:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:68:35: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>68:35 - 68:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:68:35: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>68:35 - 68:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:68:35: UnexposedExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>68:35 - 68:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:68:35: DeclRefExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 (Reference) <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>68:35 - 68:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:68:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>68:43 - 68:44<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:69:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>69:13 - 69:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:69:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>69:13 - 69:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:69:13: UnexposedExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>69:13 - 69:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:69:13: DeclRefExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 (Reference) <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>69:13 - 69:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:69:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>69:29 - 69:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:69:35: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>69:35 - 69:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:69:35: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>69:35 - 69:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:69:35: UnexposedExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>69:35 - 69:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:69:35: DeclRefExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 (Reference) <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>69:35 - 69:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:69:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>69:43 - 69:44<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:70:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>70:13 - 70:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:70:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>70:13 - 70:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:70:13: UnexposedExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>70:13 - 70:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:70:13: DeclRefExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 (Reference) <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>70:13 - 70:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:70:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>70:29 - 70:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:70:35: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>70:35 - 70:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:70:35: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>70:35 - 70:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:70:35: UnexposedExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>70:35 - 70:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:70:35: DeclRefExpr=gpsinfo|D:\github\msp430\無線記錄器\main.cpp:51:9 (Reference) <US>c:main.cpp@1770@F@get_hp_Gps_time#*C#@gpsinfo<UE> <DS>gpsinfo<DE> Extent=<ES>70:35 - 70:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:70:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>70:43 - 70:44<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:72:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>72:13 - 72:52<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:72:13: DeclRefExpr=s1|D:\github\msp430\無線記錄器\main.cpp:52:13 (Reference) <US>c:main.cpp@1792@F@get_hp_Gps_time#*C#@s1<UE> <DS>s1<DE> Extent=<ES>72:13 - 72:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:72:18: CallExpr=ms_timestr2hptime|D:\github\msp430\無線記錄器\hp_time.h:38:10 <US>c:@F@ms_timestr2hptime#*C#<UE> <DS>hptime_t ms_timestr2hptime(char *)<DE> Extent=<ES>72:18 - 72:52<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:72:18: UnexposedExpr=ms_timestr2hptime|D:\github\msp430\無線記錄器\hp_time.h:38:10 <US>c:@F@ms_timestr2hptime#*C#<UE> <DS>hptime_t ms_timestr2hptime(char *)<DE> Extent=<ES>72:18 - 72:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:72:18: DeclRefExpr=ms_timestr2hptime|D:\github\msp430\無線記錄器\hp_time.h:38:10 (Reference) <US>c:@F@ms_timestr2hptime#*C#<UE> <DS>hptime_t ms_timestr2hptime(char *)<DE> Extent=<ES>72:18 - 72:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:72:36: UnexposedExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>72:36 - 72:51<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:72:36: DeclRefExpr=GPS_Time_String|D:\github\msp430\無線記錄器\main.cpp:42:6 (Reference) <US>c:@GPS_Time_String<UE> <DS>GPS_Time_String<DE> Extent=<ES>72:36 - 72:51<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:74:12: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>74:12 - 74:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:74:19: UnexposedExpr=s1|D:\github\msp430\無線記錄器\main.cpp:52:13 <US>c:main.cpp@1792@F@get_hp_Gps_time#*C#@s1<UE> <DS>s1<DE> Extent=<ES>74:19 - 74:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:74:19: DeclRefExpr=s1|D:\github\msp430\無線記錄器\main.cpp:52:13 (Reference) <US>c:main.cpp@1792@F@get_hp_Gps_time#*C#@s1<UE> <DS>s1<DE> Extent=<ES>74:19 - 74:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:79:6: VarDecl=COM2_Command|D:\github\msp430\無線記錄器\main.cpp:79:6 (Definition) <US>c:@COM2_Command<UE> <DS>COM2_Command<DE> Extent=<ES>79:1 - 79:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:79:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>79:19 - 79:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:80:6: VarDecl=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Definition) <US>c:@string<UE> <DS>string<DE> Extent=<ES>80:1 - 80:17<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:80:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>80:13 - 80:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:81:6: FunctionDecl=delay_ms|D:\github\msp430\無線記錄器\main.cpp:377:6 (Declaration) <US>c:@F@delay_ms#I#<UE> <DS>void delay_ms(int)<DE> Extent=<ES>81:1 - 81:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:81:19: ParmDecl=del|D:\github\msp430\無線記錄器\main.cpp:81:19 (Definition) <US>c:main.cpp@2876@F@delay_ms#I#@del<UE> <DS>int<DE> Extent=<ES>81:15 - 81:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:82:6: VarDecl=out_checksum|D:\github\msp430\無線記錄器\main.cpp:82:6 (Definition) <US>c:@out_checksum<UE> <DS>out_checksum<DE> Extent=<ES>82:1 - 82:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:82:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>82:21 - 82:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:82:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>82:21 - 82:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:84:15: VarDecl=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 (Definition) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>84:1 - 84:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:84:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>84:20 - 84:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:84:23: InitListExpr= <US><UE> <DS><DE> Extent=<ES>84:23 - 84:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:84:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>84:24 - 84:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:84:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>84:24 - 84:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:85:6: VarDecl=ADS1222_Interrupt_Flag|D:\github\msp430\無線記錄器\main.cpp:85:6 (Definition) <US>c:@ADS1222_Interrupt_Flag<UE> <DS>ADS1222_Interrupt_Flag<DE> Extent=<ES>85:1 - 85:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:85:31: CXXBoolLiteralExpr= <US><UE> <DS><DE> Extent=<ES>85:31 - 85:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:86:9: FunctionDecl=ADS1222Init|D:\github\msp430\無線記錄器\main.cpp:261:6 (Declaration) <US>c:@F@ADS1222Init#<UE> <DS>void ADS1222Init(void)<DE> Extent=<ES>86:4 - 86:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:87:9: FunctionDecl=ADS1222_STANDBY_MODE|D:\github\msp430\無線記錄器\main.cpp:342:6 (Declaration) <US>c:@F@ADS1222_STANDBY_MODE#<UE> <DS>void ADS1222_STANDBY_MODE(void)<DE> Extent=<ES>87:4 - 87:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:88:9: FunctionDecl=ADS1222_SELF_CALIBRATION|D:\github\msp430\無線記錄器\main.cpp:306:5 (Declaration) <US>c:@F@ADS1222_SELF_CALIBRATION#<UE> <DS>int ADS1222_SELF_CALIBRATION(void)<DE> Extent=<ES>88:5 - 88:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:89:26: VarDecl=First_Data|D:\github\msp430\無線記錄器\main.cpp:89:26 (Definition) <US>c:@First_Data<UE> <DS>First_Data<DE> Extent=<ES>89:22 - 89:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:89:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>89:39 - 89:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:90:26: VarDecl=DRDY_ready|D:\github\msp430\無線記錄器\main.cpp:90:26 (Definition) <US>c:@DRDY_ready<UE> <DS>DRDY_ready<DE> Extent=<ES>90:22 - 90:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:90:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>90:39 - 90:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:91:26: VarDecl=BITN|D:\github\msp430\無線記錄器\main.cpp:91:26 (Definition) <US>c:@BITN<UE> <DS>BITN<DE> Extent=<ES>91:22 - 91:93<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:91:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>91:31 - 91:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:91:36: InitListExpr= <US><UE> <DS><DE> Extent=<ES>91:36 - 91:93<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:91:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>91:37 - 91:43<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:91:44: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>91:44 - 91:50<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:91:51: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>91:51 - 91:57<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:91:58: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>91:58 - 91:64<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:91:65: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>91:65 - 91:71<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:91:72: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>91:72 - 91:78<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:91:79: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>91:79 - 91:85<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:91:86: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>91:86 - 91:92<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:100:5: VarDecl=GPS_count|D:\github\msp430\無線記錄器\main.cpp:100:5 (Definition) <US>c:@GPS_count<UE> <DS>GPS_count<DE> Extent=<ES>100:1 - 100:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:100:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>100:17 - 100:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:102:6: FunctionDecl=main|D:\github\msp430\無線記錄器\main.cpp:102:6 (Definition) <US>c:@F@main<UE> <DS>void main(void)<DE> Extent=<ES>102:1 - 193:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:103:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>103:1 - 193:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:124:4: CallExpr=Crystal_Init|D:\github\msp430\無線記錄器\main.cpp:227:6 <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>124:4 - 124:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:124:4: UnexposedExpr=Crystal_Init|D:\github\msp430\無線記錄器\main.cpp:227:6 <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>124:4 - 124:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:124:4: DeclRefExpr=Crystal_Init|D:\github\msp430\無線記錄器\main.cpp:227:6 (Reference) <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>124:4 - 124:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:125:4: CallExpr=UART_Init|D:\github\msp430\無線記錄器\main.cpp:383:6 <US>c:@F@UART_Init#C#<UE> <DS>void UART_Init(char)<DE> Extent=<ES>125:4 - 125:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:125:4: UnexposedExpr=UART_Init|D:\github\msp430\無線記錄器\main.cpp:383:6 <US>c:@F@UART_Init#C#<UE> <DS>void UART_Init(char)<DE> Extent=<ES>125:4 - 125:13<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:125:4: DeclRefExpr=UART_Init|D:\github\msp430\無線記錄器\main.cpp:383:6 (Reference) <US>c:@F@UART_Init#C#<UE> <DS>void UART_Init(char)<DE> Extent=<ES>125:4 - 125:13<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:125:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>125:14 - 125:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:125:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>125:14 - 125:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:125:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>125:14 - 125:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:125:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>125:19 - 125:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:126:4: CallExpr=ADS1222Init|D:\github\msp430\無線記錄器\main.cpp:261:6 <US>c:@F@ADS1222Init#<UE> <DS>void ADS1222Init(void)<DE> Extent=<ES>126:4 - 126:17<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:126:4: UnexposedExpr=ADS1222Init|D:\github\msp430\無線記錄器\main.cpp:261:6 <US>c:@F@ADS1222Init#<UE> <DS>void ADS1222Init(void)<DE> Extent=<ES>126:4 - 126:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:126:4: DeclRefExpr=ADS1222Init|D:\github\msp430\無線記錄器\main.cpp:261:6 (Reference) <US>c:@F@ADS1222Init#<UE> <DS>void ADS1222Init(void)<DE> Extent=<ES>126:4 - 126:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:128:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>128:3 - 128:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:128:19: VarDecl=nowTime|D:\github\msp430\無線記錄器\main.cpp:128:19 (Definition) <US>c:main.cpp@4538@F@main@nowTime<UE> <DS>nowTime<DE> Extent=<ES>128:3 - 128:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:128:10: TypeRef=hptime_t|D:\github\msp430\無線記錄器\hp_time.h:5:26 (Reference) <US>c:hp_time.h@66@T@hptime_t<UE> <DS>long long<DE> Extent=<ES>128:10 - 128:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:132:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>132:5 - 132:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:132:5: DeclRefExpr=nowTime|D:\github\msp430\無線記錄器\main.cpp:128:19 (Reference) <US>c:main.cpp@4538@F@main@nowTime<UE> <DS>nowTime<DE> Extent=<ES>132:5 - 132:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:132:15: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>132:15 - 132:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:132:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>132:15 - 132:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:133:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>133:3 - 187:4<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:133:9: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>133:9 - 133:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:133:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>133:9 - 133:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:133:11: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>133:11 - 187:4<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:134:12: CallExpr=__bis_SR_register|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>134:12 - 134:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:134:12: UnexposedExpr=__bis_SR_register|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>134:12 - 134:29<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:134:12: DeclRefExpr=__bis_SR_register|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 (Reference) <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>134:12 - 134:29<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:134:30: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>134:30 - 134:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:134:30: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>134:30 - 134:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:134:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>134:30 - 134:39<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:134:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>134:30 - 134:39<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:134:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>134:30 - 134:39<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:134:42: ParenExpr= <US><UE> <DS><DE> Extent=<ES>134:42 - 134:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:134:42: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>134:42 - 134:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:137:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>137:6 - 137:17<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:137:6: DeclRefExpr=nowTime|D:\github\msp430\無線記錄器\main.cpp:128:19 (Reference) <US>c:main.cpp@4538@F@main@nowTime<UE> <DS>nowTime<DE> Extent=<ES>137:6 - 137:13<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:137:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>137:16 - 137:17<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:137:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>137:16 - 137:17<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:138:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>138:6 - 138:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:138:6: DeclRefExpr=nowTime|D:\github\msp430\無線記錄器\main.cpp:128:19 (Reference) <US>c:main.cpp@4538@F@main@nowTime<UE> <DS>nowTime<DE> Extent=<ES>138:6 - 138:13<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:138:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>138:19 - 138:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:138:19: UnexposedExpr=sysTime|D:\github\msp430\無線記錄器\main.cpp:34:17 <US>c:main.cpp@1413@sysTime<UE> <DS>sysTime<DE> Extent=<ES>138:19 - 138:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:138:19: DeclRefExpr=sysTime|D:\github\msp430\無線記錄器\main.cpp:34:17 (Reference) <US>c:main.cpp@1413@sysTime<UE> <DS>sysTime<DE> Extent=<ES>138:19 - 138:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:138:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>138:27 - 138:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:138:27: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>138:27 - 138:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:138:27: UnexposedExpr=CloCk_10KHz|D:\github\msp430\無線記錄器\main.cpp:44:10 <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>138:27 - 138:38<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:138:27: DeclRefExpr=CloCk_10KHz|D:\github\msp430\無線記錄器\main.cpp:44:10 (Reference) <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>138:27 - 138:38<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:138:39: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>138:39 - 138:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:138:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>138:39 - 138:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:140:6: ForStmt= <US><UE> <DS><DE> Extent=<ES>140:6 - 140:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:140:10: DeclStmt= <US><UE> <DS><DE> Extent=<ES>140:10 - 140:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:140:14: VarDecl=d1elAy|D:\github\msp430\無線記錄器\main.cpp:140:14 (Definition) <US>c:main.cpp@4972@F@main@d1elAy<UE> <DS>d1elAy<DE> Extent=<ES>140:10 - 140:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:140:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>140:21 - 140:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:140:23: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>140:23 - 140:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:140:23: UnexposedExpr=d1elAy|D:\github\msp430\無線記錄器\main.cpp:140:14 <US>c:main.cpp@4972@F@main@d1elAy<UE> <DS>d1elAy<DE> Extent=<ES>140:23 - 140:29<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:140:23: DeclRefExpr=d1elAy|D:\github\msp430\無線記錄器\main.cpp:140:14 (Reference) <US>c:main.cpp@4972@F@main@d1elAy<UE> <DS>d1elAy<DE> Extent=<ES>140:23 - 140:29<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:140:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>140:30 - 140:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:140:35: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>140:35 - 140:43<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:140:35: DeclRefExpr=d1elAy|D:\github\msp430\無線記錄器\main.cpp:140:14 (Reference) <US>c:main.cpp@4972@F@main@d1elAy<UE> <DS>d1elAy<DE> Extent=<ES>140:35 - 140:41<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:140:44: NullStmt= <US><UE> <DS><DE> Extent=<ES>140:44 - 140:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:142:17: IfStmt= <US><UE> <DS><DE> Extent=<ES>142:17 - 143:48<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:142:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>142:20 - 142:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:142:20: UnexposedExpr=First_Data|D:\github\msp430\無線記錄器\main.cpp:89:26 <US>c:@First_Data<UE> <DS>First_Data<DE> Extent=<ES>142:20 - 142:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:142:20: DeclRefExpr=First_Data|D:\github\msp430\無線記錄器\main.cpp:89:26 (Reference) <US>c:@First_Data<UE> <DS>First_Data<DE> Extent=<ES>142:20 - 142:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:142:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>142:33 - 142:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:142:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>142:35 - 142:79<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:142:37: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>142:37 - 142:77<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:142:37: DeclRefExpr=First_Data|D:\github\msp430\無線記錄器\main.cpp:89:26 (Reference) <US>c:@First_Data<UE> <DS>First_Data<DE> Extent=<ES>142:37 - 142:47<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:142:51: CallExpr=ADS1222_SELF_CALIBRATION|D:\github\msp430\無線記錄器\main.cpp:306:5 <US>c:@F@ADS1222_SELF_CALIBRATION#<UE> <DS>int ADS1222_SELF_CALIBRATION(void)<DE> Extent=<ES>142:51 - 142:77<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:142:51: UnexposedExpr=ADS1222_SELF_CALIBRATION|D:\github\msp430\無線記錄器\main.cpp:306:5 <US>c:@F@ADS1222_SELF_CALIBRATION#<UE> <DS>int ADS1222_SELF_CALIBRATION(void)<DE> Extent=<ES>142:51 - 142:75<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:142:51: DeclRefExpr=ADS1222_SELF_CALIBRATION|D:\github\msp430\無線記錄器\main.cpp:306:5 (Reference) <US>c:@F@ADS1222_SELF_CALIBRATION#<UE> <DS>int ADS1222_SELF_CALIBRATION(void)<DE> Extent=<ES>142:51 - 142:75<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:143:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>143:21 - 143:48<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:143:23: CallExpr=ADS1222_STANDBY_MODE|D:\github\msp430\無線記錄器\main.cpp:342:6 <US>c:@F@ADS1222_STANDBY_MODE#<UE> <DS>void ADS1222_STANDBY_MODE(void)<DE> Extent=<ES>143:23 - 143:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:143:23: UnexposedExpr=ADS1222_STANDBY_MODE|D:\github\msp430\無線記錄器\main.cpp:342:6 <US>c:@F@ADS1222_STANDBY_MODE#<UE> <DS>void ADS1222_STANDBY_MODE(void)<DE> Extent=<ES>143:23 - 143:43<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:143:23: DeclRefExpr=ADS1222_STANDBY_MODE|D:\github\msp430\無線記錄器\main.cpp:342:6 (Reference) <US>c:@F@ADS1222_STANDBY_MODE#<UE> <DS>void ADS1222_STANDBY_MODE(void)<DE> Extent=<ES>143:23 - 143:43<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:147:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>147:6 - 147:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:147:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>147:6 - 147:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:147:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>147:6 - 147:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:147:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>147:6 - 147:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:147:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>147:13 - 147:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:147:18: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>147:18 - 147:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:148:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>148:6 - 148:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:148:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>148:6 - 148:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:148:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>148:6 - 148:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:148:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>148:6 - 148:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:148:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>148:13 - 148:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:148:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>148:18 - 148:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:148:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>148:18 - 148:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:148:18: ParenExpr= <US><UE> <DS><DE> Extent=<ES>148:18 - 148:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:148:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>148:19 - 148:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:148:19: UnexposedExpr=nowTime|D:\github\msp430\無線記錄器\main.cpp:128:19 <US>c:main.cpp@4538@F@main@nowTime<UE> <DS>nowTime<DE> Extent=<ES>148:19 - 148:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:148:19: DeclRefExpr=nowTime|D:\github\msp430\無線記錄器\main.cpp:128:19 (Reference) <US>c:main.cpp@4538@F@main@nowTime<UE> <DS>nowTime<DE> Extent=<ES>148:19 - 148:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:148:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>148:28 - 148:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:148:32: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>148:32 - 148:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:148:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>148:32 - 148:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:149:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>149:6 - 149:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:149:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>149:6 - 149:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:149:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>149:6 - 149:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:149:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>149:6 - 149:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:149:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>149:13 - 149:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:149:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>149:18 - 149:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:149:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>149:18 - 149:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:149:18: ParenExpr= <US><UE> <DS><DE> Extent=<ES>149:18 - 149:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:149:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>149:19 - 149:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:149:19: UnexposedExpr=nowTime|D:\github\msp430\無線記錄器\main.cpp:128:19 <US>c:main.cpp@4538@F@main@nowTime<UE> <DS>nowTime<DE> Extent=<ES>149:19 - 149:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:149:19: DeclRefExpr=nowTime|D:\github\msp430\無線記錄器\main.cpp:128:19 (Reference) <US>c:main.cpp@4538@F@main@nowTime<UE> <DS>nowTime<DE> Extent=<ES>149:19 - 149:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:149:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>149:28 - 149:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:149:32: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>149:32 - 149:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:149:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>149:32 - 149:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:150:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>150:6 - 150:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:150:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>150:6 - 150:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:150:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>150:6 - 150:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:150:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>150:6 - 150:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:150:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>150:13 - 150:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:150:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>150:18 - 150:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:150:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>150:18 - 150:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:150:18: ParenExpr= <US><UE> <DS><DE> Extent=<ES>150:18 - 150:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:150:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>150:19 - 150:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:150:19: UnexposedExpr=nowTime|D:\github\msp430\無線記錄器\main.cpp:128:19 <US>c:main.cpp@4538@F@main@nowTime<UE> <DS>nowTime<DE> Extent=<ES>150:19 - 150:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:150:19: DeclRefExpr=nowTime|D:\github\msp430\無線記錄器\main.cpp:128:19 (Reference) <US>c:main.cpp@4538@F@main@nowTime<UE> <DS>nowTime<DE> Extent=<ES>150:19 - 150:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:150:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>150:28 - 150:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:150:32: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>150:32 - 150:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:150:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>150:32 - 150:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:151:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>151:6 - 151:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:151:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>151:6 - 151:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:151:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>151:6 - 151:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:151:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>151:6 - 151:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:151:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>151:13 - 151:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:151:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>151:18 - 151:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:151:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>151:18 - 151:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:151:18: ParenExpr= <US><UE> <DS><DE> Extent=<ES>151:18 - 151:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:151:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>151:19 - 151:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:151:19: UnexposedExpr=nowTime|D:\github\msp430\無線記錄器\main.cpp:128:19 <US>c:main.cpp@4538@F@main@nowTime<UE> <DS>nowTime<DE> Extent=<ES>151:19 - 151:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:151:19: DeclRefExpr=nowTime|D:\github\msp430\無線記錄器\main.cpp:128:19 (Reference) <US>c:main.cpp@4538@F@main@nowTime<UE> <DS>nowTime<DE> Extent=<ES>151:19 - 151:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:151:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>151:28 - 151:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:151:32: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>151:32 - 151:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:151:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>151:32 - 151:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:152:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>152:6 - 152:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:152:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>152:6 - 152:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:152:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>152:6 - 152:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:152:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>152:6 - 152:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:152:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>152:13 - 152:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:152:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>152:18 - 152:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:152:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>152:18 - 152:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:152:18: ParenExpr= <US><UE> <DS><DE> Extent=<ES>152:18 - 152:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:152:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>152:19 - 152:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:152:19: UnexposedExpr=nowTime|D:\github\msp430\無線記錄器\main.cpp:128:19 <US>c:main.cpp@4538@F@main@nowTime<UE> <DS>nowTime<DE> Extent=<ES>152:19 - 152:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:152:19: DeclRefExpr=nowTime|D:\github\msp430\無線記錄器\main.cpp:128:19 (Reference) <US>c:main.cpp@4538@F@main@nowTime<UE> <DS>nowTime<DE> Extent=<ES>152:19 - 152:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:152:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>152:28 - 152:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:152:32: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>152:32 - 152:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:152:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>152:32 - 152:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:153:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>153:6 - 153:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:153:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>153:6 - 153:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:153:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>153:6 - 153:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:153:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>153:6 - 153:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:153:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>153:13 - 153:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:153:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>153:18 - 153:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:153:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>153:18 - 153:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:153:18: ParenExpr= <US><UE> <DS><DE> Extent=<ES>153:18 - 153:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:153:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>153:19 - 153:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:153:19: UnexposedExpr=nowTime|D:\github\msp430\無線記錄器\main.cpp:128:19 <US>c:main.cpp@4538@F@main@nowTime<UE> <DS>nowTime<DE> Extent=<ES>153:19 - 153:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:153:19: DeclRefExpr=nowTime|D:\github\msp430\無線記錄器\main.cpp:128:19 (Reference) <US>c:main.cpp@4538@F@main@nowTime<UE> <DS>nowTime<DE> Extent=<ES>153:19 - 153:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:153:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>153:28 - 153:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:153:32: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>153:32 - 153:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:153:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>153:32 - 153:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:154:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>154:6 - 154:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:154:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>154:6 - 154:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:154:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>154:6 - 154:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:154:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>154:6 - 154:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:154:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>154:13 - 154:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:154:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>154:18 - 154:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:154:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>154:18 - 154:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:154:18: ParenExpr= <US><UE> <DS><DE> Extent=<ES>154:18 - 154:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:154:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>154:19 - 154:29<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:154:19: UnexposedExpr=nowTime|D:\github\msp430\無線記錄器\main.cpp:128:19 <US>c:main.cpp@4538@F@main@nowTime<UE> <DS>nowTime<DE> Extent=<ES>154:19 - 154:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:154:19: DeclRefExpr=nowTime|D:\github\msp430\無線記錄器\main.cpp:128:19 (Reference) <US>c:main.cpp@4538@F@main@nowTime<UE> <DS>nowTime<DE> Extent=<ES>154:19 - 154:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:154:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>154:28 - 154:29<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:154:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>154:31 - 154:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:154:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>154:31 - 154:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:155:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>155:6 - 155:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:155:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>155:6 - 155:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:155:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>155:6 - 155:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:155:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>155:6 - 155:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:155:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>155:13 - 155:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:155:19: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>155:19 - 155:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:155:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>155:19 - 155:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:155:19: UnexposedExpr=nowTime|D:\github\msp430\無線記錄器\main.cpp:128:19 <US>c:main.cpp@4538@F@main@nowTime<UE> <DS>nowTime<DE> Extent=<ES>155:19 - 155:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:155:19: DeclRefExpr=nowTime|D:\github\msp430\無線記錄器\main.cpp:128:19 (Reference) <US>c:main.cpp@4538@F@main@nowTime<UE> <DS>nowTime<DE> Extent=<ES>155:19 - 155:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:155:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>155:29 - 155:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:155:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>155:29 - 155:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:156:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>156:6 - 156:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:156:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>156:6 - 156:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:156:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>156:6 - 156:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:156:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>156:6 - 156:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:156:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>156:13 - 156:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:156:19: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>156:19 - 156:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:156:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>156:19 - 156:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:156:19: ParenExpr= <US><UE> <DS><DE> Extent=<ES>156:19 - 156:38<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:156:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>156:20 - 156:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:156:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>156:20 - 156:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:156:20: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>156:20 - 156:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:156:20: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>156:20 - 156:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:156:20: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>156:20 - 156:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:156:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>156:25 - 156:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:156:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>156:34 - 156:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:156:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>156:41 - 156:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:156:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>156:41 - 156:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:157:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>157:6 - 157:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:157:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>157:6 - 157:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:157:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>157:6 - 157:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:157:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>157:6 - 157:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:157:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>157:13 - 157:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:157:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>157:20 - 157:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:157:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>157:20 - 157:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:157:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>157:20 - 157:38<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:157:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>157:21 - 157:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:157:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>157:21 - 157:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:157:21: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>157:21 - 157:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:157:21: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>157:21 - 157:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:157:21: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>157:21 - 157:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:157:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>157:26 - 157:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:157:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>157:35 - 157:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:157:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>157:41 - 157:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:157:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>157:41 - 157:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:158:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>158:6 - 158:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:158:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>158:6 - 158:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:158:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>158:6 - 158:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:158:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>158:6 - 158:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:158:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>158:13 - 158:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:158:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>158:20 - 158:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:158:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>158:20 - 158:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:158:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>158:20 - 158:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:158:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>158:20 - 158:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:158:21: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>158:21 - 158:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:158:21: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>158:21 - 158:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:158:21: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>158:21 - 158:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:158:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>158:26 - 158:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:158:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>158:36 - 158:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:158:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>158:36 - 158:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:159:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>159:6 - 159:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:159:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>159:6 - 159:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:159:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>159:6 - 159:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:159:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>159:6 - 159:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:159:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>159:13 - 159:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:159:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>159:20 - 159:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:159:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>159:20 - 159:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:159:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>159:20 - 159:39<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:159:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>159:21 - 159:37<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:159:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>159:21 - 159:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:159:21: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>159:21 - 159:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:159:21: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>159:21 - 159:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:159:21: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>159:21 - 159:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:159:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>159:26 - 159:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:159:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>159:35 - 159:37<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:159:42: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>159:42 - 159:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:159:42: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>159:42 - 159:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:160:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>160:6 - 160:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:160:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>160:6 - 160:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:160:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>160:6 - 160:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:160:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>160:6 - 160:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:160:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>160:13 - 160:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:160:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>160:20 - 160:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:160:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>160:20 - 160:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:160:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>160:20 - 160:38<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:160:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>160:21 - 160:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:160:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>160:21 - 160:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:160:21: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>160:21 - 160:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:160:21: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>160:21 - 160:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:160:21: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>160:21 - 160:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:160:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>160:26 - 160:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:160:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>160:35 - 160:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:160:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>160:41 - 160:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:160:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>160:41 - 160:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:161:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>161:6 - 161:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:161:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>161:6 - 161:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:161:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>161:6 - 161:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:161:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>161:6 - 161:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:161:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>161:13 - 161:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:161:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>161:20 - 161:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:161:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>161:20 - 161:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:161:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>161:20 - 161:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:161:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>161:20 - 161:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:161:21: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>161:21 - 161:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:161:21: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>161:21 - 161:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:161:21: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>161:21 - 161:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:161:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>161:26 - 161:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:161:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>161:36 - 161:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:161:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>161:36 - 161:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:162:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>162:6 - 162:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:162:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>162:6 - 162:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:162:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>162:6 - 162:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:162:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>162:6 - 162:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:162:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>162:13 - 162:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:162:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>162:20 - 162:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:162:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>162:20 - 162:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:162:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>162:20 - 162:39<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:162:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>162:21 - 162:37<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:162:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>162:21 - 162:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:162:21: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>162:21 - 162:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:162:21: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>162:21 - 162:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:162:21: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>162:21 - 162:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:162:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>162:26 - 162:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:162:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>162:35 - 162:37<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:162:42: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>162:42 - 162:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:162:42: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>162:42 - 162:46<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:163:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>163:6 - 163:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:163:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>163:6 - 163:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:163:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>163:6 - 163:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:163:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>163:6 - 163:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:163:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>163:13 - 163:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:163:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>163:20 - 163:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:163:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>163:20 - 163:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:163:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>163:20 - 163:38<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:163:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>163:21 - 163:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:163:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>163:21 - 163:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:163:21: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>163:21 - 163:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:163:21: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>163:21 - 163:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:163:21: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>163:21 - 163:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:163:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>163:26 - 163:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:163:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>163:35 - 163:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:163:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>163:41 - 163:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:163:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>163:41 - 163:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:164:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>164:6 - 164:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:164:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>164:6 - 164:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:164:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>164:6 - 164:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:164:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>164:6 - 164:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:164:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>164:13 - 164:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:164:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>164:20 - 164:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:164:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>164:20 - 164:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:164:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>164:20 - 164:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:164:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>164:20 - 164:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:164:21: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>164:21 - 164:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:164:21: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>164:21 - 164:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:164:21: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>164:21 - 164:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:164:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>164:26 - 164:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:164:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>164:36 - 164:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:164:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>164:36 - 164:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:165:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>165:6 - 165:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:165:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>165:6 - 165:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:165:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>165:6 - 165:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:165:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>165:6 - 165:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:165:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>165:13 - 165:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:165:20: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>165:20 - 165:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:168:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>168:7 - 168:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:168:7: DeclRefExpr=out_checksum|D:\github\msp430\無線記錄器\main.cpp:82:6 (Reference) <US>c:@out_checksum<UE> <DS>out_checksum<DE> Extent=<ES>168:7 - 168:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:168:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>168:22 - 168:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:168:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>168:22 - 168:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:169:13: ForStmt= <US><UE> <DS><DE> Extent=<ES>169:13 - 171:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:169:17: DeclStmt= <US><UE> <DS><DE> Extent=<ES>169:17 - 169:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:169:21: VarDecl=c|D:\github\msp430\無線記錄器\main.cpp:169:21 (Definition) <US>c:main.cpp@6131@F@main@c<UE> <DS>c<DE> Extent=<ES>169:17 - 169:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:169:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>169:23 - 169:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:169:25: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>169:25 - 169:29<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:169:25: UnexposedExpr=c|D:\github\msp430\無線記錄器\main.cpp:169:21 <US>c:main.cpp@6131@F@main@c<UE> <DS>c<DE> Extent=<ES>169:25 - 169:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:169:25: DeclRefExpr=c|D:\github\msp430\無線記錄器\main.cpp:169:21 (Reference) <US>c:main.cpp@6131@F@main@c<UE> <DS>c<DE> Extent=<ES>169:25 - 169:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:169:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>169:27 - 169:29<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:169:30: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>169:30 - 169:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:169:30: DeclRefExpr=c|D:\github\msp430\無線記錄器\main.cpp:169:21 (Reference) <US>c:main.cpp@6131@F@main@c<UE> <DS>c<DE> Extent=<ES>169:30 - 169:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:169:34: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>169:34 - 171:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:170:15: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>170:15 - 170:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:170:15: DeclRefExpr=out_checksum|D:\github\msp430\無線記錄器\main.cpp:82:6 (Reference) <US>c:@out_checksum<UE> <DS>out_checksum<DE> Extent=<ES>170:15 - 170:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:170:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>170:31 - 170:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:170:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>170:31 - 170:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:170:31: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>170:31 - 170:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:170:31: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>170:31 - 170:37<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:170:31: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>170:31 - 170:37<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:170:38: UnexposedExpr=c|D:\github\msp430\無線記錄器\main.cpp:169:21 <US>c:main.cpp@6131@F@main@c<UE> <DS>c<DE> Extent=<ES>170:38 - 170:39<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:170:38: DeclRefExpr=c|D:\github\msp430\無線記錄器\main.cpp:169:21 (Reference) <US>c:main.cpp@6131@F@main@c<UE> <DS>c<DE> Extent=<ES>170:38 - 170:39<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:173:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>173:6 - 173:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:173:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>173:6 - 173:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:173:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>173:6 - 173:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:173:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>173:6 - 173:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:173:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>173:13 - 173:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:173:20: UnexposedExpr=out_checksum|D:\github\msp430\無線記錄器\main.cpp:82:6 <US>c:@out_checksum<UE> <DS>out_checksum<DE> Extent=<ES>173:20 - 173:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:173:20: DeclRefExpr=out_checksum|D:\github\msp430\無線記錄器\main.cpp:82:6 (Reference) <US>c:@out_checksum<UE> <DS>out_checksum<DE> Extent=<ES>173:20 - 173:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:174:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>174:6 - 174:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:174:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>174:6 - 174:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:174:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>174:6 - 174:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:174:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>174:6 - 174:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:174:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>174:13 - 174:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:174:20: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>174:20 - 174:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:180:7: CallExpr=RS232_Send_Char|D:\github\msp430\無線記錄器\main.cpp:510:6 <US>c:@F@RS232_Send_Char#*C#I#C#<UE> <DS>void RS232_Send_Char(char *, int, char)<DE> Extent=<ES>180:7 - 180:38<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:180:7: UnexposedExpr=RS232_Send_Char|D:\github\msp430\無線記錄器\main.cpp:510:6 <US>c:@F@RS232_Send_Char#*C#I#C#<UE> <DS>void RS232_Send_Char(char *, int, char)<DE> Extent=<ES>180:7 - 180:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:180:7: DeclRefExpr=RS232_Send_Char|D:\github\msp430\無線記錄器\main.cpp:510:6 (Reference) <US>c:@F@RS232_Send_Char#*C#I#C#<UE> <DS>void RS232_Send_Char(char *, int, char)<DE> Extent=<ES>180:7 - 180:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:180:23: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>180:23 - 180:29<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:180:23: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>180:23 - 180:29<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:180:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>180:30 - 180:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:180:33: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>180:33 - 180:37<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:180:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>180:33 - 180:37<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:181:7: CallExpr=memset|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:31:42 <US>c:@F@memset<UE> <DS>void * memset(void *, int, size_t)<DE> Extent=<ES>181:7 - 181:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:181:7: UnexposedExpr=memset|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:31:42 <US>c:@F@memset<UE> <DS>void * memset(void *, int, size_t)<DE> Extent=<ES>181:7 - 181:13<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:181:7: DeclRefExpr=memset|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:31:42 (Reference) <US>c:@F@memset<UE> <DS>void * memset(void *, int, size_t)<DE> Extent=<ES>181:7 - 181:13<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:181:14: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>181:14 - 181:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:181:14: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>181:14 - 181:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:181:14: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:80:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>181:14 - 181:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:181:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>181:21 - 181:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:181:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>181:23 - 181:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:181:23: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>181:23 - 181:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:181:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>181:23 - 181:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:181:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>181:26 - 181:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:183:16: IfStmt= <US><UE> <DS><DE> Extent=<ES>183:16 - 186:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:183:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>183:19 - 183:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:183:19: UnexposedExpr=sysTime_flag|D:\github\msp430\無線記錄器\main.cpp:35:13 <US>c:main.cpp@1488@sysTime_flag<UE> <DS>sysTime_flag<DE> Extent=<ES>183:19 - 183:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:183:19: DeclRefExpr=sysTime_flag|D:\github\msp430\無線記錄器\main.cpp:35:13 (Reference) <US>c:main.cpp@1488@sysTime_flag<UE> <DS>sysTime_flag<DE> Extent=<ES>183:19 - 183:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:183:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>183:35 - 183:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:183:37: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>183:37 - 186:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:184:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>184:20 - 184:65<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:184:20: DeclRefExpr=sysTime_Buffer|D:\github\msp430\無線記錄器\main.cpp:34:25 (Reference) <US>c:main.cpp@1413@sysTime_Buffer<UE> <DS>sysTime_Buffer<DE> Extent=<ES>184:20 - 184:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:184:37: CallExpr=get_hp_Gps_time|D:\github\msp430\無線記錄器\main.cpp:50:10 <US>c:@F@get_hp_Gps_time#*C#<UE> <DS>hptime_t get_hp_Gps_time(char *)<DE> Extent=<ES>184:37 - 184:65<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:184:37: UnexposedExpr=get_hp_Gps_time|D:\github\msp430\無線記錄器\main.cpp:50:10 <US>c:@F@get_hp_Gps_time#*C#<UE> <DS>hptime_t get_hp_Gps_time(char *)<DE> Extent=<ES>184:37 - 184:52<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:184:37: DeclRefExpr=get_hp_Gps_time|D:\github\msp430\無線記錄器\main.cpp:50:10 (Reference) <US>c:@F@get_hp_Gps_time#*C#<UE> <DS>hptime_t get_hp_Gps_time(char *)<DE> Extent=<ES>184:37 - 184:52<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:184:53: UnexposedExpr=COM1_BUFFER|D:\github\msp430\無線記錄器\main.cpp:30:6 <US>c:@COM1_BUFFER<UE> <DS>COM1_BUFFER<DE> Extent=<ES>184:53 - 184:64<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:184:53: DeclRefExpr=COM1_BUFFER|D:\github\msp430\無線記錄器\main.cpp:30:6 (Reference) <US>c:@COM1_BUFFER<UE> <DS>COM1_BUFFER<DE> Extent=<ES>184:53 - 184:64<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:185:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>185:20 - 185:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:185:20: DeclRefExpr=sysTime_flag|D:\github\msp430\無線記錄器\main.cpp:35:13 (Reference) <US>c:main.cpp@1488@sysTime_flag<UE> <DS>sysTime_flag<DE> Extent=<ES>185:20 - 185:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:185:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>185:35 - 185:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:197:18: FunctionDecl=P1ISR|D:\github\msp430\無線記錄器\main.cpp:197:18 (Definition) <US>c:@F@P1ISR#<UE> <DS>void P1ISR(void)<DE> Extent=<ES>197:13 - 211:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:198:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>198:1 - 211:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:201:6: IfStmt= <US><UE> <DS><DE> Extent=<ES>201:6 - 206:7<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:201:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>201:9 - 201:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:201:9: UnexposedExpr=sysTime_flag|D:\github\msp430\無線記錄器\main.cpp:35:13 <US>c:main.cpp@1488@sysTime_flag<UE> <DS>sysTime_flag<DE> Extent=<ES>201:9 - 201:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:201:9: DeclRefExpr=sysTime_flag|D:\github\msp430\無線記錄器\main.cpp:35:13 (Reference) <US>c:main.cpp@1488@sysTime_flag<UE> <DS>sysTime_flag<DE> Extent=<ES>201:9 - 201:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:201:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>201:25 - 201:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:201:27: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>201:27 - 206:7<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:203:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>203:9 - 203:41<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:203:9: DeclRefExpr=sysTime|D:\github\msp430\無線記錄器\main.cpp:34:17 (Reference) <US>c:main.cpp@1413@sysTime<UE> <DS>sysTime<DE> Extent=<ES>203:9 - 203:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:203:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>203:19 - 203:41<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:203:19: UnexposedExpr=sysTime_Buffer|D:\github\msp430\無線記錄器\main.cpp:34:25 <US>c:main.cpp@1413@sysTime_Buffer<UE> <DS>sysTime_Buffer<DE> Extent=<ES>203:19 - 203:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:203:19: DeclRefExpr=sysTime_Buffer|D:\github\msp430\無線記錄器\main.cpp:34:25 (Reference) <US>c:main.cpp@1413@sysTime_Buffer<UE> <DS>sysTime_Buffer<DE> Extent=<ES>203:19 - 203:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:203:34: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>203:34 - 203:41<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:203:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>203:34 - 203:41<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:204:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>204:9 - 204:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:204:9: DeclRefExpr=sysTime_flag|D:\github\msp430\無線記錄器\main.cpp:35:13 (Reference) <US>c:main.cpp@1488@sysTime_flag<UE> <DS>sysTime_flag<DE> Extent=<ES>204:9 - 204:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:204:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>204:24 - 204:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:205:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>205:9 - 205:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:205:9: DeclRefExpr=CloCk_10KHz|D:\github\msp430\無線記錄器\main.cpp:44:10 (Reference) <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>205:9 - 205:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:205:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>205:23 - 205:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:205:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>205:23 - 205:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:214:18: FunctionDecl=TIMER0_A0_ISR|D:\github\msp430\無線記錄器\main.cpp:214:18 (Definition) <US>c:@F@TIMER0_A0_ISR#<UE> <DS>void TIMER0_A0_ISR(void)<DE> Extent=<ES>214:13 - 223:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:215:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>215:1 - 223:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:216:3: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>216:3 - 216:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:216:3: DeclRefExpr=CloCk_10KHz|D:\github\msp430\無線記錄器\main.cpp:44:10 (Reference) <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>216:3 - 216:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:217:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>217:3 - 221:4<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:217:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>217:6 - 217:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:217:6: UnexposedExpr=CloCk_10KHz|D:\github\msp430\無線記錄器\main.cpp:44:10 <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>217:6 - 217:17<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:217:6: DeclRefExpr=CloCk_10KHz|D:\github\msp430\無線記錄器\main.cpp:44:10 (Reference) <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>217:6 - 217:17<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:217:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>217:18 - 217:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:217:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>217:18 - 217:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:217:24: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>217:24 - 221:4<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:218:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>218:5 - 218:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:218:5: DeclRefExpr=CloCk_10KHz|D:\github\msp430\無線記錄器\main.cpp:44:10 (Reference) <US>c:@CloCk_10KHz<UE> <DS>CloCk_10KHz<DE> Extent=<ES>218:5 - 218:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:218:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>218:17 - 218:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:218:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>218:17 - 218:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:219:6: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>219:6 - 219:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:219:6: DeclRefExpr=sysTime|D:\github\msp430\無線記錄器\main.cpp:34:17 (Reference) <US>c:main.cpp@1413@sysTime<UE> <DS>sysTime<DE> Extent=<ES>219:6 - 219:13<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:219:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>219:17 - 219:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:219:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>219:17 - 219:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:227:6: FunctionDecl=Crystal_Init|D:\github\msp430\無線記錄器\main.cpp:227:6 (Definition) <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>227:1 - 259:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:227:20: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>227:20 - 259:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:261:6: FunctionDecl=ADS1222Init|D:\github\msp430\無線記錄器\main.cpp:261:6 (Definition) <US>c:@F@ADS1222Init#<UE> <DS>void ADS1222Init(void)<DE> Extent=<ES>261:1 - 282:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:262:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>262:1 - 282:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:279:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>279:3 - 279:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:279:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>279:7 - 279:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:279:16: VarDecl=i|D:\github\msp430\無線記錄器\main.cpp:279:16 (Definition) <US>c:main.cpp@10404@F@ADS1222Init#@i<UE> <DS>i<DE> Extent=<ES>279:7 - 279:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:279:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>279:18 - 279:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:279:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>279:18 - 279:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:279:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>279:20 - 279:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:279:20: UnexposedExpr=i|D:\github\msp430\無線記錄器\main.cpp:279:16 <US>c:main.cpp@10404@F@ADS1222Init#@i<UE> <DS>i<DE> Extent=<ES>279:20 - 279:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:279:20: DeclRefExpr=i|D:\github\msp430\無線記錄器\main.cpp:279:16 (Reference) <US>c:main.cpp@10404@F@ADS1222Init#@i<UE> <DS>i<DE> Extent=<ES>279:20 - 279:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:279:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>279:22 - 279:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:279:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>279:22 - 279:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:279:29: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>279:29 - 279:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:279:29: DeclRefExpr=i|D:\github\msp430\無線記錄器\main.cpp:279:16 (Reference) <US>c:main.cpp@10404@F@ADS1222Init#@i<UE> <DS>i<DE> Extent=<ES>279:29 - 279:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:279:33: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>279:33 - 279:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:281:3: CallExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>281:3 - 281:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:281:3: UnexposedExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>281:3 - 281:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:281:3: DeclRefExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:38:20 (Reference) <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>281:3 - 281:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:286:18: FunctionDecl=P2ISR|D:\github\msp430\無線記錄器\main.cpp:286:18 (Definition) <US>c:@F@P2ISR#<UE> <DS>void P2ISR(void)<DE> Extent=<ES>286:13 - 304:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:287:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>287:1 - 304:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:293:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>293:3 - 295:4<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:293:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>293:6 - 293:41<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:293:6: UnexposedExpr=DRDY_ready|D:\github\msp430\無線記錄器\main.cpp:90:26 <US>c:@DRDY_ready<UE> <DS>DRDY_ready<DE> Extent=<ES>293:6 - 293:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:293:6: UnexposedExpr=DRDY_ready|D:\github\msp430\無線記錄器\main.cpp:90:26 <US>c:@DRDY_ready<UE> <DS>DRDY_ready<DE> Extent=<ES>293:6 - 293:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:293:6: DeclRefExpr=DRDY_ready|D:\github\msp430\無線記錄器\main.cpp:90:26 (Reference) <US>c:@DRDY_ready<UE> <DS>DRDY_ready<DE> Extent=<ES>293:6 - 293:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:293:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>293:20 - 293:41<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:293:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>293:21 - 293:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:293:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>293:21 - 293:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:293:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>293:21 - 293:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:293:21: ParenExpr= <US><UE> <DS><DE> Extent=<ES>293:21 - 293:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:24:6: FunctionDecl=Crystal_Init|D:\github\msp430\無線記錄器\main.cpp:127:6 (Declaration) <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>24:1 - 24:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:25:6: FunctionDecl=UART_Init|D:\github\msp430\無線記錄器\main.cpp:277:6 (Declaration) <US>c:@F@UART_Init#C#<UE> <DS>void UART_Init(char)<DE> Extent=<ES>25:1 - 25:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:25:21: ParmDecl=com|D:\github\msp430\無線記錄器\main.cpp:25:21 (Definition) <US>c:main.cpp@1147@F@UART_Init#C#@com<UE> <DS>char<DE> Extent=<ES>25:16 - 25:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:26:6: FunctionDecl=RS232_Send_Char|D:\github\msp430\無線記錄器\main.cpp:337:6 (Declaration) <US>c:@F@RS232_Send_Char#*C#I#C#<UE> <DS>void RS232_Send_Char(char *, int, char)<DE> Extent=<ES>26:1 - 26:51<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:26:28: ParmDecl=str|D:\github\msp430\無線記錄器\main.cpp:26:28 (Definition) <US>c:main.cpp@1180@F@RS232_Send_Char#*C#I#C#@str<UE> <DS>char *<DE> Extent=<ES>26:22 - 26:31<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:26:36: ParmDecl=count|D:\github\msp430\無線記錄器\main.cpp:26:36 (Definition) <US>c:main.cpp@1190@F@RS232_Send_Char#*C#I#C#@count<UE> <DS>int<DE> Extent=<ES>26:32 - 26:41<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:26:47: ParmDecl=com|D:\github\msp430\無線記錄器\main.cpp:26:47 (Definition) <US>c:main.cpp@1200@F@RS232_Send_Char#*C#I#C#@com<UE> <DS>char<DE> Extent=<ES>26:42 - 26:50<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:30:6: VarDecl=COM2_Command|D:\github\msp430\無線記錄器\main.cpp:30:6 (Definition) <US>c:@COM2_Command<UE> <DS>COM2_Command<DE> Extent=<ES>30:1 - 30:23<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:30:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>30:19 - 30:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:31:6: VarDecl=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Definition) <US>c:@string<UE> <DS>string<DE> Extent=<ES>31:1 - 31:17<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:31:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>31:13 - 31:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:32:6: FunctionDecl=delay_ms|D:\github\msp430\無線記錄器\main.cpp:271:6 (Declaration) <US>c:@F@delay_ms#I#<UE> <DS>void delay_ms(int)<DE> Extent=<ES>32:1 - 32:23<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:32:19: ParmDecl=del|D:\github\msp430\無線記錄器\main.cpp:32:19 (Definition) <US>c:main.cpp@1356@F@delay_ms#I#@del<UE> <DS>int<DE> Extent=<ES>32:15 - 32:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:33:6: VarDecl=out_checksum|D:\github\msp430\無線記錄器\main.cpp:33:6 (Definition) <US>c:@out_checksum<UE> <DS>out_checksum<DE> Extent=<ES>33:1 - 33:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:33:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>33:21 - 33:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:33:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>33:21 - 33:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:35:15: VarDecl=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 (Definition) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>35:1 - 35:26<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:35:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>35:20 - 35:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:35:23: InitListExpr= <US><UE> <DS><DE> Extent=<ES>35:23 - 35:26<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:35:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>35:24 - 35:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:35:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>35:24 - 35:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:36:6: VarDecl=ADS1222_Interrupt_Flag|D:\github\msp430\無線記錄器\main.cpp:36:6 (Definition) <US>c:@ADS1222_Interrupt_Flag<UE> <DS>ADS1222_Interrupt_Flag<DE> Extent=<ES>36:1 - 36:36<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:36:31: CXXBoolLiteralExpr= <US><UE> <DS><DE> Extent=<ES>36:31 - 36:36<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:37:9: FunctionDecl=ADS1222Init|D:\github\msp430\無線記錄器\main.cpp:155:6 (Declaration) <US>c:@F@ADS1222Init#<UE> <DS>void ADS1222Init(void)<DE> Extent=<ES>37:4 - 37:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:38:9: FunctionDecl=ADS1222_STANDBY_MODE|D:\github\msp430\無線記錄器\main.cpp:236:6 (Declaration) <US>c:@F@ADS1222_STANDBY_MODE#<UE> <DS>void ADS1222_STANDBY_MODE(void)<DE> Extent=<ES>38:4 - 38:31<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:39:9: FunctionDecl=ADS1222_SELF_CALIBRATION|D:\github\msp430\無線記錄器\main.cpp:200:5 (Declaration) <US>c:@F@ADS1222_SELF_CALIBRATION#<UE> <DS>int ADS1222_SELF_CALIBRATION(void)<DE> Extent=<ES>39:5 - 39:35<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:40:26: VarDecl=First_Data|D:\github\msp430\無線記錄器\main.cpp:40:26 (Definition) <US>c:@First_Data<UE> <DS>First_Data<DE> Extent=<ES>40:22 - 40:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:40:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>40:39 - 40:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:41:26: VarDecl=DRDY_ready|D:\github\msp430\無線記錄器\main.cpp:41:26 (Definition) <US>c:@DRDY_ready<UE> <DS>DRDY_ready<DE> Extent=<ES>41:22 - 41:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:41:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>41:39 - 41:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:42:26: VarDecl=BITN|D:\github\msp430\無線記錄器\main.cpp:42:26 (Definition) <US>c:@BITN<UE> <DS>BITN<DE> Extent=<ES>42:22 - 42:93<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:42:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:31 - 42:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:42:36: InitListExpr= <US><UE> <DS><DE> Extent=<ES>42:36 - 42:93<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:42:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:37 - 42:43<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:42:44: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:44 - 42:50<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:42:51: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:51 - 42:57<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:42:58: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:58 - 42:64<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:42:65: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:65 - 42:71<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:42:72: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:72 - 42:78<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:42:79: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:79 - 42:85<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:42:86: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:86 - 42:92<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:51:5: VarDecl=GPS_count|D:\github\msp430\無線記錄器\main.cpp:51:5 (Definition) <US>c:@GPS_count<UE> <DS>GPS_count<DE> Extent=<ES>51:1 - 51:18<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:51:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>51:17 - 51:18<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:54:15: VarDecl=textpoint|D:\github\msp430\無線記錄器\main.cpp:54:15 (Definition) <US>c:@textpoint<UE> <DS>textpoint<DE> Extent=<ES>54:1 - 54:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:54:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>54:27 - 54:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:54:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:27 - 54:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:56:6: FunctionDecl=main|D:\github\msp430\無線記錄器\main.cpp:56:6 (Definition) <US>c:@F@main<UE> <DS>void main(void)<DE> Extent=<ES>56:1 - 124:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:57:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>57:1 - 124:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:67:4: CallExpr=Crystal_Init|D:\github\msp430\無線記錄器\main.cpp:127:6 <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>67:4 - 67:18<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:67:4: UnexposedExpr=Crystal_Init|D:\github\msp430\無線記錄器\main.cpp:127:6 <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>67:4 - 67:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:67:4: DeclRefExpr=Crystal_Init|D:\github\msp430\無線記錄器\main.cpp:127:6 (Reference) <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>67:4 - 67:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:68:4: CallExpr=UART_Init|D:\github\msp430\無線記錄器\main.cpp:277:6 <US>c:@F@UART_Init#C#<UE> <DS>void UART_Init(char)<DE> Extent=<ES>68:4 - 68:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:68:4: UnexposedExpr=UART_Init|D:\github\msp430\無線記錄器\main.cpp:277:6 <US>c:@F@UART_Init#C#<UE> <DS>void UART_Init(char)<DE> Extent=<ES>68:4 - 68:13<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:68:4: DeclRefExpr=UART_Init|D:\github\msp430\無線記錄器\main.cpp:277:6 (Reference) <US>c:@F@UART_Init#C#<UE> <DS>void UART_Init(char)<DE> Extent=<ES>68:4 - 68:13<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:68:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>68:14 - 68:18<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:68:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>68:14 - 68:18<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:69:4: CallExpr=ADS1222Init|D:\github\msp430\無線記錄器\main.cpp:155:6 <US>c:@F@ADS1222Init#<UE> <DS>void ADS1222Init(void)<DE> Extent=<ES>69:4 - 69:17<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:69:4: UnexposedExpr=ADS1222Init|D:\github\msp430\無線記錄器\main.cpp:155:6 <US>c:@F@ADS1222Init#<UE> <DS>void ADS1222Init(void)<DE> Extent=<ES>69:4 - 69:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:69:4: DeclRefExpr=ADS1222Init|D:\github\msp430\無線記錄器\main.cpp:155:6 (Reference) <US>c:@F@ADS1222Init#<UE> <DS>void ADS1222Init(void)<DE> Extent=<ES>69:4 - 69:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:75:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>75:3 - 119:4<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:75:9: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>75:9 - 75:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:75:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>75:9 - 75:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:75:11: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>75:11 - 119:4<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:76:12: CallExpr=__bis_SR_register|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>76:12 - 76:46<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:76:12: UnexposedExpr=__bis_SR_register|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>76:12 - 76:29<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:76:12: DeclRefExpr=__bis_SR_register|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 (Reference) <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>76:12 - 76:29<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:76:30: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>76:30 - 76:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:76:30: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>76:30 - 76:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:76:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>76:30 - 76:39<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:76:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>76:30 - 76:39<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:76:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>76:30 - 76:39<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:76:42: ParenExpr= <US><UE> <DS><DE> Extent=<ES>76:42 - 76:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:76:42: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>76:42 - 76:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:78:6: ForStmt= <US><UE> <DS><DE> Extent=<ES>78:6 - 78:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:78:10: DeclStmt= <US><UE> <DS><DE> Extent=<ES>78:10 - 78:23<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:78:14: VarDecl=d1elAy|D:\github\msp430\無線記錄器\main.cpp:78:14 (Definition) <US>c:main.cpp@2874@F@main@d1elAy<UE> <DS>d1elAy<DE> Extent=<ES>78:10 - 78:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:78:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>78:21 - 78:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:78:23: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>78:23 - 78:34<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:78:23: UnexposedExpr=d1elAy|D:\github\msp430\無線記錄器\main.cpp:78:14 <US>c:main.cpp@2874@F@main@d1elAy<UE> <DS>d1elAy<DE> Extent=<ES>78:23 - 78:29<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:78:23: DeclRefExpr=d1elAy|D:\github\msp430\無線記錄器\main.cpp:78:14 (Reference) <US>c:main.cpp@2874@F@main@d1elAy<UE> <DS>d1elAy<DE> Extent=<ES>78:23 - 78:29<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:78:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>78:30 - 78:34<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:78:35: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>78:35 - 78:43<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:78:35: DeclRefExpr=d1elAy|D:\github\msp430\無線記錄器\main.cpp:78:14 (Reference) <US>c:main.cpp@2874@F@main@d1elAy<UE> <DS>d1elAy<DE> Extent=<ES>78:35 - 78:41<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:78:44: NullStmt= <US><UE> <DS><DE> Extent=<ES>78:44 - 78:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:80:17: IfStmt= <US><UE> <DS><DE> Extent=<ES>80:17 - 81:48<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:80:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>80:20 - 80:34<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:80:20: UnexposedExpr=First_Data|D:\github\msp430\無線記錄器\main.cpp:40:26 <US>c:@First_Data<UE> <DS>First_Data<DE> Extent=<ES>80:20 - 80:30<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:80:20: DeclRefExpr=First_Data|D:\github\msp430\無線記錄器\main.cpp:40:26 (Reference) <US>c:@First_Data<UE> <DS>First_Data<DE> Extent=<ES>80:20 - 80:30<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:80:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>80:33 - 80:34<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:80:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>80:35 - 80:79<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:80:37: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>80:37 - 80:77<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:80:37: DeclRefExpr=First_Data|D:\github\msp430\無線記錄器\main.cpp:40:26 (Reference) <US>c:@First_Data<UE> <DS>First_Data<DE> Extent=<ES>80:37 - 80:47<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:80:51: CallExpr=ADS1222_SELF_CALIBRATION|D:\github\msp430\無線記錄器\main.cpp:200:5 <US>c:@F@ADS1222_SELF_CALIBRATION#<UE> <DS>int ADS1222_SELF_CALIBRATION(void)<DE> Extent=<ES>80:51 - 80:77<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:80:51: UnexposedExpr=ADS1222_SELF_CALIBRATION|D:\github\msp430\無線記錄器\main.cpp:200:5 <US>c:@F@ADS1222_SELF_CALIBRATION#<UE> <DS>int ADS1222_SELF_CALIBRATION(void)<DE> Extent=<ES>80:51 - 80:75<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:80:51: DeclRefExpr=ADS1222_SELF_CALIBRATION|D:\github\msp430\無線記錄器\main.cpp:200:5 (Reference) <US>c:@F@ADS1222_SELF_CALIBRATION#<UE> <DS>int ADS1222_SELF_CALIBRATION(void)<DE> Extent=<ES>80:51 - 80:75<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:81:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>81:21 - 81:48<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:81:23: CallExpr=ADS1222_STANDBY_MODE|D:\github\msp430\無線記錄器\main.cpp:236:6 <US>c:@F@ADS1222_STANDBY_MODE#<UE> <DS>void ADS1222_STANDBY_MODE(void)<DE> Extent=<ES>81:23 - 81:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:81:23: UnexposedExpr=ADS1222_STANDBY_MODE|D:\github\msp430\無線記錄器\main.cpp:236:6 <US>c:@F@ADS1222_STANDBY_MODE#<UE> <DS>void ADS1222_STANDBY_MODE(void)<DE> Extent=<ES>81:23 - 81:43<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:81:23: DeclRefExpr=ADS1222_STANDBY_MODE|D:\github\msp430\無線記錄器\main.cpp:236:6 (Reference) <US>c:@F@ADS1222_STANDBY_MODE#<UE> <DS>void ADS1222_STANDBY_MODE(void)<DE> Extent=<ES>81:23 - 81:43<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:84:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>84:6 - 84:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:84:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>84:6 - 84:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:84:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>84:6 - 84:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:84:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>84:6 - 84:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:84:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>84:13 - 84:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:84:18: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>84:18 - 84:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:85:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>85:6 - 85:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:85:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>85:6 - 85:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:85:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>85:6 - 85:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:85:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>85:6 - 85:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:85:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>85:13 - 85:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:85:18: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>85:18 - 85:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:86:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>86:6 - 86:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:86:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>86:6 - 86:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:86:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>86:6 - 86:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:86:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>86:6 - 86:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:86:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>86:13 - 86:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:86:18: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>86:18 - 86:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:87:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>87:6 - 87:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:87:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>87:6 - 87:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:87:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>87:6 - 87:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:87:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>87:6 - 87:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:87:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>87:13 - 87:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:87:18: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>87:18 - 87:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:88:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>88:6 - 88:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:88:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>88:6 - 88:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:88:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>88:6 - 88:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:88:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>88:6 - 88:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:88:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>88:13 - 88:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:88:18: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>88:18 - 88:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:89:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>89:6 - 89:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:89:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>89:6 - 89:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:89:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>89:6 - 89:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:89:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>89:6 - 89:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:89:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>89:13 - 89:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:89:18: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>89:18 - 89:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:90:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>90:6 - 90:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:90:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>90:6 - 90:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:90:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>90:6 - 90:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:90:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>90:6 - 90:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:90:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>90:13 - 90:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:90:18: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>90:18 - 90:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:91:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>91:6 - 91:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:91:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>91:6 - 91:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:91:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>91:6 - 91:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:91:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>91:6 - 91:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:91:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>91:13 - 91:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:91:18: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>91:18 - 91:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:92:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>92:6 - 92:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:92:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>92:6 - 92:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:92:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>92:6 - 92:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:92:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>92:6 - 92:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:92:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>92:13 - 92:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:92:19: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>92:19 - 92:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:93:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>93:6 - 93:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:93:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>93:6 - 93:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:93:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>93:6 - 93:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:93:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>93:6 - 93:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:93:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>93:13 - 93:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:93:19: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>93:19 - 93:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:93:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>93:19 - 93:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:93:19: ParenExpr= <US><UE> <DS><DE> Extent=<ES>93:19 - 93:38<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:93:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>93:20 - 93:36<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:93:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>93:20 - 93:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:93:20: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>93:20 - 93:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:93:20: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>93:20 - 93:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:93:20: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>93:20 - 93:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:93:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>93:25 - 93:26<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:93:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>93:34 - 93:36<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:93:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>93:41 - 93:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:93:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>93:41 - 93:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:94:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>94:6 - 94:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:94:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>94:6 - 94:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:94:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>94:6 - 94:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:94:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>94:6 - 94:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:94:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>94:13 - 94:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:94:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>94:20 - 94:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:94:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>94:20 - 94:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:94:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>94:20 - 94:38<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:94:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>94:21 - 94:36<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:94:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>94:21 - 94:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:94:21: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>94:21 - 94:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:94:21: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>94:21 - 94:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:94:21: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>94:21 - 94:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:94:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>94:26 - 94:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:94:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>94:35 - 94:36<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:94:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>94:41 - 94:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:94:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>94:41 - 94:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:95:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>95:6 - 95:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:95:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>95:6 - 95:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:95:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>95:6 - 95:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:95:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>95:6 - 95:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:95:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>95:13 - 95:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:95:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>95:20 - 95:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:95:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>95:20 - 95:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:95:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>95:20 - 95:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:95:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>95:20 - 95:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:95:21: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>95:21 - 95:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:95:21: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>95:21 - 95:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:95:21: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>95:21 - 95:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:95:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>95:26 - 95:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:95:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>95:36 - 95:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:95:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>95:36 - 95:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:97:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>97:6 - 97:46<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:97:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>97:6 - 97:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:97:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>97:6 - 97:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:97:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>97:6 - 97:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:97:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>97:13 - 97:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:97:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>97:20 - 97:46<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:97:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>97:20 - 97:46<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:97:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>97:20 - 97:39<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:97:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>97:21 - 97:37<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:97:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>97:21 - 97:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:97:21: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>97:21 - 97:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:97:21: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>97:21 - 97:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:97:21: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>97:21 - 97:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:97:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>97:26 - 97:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:97:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>97:35 - 97:37<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:97:42: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>97:42 - 97:46<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:97:42: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>97:42 - 97:46<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:98:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>98:6 - 98:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:98:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>98:6 - 98:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:98:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>98:6 - 98:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:98:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>98:6 - 98:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:98:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>98:13 - 98:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:98:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>98:20 - 98:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:98:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>98:20 - 98:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:98:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>98:20 - 98:38<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:98:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>98:21 - 98:36<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:98:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>98:21 - 98:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:98:21: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>98:21 - 98:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:98:21: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>98:21 - 98:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:98:21: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>98:21 - 98:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:98:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>98:26 - 98:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:98:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>98:35 - 98:36<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:98:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>98:41 - 98:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:98:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>98:41 - 98:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:99:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>99:6 - 99:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:99:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>99:6 - 99:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:99:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>99:6 - 99:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:99:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>99:6 - 99:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:99:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>99:13 - 99:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:99:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>99:20 - 99:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:99:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>99:20 - 99:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:99:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>99:20 - 99:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:99:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>99:20 - 99:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:99:21: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>99:21 - 99:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:99:21: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>99:21 - 99:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:99:21: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>99:21 - 99:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:99:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>99:26 - 99:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:99:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>99:36 - 99:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:99:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>99:36 - 99:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:100:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>100:6 - 100:46<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:100:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>100:6 - 100:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:100:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>100:6 - 100:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:100:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>100:6 - 100:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:100:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>100:13 - 100:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:100:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>100:20 - 100:46<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:100:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>100:20 - 100:46<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:100:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>100:20 - 100:39<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:100:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>100:21 - 100:37<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:100:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>100:21 - 100:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:100:21: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>100:21 - 100:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:100:21: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>100:21 - 100:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:100:21: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>100:21 - 100:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:100:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>100:26 - 100:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:100:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>100:35 - 100:37<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:100:42: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>100:42 - 100:46<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:100:42: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>100:42 - 100:46<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:101:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>101:6 - 101:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:101:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>101:6 - 101:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:101:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>101:6 - 101:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:101:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>101:6 - 101:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:101:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>101:13 - 101:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:101:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>101:20 - 101:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:101:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>101:20 - 101:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:101:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>101:20 - 101:38<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:101:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>101:21 - 101:36<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:101:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>101:21 - 101:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:101:21: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>101:21 - 101:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:101:21: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>101:21 - 101:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:101:21: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>101:21 - 101:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:101:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>101:26 - 101:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:101:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>101:35 - 101:36<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:101:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>101:41 - 101:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:101:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>101:41 - 101:45<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:102:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>102:6 - 102:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:102:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>102:6 - 102:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:102:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>102:6 - 102:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:102:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>102:6 - 102:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:102:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>102:13 - 102:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:102:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>102:20 - 102:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:102:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>102:20 - 102:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:102:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>102:20 - 102:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:102:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>102:20 - 102:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:102:21: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>102:21 - 102:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:102:21: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>102:21 - 102:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:102:21: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>102:21 - 102:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:102:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>102:26 - 102:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:102:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>102:36 - 102:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:102:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>102:36 - 102:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:103:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>103:6 - 103:23<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:103:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>103:6 - 103:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:103:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>103:6 - 103:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:103:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>103:6 - 103:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:103:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>103:13 - 103:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:103:20: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>103:20 - 103:23<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:106:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>106:7 - 106:23<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:106:7: DeclRefExpr=out_checksum|D:\github\msp430\無線記錄器\main.cpp:33:6 (Reference) <US>c:@out_checksum<UE> <DS>out_checksum<DE> Extent=<ES>106:7 - 106:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:106:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>106:22 - 106:23<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:106:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>106:22 - 106:23<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:107:13: ForStmt= <US><UE> <DS><DE> Extent=<ES>107:13 - 109:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:107:17: DeclStmt= <US><UE> <DS><DE> Extent=<ES>107:17 - 107:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:107:21: VarDecl=c|D:\github\msp430\無線記錄器\main.cpp:107:21 (Definition) <US>c:main.cpp@3857@F@main@c<UE> <DS>c<DE> Extent=<ES>107:17 - 107:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:107:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>107:23 - 107:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:107:25: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>107:25 - 107:29<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:107:25: UnexposedExpr=c|D:\github\msp430\無線記錄器\main.cpp:107:21 <US>c:main.cpp@3857@F@main@c<UE> <DS>c<DE> Extent=<ES>107:25 - 107:26<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:107:25: DeclRefExpr=c|D:\github\msp430\無線記錄器\main.cpp:107:21 (Reference) <US>c:main.cpp@3857@F@main@c<UE> <DS>c<DE> Extent=<ES>107:25 - 107:26<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:107:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>107:27 - 107:29<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:107:30: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>107:30 - 107:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:107:30: DeclRefExpr=c|D:\github\msp430\無線記錄器\main.cpp:107:21 (Reference) <US>c:main.cpp@3857@F@main@c<UE> <DS>c<DE> Extent=<ES>107:30 - 107:31<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:107:34: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>107:34 - 109:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:108:15: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>108:15 - 108:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:108:15: DeclRefExpr=out_checksum|D:\github\msp430\無線記錄器\main.cpp:33:6 (Reference) <US>c:@out_checksum<UE> <DS>out_checksum<DE> Extent=<ES>108:15 - 108:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:108:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>108:31 - 108:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:108:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>108:31 - 108:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:108:31: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>108:31 - 108:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:108:31: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>108:31 - 108:37<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:108:31: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>108:31 - 108:37<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:108:38: UnexposedExpr=c|D:\github\msp430\無線記錄器\main.cpp:107:21 <US>c:main.cpp@3857@F@main@c<UE> <DS>c<DE> Extent=<ES>108:38 - 108:39<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:108:38: DeclRefExpr=c|D:\github\msp430\無線記錄器\main.cpp:107:21 (Reference) <US>c:main.cpp@3857@F@main@c<UE> <DS>c<DE> Extent=<ES>108:38 - 108:39<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:111:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>111:6 - 111:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:111:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>111:6 - 111:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:111:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>111:6 - 111:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:111:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>111:6 - 111:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:111:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>111:13 - 111:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:111:20: UnexposedExpr=out_checksum|D:\github\msp430\無線記錄器\main.cpp:33:6 <US>c:@out_checksum<UE> <DS>out_checksum<DE> Extent=<ES>111:20 - 111:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:111:20: DeclRefExpr=out_checksum|D:\github\msp430\無線記錄器\main.cpp:33:6 (Reference) <US>c:@out_checksum<UE> <DS>out_checksum<DE> Extent=<ES>111:20 - 111:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:112:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>112:6 - 112:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:112:6: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>112:6 - 112:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:112:6: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>112:6 - 112:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:112:6: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>112:6 - 112:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:112:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>112:13 - 112:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:112:20: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>112:20 - 112:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:116:7: CallExpr=RS232_Send_Char|D:\github\msp430\無線記錄器\main.cpp:337:6 <US>c:@F@RS232_Send_Char#*C#I#C#<UE> <DS>void RS232_Send_Char(char *, int, char)<DE> Extent=<ES>116:7 - 116:38<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:116:7: UnexposedExpr=RS232_Send_Char|D:\github\msp430\無線記錄器\main.cpp:337:6 <US>c:@F@RS232_Send_Char#*C#I#C#<UE> <DS>void RS232_Send_Char(char *, int, char)<DE> Extent=<ES>116:7 - 116:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:116:7: DeclRefExpr=RS232_Send_Char|D:\github\msp430\無線記錄器\main.cpp:337:6 (Reference) <US>c:@F@RS232_Send_Char#*C#I#C#<UE> <DS>void RS232_Send_Char(char *, int, char)<DE> Extent=<ES>116:7 - 116:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:116:23: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>116:23 - 116:29<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:116:23: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>116:23 - 116:29<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:116:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>116:30 - 116:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:116:33: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>116:33 - 116:37<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:116:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>116:33 - 116:37<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:117:7: CallExpr=memset|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:31:42 <US>c:@F@memset<UE> <DS>void * memset(void *, int, size_t)<DE> Extent=<ES>117:7 - 117:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:117:7: UnexposedExpr=memset|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:31:42 <US>c:@F@memset<UE> <DS>void * memset(void *, int, size_t)<DE> Extent=<ES>117:7 - 117:13<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:117:7: DeclRefExpr=memset|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\string.h:31:42 (Reference) <US>c:@F@memset<UE> <DS>void * memset(void *, int, size_t)<DE> Extent=<ES>117:7 - 117:13<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:117:14: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>117:14 - 117:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:117:14: UnexposedExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 <US>c:@string<UE> <DS>string<DE> Extent=<ES>117:14 - 117:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:117:14: DeclRefExpr=string|D:\github\msp430\無線記錄器\main.cpp:31:6 (Reference) <US>c:@string<UE> <DS>string<DE> Extent=<ES>117:14 - 117:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:117:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>117:21 - 117:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:117:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>117:23 - 117:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:117:23: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>117:23 - 117:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:117:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>117:23 - 117:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:117:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>117:26 - 117:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:127:6: FunctionDecl=Crystal_Init|D:\github\msp430\無線記錄器\main.cpp:127:6 (Definition) <US>c:@F@Crystal_Init#<UE> <DS>void Crystal_Init(void)<DE> Extent=<ES>127:1 - 153:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:127:20: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>127:20 - 153:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:155:6: FunctionDecl=ADS1222Init|D:\github\msp430\無線記錄器\main.cpp:155:6 (Definition) <US>c:@F@ADS1222Init#<UE> <DS>void ADS1222Init(void)<DE> Extent=<ES>155:1 - 176:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:156:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>156:1 - 176:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:173:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>173:3 - 173:35<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:173:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>173:7 - 173:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:173:16: VarDecl=i|D:\github\msp430\無線記錄器\main.cpp:173:16 (Definition) <US>c:main.cpp@6904@F@ADS1222Init#@i<UE> <DS>i<DE> Extent=<ES>173:7 - 173:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:173:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>173:18 - 173:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:173:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>173:18 - 173:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:173:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>173:20 - 173:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:173:20: UnexposedExpr=i|D:\github\msp430\無線記錄器\main.cpp:173:16 <US>c:main.cpp@6904@F@ADS1222Init#@i<UE> <DS>i<DE> Extent=<ES>173:20 - 173:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:173:20: DeclRefExpr=i|D:\github\msp430\無線記錄器\main.cpp:173:16 (Reference) <US>c:main.cpp@6904@F@ADS1222Init#@i<UE> <DS>i<DE> Extent=<ES>173:20 - 173:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:173:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>173:22 - 173:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:173:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>173:22 - 173:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:173:29: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>173:29 - 173:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:173:29: DeclRefExpr=i|D:\github\msp430\無線記錄器\main.cpp:173:16 (Reference) <US>c:main.cpp@6904@F@ADS1222Init#@i<UE> <DS>i<DE> Extent=<ES>173:29 - 173:30<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:173:33: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>173:33 - 173:35<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:175:3: CallExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>175:3 - 175:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:175:3: UnexposedExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>175:3 - 175:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:175:3: DeclRefExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:38:20 (Reference) <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>175:3 - 175:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:180:18: FunctionDecl=P2ISR|D:\github\msp430\無線記錄器\main.cpp:180:18 (Definition) <US>c:@F@P2ISR#<UE> <DS>void P2ISR(void)<DE> Extent=<ES>180:13 - 198:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:181:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>181:1 - 198:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>187:3 - 189:4<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>187:6 - 187:41<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:6: UnexposedExpr=DRDY_ready|D:\github\msp430\無線記錄器\main.cpp:41:26 <US>c:@DRDY_ready<UE> <DS>DRDY_ready<DE> Extent=<ES>187:6 - 187:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:6: UnexposedExpr=DRDY_ready|D:\github\msp430\無線記錄器\main.cpp:41:26 <US>c:@DRDY_ready<UE> <DS>DRDY_ready<DE> Extent=<ES>187:6 - 187:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:6: DeclRefExpr=DRDY_ready|D:\github\msp430\無線記錄器\main.cpp:41:26 (Reference) <US>c:@DRDY_ready<UE> <DS>DRDY_ready<DE> Extent=<ES>187:6 - 187:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>187:20 - 187:41<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>187:21 - 187:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>187:21 - 187:35<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>187:21 - 187:30<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:21: ParenExpr= <US><UE> <DS><DE> Extent=<ES>187:21 - 187:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>187:21 - 187:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:26: ParenExpr= <US><UE> <DS><DE> Extent=<ES>187:26 - 187:30<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>187:26 - 187:30<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:31: ParenExpr= <US><UE> <DS><DE> Extent=<ES>187:31 - 187:35<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>187:31 - 187:35<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:36: ParenExpr= <US><UE> <DS><DE> Extent=<ES>187:36 - 187:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>187:36 - 187:40<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:187:43: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>187:43 - 189:4<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:188:6: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>188:6 - 188:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:191:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>191:3 - 191:17<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:191:3: DeclRefExpr=DRDY_ready|D:\github\msp430\無線記錄器\main.cpp:41:26 (Reference) <US>c:@DRDY_ready<UE> <DS>DRDY_ready<DE> Extent=<ES>191:3 - 191:13<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:191:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>191:16 - 191:17<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:192:3: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>192:3 - 192:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:192:3: DeclRefExpr=GPS_count|D:\github\msp430\無線記錄器\main.cpp:51:5 (Reference) <US>c:@GPS_count<UE> <DS>GPS_count<DE> Extent=<ES>192:3 - 192:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:193:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>193:3 - 193:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:193:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>193:6 - 193:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:193:6: UnexposedExpr=GPS_count|D:\github\msp430\無線記錄器\main.cpp:51:5 <US>c:@GPS_count<UE> <DS>GPS_count<DE> Extent=<ES>193:6 - 193:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:193:6: DeclRefExpr=GPS_count|D:\github\msp430\無線記錄器\main.cpp:51:5 (Reference) <US>c:@GPS_count<UE> <DS>GPS_count<DE> Extent=<ES>193:6 - 193:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:193:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>193:17 - 193:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:193:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>193:21 - 193:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:193:21: DeclRefExpr=GPS_count|D:\github\msp430\無線記錄器\main.cpp:51:5 (Reference) <US>c:@GPS_count<UE> <DS>GPS_count<DE> Extent=<ES>193:21 - 193:30<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:193:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>193:31 - 193:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:196:17: CallExpr=__bic_SR_register_on_exit|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:54:30 <US>c:@F@__bic_SR_register_on_exit<UE> <DS>void __bic_SR_register_on_exit(unsigned short)<DE> Extent=<ES>196:17 - 196:53<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:196:17: UnexposedExpr=__bic_SR_register_on_exit|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:54:30 <US>c:@F@__bic_SR_register_on_exit<UE> <DS>void __bic_SR_register_on_exit(unsigned short)<DE> Extent=<ES>196:17 - 196:42<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:196:17: DeclRefExpr=__bic_SR_register_on_exit|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:54:30 (Reference) <US>c:@F@__bic_SR_register_on_exit<UE> <DS>void __bic_SR_register_on_exit(unsigned short)<DE> Extent=<ES>196:17 - 196:42<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:196:43: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>196:43 - 196:52<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:196:43: ParenExpr= <US><UE> <DS><DE> Extent=<ES>196:43 - 196:52<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:196:43: ParenExpr= <US><UE> <DS><DE> Extent=<ES>196:43 - 196:52<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:196:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>196:43 - 196:52<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:200:5: FunctionDecl=ADS1222_SELF_CALIBRATION|D:\github\msp430\無線記錄器\main.cpp:200:5 (Definition) <US>c:@F@ADS1222_SELF_CALIBRATION#<UE> <DS>int ADS1222_SELF_CALIBRATION(void)<DE> Extent=<ES>200:1 - 234:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:201:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>201:1 - 234:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:202:1: DeclStmt= <US><UE> <DS><DE> Extent=<ES>202:1 - 202:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:202:5: VarDecl=scLk|D:\github\msp430\無線記錄器\main.cpp:202:5 (Definition) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@scLk<UE> <DS>scLk<DE> Extent=<ES>202:1 - 202:9<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:202:10: VarDecl=ch_n|D:\github\msp430\無線記錄器\main.cpp:202:10 (Declaration) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>202:10 - 202:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:202:15: VarDecl=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 (Declaration) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>202:15 - 202:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:203:1: DeclStmt= <US><UE> <DS><DE> Extent=<ES>203:1 - 203:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:203:6: VarDecl=delay_for_calibration|D:\github\msp430\無線記錄器\main.cpp:203:6 (Definition) <US>c:main.cpp@8003@F@ADS1222_SELF_CALIBRATION#@delay_for_calibration<UE> <DS>delay_for_calibration<DE> Extent=<ES>203:1 - 203:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:204:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>204:3 - 215:4<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:204:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>204:7 - 204:13<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:204:7: DeclRefExpr=scLk|D:\github\msp430\無線記錄器\main.cpp:202:5 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@scLk<UE> <DS>scLk<DE> Extent=<ES>204:7 - 204:11<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:204:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>204:12 - 204:13<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:204:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>204:14 - 204:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:204:14: UnexposedExpr=scLk|D:\github\msp430\無線記錄器\main.cpp:202:5 <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@scLk<UE> <DS>scLk<DE> Extent=<ES>204:14 - 204:18<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:204:14: DeclRefExpr=scLk|D:\github\msp430\無線記錄器\main.cpp:202:5 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@scLk<UE> <DS>scLk<DE> Extent=<ES>204:14 - 204:18<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:204:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>204:20 - 204:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:204:23: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>204:23 - 204:29<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:204:23: DeclRefExpr=scLk|D:\github\msp430\無線記錄器\main.cpp:202:5 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@scLk<UE> <DS>scLk<DE> Extent=<ES>204:23 - 204:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:204:30: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>204:30 - 215:4<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:206:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>206:5 - 206:35<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:206:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>206:9 - 206:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:206:9: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>206:9 - 206:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:206:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>206:15 - 206:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:206:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>206:17 - 206:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:206:17: UnexposedExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>206:17 - 206:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:206:17: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>206:17 - 206:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:206:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>206:23 - 206:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:206:26: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>206:26 - 206:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:206:26: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>206:26 - 206:31<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:206:34: NullStmt= <US><UE> <DS><DE> Extent=<ES>206:34 - 206:35<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:208:8: ForStmt= <US><UE> <DS><DE> Extent=<ES>208:8 - 211:9<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:208:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>208:12 - 208:18<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:208:12: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:202:10 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>208:12 - 208:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:208:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>208:17 - 208:18<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:208:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>208:20 - 208:26<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:208:20: UnexposedExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:202:10 <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>208:20 - 208:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:208:20: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:202:10 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>208:20 - 208:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:208:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>208:25 - 208:26<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:208:28: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>208:28 - 208:34<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:208:28: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:202:10 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>208:28 - 208:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:208:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>208:35 - 211:9<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:214:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>214:5 - 214:35<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:214:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>214:9 - 214:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:214:9: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>214:9 - 214:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:214:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>214:15 - 214:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:214:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>214:17 - 214:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:214:17: UnexposedExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>214:17 - 214:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:214:17: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>214:17 - 214:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:214:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>214:23 - 214:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:214:26: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>214:26 - 214:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:214:26: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>214:26 - 214:31<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:214:34: NullStmt= <US><UE> <DS><DE> Extent=<ES>214:34 - 214:35<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:217:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>217:5 - 217:35<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:217:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>217:9 - 217:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:217:9: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>217:9 - 217:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:217:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>217:15 - 217:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:217:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>217:17 - 217:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:217:17: UnexposedExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>217:17 - 217:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:217:17: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>217:17 - 217:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:217:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>217:23 - 217:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:217:26: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>217:26 - 217:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:217:26: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>217:26 - 217:31<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:217:34: NullStmt= <US><UE> <DS><DE> Extent=<ES>217:34 - 217:35<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:219:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>219:5 - 219:35<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:219:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>219:9 - 219:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:219:9: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>219:9 - 219:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:219:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>219:15 - 219:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:219:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>219:17 - 219:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:219:17: UnexposedExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>219:17 - 219:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:219:17: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>219:17 - 219:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:219:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>219:23 - 219:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:219:26: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>219:26 - 219:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:219:26: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>219:26 - 219:31<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:219:34: NullStmt= <US><UE> <DS><DE> Extent=<ES>219:34 - 219:35<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:223:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>223:5 - 223:35<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:223:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>223:9 - 223:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:223:9: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>223:9 - 223:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:223:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>223:15 - 223:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:223:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>223:17 - 223:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:223:17: UnexposedExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>223:17 - 223:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:223:17: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>223:17 - 223:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:223:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>223:23 - 223:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:223:26: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>223:26 - 223:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:223:26: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>223:26 - 223:31<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:223:34: NullStmt= <US><UE> <DS><DE> Extent=<ES>223:34 - 223:35<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:225:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>225:5 - 225:35<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:225:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>225:9 - 225:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:225:9: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>225:9 - 225:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:225:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>225:15 - 225:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:225:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>225:17 - 225:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:225:17: UnexposedExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>225:17 - 225:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:225:17: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>225:17 - 225:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:225:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>225:23 - 225:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:225:26: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>225:26 - 225:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:225:26: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:202:15 (Reference) <US>c:main.cpp@7981@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>225:26 - 225:31<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:225:34: NullStmt= <US><UE> <DS><DE> Extent=<ES>225:34 - 225:35<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:230:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>230:5 - 230:86<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:230:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>230:9 - 230:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:230:9: DeclRefExpr=delay_for_calibration|D:\github\msp430\無線記錄器\main.cpp:203:6 (Reference) <US>c:main.cpp@8003@F@ADS1222_SELF_CALIBRATION#@delay_for_calibration<UE> <DS>delay_for_calibration<DE> Extent=<ES>230:9 - 230:30<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:230:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>230:31 - 230:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:230:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>230:31 - 230:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:230:33: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>230:33 - 230:60<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:230:33: UnexposedExpr=delay_for_calibration|D:\github\msp430\無線記錄器\main.cpp:203:6 <US>c:main.cpp@8003@F@ADS1222_SELF_CALIBRATION#@delay_for_calibration<UE> <DS>delay_for_calibration<DE> Extent=<ES>230:33 - 230:54<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:230:33: DeclRefExpr=delay_for_calibration|D:\github\msp430\無線記錄器\main.cpp:203:6 (Reference) <US>c:main.cpp@8003@F@ADS1222_SELF_CALIBRATION#@delay_for_calibration<UE> <DS>delay_for_calibration<DE> Extent=<ES>230:33 - 230:54<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:230:55: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>230:55 - 230:60<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:230:55: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>230:55 - 230:60<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:230:61: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>230:61 - 230:84<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:230:61: DeclRefExpr=delay_for_calibration|D:\github\msp430\無線記錄器\main.cpp:203:6 (Reference) <US>c:main.cpp@8003@F@ADS1222_SELF_CALIBRATION#@delay_for_calibration<UE> <DS>delay_for_calibration<DE> Extent=<ES>230:61 - 230:82<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:230:85: NullStmt= <US><UE> <DS><DE> Extent=<ES>230:85 - 230:86<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:233:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>233:5 - 233:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:233:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>233:11 - 233:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:233:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>233:12 - 233:13<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:236:6: FunctionDecl=ADS1222_STANDBY_MODE|D:\github\msp430\無線記錄器\main.cpp:236:6 (Definition) <US>c:@F@ADS1222_STANDBY_MODE#<UE> <DS>void ADS1222_STANDBY_MODE(void)<DE> Extent=<ES>236:1 - 268:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:236:28: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>236:28 - 268:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:237:1: DeclStmt= <US><UE> <DS><DE> Extent=<ES>237:1 - 237:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:237:5: VarDecl=scLk|D:\github\msp430\無線記錄器\main.cpp:237:5 (Definition) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@scLk<UE> <DS>scLk<DE> Extent=<ES>237:1 - 237:9<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:237:10: VarDecl=ch_n|D:\github\msp430\無線記錄器\main.cpp:237:10 (Declaration) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>237:10 - 237:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:237:15: VarDecl=delAy|D:\github\msp430\無線記錄器\main.cpp:237:15 (Declaration) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>237:15 - 237:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:239:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>239:3 - 252:4<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:239:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>239:7 - 239:13<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:239:7: DeclRefExpr=scLk|D:\github\msp430\無線記錄器\main.cpp:237:5 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@scLk<UE> <DS>scLk<DE> Extent=<ES>239:7 - 239:11<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:239:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>239:12 - 239:13<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:239:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>239:14 - 239:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:239:14: UnexposedExpr=scLk|D:\github\msp430\無線記錄器\main.cpp:237:5 <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@scLk<UE> <DS>scLk<DE> Extent=<ES>239:14 - 239:18<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:239:14: DeclRefExpr=scLk|D:\github\msp430\無線記錄器\main.cpp:237:5 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@scLk<UE> <DS>scLk<DE> Extent=<ES>239:14 - 239:18<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:239:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>239:20 - 239:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:239:23: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>239:23 - 239:29<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:239:23: DeclRefExpr=scLk|D:\github\msp430\無線記錄器\main.cpp:237:5 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@scLk<UE> <DS>scLk<DE> Extent=<ES>239:23 - 239:27<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:239:30: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>239:30 - 252:4<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:241:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>241:5 - 241:34<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:241:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>241:9 - 241:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:241:9: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:237:15 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>241:9 - 241:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:241:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>241:15 - 241:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:241:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>241:17 - 241:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:241:17: UnexposedExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:237:15 <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>241:17 - 241:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:241:17: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:237:15 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>241:17 - 241:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:241:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>241:23 - 241:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:241:25: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>241:25 - 241:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:241:25: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:237:15 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>241:25 - 241:30<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:241:33: NullStmt= <US><UE> <DS><DE> Extent=<ES>241:33 - 241:34<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:243:8: ForStmt= <US><UE> <DS><DE> Extent=<ES>243:8 - 246:9<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:243:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>243:12 - 243:18<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:243:12: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:237:10 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>243:12 - 243:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:243:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>243:17 - 243:18<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:243:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>243:20 - 243:26<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:243:20: UnexposedExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:237:10 <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>243:20 - 243:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:243:20: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:237:10 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>243:20 - 243:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:243:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>243:25 - 243:26<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:243:28: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>243:28 - 243:34<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:243:28: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:237:10 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>243:28 - 243:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:243:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>243:35 - 246:9<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:248:4: IfStmt= <US><UE> <DS><DE> Extent=<ES>248:4 - 251:5<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:248:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>248:7 - 248:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:248:7: UnexposedExpr=scLk|D:\github\msp430\無線記錄器\main.cpp:237:5 <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@scLk<UE> <DS>scLk<DE> Extent=<ES>248:7 - 248:11<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:248:7: DeclRefExpr=scLk|D:\github\msp430\無線記錄器\main.cpp:237:5 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@scLk<UE> <DS>scLk<DE> Extent=<ES>248:7 - 248:11<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:248:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>248:13 - 248:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:248:16: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>248:16 - 251:5<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:250:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>250:5 - 250:35<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:250:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>250:9 - 250:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:250:9: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:237:15 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>250:9 - 250:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:250:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>250:15 - 250:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:250:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>250:17 - 250:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:250:17: UnexposedExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:237:15 <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>250:17 - 250:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:250:17: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:237:15 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>250:17 - 250:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:250:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>250:23 - 250:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:250:26: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>250:26 - 250:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:250:26: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:237:15 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>250:26 - 250:31<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:250:34: NullStmt= <US><UE> <DS><DE> Extent=<ES>250:34 - 250:35<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:254:4: ForStmt= <US><UE> <DS><DE> Extent=<ES>254:4 - 261:5<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:254:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>254:8 - 254:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:254:8: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:237:10 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>254:8 - 254:12<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:254:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>254:13 - 254:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:254:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>254:16 - 254:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:254:16: UnexposedExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:237:10 <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>254:16 - 254:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:254:16: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:237:10 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>254:16 - 254:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:254:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>254:21 - 254:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:254:24: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>254:24 - 254:30<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:254:24: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:237:10 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>254:24 - 254:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:254:31: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>254:31 - 261:5<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:255:6: IfStmt= <US><UE> <DS><DE> Extent=<ES>255:6 - 260:7<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:255:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>255:10 - 255:47<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:255:10: ParenExpr= <US><UE> <DS><DE> Extent=<ES>255:10 - 255:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:255:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>255:11 - 255:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:255:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>255:11 - 255:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:255:11: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>255:11 - 255:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:255:11: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>255:11 - 255:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:255:11: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>255:11 - 255:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:255:16: UnexposedExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:237:10 <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>255:16 - 255:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:255:16: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:237:10 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>255:16 - 255:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:255:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>255:22 - 255:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:255:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>255:22 - 255:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:255:37: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>255:37 - 255:47<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:255:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>255:37 - 255:47<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:255:48: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>255:48 - 257:7<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:256:10: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>256:10 - 256:34<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:256:10: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>256:10 - 256:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:256:10: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>256:10 - 256:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:256:10: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>256:10 - 256:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:256:15: UnexposedExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:237:10 <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>256:15 - 256:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:256:15: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:237:10 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>256:15 - 256:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:256:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>256:24 - 256:34<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:256:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>256:24 - 256:34<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:258:10: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>258:10 - 260:7<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:259:10: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>259:10 - 259:34<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:259:10: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>259:10 - 259:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:259:10: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>259:10 - 259:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:259:10: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:35:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>259:10 - 259:14<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:259:15: UnexposedExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:237:10 <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>259:15 - 259:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:259:15: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:237:10 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>259:15 - 259:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:259:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>259:24 - 259:34<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:259:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>259:24 - 259:34<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:264:4: ForStmt= <US><UE> <DS><DE> Extent=<ES>264:4 - 264:36<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:264:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>264:8 - 264:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:264:8: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:237:15 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>264:8 - 264:13<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:264:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>264:14 - 264:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:264:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>264:16 - 264:26<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:264:16: UnexposedExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:237:15 <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>264:16 - 264:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:264:16: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:237:15 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>264:16 - 264:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:264:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>264:22 - 264:26<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:264:27: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>264:27 - 264:34<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:264:27: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:237:15 (Reference) <US>c:main.cpp@9292@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>264:27 - 264:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:264:35: NullStmt= <US><UE> <DS><DE> Extent=<ES>264:35 - 264:36<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:271:6: FunctionDecl=delay_ms|D:\github\msp430\無線記錄器\main.cpp:271:6 (Definition) <US>c:@F@delay_ms#I#<UE> <DS>void delay_ms(int)<DE> Extent=<ES>271:1 - 275:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:271:19: ParmDecl=del|D:\github\msp430\無線記錄器\main.cpp:271:19 (Definition) <US>c:main.cpp@10338@F@delay_ms#I#@del<UE> <DS>int<DE> Extent=<ES>271:15 - 271:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:271:23: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>271:23 - 275:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:272:1: DeclStmt= <US><UE> <DS><DE> Extent=<ES>272:1 - 272:8<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:272:5: VarDecl=dt|D:\github\msp430\無線記錄器\main.cpp:272:5 (Definition) <US>c:main.cpp@10349@F@delay_ms#I#@dt<UE> <DS>dt<DE> Extent=<ES>272:1 - 272:7<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:273:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>273:3 - 274:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:273:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>273:7 - 273:19<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:273:11: VarDecl=delAy|D:\github\msp430\無線記錄器\main.cpp:273:11 (Definition) <US>c:main.cpp@10364@F@delay_ms#I#@delAy<UE> <DS>delAy<DE> Extent=<ES>273:7 - 273:18<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:273:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>273:17 - 273:18<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:273:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>273:19 - 273:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:273:19: UnexposedExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:273:11 <US>c:main.cpp@10364@F@delay_ms#I#@delAy<UE> <DS>delAy<DE> Extent=<ES>273:19 - 273:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:273:19: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:273:11 (Reference) <US>c:main.cpp@10364@F@delay_ms#I#@delAy<UE> <DS>delAy<DE> Extent=<ES>273:19 - 273:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:273:25: UnexposedExpr=del|D:\github\msp430\無線記錄器\main.cpp:271:19 <US>c:main.cpp@10338@F@delay_ms#I#@del<UE> <DS>int<DE> Extent=<ES>273:25 - 273:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:273:25: DeclRefExpr=del|D:\github\msp430\無線記錄器\main.cpp:271:19 (Reference) <US>c:main.cpp@10338@F@delay_ms#I#@del<UE> <DS>int<DE> Extent=<ES>273:25 - 273:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:273:29: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>273:29 - 273:36<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:273:29: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:273:11 (Reference) <US>c:main.cpp@10364@F@delay_ms#I#@delAy<UE> <DS>delAy<DE> Extent=<ES>273:29 - 273:34<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:274:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>274:5 - 274:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:274:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>274:9 - 274:13<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:274:9: DeclRefExpr=dt|D:\github\msp430\無線記錄器\main.cpp:272:5 (Reference) <US>c:main.cpp@10349@F@delay_ms#I#@dt<UE> <DS>dt<DE> Extent=<ES>274:9 - 274:11<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:274:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>274:12 - 274:13<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:274:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>274:14 - 274:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:274:14: UnexposedExpr=dt|D:\github\msp430\無線記錄器\main.cpp:272:5 <US>c:main.cpp@10349@F@delay_ms#I#@dt<UE> <DS>dt<DE> Extent=<ES>274:14 - 274:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:274:14: DeclRefExpr=dt|D:\github\msp430\無線記錄器\main.cpp:272:5 (Reference) <US>c:main.cpp@10349@F@delay_ms#I#@dt<UE> <DS>dt<DE> Extent=<ES>274:14 - 274:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:274:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>274:17 - 274:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:274:22: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>274:22 - 274:26<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:274:22: DeclRefExpr=dt|D:\github\msp430\無線記錄器\main.cpp:272:5 (Reference) <US>c:main.cpp@10349@F@delay_ms#I#@dt<UE> <DS>dt<DE> Extent=<ES>274:22 - 274:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:274:27: NullStmt= <US><UE> <DS><DE> Extent=<ES>274:27 - 274:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:277:6: FunctionDecl=UART_Init|D:\github\msp430\無線記錄器\main.cpp:277:6 (Definition) <US>c:@F@UART_Init#C#<UE> <DS>void UART_Init(char)<DE> Extent=<ES>277:1 - 314:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:277:21: ParmDecl=com|D:\github\msp430\無線記錄器\main.cpp:277:21 (Definition) <US>c:main.cpp@10537@F@UART_Init#C#@com<UE> <DS>char<DE> Extent=<ES>277:16 - 277:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:277:25: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>277:25 - 314:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:279:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>279:3 - 292:4<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:279:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>279:7 - 279:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:279:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>279:7 - 279:17<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:279:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>279:8 - 279:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:279:8: UnexposedExpr=com|D:\github\msp430\無線記錄器\main.cpp:277:21 <US>c:main.cpp@10537@F@UART_Init#C#@com<UE> <DS>char<DE> Extent=<ES>279:8 - 279:11<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:279:8: UnexposedExpr=com|D:\github\msp430\無線記錄器\main.cpp:277:21 <US>c:main.cpp@10537@F@UART_Init#C#@com<UE> <DS>char<DE> Extent=<ES>279:8 - 279:11<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:279:8: DeclRefExpr=com|D:\github\msp430\無線記錄器\main.cpp:277:21 (Reference) <US>c:main.cpp@10537@F@UART_Init#C#@com<UE> <DS>char<DE> Extent=<ES>279:8 - 279:11<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:279:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>279:12 - 279:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:279:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>279:21 - 279:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:279:27: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>279:27 - 292:4<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:293:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>293:3 - 308:4<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:293:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>293:7 - 293:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:293:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>293:7 - 293:17<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:293:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>293:8 - 293:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:293:8: UnexposedExpr=com|D:\github\msp430\無線記錄器\main.cpp:277:21 <US>c:main.cpp@10537@F@UART_Init#C#@com<UE> <DS>char<DE> Extent=<ES>293:8 - 293:11<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:293:8: UnexposedExpr=com|D:\github\msp430\無線記錄器\main.cpp:277:21 <US>c:main.cpp@10537@F@UART_Init#C#@com<UE> <DS>char<DE> Extent=<ES>293:8 - 293:11<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:293:8: DeclRefExpr=com|D:\github\msp430\無線記錄器\main.cpp:277:21 (Reference) <US>c:main.cpp@10537@F@UART_Init#C#@com<UE> <DS>char<DE> Extent=<ES>293:8 - 293:11<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:293:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>293:12 - 293:16<EE>
 <L>D:\github\msp430\無線記錄器\main.cpp:293:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>293:21 - 293:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:293:26: ParenExpr= <US><UE> <DS><DE> Extent=<ES>293:26 - 293:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:293:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>293:26 - 293:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:293:31: ParenExpr= <US><UE> <DS><DE> Extent=<ES>293:31 - 293:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:293:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>293:31 - 293:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:293:36: ParenExpr= <US><UE> <DS><DE> Extent=<ES>293:36 - 293:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:293:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>293:36 - 293:40<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:293:43: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>293:43 - 295:4<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:294:6: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>294:6 - 294:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:297:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>297:3 - 297:17<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:297:3: DeclRefExpr=DRDY_ready|D:\github\msp430\無線記錄器\main.cpp:90:26 (Reference) <US>c:@DRDY_ready<UE> <DS>DRDY_ready<DE> Extent=<ES>297:3 - 297:13<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:297:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>297:16 - 297:17<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:298:3: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>298:3 - 298:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:298:3: DeclRefExpr=GPS_count|D:\github\msp430\無線記錄器\main.cpp:100:5 (Reference) <US>c:@GPS_count<UE> <DS>GPS_count<DE> Extent=<ES>298:3 - 298:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:299:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>299:3 - 299:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:299:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>299:6 - 299:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:299:6: UnexposedExpr=GPS_count|D:\github\msp430\無線記錄器\main.cpp:100:5 <US>c:@GPS_count<UE> <DS>GPS_count<DE> Extent=<ES>299:6 - 299:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:299:6: DeclRefExpr=GPS_count|D:\github\msp430\無線記錄器\main.cpp:100:5 (Reference) <US>c:@GPS_count<UE> <DS>GPS_count<DE> Extent=<ES>299:6 - 299:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:299:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>299:17 - 299:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:299:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>299:21 - 299:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:299:21: DeclRefExpr=GPS_count|D:\github\msp430\無線記錄器\main.cpp:100:5 (Reference) <US>c:@GPS_count<UE> <DS>GPS_count<DE> Extent=<ES>299:21 - 299:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:299:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>299:31 - 299:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:302:17: CallExpr=__bic_SR_register_on_exit|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:54:30 <US>c:@F@__bic_SR_register_on_exit<UE> <DS>void __bic_SR_register_on_exit(unsigned short)<DE> Extent=<ES>302:17 - 302:53<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:302:17: UnexposedExpr=__bic_SR_register_on_exit|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:54:30 <US>c:@F@__bic_SR_register_on_exit<UE> <DS>void __bic_SR_register_on_exit(unsigned short)<DE> Extent=<ES>302:17 - 302:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:302:17: DeclRefExpr=__bic_SR_register_on_exit|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:54:30 (Reference) <US>c:@F@__bic_SR_register_on_exit<UE> <DS>void __bic_SR_register_on_exit(unsigned short)<DE> Extent=<ES>302:17 - 302:42<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:302:43: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>302:43 - 302:52<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:302:43: ParenExpr= <US><UE> <DS><DE> Extent=<ES>302:43 - 302:52<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:302:43: ParenExpr= <US><UE> <DS><DE> Extent=<ES>302:43 - 302:52<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:302:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>302:43 - 302:52<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:306:5: FunctionDecl=ADS1222_SELF_CALIBRATION|D:\github\msp430\無線記錄器\main.cpp:306:5 (Definition) <US>c:@F@ADS1222_SELF_CALIBRATION#<UE> <DS>int ADS1222_SELF_CALIBRATION(void)<DE> Extent=<ES>306:1 - 340:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:307:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>307:1 - 340:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:308:1: DeclStmt= <US><UE> <DS><DE> Extent=<ES>308:1 - 308:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:308:5: VarDecl=scLk|D:\github\msp430\無線記錄器\main.cpp:308:5 (Definition) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@scLk<UE> <DS>scLk<DE> Extent=<ES>308:1 - 308:9<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:308:10: VarDecl=ch_n|D:\github\msp430\無線記錄器\main.cpp:308:10 (Declaration) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>308:10 - 308:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:308:15: VarDecl=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 (Declaration) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>308:15 - 308:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:309:1: DeclStmt= <US><UE> <DS><DE> Extent=<ES>309:1 - 309:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:309:6: VarDecl=delay_for_calibration|D:\github\msp430\無線記錄器\main.cpp:309:6 (Definition) <US>c:main.cpp@11503@F@ADS1222_SELF_CALIBRATION#@delay_for_calibration<UE> <DS>delay_for_calibration<DE> Extent=<ES>309:1 - 309:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:310:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>310:3 - 321:4<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:310:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>310:7 - 310:13<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:310:7: DeclRefExpr=scLk|D:\github\msp430\無線記錄器\main.cpp:308:5 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@scLk<UE> <DS>scLk<DE> Extent=<ES>310:7 - 310:11<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:310:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>310:12 - 310:13<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:310:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>310:14 - 310:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:310:14: UnexposedExpr=scLk|D:\github\msp430\無線記錄器\main.cpp:308:5 <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@scLk<UE> <DS>scLk<DE> Extent=<ES>310:14 - 310:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:310:14: DeclRefExpr=scLk|D:\github\msp430\無線記錄器\main.cpp:308:5 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@scLk<UE> <DS>scLk<DE> Extent=<ES>310:14 - 310:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:310:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>310:20 - 310:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:310:23: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>310:23 - 310:29<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:310:23: DeclRefExpr=scLk|D:\github\msp430\無線記錄器\main.cpp:308:5 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@scLk<UE> <DS>scLk<DE> Extent=<ES>310:23 - 310:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:310:30: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>310:30 - 321:4<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:312:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>312:5 - 312:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:312:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>312:9 - 312:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:312:9: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>312:9 - 312:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:312:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>312:15 - 312:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:312:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>312:17 - 312:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:312:17: UnexposedExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>312:17 - 312:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:312:17: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>312:17 - 312:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:312:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>312:23 - 312:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:312:26: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>312:26 - 312:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:312:26: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>312:26 - 312:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:312:34: NullStmt= <US><UE> <DS><DE> Extent=<ES>312:34 - 312:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:314:8: ForStmt= <US><UE> <DS><DE> Extent=<ES>314:8 - 317:9<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:314:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>314:12 - 314:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:314:12: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:308:10 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>314:12 - 314:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:314:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>314:17 - 314:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:314:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>314:20 - 314:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:314:20: UnexposedExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:308:10 <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>314:20 - 314:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:314:20: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:308:10 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>314:20 - 314:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:314:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>314:25 - 314:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:314:28: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>314:28 - 314:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:314:28: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:308:10 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>314:28 - 314:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:314:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>314:35 - 317:9<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:320:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>320:5 - 320:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:320:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>320:9 - 320:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:320:9: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>320:9 - 320:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:320:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>320:15 - 320:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:320:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>320:17 - 320:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:320:17: UnexposedExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>320:17 - 320:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:320:17: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>320:17 - 320:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:320:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>320:23 - 320:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:320:26: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>320:26 - 320:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:320:26: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>320:26 - 320:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:320:34: NullStmt= <US><UE> <DS><DE> Extent=<ES>320:34 - 320:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:323:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>323:5 - 323:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:323:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>323:9 - 323:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:323:9: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>323:9 - 323:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:323:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>323:15 - 323:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:323:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>323:17 - 323:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:323:17: UnexposedExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>323:17 - 323:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:323:17: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>323:17 - 323:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:323:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>323:23 - 323:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:323:26: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>323:26 - 323:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:323:26: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>323:26 - 323:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:323:34: NullStmt= <US><UE> <DS><DE> Extent=<ES>323:34 - 323:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:325:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>325:5 - 325:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:325:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>325:9 - 325:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:325:9: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>325:9 - 325:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:325:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>325:15 - 325:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:325:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>325:17 - 325:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:325:17: UnexposedExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>325:17 - 325:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:325:17: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>325:17 - 325:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:325:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>325:23 - 325:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:325:26: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>325:26 - 325:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:325:26: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>325:26 - 325:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:325:34: NullStmt= <US><UE> <DS><DE> Extent=<ES>325:34 - 325:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:329:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>329:5 - 329:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:329:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>329:9 - 329:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:329:9: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>329:9 - 329:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:329:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>329:15 - 329:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:329:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>329:17 - 329:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:329:17: UnexposedExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>329:17 - 329:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:329:17: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>329:17 - 329:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:329:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>329:23 - 329:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:329:26: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>329:26 - 329:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:329:26: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>329:26 - 329:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:329:34: NullStmt= <US><UE> <DS><DE> Extent=<ES>329:34 - 329:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:331:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>331:5 - 331:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:331:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>331:9 - 331:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:331:9: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>331:9 - 331:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:331:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>331:15 - 331:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:331:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>331:17 - 331:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:331:17: UnexposedExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>331:17 - 331:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:331:17: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>331:17 - 331:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:331:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>331:23 - 331:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:331:26: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>331:26 - 331:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:331:26: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:308:15 (Reference) <US>c:main.cpp@11481@F@ADS1222_SELF_CALIBRATION#@delAy<UE> <DS>delAy<DE> Extent=<ES>331:26 - 331:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:331:34: NullStmt= <US><UE> <DS><DE> Extent=<ES>331:34 - 331:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:336:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>336:5 - 336:86<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:336:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>336:9 - 336:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:336:9: DeclRefExpr=delay_for_calibration|D:\github\msp430\無線記錄器\main.cpp:309:6 (Reference) <US>c:main.cpp@11503@F@ADS1222_SELF_CALIBRATION#@delay_for_calibration<UE> <DS>delay_for_calibration<DE> Extent=<ES>336:9 - 336:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:336:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>336:31 - 336:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:336:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>336:31 - 336:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:336:33: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>336:33 - 336:60<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:336:33: UnexposedExpr=delay_for_calibration|D:\github\msp430\無線記錄器\main.cpp:309:6 <US>c:main.cpp@11503@F@ADS1222_SELF_CALIBRATION#@delay_for_calibration<UE> <DS>delay_for_calibration<DE> Extent=<ES>336:33 - 336:54<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:336:33: DeclRefExpr=delay_for_calibration|D:\github\msp430\無線記錄器\main.cpp:309:6 (Reference) <US>c:main.cpp@11503@F@ADS1222_SELF_CALIBRATION#@delay_for_calibration<UE> <DS>delay_for_calibration<DE> Extent=<ES>336:33 - 336:54<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:336:55: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>336:55 - 336:60<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:336:55: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>336:55 - 336:60<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:336:61: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>336:61 - 336:84<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:336:61: DeclRefExpr=delay_for_calibration|D:\github\msp430\無線記錄器\main.cpp:309:6 (Reference) <US>c:main.cpp@11503@F@ADS1222_SELF_CALIBRATION#@delay_for_calibration<UE> <DS>delay_for_calibration<DE> Extent=<ES>336:61 - 336:82<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:336:85: NullStmt= <US><UE> <DS><DE> Extent=<ES>336:85 - 336:86<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:339:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>339:5 - 339:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:339:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>339:11 - 339:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:339:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>339:12 - 339:13<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:342:6: FunctionDecl=ADS1222_STANDBY_MODE|D:\github\msp430\無線記錄器\main.cpp:342:6 (Definition) <US>c:@F@ADS1222_STANDBY_MODE#<UE> <DS>void ADS1222_STANDBY_MODE(void)<DE> Extent=<ES>342:1 - 374:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:342:28: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>342:28 - 374:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:343:1: DeclStmt= <US><UE> <DS><DE> Extent=<ES>343:1 - 343:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:343:5: VarDecl=scLk|D:\github\msp430\無線記錄器\main.cpp:343:5 (Definition) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@scLk<UE> <DS>scLk<DE> Extent=<ES>343:1 - 343:9<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:343:10: VarDecl=ch_n|D:\github\msp430\無線記錄器\main.cpp:343:10 (Declaration) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>343:10 - 343:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:343:15: VarDecl=delAy|D:\github\msp430\無線記錄器\main.cpp:343:15 (Declaration) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>343:15 - 343:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:345:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>345:3 - 358:4<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:345:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>345:7 - 345:13<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:345:7: DeclRefExpr=scLk|D:\github\msp430\無線記錄器\main.cpp:343:5 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@scLk<UE> <DS>scLk<DE> Extent=<ES>345:7 - 345:11<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:345:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>345:12 - 345:13<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:345:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>345:14 - 345:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:345:14: UnexposedExpr=scLk|D:\github\msp430\無線記錄器\main.cpp:343:5 <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@scLk<UE> <DS>scLk<DE> Extent=<ES>345:14 - 345:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:345:14: DeclRefExpr=scLk|D:\github\msp430\無線記錄器\main.cpp:343:5 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@scLk<UE> <DS>scLk<DE> Extent=<ES>345:14 - 345:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:345:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>345:20 - 345:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:345:23: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>345:23 - 345:29<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:345:23: DeclRefExpr=scLk|D:\github\msp430\無線記錄器\main.cpp:343:5 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@scLk<UE> <DS>scLk<DE> Extent=<ES>345:23 - 345:27<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:345:30: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>345:30 - 358:4<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:347:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>347:5 - 347:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:347:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>347:9 - 347:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:347:9: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:343:15 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>347:9 - 347:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:347:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>347:15 - 347:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:347:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>347:17 - 347:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:347:17: UnexposedExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:343:15 <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>347:17 - 347:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:347:17: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:343:15 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>347:17 - 347:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:347:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>347:23 - 347:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:347:25: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>347:25 - 347:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:347:25: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:343:15 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>347:25 - 347:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:347:33: NullStmt= <US><UE> <DS><DE> Extent=<ES>347:33 - 347:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:349:8: ForStmt= <US><UE> <DS><DE> Extent=<ES>349:8 - 352:9<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:349:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>349:12 - 349:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:349:12: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:343:10 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>349:12 - 349:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:349:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>349:17 - 349:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:349:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>349:20 - 349:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:349:20: UnexposedExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:343:10 <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>349:20 - 349:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:349:20: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:343:10 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>349:20 - 349:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:349:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>349:25 - 349:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:349:28: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>349:28 - 349:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:349:28: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:343:10 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>349:28 - 349:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:349:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>349:35 - 352:9<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:354:4: IfStmt= <US><UE> <DS><DE> Extent=<ES>354:4 - 357:5<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:354:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>354:7 - 354:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:354:7: UnexposedExpr=scLk|D:\github\msp430\無線記錄器\main.cpp:343:5 <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@scLk<UE> <DS>scLk<DE> Extent=<ES>354:7 - 354:11<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:354:7: DeclRefExpr=scLk|D:\github\msp430\無線記錄器\main.cpp:343:5 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@scLk<UE> <DS>scLk<DE> Extent=<ES>354:7 - 354:11<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:354:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>354:13 - 354:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:354:16: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>354:16 - 357:5<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:356:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>356:5 - 356:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:356:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>356:9 - 356:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:356:9: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:343:15 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>356:9 - 356:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:356:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>356:15 - 356:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:356:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>356:17 - 356:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:356:17: UnexposedExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:343:15 <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>356:17 - 356:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:356:17: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:343:15 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>356:17 - 356:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:356:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>356:23 - 356:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:356:26: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>356:26 - 356:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:356:26: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:343:15 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>356:26 - 356:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:356:34: NullStmt= <US><UE> <DS><DE> Extent=<ES>356:34 - 356:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:360:4: ForStmt= <US><UE> <DS><DE> Extent=<ES>360:4 - 367:5<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:360:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>360:8 - 360:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:360:8: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:343:10 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>360:8 - 360:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:360:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>360:13 - 360:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:360:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>360:16 - 360:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:360:16: UnexposedExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:343:10 <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>360:16 - 360:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:360:16: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:343:10 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>360:16 - 360:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:360:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>360:21 - 360:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:360:24: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>360:24 - 360:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:360:24: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:343:10 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>360:24 - 360:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:360:31: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>360:31 - 367:5<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:361:6: IfStmt= <US><UE> <DS><DE> Extent=<ES>361:6 - 366:7<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:361:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>361:10 - 361:47<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:361:10: ParenExpr= <US><UE> <DS><DE> Extent=<ES>361:10 - 361:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:361:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>361:11 - 361:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:361:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>361:11 - 361:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:361:11: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>361:11 - 361:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:361:11: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>361:11 - 361:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:361:11: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>361:11 - 361:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:361:16: UnexposedExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:343:10 <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>361:16 - 361:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:361:16: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:343:10 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>361:16 - 361:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:361:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>361:22 - 361:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:361:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>361:22 - 361:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:361:37: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>361:37 - 361:47<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:361:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>361:37 - 361:47<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:361:48: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>361:48 - 363:7<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:362:10: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>362:10 - 362:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:362:10: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>362:10 - 362:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:362:10: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>362:10 - 362:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:362:10: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>362:10 - 362:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:362:15: UnexposedExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:343:10 <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>362:15 - 362:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:362:15: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:343:10 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>362:15 - 362:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:362:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>362:24 - 362:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:362:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>362:24 - 362:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:364:10: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>364:10 - 366:7<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:365:10: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>365:10 - 365:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:365:10: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>365:10 - 365:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:365:10: UnexposedExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>365:10 - 365:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:365:10: DeclRefExpr=DATA|D:\github\msp430\無線記錄器\main.cpp:84:15 (Reference) <US>c:@DATA<UE> <DS>DATA<DE> Extent=<ES>365:10 - 365:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:365:15: UnexposedExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:343:10 <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>365:15 - 365:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:365:15: DeclRefExpr=ch_n|D:\github\msp430\無線記錄器\main.cpp:343:10 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@ch_n<UE> <DS>ch_n<DE> Extent=<ES>365:15 - 365:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:365:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>365:24 - 365:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:365:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>365:24 - 365:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:370:4: ForStmt= <US><UE> <DS><DE> Extent=<ES>370:4 - 370:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:370:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>370:8 - 370:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:370:8: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:343:15 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>370:8 - 370:13<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:370:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>370:14 - 370:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:370:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>370:16 - 370:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:370:16: UnexposedExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:343:15 <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>370:16 - 370:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:370:16: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:343:15 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>370:16 - 370:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:370:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>370:22 - 370:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:370:27: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>370:27 - 370:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:370:27: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:343:15 (Reference) <US>c:main.cpp@12792@F@ADS1222_STANDBY_MODE#@delAy<UE> <DS>delAy<DE> Extent=<ES>370:27 - 370:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:370:35: NullStmt= <US><UE> <DS><DE> Extent=<ES>370:35 - 370:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:377:6: FunctionDecl=delay_ms|D:\github\msp430\無線記錄器\main.cpp:377:6 (Definition) <US>c:@F@delay_ms#I#<UE> <DS>void delay_ms(int)<DE> Extent=<ES>377:1 - 381:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:377:19: ParmDecl=del|D:\github\msp430\無線記錄器\main.cpp:377:19 (Definition) <US>c:main.cpp@13838@F@delay_ms#I#@del<UE> <DS>int<DE> Extent=<ES>377:15 - 377:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:377:23: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>377:23 - 381:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:378:1: DeclStmt= <US><UE> <DS><DE> Extent=<ES>378:1 - 378:8<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:378:5: VarDecl=dt|D:\github\msp430\無線記錄器\main.cpp:378:5 (Definition) <US>c:main.cpp@13849@F@delay_ms#I#@dt<UE> <DS>dt<DE> Extent=<ES>378:1 - 378:7<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:379:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>379:3 - 380:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:379:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>379:7 - 379:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:379:11: VarDecl=delAy|D:\github\msp430\無線記錄器\main.cpp:379:11 (Definition) <US>c:main.cpp@13864@F@delay_ms#I#@delAy<UE> <DS>delAy<DE> Extent=<ES>379:7 - 379:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:379:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>379:17 - 379:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:379:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>379:19 - 379:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:379:19: UnexposedExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:379:11 <US>c:main.cpp@13864@F@delay_ms#I#@delAy<UE> <DS>delAy<DE> Extent=<ES>379:19 - 379:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:379:19: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:379:11 (Reference) <US>c:main.cpp@13864@F@delay_ms#I#@delAy<UE> <DS>delAy<DE> Extent=<ES>379:19 - 379:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:379:25: UnexposedExpr=del|D:\github\msp430\無線記錄器\main.cpp:377:19 <US>c:main.cpp@13838@F@delay_ms#I#@del<UE> <DS>int<DE> Extent=<ES>379:25 - 379:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:379:25: DeclRefExpr=del|D:\github\msp430\無線記錄器\main.cpp:377:19 (Reference) <US>c:main.cpp@13838@F@delay_ms#I#@del<UE> <DS>int<DE> Extent=<ES>379:25 - 379:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:379:29: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>379:29 - 379:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:379:29: DeclRefExpr=delAy|D:\github\msp430\無線記錄器\main.cpp:379:11 (Reference) <US>c:main.cpp@13864@F@delay_ms#I#@delAy<UE> <DS>delAy<DE> Extent=<ES>379:29 - 379:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:380:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>380:5 - 380:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:380:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>380:9 - 380:13<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:380:9: DeclRefExpr=dt|D:\github\msp430\無線記錄器\main.cpp:378:5 (Reference) <US>c:main.cpp@13849@F@delay_ms#I#@dt<UE> <DS>dt<DE> Extent=<ES>380:9 - 380:11<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:380:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>380:12 - 380:13<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:380:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>380:14 - 380:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:380:14: UnexposedExpr=dt|D:\github\msp430\無線記錄器\main.cpp:378:5 <US>c:main.cpp@13849@F@delay_ms#I#@dt<UE> <DS>dt<DE> Extent=<ES>380:14 - 380:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:380:14: DeclRefExpr=dt|D:\github\msp430\無線記錄器\main.cpp:378:5 (Reference) <US>c:main.cpp@13849@F@delay_ms#I#@dt<UE> <DS>dt<DE> Extent=<ES>380:14 - 380:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:380:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>380:17 - 380:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:380:22: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>380:22 - 380:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:380:22: DeclRefExpr=dt|D:\github\msp430\無線記錄器\main.cpp:378:5 (Reference) <US>c:main.cpp@13849@F@delay_ms#I#@dt<UE> <DS>dt<DE> Extent=<ES>380:22 - 380:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:380:27: NullStmt= <US><UE> <DS><DE> Extent=<ES>380:27 - 380:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:383:6: FunctionDecl=UART_Init|D:\github\msp430\無線記錄器\main.cpp:383:6 (Definition) <US>c:@F@UART_Init#C#<UE> <DS>void UART_Init(char)<DE> Extent=<ES>383:1 - 420:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:383:21: ParmDecl=com|D:\github\msp430\無線記錄器\main.cpp:383:21 (Definition) <US>c:main.cpp@14037@F@UART_Init#C#@com<UE> <DS>char<DE> Extent=<ES>383:16 - 383:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:383:25: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>383:25 - 420:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:385:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>385:3 - 398:4<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:385:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>385:7 - 385:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:385:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>385:7 - 385:17<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:385:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>385:8 - 385:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:385:8: UnexposedExpr=com|D:\github\msp430\無線記錄器\main.cpp:383:21 <US>c:main.cpp@14037@F@UART_Init#C#@com<UE> <DS>char<DE> Extent=<ES>385:8 - 385:11<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:385:8: UnexposedExpr=com|D:\github\msp430\無線記錄器\main.cpp:383:21 <US>c:main.cpp@14037@F@UART_Init#C#@com<UE> <DS>char<DE> Extent=<ES>385:8 - 385:11<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:385:8: DeclRefExpr=com|D:\github\msp430\無線記錄器\main.cpp:383:21 (Reference) <US>c:main.cpp@14037@F@UART_Init#C#@com<UE> <DS>char<DE> Extent=<ES>385:8 - 385:11<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:385:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>385:12 - 385:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:385:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>385:21 - 385:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:385:27: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>385:27 - 398:4<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:399:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>399:3 - 414:4<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:399:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>399:7 - 399:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:399:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>399:7 - 399:17<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:399:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>399:8 - 399:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:399:8: UnexposedExpr=com|D:\github\msp430\無線記錄器\main.cpp:383:21 <US>c:main.cpp@14037@F@UART_Init#C#@com<UE> <DS>char<DE> Extent=<ES>399:8 - 399:11<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:399:8: UnexposedExpr=com|D:\github\msp430\無線記錄器\main.cpp:383:21 <US>c:main.cpp@14037@F@UART_Init#C#@com<UE> <DS>char<DE> Extent=<ES>399:8 - 399:11<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:399:8: DeclRefExpr=com|D:\github\msp430\無線記錄器\main.cpp:383:21 (Reference) <US>c:main.cpp@14037@F@UART_Init#C#@com<UE> <DS>char<DE> Extent=<ES>399:8 - 399:11<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:399:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>399:12 - 399:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:399:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>399:21 - 399:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:399:27: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>399:27 - 414:4<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:416:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>416:3 - 416:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:416:3: DeclRefExpr=UART_COM1_RX_count|D:\github\msp430\無線記錄器\main.cpp:27:5 (Reference) <US>c:@UART_COM1_RX_count<UE> <DS>UART_COM1_RX_count<DE> Extent=<ES>416:3 - 416:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:416:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>416:24 - 416:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:417:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>417:3 - 417:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:417:3: DeclRefExpr=UART_COM2_RX_count|D:\github\msp430\無線記錄器\main.cpp:27:24 (Reference) <US>c:@UART_COM2_RX_count<UE> <DS>UART_COM2_RX_count<DE> Extent=<ES>417:3 - 417:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:417:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>417:24 - 417:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:422:6: VarDecl=checksum|D:\github\msp430\無線記錄器\main.cpp:422:6 (Definition) <US>c:@checksum<UE> <DS>checksum<DE> Extent=<ES>422:1 - 422:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:422:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>422:17 - 422:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:422:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>422:17 - 422:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:424:18: FunctionDecl=USCI_A0_ISR|D:\github\msp430\無線記錄器\main.cpp:424:18 (Definition) <US>c:@F@USCI_A0_ISR#<UE> <DS>void USCI_A0_ISR(void)<DE> Extent=<ES>424:13 - 462:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:425:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>425:1 - 462:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:465:18: FunctionDecl=USCI_A1_ISR|D:\github\msp430\無線記錄器\main.cpp:465:18 (Definition) <US>c:@F@USCI_A1_ISR#<UE> <DS>void USCI_A1_ISR(void)<DE> Extent=<ES>465:13 - 488:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:466:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>466:1 - 488:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:490:6: FunctionDecl=UART_SendByte|D:\github\msp430\無線記錄器\main.cpp:490:6 (Definition) <US>c:@F@UART_SendByte#c#C#<UE> <DS>void UART_SendByte(unsigned char, char)<DE> Extent=<ES>490:1 - 501:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:490:34: ParmDecl=data|D:\github\msp430\無線記錄器\main.cpp:490:34 (Definition) <US>c:main.cpp@17650@F@UART_SendByte#c#C#@data<UE> <DS>unsigned char<DE> Extent=<ES>490:20 - 490:38<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:490:44: ParmDecl=com|D:\github\msp430\無線記錄器\main.cpp:490:44 (Definition) <US>c:main.cpp@17669@F@UART_SendByte#c#C#@com<UE> <DS>char<DE> Extent=<ES>490:39 - 490:47<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:491:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>491:1 - 501:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:492:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>492:3 - 495:4<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:492:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>492:6 - 492:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:492:6: ParenExpr= <US><UE> <DS><DE> Extent=<ES>492:6 - 492:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:492:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>492:7 - 492:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:492:7: UnexposedExpr=com|D:\github\msp430\無線記錄器\main.cpp:490:44 <US>c:main.cpp@17669@F@UART_SendByte#c#C#@com<UE> <DS>char<DE> Extent=<ES>492:7 - 492:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:492:7: UnexposedExpr=com|D:\github\msp430\無線記錄器\main.cpp:490:44 <US>c:main.cpp@17669@F@UART_SendByte#c#C#@com<UE> <DS>char<DE> Extent=<ES>492:7 - 492:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:492:7: DeclRefExpr=com|D:\github\msp430\無線記錄器\main.cpp:490:44 (Reference) <US>c:main.cpp@17669@F@UART_SendByte#c#C#@com<UE> <DS>char<DE> Extent=<ES>492:7 - 492:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:492:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>492:11 - 492:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:492:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>492:20 - 492:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:492:25: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>492:25 - 495:4<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:496:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>496:3 - 499:4<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:496:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>496:6 - 496:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:496:6: ParenExpr= <US><UE> <DS><DE> Extent=<ES>496:6 - 496:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:496:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>496:7 - 496:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:496:7: UnexposedExpr=com|D:\github\msp430\無線記錄器\main.cpp:490:44 <US>c:main.cpp@17669@F@UART_SendByte#c#C#@com<UE> <DS>char<DE> Extent=<ES>496:7 - 496:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:496:7: UnexposedExpr=com|D:\github\msp430\無線記錄器\main.cpp:490:44 <US>c:main.cpp@17669@F@UART_SendByte#c#C#@com<UE> <DS>char<DE> Extent=<ES>496:7 - 496:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:496:7: DeclRefExpr=com|D:\github\msp430\無線記錄器\main.cpp:490:44 (Reference) <US>c:main.cpp@17669@F@UART_SendByte#c#C#@com<UE> <DS>char<DE> Extent=<ES>496:7 - 496:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:496:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>496:11 - 496:15<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:496:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>496:20 - 496:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:496:25: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>496:25 - 499:4<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:502:6: FunctionDecl=UART_SendStr|D:\github\msp430\無線記錄器\main.cpp:502:6 (Definition) <US>c:@F@UART_SendStr#*C#C#<UE> <DS>void UART_SendStr(char *, char)<DE> Extent=<ES>502:1 - 509:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:502:25: ParmDecl=str|D:\github\msp430\無線記錄器\main.cpp:502:25 (Definition) <US>c:main.cpp@17964@F@UART_SendStr#*C#C#@str<UE> <DS>char *<DE> Extent=<ES>502:19 - 502:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:502:34: ParmDecl=com|D:\github\msp430\無線記錄器\main.cpp:502:34 (Definition) <US>c:main.cpp@17974@F@UART_SendStr#*C#C#@com<UE> <DS>char<DE> Extent=<ES>502:29 - 502:37<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:503:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>503:1 - 509:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:504:9: WhileStmt= <US><UE> <DS><DE> Extent=<ES>504:9 - 507:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:504:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>504:16 - 504:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:504:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>504:16 - 504:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:504:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>504:16 - 504:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:504:16: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>504:16 - 504:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:504:17: UnexposedExpr=str|D:\github\msp430\無線記錄器\main.cpp:502:25 <US>c:main.cpp@17964@F@UART_SendStr#*C#C#@str<UE> <DS>char *<DE> Extent=<ES>504:17 - 504:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:504:17: DeclRefExpr=str|D:\github\msp430\無線記錄器\main.cpp:502:25 (Reference) <US>c:main.cpp@17964@F@UART_SendStr#*C#C#@str<UE> <DS>char *<DE> Extent=<ES>504:17 - 504:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:504:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>504:24 - 504:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:504:24: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>504:24 - 504:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:505:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>505:9 - 507:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:506:13: CallExpr=UART_SendByte|D:\github\msp430\無線記錄器\main.cpp:490:6 <US>c:@F@UART_SendByte#c#C#<UE> <DS>void UART_SendByte(unsigned char, char)<DE> Extent=<ES>506:13 - 506:38<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:506:13: UnexposedExpr=UART_SendByte|D:\github\msp430\無線記錄器\main.cpp:490:6 <US>c:@F@UART_SendByte#c#C#<UE> <DS>void UART_SendByte(unsigned char, char)<DE> Extent=<ES>506:13 - 506:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:506:13: DeclRefExpr=UART_SendByte|D:\github\msp430\無線記錄器\main.cpp:490:6 (Reference) <US>c:@F@UART_SendByte#c#C#<UE> <DS>void UART_SendByte(unsigned char, char)<DE> Extent=<ES>506:13 - 506:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:506:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>506:27 - 506:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:506:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>506:27 - 506:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:506:27: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>506:27 - 506:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:506:28: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>506:28 - 506:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:506:28: DeclRefExpr=str|D:\github\msp430\無線記錄器\main.cpp:502:25 (Reference) <US>c:main.cpp@17964@F@UART_SendStr#*C#C#@str<UE> <DS>char *<DE> Extent=<ES>506:28 - 506:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:506:34: UnexposedExpr=com|D:\github\msp430\無線記錄器\main.cpp:502:34 <US>c:main.cpp@17974@F@UART_SendStr#*C#C#@com<UE> <DS>char<DE> Extent=<ES>506:34 - 506:37<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:506:34: DeclRefExpr=com|D:\github\msp430\無線記錄器\main.cpp:502:34 (Reference) <US>c:main.cpp@17974@F@UART_SendStr#*C#C#@com<UE> <DS>char<DE> Extent=<ES>506:34 - 506:37<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:510:6: FunctionDecl=RS232_Send_Char|D:\github\msp430\無線記錄器\main.cpp:510:6 (Definition) <US>c:@F@RS232_Send_Char#*C#I#C#<UE> <DS>void RS232_Send_Char(char *, int, char)<DE> Extent=<ES>510:1 - 516:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:510:28: ParmDecl=str|D:\github\msp430\無線記錄器\main.cpp:510:28 (Definition) <US>c:main.cpp@18136@F@RS232_Send_Char#*C#I#C#@str<UE> <DS>char *<DE> Extent=<ES>510:22 - 510:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:510:36: ParmDecl=count|D:\github\msp430\無線記錄器\main.cpp:510:36 (Definition) <US>c:main.cpp@18146@F@RS232_Send_Char#*C#I#C#@count<UE> <DS>int<DE> Extent=<ES>510:32 - 510:41<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:510:47: ParmDecl=com|D:\github\msp430\無線記錄器\main.cpp:510:47 (Definition) <US>c:main.cpp@18156@F@RS232_Send_Char#*C#I#C#@com<UE> <DS>char<DE> Extent=<ES>510:42 - 510:50<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:511:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>511:1 - 516:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:512:9: ForStmt= <US><UE> <DS><DE> Extent=<ES>512:9 - 515:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:512:13: DeclStmt= <US><UE> <DS><DE> Extent=<ES>512:13 - 512:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:512:17: VarDecl=i|D:\github\msp430\無線記錄器\main.cpp:512:17 (Definition) <US>c:main.cpp@18182@F@RS232_Send_Char#*C#I#C#@i<UE> <DS>i<DE> Extent=<ES>512:13 - 512:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:512:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>512:19 - 512:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:512:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>512:21 - 512:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:512:21: UnexposedExpr=i|D:\github\msp430\無線記錄器\main.cpp:512:17 <US>c:main.cpp@18182@F@RS232_Send_Char#*C#I#C#@i<UE> <DS>i<DE> Extent=<ES>512:21 - 512:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:512:21: DeclRefExpr=i|D:\github\msp430\無線記錄器\main.cpp:512:17 (Reference) <US>c:main.cpp@18182@F@RS232_Send_Char#*C#I#C#@i<UE> <DS>i<DE> Extent=<ES>512:21 - 512:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:512:23: UnexposedExpr=count|D:\github\msp430\無線記錄器\main.cpp:510:36 <US>c:main.cpp@18146@F@RS232_Send_Char#*C#I#C#@count<UE> <DS>int<DE> Extent=<ES>512:23 - 512:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:512:23: DeclRefExpr=count|D:\github\msp430\無線記錄器\main.cpp:510:36 (Reference) <US>c:main.cpp@18146@F@RS232_Send_Char#*C#I#C#@count<UE> <DS>int<DE> Extent=<ES>512:23 - 512:28<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:512:29: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>512:29 - 512:32<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:512:29: DeclRefExpr=i|D:\github\msp430\無線記錄器\main.cpp:512:17 (Reference) <US>c:main.cpp@18182@F@RS232_Send_Char#*C#I#C#@i<UE> <DS>i<DE> Extent=<ES>512:29 - 512:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:513:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>513:9 - 515:10<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:514:13: CallExpr=UART_SendByte|D:\github\msp430\無線記錄器\main.cpp:490:6 <US>c:@F@UART_SendByte#c#C#<UE> <DS>void UART_SendByte(unsigned char, char)<DE> Extent=<ES>514:13 - 514:38<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:514:13: UnexposedExpr=UART_SendByte|D:\github\msp430\無線記錄器\main.cpp:490:6 <US>c:@F@UART_SendByte#c#C#<UE> <DS>void UART_SendByte(unsigned char, char)<DE> Extent=<ES>514:13 - 514:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:514:13: DeclRefExpr=UART_SendByte|D:\github\msp430\無線記錄器\main.cpp:490:6 (Reference) <US>c:@F@UART_SendByte#c#C#<UE> <DS>void UART_SendByte(unsigned char, char)<DE> Extent=<ES>514:13 - 514:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:514:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>514:27 - 514:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:514:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>514:27 - 514:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:514:27: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>514:27 - 514:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:514:28: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>514:28 - 514:33<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:514:28: DeclRefExpr=str|D:\github\msp430\無線記錄器\main.cpp:510:28 (Reference) <US>c:main.cpp@18136@F@RS232_Send_Char#*C#I#C#@str<UE> <DS>char *<DE> Extent=<ES>514:28 - 514:31<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:514:34: UnexposedExpr=com|D:\github\msp430\無線記錄器\main.cpp:510:47 <US>c:main.cpp@18156@F@RS232_Send_Char#*C#I#C#@com<UE> <DS>char<DE> Extent=<ES>514:34 - 514:37<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:514:34: DeclRefExpr=com|D:\github\msp430\無線記錄器\main.cpp:510:47 (Reference) <US>c:main.cpp@18156@F@RS232_Send_Char#*C#I#C#@com<UE> <DS>char<DE> Extent=<ES>514:34 - 514:37<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:519:6: FunctionDecl=findStrPoint|D:\github\msp430\無線記錄器\main.cpp:519:6 (Definition) <US>c:@F@findStrPoint#*C#S0_#C#I#<UE> <DS>void findStrPoint(char *, char *, char, int)<DE> Extent=<ES>519:1 - 539:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:519:25: ParmDecl=a|D:\github\msp430\無線記錄器\main.cpp:519:25 (Definition) <US>c:main.cpp@18392@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>519:19 - 519:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:519:33: ParmDecl=ans|D:\github\msp430\無線記錄器\main.cpp:519:33 (Definition) <US>c:main.cpp@18400@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>519:27 - 519:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:519:42: ParmDecl=feature|D:\github\msp430\無線記錄器\main.cpp:519:42 (Definition) <US>c:main.cpp@18410@F@findStrPoint#*C#S0_#C#I#@feature<UE> <DS>char<DE> Extent=<ES>519:37 - 519:49<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:519:54: ParmDecl=n|D:\github\msp430\無線記錄器\main.cpp:519:54 (Definition) <US>c:main.cpp@18423@F@findStrPoint#*C#S0_#C#I#@n<UE> <DS>int<DE> Extent=<ES>519:50 - 519:55<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:519:56: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>519:56 - 539:2<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:520:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>520:7 - 520:45<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:520:11: VarDecl=strcount|D:\github\msp430\無線記錄器\main.cpp:520:11 (Definition) <US>c:main.cpp@18438@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>520:7 - 520:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:520:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>520:22 - 520:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:520:25: VarDecl=Ncount|D:\github\msp430\無線記錄器\main.cpp:520:25 (Declaration) <US>c:main.cpp@18438@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>520:25 - 520:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:520:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>520:34 - 520:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:520:37: VarDecl=pop|D:\github\msp430\無線記錄器\main.cpp:520:37 (Declaration) <US>c:main.cpp@18438@F@findStrPoint#*C#S0_#C#I#@pop<UE> <DS>pop<DE> Extent=<ES>520:37 - 520:44<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:520:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>520:43 - 520:44<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:521:7: WhileStmt= <US><UE> <DS><DE> Extent=<ES>521:7 - 537:8<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:521:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>521:13 - 521:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:521:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>521:13 - 521:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:521:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>521:13 - 521:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:521:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>521:13 - 521:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:521:13: UnexposedExpr=a|D:\github\msp430\無線記錄器\main.cpp:519:25 <US>c:main.cpp@18392@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>521:13 - 521:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:521:13: DeclRefExpr=a|D:\github\msp430\無線記錄器\main.cpp:519:25 (Reference) <US>c:main.cpp@18392@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>521:13 - 521:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:521:15: UnexposedExpr=strcount|D:\github\msp430\無線記錄器\main.cpp:520:11 <US>c:main.cpp@18438@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>521:15 - 521:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:521:15: DeclRefExpr=strcount|D:\github\msp430\無線記錄器\main.cpp:520:11 (Reference) <US>c:main.cpp@18438@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>521:15 - 521:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:521:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>521:26 - 521:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:521:26: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>521:26 - 521:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:522:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>522:7 - 537:8<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:523:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>523:10 - 535:11<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:523:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>523:13 - 523:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:523:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>523:13 - 523:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:523:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>523:13 - 523:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:523:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>523:13 - 523:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:523:13: UnexposedExpr=a|D:\github\msp430\無線記錄器\main.cpp:519:25 <US>c:main.cpp@18392@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>523:13 - 523:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:523:13: DeclRefExpr=a|D:\github\msp430\無線記錄器\main.cpp:519:25 (Reference) <US>c:main.cpp@18392@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>523:13 - 523:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:523:15: UnexposedExpr=strcount|D:\github\msp430\無線記錄器\main.cpp:520:11 <US>c:main.cpp@18438@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>523:15 - 523:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:523:15: DeclRefExpr=strcount|D:\github\msp430\無線記錄器\main.cpp:520:11 (Reference) <US>c:main.cpp@18438@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>523:15 - 523:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:523:27: UnexposedExpr=feature|D:\github\msp430\無線記錄器\main.cpp:519:42 <US>c:main.cpp@18410@F@findStrPoint#*C#S0_#C#I#@feature<UE> <DS>char<DE> Extent=<ES>523:27 - 523:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:523:27: UnexposedExpr=feature|D:\github\msp430\無線記錄器\main.cpp:519:42 <US>c:main.cpp@18410@F@findStrPoint#*C#S0_#C#I#@feature<UE> <DS>char<DE> Extent=<ES>523:27 - 523:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:523:27: DeclRefExpr=feature|D:\github\msp430\無線記錄器\main.cpp:519:42 (Reference) <US>c:main.cpp@18410@F@findStrPoint#*C#S0_#C#I#@feature<UE> <DS>char<DE> Extent=<ES>523:27 - 523:34<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:523:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>523:35 - 531:11<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:524:13: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>524:13 - 524:18<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:524:13: DeclRefExpr=pop|D:\github\msp430\無線記錄器\main.cpp:520:37 (Reference) <US>c:main.cpp@18438@F@findStrPoint#*C#S0_#C#I#@pop<UE> <DS>pop<DE> Extent=<ES>524:13 - 524:16<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:525:13: IfStmt= <US><UE> <DS><DE> Extent=<ES>525:13 - 529:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:525:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>525:16 - 525:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:525:16: UnexposedExpr=pop|D:\github\msp430\無線記錄器\main.cpp:520:37 <US>c:main.cpp@18438@F@findStrPoint#*C#S0_#C#I#@pop<UE> <DS>pop<DE> Extent=<ES>525:16 - 525:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:525:16: DeclRefExpr=pop|D:\github\msp430\無線記錄器\main.cpp:520:37 (Reference) <US>c:main.cpp@18438@F@findStrPoint#*C#S0_#C#I#@pop<UE> <DS>pop<DE> Extent=<ES>525:16 - 525:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:525:21: UnexposedExpr=n|D:\github\msp430\無線記錄器\main.cpp:519:54 <US>c:main.cpp@18423@F@findStrPoint#*C#S0_#C#I#@n<UE> <DS>int<DE> Extent=<ES>525:21 - 525:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:525:21: DeclRefExpr=n|D:\github\msp430\無線記錄器\main.cpp:519:54 (Reference) <US>c:main.cpp@18423@F@findStrPoint#*C#S0_#C#I#@n<UE> <DS>int<DE> Extent=<ES>525:21 - 525:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:526:13: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>526:13 - 529:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:527:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>527:14 - 527:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:527:14: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>527:14 - 527:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:527:14: UnexposedExpr=ans|D:\github\msp430\無線記錄器\main.cpp:519:33 <US>c:main.cpp@18400@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>527:14 - 527:17<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:527:14: DeclRefExpr=ans|D:\github\msp430\無線記錄器\main.cpp:519:33 (Reference) <US>c:main.cpp@18400@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>527:14 - 527:17<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:527:18: UnexposedExpr=Ncount|D:\github\msp430\無線記錄器\main.cpp:520:25 <US>c:main.cpp@18438@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>527:18 - 527:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:527:18: DeclRefExpr=Ncount|D:\github\msp430\無線記錄器\main.cpp:520:25 (Reference) <US>c:main.cpp@18438@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>527:18 - 527:24<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:527:26: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>527:26 - 527:30<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:528:14: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>528:14 - 528:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:530:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>530:13 - 530:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:530:13: DeclRefExpr=Ncount|D:\github\msp430\無線記錄器\main.cpp:520:25 (Reference) <US>c:main.cpp@18438@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>530:13 - 530:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:530:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>530:22 - 530:23<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:532:14: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>532:14 - 535:11<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:533:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>533:11 - 533:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:533:11: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>533:11 - 533:22<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:533:11: UnexposedExpr=ans|D:\github\msp430\無線記錄器\main.cpp:519:33 <US>c:main.cpp@18400@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>533:11 - 533:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:533:11: DeclRefExpr=ans|D:\github\msp430\無線記錄器\main.cpp:519:33 (Reference) <US>c:main.cpp@18400@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>533:11 - 533:14<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:533:15: UnexposedExpr=Ncount|D:\github\msp430\無線記錄器\main.cpp:520:25 <US>c:main.cpp@18438@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>533:15 - 533:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:533:15: DeclRefExpr=Ncount|D:\github\msp430\無線記錄器\main.cpp:520:25 (Reference) <US>c:main.cpp@18438@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>533:15 - 533:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:533:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>533:25 - 533:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:533:25: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>533:25 - 533:36<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:533:25: UnexposedExpr=a|D:\github\msp430\無線記錄器\main.cpp:519:25 <US>c:main.cpp@18392@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>533:25 - 533:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:533:25: DeclRefExpr=a|D:\github\msp430\無線記錄器\main.cpp:519:25 (Reference) <US>c:main.cpp@18392@F@findStrPoint#*C#S0_#C#I#@a<UE> <DS>char *<DE> Extent=<ES>533:25 - 533:26<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:533:27: UnexposedExpr=strcount|D:\github\msp430\無線記錄器\main.cpp:520:11 <US>c:main.cpp@18438@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>533:27 - 533:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:533:27: DeclRefExpr=strcount|D:\github\msp430\無線記錄器\main.cpp:520:11 (Reference) <US>c:main.cpp@18438@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>533:27 - 533:35<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:534:11: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>534:11 - 534:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:534:11: DeclRefExpr=Ncount|D:\github\msp430\無線記錄器\main.cpp:520:25 (Reference) <US>c:main.cpp@18438@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>534:11 - 534:17<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:536:11: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>536:11 - 536:21<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:536:11: DeclRefExpr=strcount|D:\github\msp430\無線記錄器\main.cpp:520:11 (Reference) <US>c:main.cpp@18438@F@findStrPoint#*C#S0_#C#I#@strcount<UE> <DS>strcount<DE> Extent=<ES>536:11 - 536:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:538:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>538:9 - 538:25<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:538:9: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>538:9 - 538:20<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:538:9: UnexposedExpr=ans|D:\github\msp430\無線記錄器\main.cpp:519:33 <US>c:main.cpp@18400@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>538:9 - 538:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:538:9: DeclRefExpr=ans|D:\github\msp430\無線記錄器\main.cpp:519:33 (Reference) <US>c:main.cpp@18400@F@findStrPoint#*C#S0_#C#I#@ans<UE> <DS>char *<DE> Extent=<ES>538:9 - 538:12<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:538:13: UnexposedExpr=Ncount|D:\github\msp430\無線記錄器\main.cpp:520:25 <US>c:main.cpp@18438@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>538:13 - 538:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:538:13: DeclRefExpr=Ncount|D:\github\msp430\無線記錄器\main.cpp:520:25 (Reference) <US>c:main.cpp@18438@F@findStrPoint#*C#S0_#C#I#@Ncount<UE> <DS>Ncount<DE> Extent=<ES>538:13 - 538:19<EE>
-<L>D:\github\msp430\無線記錄器\main.cpp:538:21: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>538:21 - 538:25<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:293:27: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>293:27 - 308:4<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:317:6: FunctionDecl=UART_SendByte|D:\github\msp430\無線記錄器\main.cpp:317:6 (Definition) <US>c:@F@UART_SendByte#c#C#<UE> <DS>void UART_SendByte(unsigned char, char)<DE> Extent=<ES>317:1 - 328:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:317:34: ParmDecl=data|D:\github\msp430\無線記錄器\main.cpp:317:34 (Definition) <US>c:main.cpp@11933@F@UART_SendByte#c#C#@data<UE> <DS>unsigned char<DE> Extent=<ES>317:20 - 317:38<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:317:44: ParmDecl=com|D:\github\msp430\無線記錄器\main.cpp:317:44 (Definition) <US>c:main.cpp@11952@F@UART_SendByte#c#C#@com<UE> <DS>char<DE> Extent=<ES>317:39 - 317:47<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:318:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>318:1 - 328:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:319:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>319:3 - 322:4<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:319:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>319:6 - 319:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:319:6: ParenExpr= <US><UE> <DS><DE> Extent=<ES>319:6 - 319:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:319:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>319:7 - 319:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:319:7: UnexposedExpr=com|D:\github\msp430\無線記錄器\main.cpp:317:44 <US>c:main.cpp@11952@F@UART_SendByte#c#C#@com<UE> <DS>char<DE> Extent=<ES>319:7 - 319:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:319:7: UnexposedExpr=com|D:\github\msp430\無線記錄器\main.cpp:317:44 <US>c:main.cpp@11952@F@UART_SendByte#c#C#@com<UE> <DS>char<DE> Extent=<ES>319:7 - 319:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:319:7: DeclRefExpr=com|D:\github\msp430\無線記錄器\main.cpp:317:44 (Reference) <US>c:main.cpp@11952@F@UART_SendByte#c#C#@com<UE> <DS>char<DE> Extent=<ES>319:7 - 319:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:319:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>319:11 - 319:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:319:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>319:20 - 319:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:319:25: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>319:25 - 322:4<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:323:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>323:3 - 326:4<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:323:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>323:6 - 323:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:323:6: ParenExpr= <US><UE> <DS><DE> Extent=<ES>323:6 - 323:16<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:323:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>323:7 - 323:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:323:7: UnexposedExpr=com|D:\github\msp430\無線記錄器\main.cpp:317:44 <US>c:main.cpp@11952@F@UART_SendByte#c#C#@com<UE> <DS>char<DE> Extent=<ES>323:7 - 323:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:323:7: UnexposedExpr=com|D:\github\msp430\無線記錄器\main.cpp:317:44 <US>c:main.cpp@11952@F@UART_SendByte#c#C#@com<UE> <DS>char<DE> Extent=<ES>323:7 - 323:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:323:7: DeclRefExpr=com|D:\github\msp430\無線記錄器\main.cpp:317:44 (Reference) <US>c:main.cpp@11952@F@UART_SendByte#c#C#@com<UE> <DS>char<DE> Extent=<ES>323:7 - 323:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:323:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>323:11 - 323:15<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:323:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>323:20 - 323:24<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:323:25: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>323:25 - 326:4<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:329:6: FunctionDecl=UART_SendStr|D:\github\msp430\無線記錄器\main.cpp:329:6 (Definition) <US>c:@F@UART_SendStr#*C#C#<UE> <DS>void UART_SendStr(char *, char)<DE> Extent=<ES>329:1 - 336:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:329:25: ParmDecl=str|D:\github\msp430\無線記錄器\main.cpp:329:25 (Definition) <US>c:main.cpp@12247@F@UART_SendStr#*C#C#@str<UE> <DS>char *<DE> Extent=<ES>329:19 - 329:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:329:34: ParmDecl=com|D:\github\msp430\無線記錄器\main.cpp:329:34 (Definition) <US>c:main.cpp@12257@F@UART_SendStr#*C#C#@com<UE> <DS>char<DE> Extent=<ES>329:29 - 329:37<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:330:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>330:1 - 336:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:331:9: WhileStmt= <US><UE> <DS><DE> Extent=<ES>331:9 - 334:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:331:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>331:16 - 331:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:331:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>331:16 - 331:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:331:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>331:16 - 331:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:331:16: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>331:16 - 331:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:331:17: UnexposedExpr=str|D:\github\msp430\無線記錄器\main.cpp:329:25 <US>c:main.cpp@12247@F@UART_SendStr#*C#C#@str<UE> <DS>char *<DE> Extent=<ES>331:17 - 331:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:331:17: DeclRefExpr=str|D:\github\msp430\無線記錄器\main.cpp:329:25 (Reference) <US>c:main.cpp@12247@F@UART_SendStr#*C#C#@str<UE> <DS>char *<DE> Extent=<ES>331:17 - 331:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:331:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>331:24 - 331:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:331:24: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>331:24 - 331:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:332:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>332:9 - 334:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:333:13: CallExpr=UART_SendByte|D:\github\msp430\無線記錄器\main.cpp:317:6 <US>c:@F@UART_SendByte#c#C#<UE> <DS>void UART_SendByte(unsigned char, char)<DE> Extent=<ES>333:13 - 333:38<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:333:13: UnexposedExpr=UART_SendByte|D:\github\msp430\無線記錄器\main.cpp:317:6 <US>c:@F@UART_SendByte#c#C#<UE> <DS>void UART_SendByte(unsigned char, char)<DE> Extent=<ES>333:13 - 333:26<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:333:13: DeclRefExpr=UART_SendByte|D:\github\msp430\無線記錄器\main.cpp:317:6 (Reference) <US>c:@F@UART_SendByte#c#C#<UE> <DS>void UART_SendByte(unsigned char, char)<DE> Extent=<ES>333:13 - 333:26<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:333:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>333:27 - 333:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:333:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>333:27 - 333:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:333:27: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>333:27 - 333:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:333:28: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>333:28 - 333:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:333:28: DeclRefExpr=str|D:\github\msp430\無線記錄器\main.cpp:329:25 (Reference) <US>c:main.cpp@12247@F@UART_SendStr#*C#C#@str<UE> <DS>char *<DE> Extent=<ES>333:28 - 333:31<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:333:34: UnexposedExpr=com|D:\github\msp430\無線記錄器\main.cpp:329:34 <US>c:main.cpp@12257@F@UART_SendStr#*C#C#@com<UE> <DS>char<DE> Extent=<ES>333:34 - 333:37<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:333:34: DeclRefExpr=com|D:\github\msp430\無線記錄器\main.cpp:329:34 (Reference) <US>c:main.cpp@12257@F@UART_SendStr#*C#C#@com<UE> <DS>char<DE> Extent=<ES>333:34 - 333:37<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:337:6: FunctionDecl=RS232_Send_Char|D:\github\msp430\無線記錄器\main.cpp:337:6 (Definition) <US>c:@F@RS232_Send_Char#*C#I#C#<UE> <DS>void RS232_Send_Char(char *, int, char)<DE> Extent=<ES>337:1 - 343:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:337:28: ParmDecl=str|D:\github\msp430\無線記錄器\main.cpp:337:28 (Definition) <US>c:main.cpp@12419@F@RS232_Send_Char#*C#I#C#@str<UE> <DS>char *<DE> Extent=<ES>337:22 - 337:31<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:337:36: ParmDecl=count|D:\github\msp430\無線記錄器\main.cpp:337:36 (Definition) <US>c:main.cpp@12429@F@RS232_Send_Char#*C#I#C#@count<UE> <DS>int<DE> Extent=<ES>337:32 - 337:41<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:337:47: ParmDecl=com|D:\github\msp430\無線記錄器\main.cpp:337:47 (Definition) <US>c:main.cpp@12439@F@RS232_Send_Char#*C#I#C#@com<UE> <DS>char<DE> Extent=<ES>337:42 - 337:50<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:338:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>338:1 - 343:2<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:339:9: ForStmt= <US><UE> <DS><DE> Extent=<ES>339:9 - 342:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:339:13: DeclStmt= <US><UE> <DS><DE> Extent=<ES>339:13 - 339:21<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:339:17: VarDecl=i|D:\github\msp430\無線記錄器\main.cpp:339:17 (Definition) <US>c:main.cpp@12465@F@RS232_Send_Char#*C#I#C#@i<UE> <DS>i<DE> Extent=<ES>339:13 - 339:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:339:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>339:19 - 339:20<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:339:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>339:21 - 339:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:339:21: UnexposedExpr=i|D:\github\msp430\無線記錄器\main.cpp:339:17 <US>c:main.cpp@12465@F@RS232_Send_Char#*C#I#C#@i<UE> <DS>i<DE> Extent=<ES>339:21 - 339:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:339:21: DeclRefExpr=i|D:\github\msp430\無線記錄器\main.cpp:339:17 (Reference) <US>c:main.cpp@12465@F@RS232_Send_Char#*C#I#C#@i<UE> <DS>i<DE> Extent=<ES>339:21 - 339:22<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:339:23: UnexposedExpr=count|D:\github\msp430\無線記錄器\main.cpp:337:36 <US>c:main.cpp@12429@F@RS232_Send_Char#*C#I#C#@count<UE> <DS>int<DE> Extent=<ES>339:23 - 339:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:339:23: DeclRefExpr=count|D:\github\msp430\無線記錄器\main.cpp:337:36 (Reference) <US>c:main.cpp@12429@F@RS232_Send_Char#*C#I#C#@count<UE> <DS>int<DE> Extent=<ES>339:23 - 339:28<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:339:29: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>339:29 - 339:32<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:339:29: DeclRefExpr=i|D:\github\msp430\無線記錄器\main.cpp:339:17 (Reference) <US>c:main.cpp@12465@F@RS232_Send_Char#*C#I#C#@i<UE> <DS>i<DE> Extent=<ES>339:29 - 339:30<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:340:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>340:9 - 342:10<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:341:13: CallExpr=UART_SendByte|D:\github\msp430\無線記錄器\main.cpp:317:6 <US>c:@F@UART_SendByte#c#C#<UE> <DS>void UART_SendByte(unsigned char, char)<DE> Extent=<ES>341:13 - 341:38<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:341:13: UnexposedExpr=UART_SendByte|D:\github\msp430\無線記錄器\main.cpp:317:6 <US>c:@F@UART_SendByte#c#C#<UE> <DS>void UART_SendByte(unsigned char, char)<DE> Extent=<ES>341:13 - 341:26<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:341:13: DeclRefExpr=UART_SendByte|D:\github\msp430\無線記錄器\main.cpp:317:6 (Reference) <US>c:@F@UART_SendByte#c#C#<UE> <DS>void UART_SendByte(unsigned char, char)<DE> Extent=<ES>341:13 - 341:26<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:341:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>341:27 - 341:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:341:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>341:27 - 341:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:341:27: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>341:27 - 341:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:341:28: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>341:28 - 341:33<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:341:28: DeclRefExpr=str|D:\github\msp430\無線記錄器\main.cpp:337:28 (Reference) <US>c:main.cpp@12419@F@RS232_Send_Char#*C#I#C#@str<UE> <DS>char *<DE> Extent=<ES>341:28 - 341:31<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:341:34: UnexposedExpr=com|D:\github\msp430\無線記錄器\main.cpp:337:47 <US>c:main.cpp@12439@F@RS232_Send_Char#*C#I#C#@com<UE> <DS>char<DE> Extent=<ES>341:34 - 341:37<EE>
+<L>D:\github\msp430\無線記錄器\main.cpp:341:34: DeclRefExpr=com|D:\github\msp430\無線記錄器\main.cpp:337:47 (Reference) <US>c:main.cpp@12439@F@RS232_Send_Char#*C#I#C#@com<UE> <DS>char<DE> Extent=<ES>341:34 - 341:37<EE>

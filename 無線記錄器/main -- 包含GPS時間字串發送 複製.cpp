@@ -10,7 +10,6 @@
 //     |      |                  |                |--->Rx  (COM1)  |GPS  |
 //     |______|P1.7  <-  P6.7    |________________|--->Gnd         |_____|
 //------------------------------------------------------------------------------
-// 2016 0412 取消掉GPS對時~~改由樹梅派直接連接GPS
 // 2016 0104 for 土石流~  20Mhz - 100Hz  
 #include  <msp430x54xA.h>
 #include <stdio.h>
@@ -25,6 +24,56 @@ void Crystal_Init();
 void UART_Init(char com);
 void RS232_Send_Char(char *str,int count,char com);
 
+int UART_COM1_RX_count,UART_COM2_RX_count;
+unsigned char UART_COM2_RX_BUF[128];
+
+char COM1_BUFFER[128];    // -- 115200 msp430
+char COM1_REC_BUFFER[128];    // -- receive buffer
+
+//static hptime_t sysTime[2];       //--   1s = 1000000 counter
+static hptime_t sysTime,sysTime_Buffer;       //--   1s = 1000000 counter
+static int  sysTime_flag = 0;
+
+//bool sysTime_flag = false;
+
+#define BUF_SIZE 10
+
+
+char GPS_Time_String[] = "2000/12/22 10:12:22.000000";
+
+long int CloCk_10KHz =0;
+
+void findStrPoint(char *a,char *ans,char feature,int n);
+
+
+
+hptime_t get_hp_Gps_time(char *tstr){
+   char gpsinfo[10];
+   hptime_t s1;
+
+           findStrPoint(tstr,gpsinfo,',',2);
+        
+            GPS_Time_String[11] =  gpsinfo[0];
+            GPS_Time_String[12] =  gpsinfo[1];
+            GPS_Time_String[14] =  gpsinfo[2];
+            GPS_Time_String[15] =  gpsinfo[3];
+            GPS_Time_String[17] =  gpsinfo[4];
+            GPS_Time_String[18] =  gpsinfo[5];
+           
+           findStrPoint(tstr,gpsinfo,',',10);
+
+            GPS_Time_String[2] =  gpsinfo[4];
+            GPS_Time_String[3] =  gpsinfo[5];
+            GPS_Time_String[5] =  gpsinfo[2];
+            GPS_Time_String[6] =  gpsinfo[3];
+            GPS_Time_String[8] =  gpsinfo[0];
+            GPS_Time_String[9] =  gpsinfo[1];
+          //  sprintf(&GPS_Time_String[20],"%04d",CloCk_10KHz);
+            s1 = ms_timestr2hptime(GPS_Time_String);       
+           //s1 = ms_timestr2hptime("1980/12/22 10:12:22.016803");       
+           return s1;       
+  
+}
 
 //----------for rs232-----------------------------------------------------------
 char COM2_Command[128];
@@ -64,35 +113,62 @@ void main(void)
    P1DIR = (BIT0 +BIT1 + BIT6) ;
    P1OUT |= BIT0;                           //  
 
+   
+   P1DIR &= ~BIT7;
+   P1IE  = 0 ;                           //
+   P1IES =0;                             //
+   P1IFG =0;                             //
+   P1IE  |= BIT7;                        // Set P1.7 interrupt
+   P1IES &= ~BIT7;                        // 選擇中斷模式(0 由Lo變Hi觸發 )
+   
+   
+   
+   
    Crystal_Init();                            // 震盪器初始化
-   UART_Init(COM2);                         // Rs232初始化    
+   UART_Init(COM2+COM1);                         // Rs232初始化    
    ADS1222Init();                           // ADS1222初始化
  
+  static hptime_t nowTime;
   
-  
-  
-  
+  //nowTime = ms_timestr2hptime("2000/12/22 10:12:22.000000"); 
+  //nowTime = ms_timestr2hptime("2000/12/22 10:12:22.000000"); 
+    nowTime = 0;    
   while(1){
            __bis_SR_register(LPM0_bits + GIE);       // Enter LPM0, enable interrupts 此處中斷大約100Hz
+   
+           
+    // P1OUT |=BIT6;
+    
+     nowTime = 0;    
+     nowTime  =   sysTime+CloCk_10KHz*100;   //get_hp_Gps_time(COM1_BUFFER);       
     
      for(int d1elAy=0;d1elAy<1600;d1elAy++);    //--delay 
              
                 if(First_Data < 5){ First_Data += ADS1222_SELF_CALIBRATION();}
                 else{ ADS1222_STANDBY_MODE(); }
                 
+     //        nowTime  =   get_hp_Gps_time(COM1_BUFFER);    
                 
      string[0] = '$';                               //資料起始
-     string[1] = '0'; 
-     string[2] = '0'; 
-     string[3] = '0'; 
-     string[4] = '0'; 
-     string[5] = '0'; 
-     string[6] = '0'; 
-     string[7] = '0'; 
-     string[8] =  '0'; 
+     string[1] = (nowTime>>56)&0xff; 
+     string[2] = (nowTime>>48)&0xff; 
+     string[3] = (nowTime>>40)&0xff; 
+     string[4] = (nowTime>>32)&0xff; 
+     string[5] = (nowTime>>24)&0xff; 
+     string[6] = (nowTime>>16)&0xff; 
+     string[7] = (nowTime>>8)&0xff; 
+     string[8] =  nowTime & 0xff ;
      string[9] =  (DATA[0]   >>  16 ) & 0xff ;
      string[10] =  (DATA[0]   >>  8 ) & 0xff;
      string[11] =  (DATA[0]    ) & 0xff;
+     
+  /*
+     textpoint++;
+     string[12] = ( textpoint >> 16)& 0xff;
+     string[13] = ( textpoint >> 8)& 0xff;
+     string[14] = ( textpoint )& 0xff;     
+     if(textpoint>200)textpoint=0; 
+*/
 
      string[12] =  (DATA[1]   >>  16 ) & 0xff ;
      string[13] =  (DATA[1]   >>  8 ) & 0xff;
@@ -112,17 +188,58 @@ void main(void)
      string[20] =  '\n';  
      
      
+     //nTX1_Len = 16;
+     
       
       RS232_Send_Char(string,21,COM2);   //---~ 1ms
       memset(string,0,30+1);
       
+               if(sysTime_flag == 1){
+                   sysTime_Buffer = get_hp_Gps_time(COM1_BUFFER);
+                   sysTime_flag = 2;
+                }   
+               
+               
+    // P1OUT &= ~BIT6;               
   }
   //-------------------------------- start record-----------------------------
   
+ 
   
 //   __no_operation();                          // For debugger                   
 }
 //----------------------------------------------------------------------------
+
+#pragma vector=PORT1_VECTOR
+__interrupt void P1ISR (void)
+{
+   //  P1OUT ^= BIT6;    //-----for check pps 
+     
+     if(sysTime_flag == 2){
+        
+        sysTime = sysTime_Buffer+1000000;
+        sysTime_flag = 0;
+        CloCk_10KHz = 0;
+     }
+     
+     
+     
+     P1IFG &= ~BIT7;                         // 中斷旗號暫存器(0 無中斷 1 中斷等待處理)
+}
+//----------------------------------------------------------------------------
+#pragma vector=TIMER0_A0_VECTOR
+__interrupt void TIMER0_A0_ISR(void)
+{
+  CloCk_10KHz++;
+  if(CloCk_10KHz>10001){      //-----保險@@~
+    CloCk_10KHz=0;
+     sysTime += 1000000;
+    //P1OUT ^= BIT7;
+  } 
+  
+}
+//------------------------------------------------------------------------------
+
 
 void Crystal_Init(){
     //--啟動 20MHZ 與32767HZ
@@ -143,13 +260,19 @@ void Crystal_Init(){
 
   P4SEL = 0x02;                               // P4 option select 
   P4DIR = 0x02;                               // P4 outputs  1.6666MHz.......
-   
+ 
+//  P1DIR |=BIT6;
+//  P1SEL |= BIT6;                            //-  設定P1.6為 SMCLK 輸出
+    
   TBCCR0 = 5;                                 // PWM Period
   TBCCTL1 = OUTMOD_4;                         // toggle
   TBCCR1 = 2;                                 // CCR1 PWM Duty Cycle	
   
   TBCTL = TBSSEL_2 + MC_1 + TBCLR;            // SMCLK, upmode, clear TBR 
   
+   TA0CCTL0 = CCIE;                          // CCR0 interrupt enabled
+   TA0CCR0 = 2000-1;
+   TA0CTL = TASSEL_2 + MC_1 + TACLR ;         // SMCLK, contmode, clear TAR
 }
 //--------------------------------------------------------------------------------
 void ADS1222Init()
@@ -307,13 +430,80 @@ void UART_Init(char com){
 //      UCA1IE |= UCRXIE;                         // Enable USCI_A0 RX interrupt
   }
 
-  
-  
+  UART_COM1_RX_count = 0;
+  UART_COM2_RX_count = 0;
 
   
 }
 //----------------------------------------------------------------------------
-
+char checksum = 0;
+#pragma vector=USCI_A0_VECTOR  //COM1
+__interrupt void USCI_A0_ISR(void)
+{
+  switch(__even_in_range(UCA0IV,4))
+  {
+    case 2:                                   // Vector 2 - RXIFG
+      COM1_REC_BUFFER[UART_COM1_RX_count] = UCA0RXBUF;
+        UART_COM1_RX_count++;
+    
+       if(COM1_REC_BUFFER[UART_COM1_RX_count-1] == '\n')
+       {
+         if(strncmp("$GPRMC",COM1_REC_BUFFER,6)==0){
+            memcpy(COM1_BUFFER,COM1_REC_BUFFER,UART_COM1_RX_count+1);
+            
+            checksum = 0;
+            for(int k=1;k<UART_COM1_RX_count-5;k++){
+              checksum ^= COM1_BUFFER[k];
+            }
+            
+            if(checksum == ((COM1_BUFFER[UART_COM1_RX_count-4]-48)*16+(COM1_BUFFER[UART_COM1_RX_count-3]-48))){
+            
+              checksum = 0;
+              //-- 收到正確GPS字串~~ ~
+              sysTime_flag = 1;  
+              
+              
+            }
+            
+         }
+            memset(COM1_REC_BUFFER,0,UART_COM1_RX_count+1);
+            UART_COM1_RX_count = 0;
+       }
+    
+    if(UART_COM1_RX_count>=128)UART_COM1_RX_count=0;   
+      
+  break;
+  default: break;  
+  }
+  //  __bic_SR_register_on_exit(LPM0_bits); // Exit LPM0
+}
+//----------------------------------------------------------------------------
+#pragma vector=USCI_A1_VECTOR //COM2
+__interrupt void USCI_A1_ISR(void)
+{
+  
+  //---命令格式    @xm..........$
+  //---            @ 開始字元
+  //---            x 令命字數
+  //---            m 命令模式
+  //---            .....  命令
+  //---            $ 結束字元   
+  
+  switch(__even_in_range(UCA1IV,4))
+  {
+  case 2:                                   // Vector 2 - RXIFG
+//    while (!(UCA1IFG&UCTXIFG));           // USCI_A1 TX buffer ready?
+//    UCA1TXBUF = UCA1RXBUF;                // TX -> RXed character
+    UART_COM2_RX_BUF[UART_COM2_RX_count] = UCA1RXBUF;
+    UART_COM2_RX_count++;
+    if(UART_COM2_RX_count>=128)UART_COM2_RX_count=0;   
+     
+    break;
+  default: break;  
+  }
+ //   __bic_SR_register_on_exit(LPM3_bits); // Exit LPM0
+}
+//----------------------------------------------------------------------------
 void UART_SendByte(unsigned char data,char com)
 {
   if((com&COM1) == COM1){
@@ -343,3 +533,24 @@ void RS232_Send_Char(char *str,int count,char com)
 }
 
 //-----------------------------------------------------------------------------
+void findStrPoint(char *a,char *ans,char feature,int n){
+      int strcount = 0, Ncount = 0, pop = 0;
+      while(a[strcount]!='\0')
+      {
+         if(a[strcount]== feature){
+            pop++;
+            if(pop==n)
+            {
+             ans[Ncount]='\0';
+             return;
+            }
+            Ncount = 0;
+         }
+         else{
+          ans[Ncount] = a[strcount];
+          Ncount++;
+         }
+          strcount++;
+      }
+        ans[Ncount]='\0';
+}

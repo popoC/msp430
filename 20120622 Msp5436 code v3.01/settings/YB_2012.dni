@@ -46,21 +46,6 @@ ShowArgs=0
 MixedMode=1
 [EEM State Storage]
 Buffer=AAAAAAAADAAAAAAAAAAAAAAA
-[Log file]
-LoggingEnabled=_ 0
-LogFile=_ ""
-Category=_ 0
-[TermIOLog]
-LoggingEnabled=_ 0
-LogFile=_ ""
-[CallStackLog]
-Enabled=0
-[DriverProfiling]
-Enabled=0
-Mode=0
-Graph=0
-Symbiont=0
-Exclusions=
 [Breakpoints]
 Count=0
 [FET]
@@ -68,7 +53,7 @@ Clock mode=14
 Extended Clock mode=-1
 Secure Password=
 Extended Clock Control Enable=1
-Advanced Extended Clock Control=0
+Advanced Extended Clock Control=1
 Emulation mode=0
 Free running=0
 Shutting Down=3
@@ -83,8 +68,23 @@ SP=0
 SR=0
 all registers=0
 File name=
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
 [Aliases]
 A0=_ "C:\Users\po\Dropbox\OBS\100Hz logger 相關資料\2013 OBS Data Logger\20120622 Msp5436 code\main.cpp" "C:\Users\tori\Dropbox\OBS\100Hz logger 相關資料\2013 OBS Data Logger\20120622 Msp5436 code\main.cpp"
 A1=_ "C:\Users\tori\Dropbox\OBS\100Hz logger 相關資料\2013 OBS Data Logger\20120622 Msp5436 code v3.01\main.cpp" ""
 Count=2
 SuppressDialog=0
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+Exclusions=

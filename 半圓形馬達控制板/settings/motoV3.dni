@@ -37,7 +37,7 @@ TriggerName=main
 LimitSize=0
 ByteLimit=50
 [DebugChecksum]
-Checksum=-866620485
+Checksum=977954061
 [InstructionProfiling]
 Enabled=_ 0
 [Stack]
@@ -56,10 +56,6 @@ ShowArgs=0
 MixedMode=1
 [EEM State Storage]
 Buffer=BAAAAAAAAAAAAAAAAAAAAAAA
-[Log file]
-LoggingEnabled=_ 0
-LogFile=_ ""
-Category=_ 0
 [TermIOLog]
 LoggingEnabled=_ 0
 LogFile=_ ""
@@ -72,11 +68,11 @@ Graph=0
 Symbiont=0
 Exclusions=
 [Breakpoints]
-Bp0=_ "STD_CODE" "{$PROJ_DIR$\main.cpp}.321.14" 1 0 0 0 "" 0 ""
-Bp1=_ "STD_CODE" "{$PROJ_DIR$\main.cpp}.301.8" 1 0 0 0 "" 0 ""
-Bp2=_ "STD_CODE" "{$PROJ_DIR$\main.cpp}.316.9" 1 0 0 0 "" 0 ""
-Bp3=_ "STD_CODE" "{$PROJ_DIR$\main.cpp}.390.8" 1 0 0 0 "" 0 ""
-Bp4=_ "STD_CODE" "{$PROJ_DIR$\main.cpp}.746.13" 1 0 0 0 "" 0 ""
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\main.cpp}.321.20" 1 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\main.cpp}.301.14" 1 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$\main.cpp}.316.15" 1 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{$PROJ_DIR$\main.cpp}.390.14" 1 0 0 0 "" 0 ""
+Bp4=_ "STD_CODE" "{$PROJ_DIR$\main.cpp}.746.19" 1 0 0 0 "" 0 ""
 Count=5
 [FET]
 Clock mode=14
@@ -98,6 +94,10 @@ SP=0
 SR=0
 all registers=0
 File name=
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
 [Aliases]
 A0=_ "C:\Documents and Settings\torr\My Documents\Dropbox\OBS\±±¨î°¨¹F(6ª© bq32000)\main.cpp" ""
 Count=1
