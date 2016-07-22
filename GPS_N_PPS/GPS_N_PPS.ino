@@ -10,10 +10,10 @@ int now_h;
 int now_d;
 
 
-int ledPin_s = 13;                  // LED test pin
-int ledPin_m = 12;                  // LED test pin
-int ledPin_h = 11;                  // LED test pin
-int ledPin_d = 10;                  // LED test pin
+int ledPin_s = 12;                  // LED test pin
+int ledPin_m = 11;                  // LED test pin
+int ledPin_h = 10;                  // LED test pin
+int ledPin_d = 9;                   // LED test pin
 
 int ppsPin = 2;                   // LED test pin
 int ppscome = 0;
