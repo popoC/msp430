@@ -1,0 +1,1 @@
+"./hp_time.obj" "./msp430x54xA_1.obj" "../lnk_msp430f5438a.cmd" -l"libmath.a" -l"libc.a" 

@@ -38,6 +38,10 @@ Mode=0
 Graph=0
 Symbiont=0
 Exclusions=
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
 [Breakpoints]
 Count=0
 [FET]
@@ -60,10 +64,6 @@ SP=0
 SR=0
 all registers=0
 File name=
-[Log file]
-LoggingEnabled=_ 0
-LogFile=_ ""
-Category=_ 0
 [Aliases]
 Count=0
 SuppressDialog=0
